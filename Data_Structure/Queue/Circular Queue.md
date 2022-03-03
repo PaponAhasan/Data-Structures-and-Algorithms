@@ -1,7 +1,8 @@
 ### Circular queues
 
 ```
-Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.The last element is connected to the first element.
+Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular 
+queue, vacant spaces are reutilized.The last element is connected to the first element.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791296-008145d1-0185-4d24-bddb-3d3f52b69e05.png)
 
