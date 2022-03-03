@@ -28,39 +28,6 @@ the first one to enter the bus.
 * Priority Queue
 ```
 
-### Working of Queue
-
-![image](https://user-images.githubusercontent.com/59710234/154790836-7a30a278-a061-42a9-a8e7-69b7044eb622.png)
-
-```
-Queue operations work as follows:
-
-* two pointers FRONT and REAR
-* FRONT track the first element of the queue
-* REAR track the last element of the queue
-* initially, set value of FRONT and REAR to -1
-
-Enqueue Operation
-
-* check if the queue is full
-* for the first element, set the value of FRONT to 0
-* increase the REAR index by 1
-* add the new element in the position pointed to by REAR
-
-Dequeue Operation
-
-* check if the queue is empty
-* return the value pointed by FRONT
-* increase the FRONT index by 1
-* for the last element, reset the values of FRONT and REAR to -1
-
-```
-![image](https://user-images.githubusercontent.com/59710234/154790910-c835d3b4-af3c-4da1-b812-369818b5eb16.png)
-
-### Full Code
-
-https://ideone.com/4a1x7z
-
 ### Limitation
 ```
 A normal queue, after a bit of insertion and deletion, there will be non-usable empty space. This reduces the actual size of the queue. Here, indexes 0 and 1 non-usable empty space.
