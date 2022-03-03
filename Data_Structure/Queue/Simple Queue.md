@@ -3,7 +3,6 @@
 ```
 Standard queue, a character is inserted at the back and deleted in the front.
 ```
-
 ### Working of Queue
 
 ![image](https://user-images.githubusercontent.com/59710234/154790836-7a30a278-a061-42a9-a8e7-69b7044eb622.png)
