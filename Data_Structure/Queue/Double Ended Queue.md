@@ -1,6 +1,7 @@
 ### Double-ended queue (Deque)
 ```
-A double-ended queue, characters can be inserted and deleted from both the front and back of the queue. Thus, it does not follow FIFO rule (First In First Out).
+A double-ended queue, characters can be inserted and deleted from both the front and back of the queue. Thus, it does not 
+follow FIFO rule (First In First Out).
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791143-282676d0-f29f-4a38-8c15-9cf9e9f301f5.png)
 ```c++
