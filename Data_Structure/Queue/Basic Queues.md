@@ -1,8 +1,6 @@
-### Standard queue (Simple)
+### Basic Queue
 
 ```
-Standard queue, a character is inserted at the back and deleted in the front.
-
 Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first one to be removed.
 
 Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who is at the beginning of the line is 
@@ -30,54 +28,6 @@ the first one to enter the bus.
 * Priority Queue
 ```
 
-### Queues support the following fundamental functions
-
-```c++
-Enqueue
-
-void enqueue(int queue[], int element, int& rear, int arraySize) {
-    if(rear == arraySize)            // Queue is full
-            printf(“OverFlow\n”);
-    else{
-         queue[rear] = element;    // Add the element to the back
-         rear++;
-    }
-}
-```
-
-```c++
-Dequeue
-
-void dequeue(int queue[], int& front, int rear) {
-    if(front == rear)            // Queue is empty
-        printf(“UnderFlow\n”);
-    else {
-        queue[front] = 0;        // Delete the front element
-        front++;
-    }
-}
-```
-```c++
-Front
-
-int Front(int queue[], int front) {
-    return queue[front];
-}
-```
-```c++
-Size
-
-int size(int front, int rear) {
-    return (rear - front);
-}
-```
-```c++
-IsEmpty
-
-bool isEmpty(int front, int rear) {
-    return (front == rear);
-}
-```
 ### Working of Queue
 
 ![image](https://user-images.githubusercontent.com/59710234/154790836-7a30a278-a061-42a9-a8e7-69b7044eb622.png)
