@@ -22,6 +22,14 @@ the first one to enter the bus.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791157-664cd4f2-cc5c-4f85-8c75-ee5291dd2e58.png)
 
+### Queue variations
+```
+* Simple Queue
+* Double-ended queue
+* Circular queue
+* Priority Queue
+```
+
 ### Queues support the following fundamental functions
 
 ```c++
