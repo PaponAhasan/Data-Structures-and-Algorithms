@@ -87,8 +87,8 @@ https://ideone.com/4a1x7z
 
 ### Limitation
 ```
-A normal queue, after a bit of insertion and deletion, there will be non-usable empty space. This reduces the actual size of the queue. Here, indexes 0 and 1 non-usable empty space.
-The circular queue solves the major limitation of the normal queue.
+A normal queue, after a bit of insertion and deletion, there will be non-usable empty space. This reduces the actual size of the queue. Here, 
+indexes 0 and 1 non-usable empty space. The circular queue solves the major limitation of the normal queue.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/154794725-c0b26263-fd2a-4394-b043-45ce91c50cff.png)
