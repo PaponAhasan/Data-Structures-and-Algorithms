@@ -98,3 +98,50 @@ indexes 0 and 1 non-usable empty space. The circular queue solves the major limi
 The complexity of enqueue and dequeue operations in a queue using an array is O(1). If you use pop(N) in python code, then the 
 complexity might be O(n) depending on the position of the item to be popped.
 ```
+
+### Queue in C++ STL
+
+```c++
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+void showq(queue<int> gq){
+	queue<int> g = gq;
+	while (!g.empty()) {
+		cout<<g.front();
+		g.pop();
+	}
+	cout <<'\n';
+}
+
+int main(){
+	queue<int> gquiz;
+	gquiz.push(10);
+	gquiz.push(20);
+	gquiz.push(30);
+
+	cout << "The queue gquiz is : ";
+	showq(gquiz);
+
+	cout << "\ngquiz.size() : " << gquiz.size();
+	cout << "\ngquiz.front() : " << gquiz.front();
+	cout << "\ngquiz.back() : " << gquiz.back();
+
+	cout << "\ngquiz.pop() : ";
+	gquiz.pop();
+	showq(gquiz);
+
+	return 0;
+}
+
+Output
+------
+The queue gquiz is :     10    20    30
+
+gquiz.size() : 3
+gquiz.front() : 10
+gquiz.back() : 30
+gquiz.pop() :     20    30
+```
