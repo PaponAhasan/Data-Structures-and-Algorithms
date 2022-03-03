@@ -1,4 +1,4 @@
-### Double-ended queue (Deque)
+### Double-Ended Queue (Deque)
 ```
 A double-ended queue, characters can be inserted and deleted from both the front and back of the queue. Thus, it does not 
 follow FIFO rule (First In First Out).
