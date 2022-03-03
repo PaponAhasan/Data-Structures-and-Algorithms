@@ -86,3 +86,16 @@ bool isEmpty(int front, int rear) {
 
 https://ideone.com/4a1x7z
 
+### Limitation
+```
+A normal queue, after a bit of insertion and deletion, there will be non-usable empty space. This reduces the actual size of the queue. Here, indexes 0 and 1 non-usable empty space.
+The circular queue solves the major limitation of the normal queue.
+```
+
+![image](https://user-images.githubusercontent.com/59710234/154794725-c0b26263-fd2a-4394-b043-45ce91c50cff.png)
+
+### Complexity Analysis
+```
+The complexity of enqueue and dequeue operations in a queue using an array is O(1). If you use pop(N) in python code, then the 
+complexity might be O(n) depending on the position of the item to be popped.
+```
