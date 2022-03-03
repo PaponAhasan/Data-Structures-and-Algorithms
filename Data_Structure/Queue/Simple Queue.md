@@ -10,7 +10,7 @@ Standard queue, a character is inserted at the back and deleted in the front.
 ```
 Queue operations work as follows:
 
-* two pointers FRONT and REAR
+* Two pointers FRONT and REAR
 * FRONT track the first element of the queue
 * REAR track the last element of the queue
 * initially, set value of FRONT and REAR to -1
