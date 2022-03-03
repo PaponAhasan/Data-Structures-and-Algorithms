@@ -27,3 +27,5 @@ the first one to enter the bus.
 * Circular queue
 * Priority Queue
 ```
+https://www.geeksforgeeks.org/queue-data-structure/ </br>
+https://www.programiz.com/dsa/queue </br>
