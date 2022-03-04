@@ -27,7 +27,7 @@ There are some basic operations that allow us to perform different actions on a 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
 
-### Working of Stack Data Structure
+#### Working of Stack Data Structure
 ```
 The operations work as follows:
 
@@ -92,21 +92,21 @@ int size ( ){
 }
 ```
 
-### Full Code :
+#### Full Code :
 
 https://ideone.com/JxulmB
 
-### Stack Time Complexity
+#### Stack Time Complexity
 ```
 For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1)
 ```
-### The most common uses of a stack
+#### The most common uses of a stack
 ```
 * To reverse a word - Put all the letters in a stack and pop them out. Because of the LIFO order of stack, you will get the letters in reverse order.
 * In compilers - Compilers use the stack to calculate the value of expressions like 2 + 4 / 5 * (7 - 9) by converting the expression to prefix or postfix form.
 * In browsers - The back button in a browser saves all the URLs you have visited previously in a stack. Each time you visit a new page, it is added on top of the stack. When you press the back button, the current URL is removed from the stack, and the previous URL is accessed.
 ```
-### Stack in C++ STL
+#### Stack in C++ STL
 ```
 Stack uses an encapsulated object of either vector or deque (by default) or list (sequential container class).
 
@@ -182,3 +182,13 @@ Code : https://ideone.com/zE4yCJ
 #### Practice problem
 * [Hackerearth Practice Problem](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/)
 * [Ggeeksforgeeks](https://www.geeksforgeeks.org/stack-data-structure/?ref=ghm)
+* [Leetcode 20](https://leetcode.com/problems/valid-parentheses/)
+* [Leetcode 155](https://leetcode.com/problems/min-stack/)
+* [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/)
+* [Leetcode 1544](https://leetcode.com/problems/make-the-string-great/)
+* [Interviewbit - Nearest smallest element](https://www.interviewbit.com/problems/nearest-smaller-element/)
+
+###### Challenging
+* [Interviewbit - Largest rectangle in histogram](https://www.interviewbit.com/problems/largest-rectangle-in-histogram/)
+* [CF 1279C](https://codeforces.com/problemset/problem/1279/C)
+* [CF 547B](https://codeforces.com/problemset/problem/547/B)
