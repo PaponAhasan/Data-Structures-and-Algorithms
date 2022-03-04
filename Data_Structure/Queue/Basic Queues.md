@@ -4,6 +4,9 @@
 Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first 
 one to be removed.
 
+Example :  It is similar to the ticket queue outside a cinema hall, where the first person entering the queue is the first person who 
+gets the ticket.
+
 Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who 
 is at the beginning of the line is the first one to enter the bus.
 
