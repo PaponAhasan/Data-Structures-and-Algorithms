@@ -94,3 +94,5 @@ bool isEmpty(int count) {
     return (count == 0);
 }
 ```
+
+https://ideone.com/f2VUZR
