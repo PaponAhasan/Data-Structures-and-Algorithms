@@ -145,3 +145,5 @@ gquiz.front() : 10
 gquiz.back() : 30
 gquiz.pop() :     20    30
 ```
+Array implementation Of Queue : https://ideone.com/bFyZ4v </br>
+Linked List Implementation : https://ideone.com/TpzEpP
