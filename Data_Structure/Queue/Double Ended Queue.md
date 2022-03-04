@@ -174,3 +174,7 @@ gquiz.pop_back() :     20    10
 * [Maximum of all subarrays of size k problem](https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
 * [ 0-1 BFS ](https://www.geeksforgeeks.org/0-1-bfs-shortest-path-binary-graph/)
 * [Find the first circular tour that visits all petrol pumps](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
+
+#### Deque Implemented
+* [Doubly Linked List](https://www.geeksforgeeks.org/doubly-linked-list/)
+* [Implementation of Deque using circular array](https://www.geeksforgeeks.org/implementation-deque-using-circular-array/)
