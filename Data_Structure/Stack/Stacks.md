@@ -168,3 +168,6 @@ Code : https://ideone.com/zE4yCJ
 ### Problem 03 : Infix to Postfix
 
 ### Problem 04 : Towers of Hanoi (TOH)
+
+### Practice problem
+* [Hackerearth Practice Problem](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/)
