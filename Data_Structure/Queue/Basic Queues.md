@@ -23,6 +23,7 @@ is at the beginning of the line is the first one to enter the bus.
 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791157-664cd4f2-cc5c-4f85-8c75-ee5291dd2e58.png)
+![image](https://user-images.githubusercontent.com/59710234/156831201-433be805-e998-4d92-bfd6-6861169734e9.png)
 
 ### Queue variations
 ```
