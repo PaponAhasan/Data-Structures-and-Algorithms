@@ -1,6 +1,6 @@
 # Stacks
 ```
-Stacks are dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the 
+Stacks are linear/dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the 
 first one to be deleted from it.
 
 Features of stacks : 
@@ -168,6 +168,16 @@ Code : https://ideone.com/zE4yCJ
 ### Problem 03 : Infix to Postfix
 
 ### Problem 04 : Towers of Hanoi (TOH)
+
+### Problem 05 : Tree Traversals
+
+### Problem 06 : Stock Span Problem
+
+### Problem 07 : Histogram Problem
+
+### Problem 08 : Topological Sorting
+
+### Problem 09 : Strongly Connected Components
 
 ### Practice problem
 * [Hackerearth Practice Problem](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/)
