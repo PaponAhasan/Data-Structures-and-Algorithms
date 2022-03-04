@@ -636,6 +636,7 @@ void sortLinkedList(struct Node** head_ref) {
   size flexibility in linked lists may make them use less memory overall;
   Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed to reach any element.
 ```
+Stack using Linked List
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
 
