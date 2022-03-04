@@ -41,3 +41,4 @@ https://www.programiz.com/dsa/queue </br>
 * [Interviewbit - First non-repeating character](https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/)
 * [Interviewbit - Sliding window maximum](https://www.interviewbit.com/problems/sliding-window-maximum/)
 * [Leetcode 933](https://leetcode.com/problems/number-of-recent-calls/solution/)
+* [Hackerearth](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/)
