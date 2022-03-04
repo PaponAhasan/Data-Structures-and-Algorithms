@@ -143,14 +143,14 @@ int main() {
     stack1.swap(stack2);
 }
 ```
-##### Problem 01 : Balanced Parentheses
+#### Problem 01 : Balanced Parentheses
 ```
 You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is 
 balanced.
 ```
 Code: https://ideone.com/MHpQw4
 
-##### Problem 02 : Balanced Brackets
+#### Problem 02 : Balanced Brackets
 ```
 Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]”
 are correct in exp.
@@ -165,20 +165,20 @@ Output: Not Balanced
 ```
 Code : https://ideone.com/zE4yCJ
 
-##### Problem 03 : Infix to Postfix
+#### Problem 03 : Infix to Postfix
 
-##### Problem 04 : Towers of Hanoi (TOH)
+#### Problem 04 : Towers of Hanoi (TOH)
 
-##### Problem 05 : Tree Traversals
+#### Problem 05 : Tree Traversals
 
-##### Problem 06 : Stock Span Problem
+#### Problem 06 : Stock Span Problem
 
-##### Problem 07 : Histogram Problem
+#### Problem 07 : Histogram Problem
 
-##### Problem 08 : Topological Sorting
+#### Problem 08 : Topological Sorting
 
-##### Problem 09 : Strongly Connected Components
+#### Problem 09 : Strongly Connected Components
 
-##### Practice problem
+#### Practice problem
 * [Hackerearth Practice Problem](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/)
 * [Ggeeksforgeeks](https://www.geeksforgeeks.org/stack-data-structure/?ref=ghm)
