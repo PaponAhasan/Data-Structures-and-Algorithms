@@ -33,8 +33,9 @@ enQueue(value) :
   This function is used to insert an element into the circular queue. In a circular queue, the new element is always inserted at Rear position.
   1. Check whether queue is Full – 
          Check ((rear == SIZE-1 && front == 0) || (rear == front-1))
-  2. If it is full then display Queue is full. If queue is not full then, check if (rear == SIZE – 1 && front != 0)
-     if it is true then set rear=0 and insert element.
+  2. If it is full then display Queue is full. 
+        If queue is not full then, check if (rear == SIZE – 1 && front != 0)
+        if it is true then set rear=0 and insert element.
      
 deQueue() :
    This function is used to delete an element from the circular queue. In a circular queue, the element is always deleted from front position.
