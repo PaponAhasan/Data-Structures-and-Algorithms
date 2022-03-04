@@ -13,6 +13,7 @@ Linked list
 Heap data structure
 Binary search tree
 ```
+### Priority Queue implemented STL
 
 ```c++
 #include <iostream>
