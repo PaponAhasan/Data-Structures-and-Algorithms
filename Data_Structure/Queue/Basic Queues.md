@@ -36,3 +36,8 @@ is at the beginning of the line is the first one to enter the bus.
 ```
 https://www.geeksforgeeks.org/queue-data-structure/ </br>
 https://www.programiz.com/dsa/queue </br>
+
+#### Problems
+* [Interviewbit - First non-repeating character](https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/)
+* [Interviewbit - Sliding window maximum](https://www.interviewbit.com/problems/sliding-window-maximum/)
+* [Leetcode 933](https://leetcode.com/problems/number-of-recent-calls/solution/)
