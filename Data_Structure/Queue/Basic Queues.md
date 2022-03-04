@@ -4,8 +4,8 @@
 Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first 
 one to be removed.
 
-Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who is at the beginning of the line is 
-the first one to enter the bus.
+Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who 
+is at the beginning of the line is the first one to enter the bus.
 
 * queue[] : Array in which queue is simulated
 * arraySize : Maximum number of elements that can be stored in a queue
