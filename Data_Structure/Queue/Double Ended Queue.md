@@ -4,6 +4,22 @@ A double-ended queue, characters can be inserted and deleted from both the front
 follow FIFO rule (First In First Out).
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791143-282676d0-f29f-4a38-8c15-9cf9e9f301f5.png)
+
+### Basic operations on queue
+```
+insertFront(): Adds an item at the front of Deque.
+insertLast(): Adds an item at the rear of Deque.
+deleteFront(): Deletes an item from front of Deque.
+deleteLast(): Deletes an item from rear of Deque.
+
+getFront(): Gets the front item from queue.
+getRear(): Gets the last item from queue.
+isEmpty(): Checks whether Deque is empty or not.
+isFull(): Checks whether Deque is full or not.
+```
+```
+Deque supports both stack and queue operations. Deque data structure supports clockwise and anticlockwise rotations in O(1) time .
+```
 ```c++
 Insert at back
 
@@ -153,3 +169,8 @@ gquiz.pop_front() :     20    10    30
 
 gquiz.pop_back() :     20    10
 ```
+
+### Problem
+* [Maximum of all subarrays of size k problem](https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
+* [ 0-1 BFS ](https://www.geeksforgeeks.org/0-1-bfs-shortest-path-binary-graph/)
+* [Find the first circular tour that visits all petrol pumps](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
