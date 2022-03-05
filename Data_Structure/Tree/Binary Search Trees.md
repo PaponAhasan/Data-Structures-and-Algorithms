@@ -50,3 +50,27 @@ The function call stack;
  data = 1 does not have a right subtree. 
  inorder(1) gets completed and this function call is popped from the call stack.
 ```
+![image](https://user-images.githubusercontent.com/59710234/156898489-c01bb64c-3d26-4782-a1bf-901c07a26043.png)
+
+```
+Left subtree of node with data = 5 is completely processed.
+Right subtree of this node with data = 5 is non-empty. 'inorder(6)' is then called.
+```
+
+![image](https://user-images.githubusercontent.com/59710234/156898567-3550c65f-efce-446f-87fb-5198d6634af2.png)
+
+```
+the node with data = 6 has no left subtree, and it also has no right subtree. 'inorder(6)' is then completed.
+```
+![image](https://user-images.githubusercontent.com/59710234/156898641-c69277f4-792c-4f95-9dbe-42de8d305d95.png)
+
+```
+the left and right subtrees of node with data = 5 have been completely processed.
+
+Now, the left node with data = 10 have been completely processed.
+
+Right subtree of this node gets processed in a similar way. After right subtree of this node is completely processed, 
+entire traversal of the BST is complete.
+
+The order in which BST in Fig. 1 is visited is: 1, 5, 6, 10, 17, 19. 
+```
