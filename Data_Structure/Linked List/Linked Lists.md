@@ -640,9 +640,7 @@ Stack using Linked List
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
 
-https://www.geeksforgeeks.org/linked-list-set-1-introduction/?ref=lbp
-
-https://www.geeksforgeeks.org/circular-queue-set-2-circular-linked-list-implementation/?ref=rp
+https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
 
 #### Problems
 * [Leetcode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/)
