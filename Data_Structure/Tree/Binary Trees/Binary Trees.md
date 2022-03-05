@@ -392,5 +392,15 @@ Full Code : https://ideone.com/0roDbO
 ```
 N.T : The above code will not work if the node to be deleted is the deepest node itself.
 ```
+
+#### Problems
+* [Interviewbit - Maximum level sum](https://www.interviewbit.com/problems/maximum-level-sum/)
+* [Leetcode 226](https://leetcode.com/problems/invert-binary-tree/)
+* [Interviewbit - Max Depth of Binary Tree](https://www.interviewbit.com/problems/max-depth-of-binary-tree/)
+* [Interviewbit - Root to Leaf Paths With Sum](https://www.interviewbit.com/problems/root-to-leaf-paths-with-sum/)
+* [Leetcode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [Hackerearth](https://www.hackerearth.com/practice/data-structures/trees/binary-and-nary-trees/practice-problems/)
+
+
 https://www.geeksforgeeks.org/binary-tree-data-structure/
 
