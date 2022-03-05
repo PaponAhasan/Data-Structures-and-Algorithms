@@ -74,3 +74,10 @@ entire traversal of the BST is complete.
 
 The order in which BST in Fig. 1 is visited is: 1, 5, 6, 10, 17, 19. 
 ```
+
+### Insert Operation
+```
+Consider the insertion of data = 20 in the BST.
+```
+
+### Deletion Operation
