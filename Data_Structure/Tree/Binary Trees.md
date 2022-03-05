@@ -1,6 +1,6 @@
 ### Binary/ N-ary Trees
 
-![image!](https://user-images.githubusercontent.com/59710234/156151445-a827dfe2-c83b-4197-bb2d-76cca2108573.jpg "Binary Trees")
+![image!](https://user-images.githubusercontent.com/59710234/156151445-a827dfe2-c83b-4197-bb2d-76cca2108573.png "Binary Trees")
 
 ```
 A Binary Tree is a tree data structure in which each node has at most two children, which are referred to as the left child and 
