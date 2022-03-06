@@ -30,7 +30,7 @@ Process right subtree
 ```c++
     void inorder(struct node*root)
     {
-        if(root)
+        if(root != NULL)
         {
             inorder(root->left);    //Go to left subtree
             printf("%d ",root->data);    //Printf root->data
@@ -128,6 +128,31 @@ struct node *insert(struct node *node, int key) {
 ```
 
 ### Deletion Operation
+```
+There are three cases for deleting a node from a binary search tree.
+```
+```
+Case I :
+ In the first case, the node to be deleted is the leaf node.
+```
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920722-99406269-9237-4b0b-98c4-4ce7cde7bbe0.png" title="4 is to be deleted">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920730-e66e0e12-2828-4aef-9d7e-4a703c1e03ef.png" title="Delete the node">
+
+```
+Case II :
+ In the second case, the node to be deleted lies has a single child node.
+```
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920744-a22d8061-4cfc-4f00-b685-a6db4e1fff5b.png" title="6 is to be deleted">
+<img align="center" width="300" height="300" src="![image](https://user-images.githubusercontent.com/59710234/156920759-0f923960-d5e7-4fd1-b4bb-fc3bca7e660d.png" title="copy the value of its child to the node and delete the child">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920774-2231fbc1-a09f-4f8a-ad56-375a0b5388c1.png" title="Final tree">
+
+```
+Case III :
+ In the third case, the node to be deleted has two children.
+```
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920786-441ae215-0a06-40d1-bcdb-f05b6b287dc5.png" title="3 is to be deleted">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920801-1f2deaad-385e-4ba0-86bc-df8e101fa654.png" title="Copy the value of the inorder successor (4) to the node">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920822-e92ec12d-9448-4665-aed0-b33cbbe42ad2.png" title="Delete the inorder successor">
 
 ### Search Operation
 
