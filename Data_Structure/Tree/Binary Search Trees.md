@@ -109,7 +109,7 @@ BST that each left subtree has values below root and each right subtree has valu
     If number > root->data 
         return search(root->right)
 ```
-![image](https://user-images.githubusercontent.com/59710234/156911122-cbf76042-4180-43a0-ba8b-39680c4c03e2.png)
+"C:\Users\papon\Desktop\1.png"
 
 ```
 <img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910521-378e9a17-1885-4883-8e58-332a05f5b210.png">
