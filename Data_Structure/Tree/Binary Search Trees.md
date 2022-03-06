@@ -118,17 +118,16 @@ BST that each left subtree has values below root and each right subtree has valu
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910614-17a6e081-dcae-4e62-9b60-c1d302db30df.png" title="If the value is found in any of the subtrees, it is propagated up so that in the end it is returned, otherwise null is returned">
 
 ```c++
-struct node* search(struct node* root, int key)
-{
-	// Base Cases: root is null or key is present at root
-	if (root == NULL || root->key == key)
-	return root;
+struct node* search(struct node* root, int key){
+     // Base Cases: root is null or key is present at root
+     if (root == NULL || root->key == key)
+         return root;
 	
-	// Key is greater than root's key
-	if (root->key < key)
+     // Key is greater than root's key
+     if (root->key < key)
 	return search(root->right, key);
 
-	// Key is smaller than root's key
+     // Key is smaller than root's key
 	return search(root->left, key);
 }
 
