@@ -95,13 +95,13 @@ Consider the insertion of data = 20 in the BST.
 ##### Algorithm
     
 ```c++
-		If node == NULL 
-			return createNode(data)
-		if (data < node->data)
-				node->left  = insert(node->left, data);
-		else if (data > node->data)
-				node->right = insert(node->right, data);  
-		return node
+	If node == NULL 
+	  return createNode(data)
+	if (data < node->data)
+	  node->left  = insert(node->left, data);
+	else if (data > node->data)
+	  node->right = insert(node->right, data);  
+	return node
 ```
 #### Lets Insert 4
 
