@@ -243,6 +243,8 @@ struct node* search(struct node* root, int key){
 	return search(root->left, key);
 }
 ```
+Full Code : https://ideone.com/yLFR4J
+
 ### Resources
 
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
