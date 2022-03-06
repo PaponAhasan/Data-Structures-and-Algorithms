@@ -97,9 +97,9 @@ BST that each left subtree has values below root and each right subtree has valu
  - If the value is above the root, we can say for sure that the value is not in the left subtree;
      we need to only search in the right subtree.
 ```
-   #### Algorithm
+##### Algorithm
     
-    ```c++
+```c++
     If root == NULL 
     return NULL;
     If number == root->data 
@@ -108,5 +108,5 @@ BST that each left subtree has values below root and each right subtree has valu
         return search(root->left)
     If number > root->data 
         return search(root->right)
-    ```
+```
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
