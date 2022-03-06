@@ -83,8 +83,33 @@ The order in which BST in Fig. 1 is visited is: 1, 5, 6, 10, 17, 19.
 
 ### Insert Operation
 ```
+Inserting a value in the correct position
+   - If the value is below the root , we can say for sure that the value is not in the right subtree;
+     we need to only search in the left subtree.
+   - If the value is above the root, we can say for sure that the value is not in the left subtree;
+     we need to only search in the right subtree.
+   - When we reach a point left or right subtree is null, we put the new node there.
+   
 Consider the insertion of data = 20 in the BST.
 ```
+##### Algorithm
+    
+```c++
+		If node == NULL 
+			return createNode(data)
+		if (data < node->data)
+				node->left  = insert(node->left, data);
+		else if (data > node->data)
+				node->right = insert(node->right, data);  
+		return node
+```
+#### Lets Insert 4
+
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919692-5a0acc27-7584-439e-bd11-ada185433307.png" title="4<8 so, transverse through the left child of 8">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919707-2d651406-32eb-4753-b846-7098bf42958f.png" title="4>3 so, transverse through the right child of 8">
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919727-6b2a4532-8c84-4922-866e-b3bb9ceb5d9b.png" title="4<6 so, transverse through the left child of 6">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919735-572ca513-7bbe-4fa6-91a8-2c4969882953.png" title="Insert 4 as a left child of 6">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919743-00b9423d-5974-4d42-865c-79a4dad94567.png" title="Image showing the importance of returning the root element at the end so that the elements don't lose their position during the upward recursion step.">
 
 ### Deletion Operation
 
@@ -130,7 +155,6 @@ struct node* search(struct node* root, int key){
      // Key is smaller than root's key
 	return search(root->left, key);
 }
-
 ```
 ### Resources
 
