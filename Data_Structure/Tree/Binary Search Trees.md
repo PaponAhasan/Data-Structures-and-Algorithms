@@ -252,7 +252,10 @@ Full Code : https://ideone.com/yLFR4J
 |   Insertion   |      O(log n)        |       O(log n)           |         O(n)          |
 |   Deletion    |      O(log n)        |       O(log n)           |         O(n)          |
 
-
+### Space Complexity
+```
+The space complexity for all the operations is O(n).
+```
 ### Resources
 
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
