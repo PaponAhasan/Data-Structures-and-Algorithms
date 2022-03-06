@@ -143,7 +143,7 @@ Case II :
  In the second case, the node to be deleted lies has a single child node.
 ```
 <img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920744-a22d8061-4cfc-4f00-b685-a6db4e1fff5b.png" title="6 is to be deleted">
-<img align="center" width="300" height="300" src="![image](https://user-images.githubusercontent.com/59710234/156920759-0f923960-d5e7-4fd1-b4bb-fc3bca7e660d.png" title="copy the value of its child to the node and delete the child">
+<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920759-0f923960-d5e7-4fd1-b4bb-fc3bca7e660d.png" title="copy the value of its child to the node and delete the child">
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920774-2231fbc1-a09f-4f8a-ad56-375a0b5388c1.png" title="Final tree">
 
 ```
