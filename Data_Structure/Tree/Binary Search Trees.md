@@ -95,13 +95,13 @@ Consider the insertion of data = 20 in the BST.
 ##### Algorithm
     
 ```c++
-	If node == NULL 
-	  return createNode(data)
-	if (data < node->data)
-	  node->left  = insert(node->left, data);
-	else if (data > node->data)
-	  node->right = insert(node->right, data);  
-	return node
+		If node == NULL 
+			return createNode(data)
+		if (data < node->data)
+			node->left  = insert(node->left, data);
+		else if (data > node->data)
+			node->right = insert(node->right, data);  
+		return node
 ```
 #### Lets Insert 4
 
@@ -110,6 +110,22 @@ Consider the insertion of data = 20 in the BST.
 <img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919727-6b2a4532-8c84-4922-866e-b3bb9ceb5d9b.png" title="4<6 so, transverse through the left child of 6">
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919735-572ca513-7bbe-4fa6-91a8-2c4969882953.png" title="Insert 4 as a left child of 6">
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156919743-00b9423d-5974-4d42-865c-79a4dad94567.png" title="Image showing the importance of returning the root element at the end so that the elements don't lose their position during the upward recursion step.">
+
+```c++
+// Insert a node
+struct node *insert(struct node *node, int key) {
+  // Return a new node if the tree is empty
+  if (node == NULL) return newNode(key);
+
+  // Traverse to the right place and insert the node
+  if (key < node->key)
+    node->left = insert(node->left, key);
+  else
+    node->right = insert(node->right, key);
+
+  return node;
+}
+```
 
 ### Deletion Operation
 
