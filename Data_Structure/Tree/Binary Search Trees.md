@@ -114,18 +114,20 @@ BST that each left subtree has values below root and each right subtree has valu
 ```
 4 is not found so, traverse through the left subtree of 8
 ```
-<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910521-378e9a17-1885-4883-8e58-332a05f5b210.png">
 ```
 4 is not found so, traverse through the right subtree of 3
 ```
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910521-378e9a17-1885-4883-8e58-332a05f5b210.png">
+
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910584-22ed985a-2304-45ce-9028-7458e45263cd.png">
 ```
 4 is not found so, traverse through the left subtree of 6
 ```
-<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910589-d7fa995c-3d9c-48c0-ac5f-886fc7fd0a8d.png">
 ```
 4 is found
 ```
+<img align="left" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910589-d7fa995c-3d9c-48c0-ac5f-886fc7fd0a8d.png">
+
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156910600-1eb9c654-a331-4c7d-a7c5-3e0760609098.png">
 ```
 if the value is found in any of the subtrees, it is propagated up so that in the end it is returned, otherwise null is returned
