@@ -245,6 +245,14 @@ struct node* search(struct node* root, int key){
 ```
 Full Code : https://ideone.com/yLFR4J
 
+### Time Complexity
+| Operation     | Best Case Complexity | Average Case Complexity  | Worst Case Complexity |
+| ------------- | -------------------- | ------------------------ | --------------------  |
+|   Search      |      O(log n)        |       O(log n)           |         O(n)          |
+|   Insertion   |      O(log n)        |       O(log n)           |         O(n)          |
+|   Deletion    |      O(log n)        |       O(log n)           |         O(n)          |
+
+
 ### Resources
 
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
