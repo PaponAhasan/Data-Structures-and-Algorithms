@@ -109,4 +109,5 @@ BST that each left subtree has values below root and each right subtree has valu
     If number > root->data 
         return search(root->right)
 ```
+<img align="left" width="100" height="100" src="![image](https://user-images.githubusercontent.com/59710234/156910521-378e9a17-1885-4883-8e58-332a05f5b210.png)">
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
