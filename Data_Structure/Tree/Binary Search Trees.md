@@ -97,9 +97,9 @@ Consider the insertion of data = 20 in the BST.
 ```c++
       IF node == NULL 
 	  return createNode(data)
-      IF (data < node->data)
+      IF data < node->data
 	  node->left  = insert(node->left, data);
-      ELSE IF (data > node->data)
+      ELSE IF data > node->data
 	  node->right = insert(node->right, data);  
       return node
 ```
