@@ -154,6 +154,52 @@ Case III :
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920801-1f2deaad-385e-4ba0-86bc-df8e101fa654.png" title="Copy the value of the inorder successor (4) to the node">
 <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/59710234/156920822-e92ec12d-9448-4665-aed0-b33cbbe42ad2.png" title="Delete the inorder successor">
 
+```c++
+
+struct node *minValueNode(struct node *node) {
+  struct node *current = node;
+
+  // Find the leftmost leaf
+  while (current && current->left != NULL)
+    current = current->left;
+
+  return current;
+}
+
+// Deleting a node
+struct node *deleteNode(struct node *root, int key) {
+  // Return if the tree is empty
+  if (root == NULL) return root;
+
+  // Find the node to be deleted
+  if (key < root->key)
+    root->left = deleteNode(root->left, key);
+  else if (key > root->key)
+    root->right = deleteNode(root->right, key);
+  else {
+    // If the node is with only one child or no child
+    if (root->left == NULL) {
+      struct node *temp = root->right;
+      free(root);
+      return temp;
+    } else if (root->right == NULL) {
+      struct node *temp = root->left;
+      free(root);
+      return temp;
+    }
+
+    // If the node has two children
+    struct node *temp = minValueNode(root->right);
+
+    // Place the inorder successor in position of the node to be deleted
+    root->key = temp->key;
+
+    // Delete the inorder successor
+    root->right = deleteNode(root->right, temp->key);
+  }
+  return root;
+}
+```
 ### Search Operation
 
 ```
