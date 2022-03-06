@@ -8,6 +8,12 @@ A binary tree to be a binary search tree, which each node has at most two childr
 ![image](https://user-images.githubusercontent.com/59710234/156881184-af86ec20-4497-4b21-a5d0-1bcf2828e796.png)
 
 ```
+Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+ - It is called a binary tree because each tree node has a maximum of two children.
+ - It is called a search tree because it can be used to search for the presence of a number in O(log(n)) time.
+```
+
+```
 Data in the left subtree [5,1,6], All data elements are < 10
 Data in the right subtree  [19,17], All data elements are > 10
 
@@ -84,4 +90,23 @@ Consider the insertion of data = 20 in the BST.
 
 ### Search Operation
 
+```
+BST that each left subtree has values below root and each right subtree has values above the root.
+ - If the value is below the root , we can say for sure that the value is not in the right subtree;
+     we need to only search in the left subtree.
+ - If the value is above the root, we can say for sure that the value is not in the left subtree;
+     we need to only search in the right subtree.
+```
+   #### Algorithm
+    
+    ```c++
+    If root == NULL 
+    return NULL;
+    If number == root->data 
+        return root->data;
+    If number < root->data 
+        return search(root->left)
+    If number > root->data 
+        return search(root->right)
+    ```
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
