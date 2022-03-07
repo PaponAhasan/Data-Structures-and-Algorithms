@@ -46,10 +46,11 @@ with insertions and deletions in O(logn).
  ```
  4. Set current element i as largest.
  ```
- 
- <details> <summary> 5. Let the input array be </summary>
-  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
- </details>
+ ```
+ 5. The index of left child is given by 2i + 1 and the right child is given by 2i + 2.
+    If leftChild is greater than currentElement (i.e. element at ith index), set leftChildIndex as largest.
+    If rightChild is greater than element in largest, set rightChildIndex as largest.
+ ```
  
 </details>
    
