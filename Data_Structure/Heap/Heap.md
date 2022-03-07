@@ -25,10 +25,10 @@ A priority queue is a data structure, usually implemented using heaps, that supp
 with insertions and deletions in O(logn).
 ```
 ### Heap Operations
-   <details> <summary> Heapify </summary>
- ```
+<details> <summary> Heapify </summary>
+```
  Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap.
- ```
+```
    </details>
    
 ### Problem
