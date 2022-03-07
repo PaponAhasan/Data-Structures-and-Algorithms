@@ -56,6 +56,9 @@ with insertions and deletions in O(logn).
   <img src="https://user-images.githubusercontent.com/59710234/157102042-2c7cc49e-bb5d-4833-8ed0-ca19e8b654b6.png" alt="image" border="0">
  </details>
  
+ ```
+ 7. Repeat steps 3-7 until the subtrees are also heapified.
+ ```
 </details>
    
 ### Problem
