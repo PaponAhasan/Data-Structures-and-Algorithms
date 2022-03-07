@@ -25,8 +25,8 @@ A priority queue is a data structure, usually implemented using heaps, that supp
 with insertions and deletions in O(logn).
 ```
 ### Heap Operations
-   <details> <summary> Max-Heap Example </summary>
-   Heapify
+   <details> <summary> Heapify </summary>
+        Heapify
    </details>
 ### Problem
 
