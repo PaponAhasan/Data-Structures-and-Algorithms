@@ -8,9 +8,10 @@ There are two types:
   * Min-Heap: The key present at any node is smaller than the keys present at both of its children. The smallest key is at the
     root node.
 ```
-<details> <summary> Max-Heap </summary>
+<details> <summary> Max-Heap Example </summary>
  <a href="https://ibb.co/xfYv6Tk"><img src="https://user-images.githubusercontent.com/59710234/157077980-1e4f4440-e4eb-4641-b493-502c36fa8cd8.png" alt="image" border="0"></a>
 </details>
+
 ![image](https://user-images.githubusercontent.com/59710234/157078004-d99e0626-2d36-4b8e-925a-9df365504291.png)
 
 [Complete Binary Tree](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/main/Data_Structure/Tree/Binary%20Trees.md#types-of-binary-tree)
