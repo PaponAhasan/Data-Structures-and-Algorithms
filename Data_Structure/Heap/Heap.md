@@ -33,3 +33,5 @@ with insertions and deletions in O(logn).
 * [Leetcode 1046](https://leetcode.com/problems/last-stone-weight/)
 * [Leetcode 1673](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 * [Atcoder ABC 141D](https://atcoder.jp/contests/abc141/tasks/abc141_d)
+
+Good luck <a href="https://emoji.gg/emoji/8771_blobheart"><img src="https://emoji.gg/assets/emoji/8771_blobheart.png" width="16px" height="16px" alt="blobheart"></a>.
