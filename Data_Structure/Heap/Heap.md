@@ -15,3 +15,12 @@ O(1) time. One use of a heap is to implement a priority queue.
 A priority queue is a data structure, usually implemented using heaps, that supports finding max (or min) element in O(1) along 
 with insertions and deletions in O(logn).
 ```
+
+### Problem
+
+* [Hackerearth](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/)
+* [Interviewbit - k largest elements](https://www.interviewbit.com/problems/k-largest-elements/)
+* [Leetcode 703](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+* [Leetcode 1046](https://leetcode.com/problems/last-stone-weight/)
+* [Leetcode 1673](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
+* [Atcoder ABC 141D](https://atcoder.jp/contests/abc141/tasks/abc141_d)
