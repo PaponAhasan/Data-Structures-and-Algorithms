@@ -64,16 +64,24 @@ with insertions and deletions in O(logn).
    
   ```c++
   Heapify(array, size, i)
-  set i as largest
-  leftChild = 2i + 1
-  rightChild = 2i + 2
-  
-  if leftChild > array[largest]
-    set leftChildIndex as largest
-  if rightChild > array[largest]
-    set rightChildIndex as largest
+    set i as largest
+    leftChild = 2i + 1
+    rightChild = 2i + 2
 
-  swap array[i] and array[largest]
+    if leftChild > array[largest]
+      set leftChildIndex as largest
+    if rightChild > array[largest]
+      set rightChildIndex as largest
+
+    swap array[i] and array[largest]
+  ```
+  ```c++
+  MaxHeap(array, size)
+    loop from the first index of non-leaf node down to zero
+      call heapify
+  ```
+  ```
+  For Min-Heap, both leftChild and rightChild must be larger than the parent for all nodes.
   ```
   
  </details>
