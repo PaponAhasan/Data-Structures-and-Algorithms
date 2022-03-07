@@ -60,6 +60,8 @@ with insertions and deletions in O(logn).
  7. Repeat steps 3-7 until the subtrees are also heapified.
  ```
  
+</details>
+
  <details> <summary> Algorithm </summary>
   
    <br/>
@@ -87,8 +89,6 @@ with insertions and deletions in O(logn).
   ```
   
  </details>
- 
-</details>
    
 ### Problem
 
