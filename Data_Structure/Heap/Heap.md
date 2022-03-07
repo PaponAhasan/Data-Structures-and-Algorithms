@@ -35,6 +35,19 @@ with insertions and deletions in O(logn).
  <details> <summary> 1. Let the input array be </summary>
   <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
  </details>
+ <details> <summary> 2. Create a complete binary tree from the array
+ </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157095063-13caf008-9538-426e-a287-ced530896fb1.png" alt="image" border="0">
+ </details>
+ <details> <summary> 1. Let the input array be </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
+ </details>
+ <details> <summary> 1. Let the input array be </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
+ </details>
+ <details> <summary> 1. Let the input array be </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
+ </details>
  
 </details>
    
