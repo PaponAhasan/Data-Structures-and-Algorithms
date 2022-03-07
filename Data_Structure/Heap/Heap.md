@@ -8,6 +8,9 @@ There are two types:
   * Min-Heap: The key present at any node is smaller than the keys present at both of its children. The smallest key is at the
     root node.
 ```
+<details>
+[Complete Binary Tree](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/main/Data_Structure/Tree/Binary%20Trees.md#types-of-binary-tree)
+</details>
 ```
 Heaps are used when the highest or lowest order/priority element needs to be removed. They allow quick access to this item in
 O(1) time. One use of a heap is to implement a priority queue.
