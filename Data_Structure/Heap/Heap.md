@@ -62,7 +62,7 @@ with insertions and deletions in O(logn).
  
 </details>
 
- <details> <summary> Algorithm </summary>
+<details> <summary> Algorithm </summary>
   
    <br/>
   
@@ -87,8 +87,40 @@ with insertions and deletions in O(logn).
   ```
   For Min-Heap, both leftChild and rightChild must be larger than the parent for all nodes.
   ```
+ 
+</details>
+
+<details> <summary> Code </summary>
   
- </details>
+ ```c++
+ void heapify(vector<int> &hT, int i)
+ {
+   int size = hT.size();
+   int largest = i;
+   int l = 2 * i + 1;
+   int r = 2 * i + 2;
+   if (l < size && hT[l] > hT[largest])
+     largest = l;
+   if (r < size && hT[r] > hT[largest])
+     largest = r;
+
+   if (largest != i)
+   {
+     swap(&hT[i], &hT[largest]);
+     heapify(hT, largest);
+   }
+ }
+ 
+ void MaxHeap(vector<int> &hT, size)
+ {
+    for (int i = size / 2 - 1; i >= 0; i--)
+    {
+      heapify(hT, i);
+    }
+ }
+ ```
+ 
+</details>
    
 ### Problem
 
