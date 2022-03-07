@@ -59,6 +59,25 @@ with insertions and deletions in O(logn).
  ```
  7. Repeat steps 3-7 until the subtrees are also heapified.
  ```
+ 
+ <details> <summary> Algorithm </summary>
+   
+  ```c++
+  Heapify(array, size, i)
+  set i as largest
+  leftChild = 2i + 1
+  rightChild = 2i + 2
+  
+  if leftChild > array[largest]
+    set leftChildIndex as largest
+  if rightChild > array[largest]
+    set rightChildIndex as largest
+
+  swap array[i] and array[largest]
+  ```
+  
+ </details>
+ 
 </details>
    
 ### Problem
