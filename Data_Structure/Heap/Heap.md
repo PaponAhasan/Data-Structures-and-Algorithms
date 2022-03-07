@@ -61,7 +61,9 @@ with insertions and deletions in O(logn).
  ```
  
  <details> <summary> Algorithm </summary>
-   
+  
+   <br/>
+  
   ```c++
   Heapify(array, size, i)
     set i as largest
