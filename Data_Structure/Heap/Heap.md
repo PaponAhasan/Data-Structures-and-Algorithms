@@ -42,9 +42,11 @@ with insertions and deletions in O(logn).
  <details> <summary> 3. Start from the first index of non-leaf node whose index is given by n/2 - 1 </summary>
   <img src="https://user-images.githubusercontent.com/59710234/157095249-ee345163-6976-40d9-a4f9-62eb95e7bfa5.png" alt="image" border="0">
  </details>
+ 
  ```
  4. Set current element i as largest.
  ```
+ 
  <details> <summary> 5. Let the input array be </summary>
   <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
  </details>
