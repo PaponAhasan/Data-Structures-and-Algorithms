@@ -9,7 +9,7 @@ There are two types:
     root node.
 ```
 <details> <summary> Max-Heap Example </summary>
- <a href="https://ibb.co/xfYv6Tk"><img src="https://user-images.githubusercontent.com/59710234/157077980-1e4f4440-e4eb-4641-b493-502c36fa8cd8.png" alt="image" border="0"></a>
+ <a href="https://user-images.githubusercontent.com"><img src="https://user-images.githubusercontent.com/59710234/157077980-1e4f4440-e4eb-4641-b493-502c36fa8cd8.png" alt="image" border="0"></a>
 </details>
 
 <details> <summary> Min-Heap Example </summary>
