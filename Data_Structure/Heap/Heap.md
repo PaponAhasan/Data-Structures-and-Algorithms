@@ -32,6 +32,9 @@ with insertions and deletions in O(logn).
  ```
   Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap.
  ```
+ <details> <summary> 1. Let the input array be </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
+ </details>
  
 </details>
    
