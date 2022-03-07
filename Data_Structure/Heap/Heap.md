@@ -39,8 +39,8 @@ with insertions and deletions in O(logn).
  </summary>
   <img src="https://user-images.githubusercontent.com/59710234/157095063-13caf008-9538-426e-a287-ced530896fb1.png" alt="image" border="0">
  </details>
- <details> <summary> 1. Let the input array be </summary>
-  <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
+ <details> <summary> 3. Start from the first index of non-leaf node whose index is given by n/2 - 1 </summary>
+  <img src="https://user-images.githubusercontent.com/59710234/157095249-ee345163-6976-40d9-a4f9-62eb95e7bfa5.png" alt="image" border="0">
  </details>
  <details> <summary> 1. Let the input array be </summary>
   <img src="https://user-images.githubusercontent.com/59710234/157094802-7e8d3c8e-dd8a-4c20-bbbd-9bd2e72414c4.png" alt="image" border="0">
