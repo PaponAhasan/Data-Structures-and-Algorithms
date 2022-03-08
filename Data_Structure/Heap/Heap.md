@@ -124,6 +124,20 @@ with insertions and deletions in O(logn).
  
 ---
  
+ <details> <summary> Insert Element Heap </summary>
+  
+  <details> <summary> 1. Insert at the end </summary>
+      <img src="https://user-images.githubusercontent.com/59710234/157139935-5c157940-cca9-4280-a87b-cb7a08bea85b.png" alt="image" border="0">
+  </details>
+  <details> <summary> 2. Heapify the tree </summary>
+      <img src="https://user-images.githubusercontent.com/59710234/157140002-35c808c8-6075-43a2-bd42-43f5eaa44bd5.png" alt="image" border="0">
+  </details>
+  
+  ```
+  For Min Heap, the above algorithm is modified so that parentNode is always smaller than newNode.
+  ```
+ </details>
+ 
 ### Problem
 
 * [Hackerearth](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/)
