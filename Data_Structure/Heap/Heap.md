@@ -335,6 +335,31 @@ void deleteNode(vector<int> &hT, int num)
   <br/>
   
   ```c++
+     void max_heapify (int Arr[ ], int i, int N)
+     {
+       int left = 2*i                //left child
+       int right = 2*i +1           //right child
+       if(left<= N and Arr[left] > Arr[i] )
+             largest = left;
+       else
+            largest = i;
+       if(right <= N and Arr[right] > Arr[largest] )
+           largest = right;
+       if(largest != i )
+       {
+           swap (Ar[i] , Arr[largest]);
+           max_heapify (Arr, largest,N);
+       } 
+    }
+  
+    void build_maxheap (int Arr[ ])
+    {
+        for(int i = N/2 ; i >= 1 ; i-- )
+        {
+            max_heapify (Arr, i) ;
+        }
+    }
+  
     void heap_sort(int Ar[ ])
     {
       int heap_size = N;
@@ -349,6 +374,19 @@ void deleteNode(vector<int> &hT, int num)
   ```
   
   </details>
+  
+   <details> <summary>  Complexity </summary>
+  
+   <br/>
+    
+    ```
+    - Max_heapify has complexity O(logN),
+    - Build_maxheap has complexity O(N) and
+    - we run max_heapify N-1 times in heap_sort function,
+    Therefore complexity of heap_sort function is O(N logN).
+    ```
+    
+   </details>
  
 </details>
  
