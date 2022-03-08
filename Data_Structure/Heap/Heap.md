@@ -297,6 +297,15 @@ void deleteNode(vector<int> &hT, int num)
 </details>
  
 #### Full Code : https://ideone.com/xwzdbs
+
+
+### Heap Data Structure
+ 
+ ```
+ - Heap is used while implementing a priority queue.
+ - Dijkstra's Algorithm
+ - Heap Sort
+ ```
  
 ### Problem
 
