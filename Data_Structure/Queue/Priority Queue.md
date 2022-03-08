@@ -52,6 +52,5 @@ int main(){
 
 ```
 Reference :
-* [Programiz - queue](https://www.programiz.com/dsa/queue)
 * [Geeksforgeeks](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
-* [Programiz - priority-queue]https://www.programiz.com/dsa/priority-queue
+* [Programiz](https://www.programiz.com/dsa/priority-queue)
