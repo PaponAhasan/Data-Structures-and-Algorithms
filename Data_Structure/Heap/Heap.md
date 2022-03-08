@@ -224,66 +224,6 @@ with insertions and deletions in O(logn).
   
 </details>
    
-<details> <summary>  Algorithm </summary>
-   
-   <br/>
-   
-    ```c++
-    If nodeToBeDeleted is the leafNode
-      remove the node
-    Else swap nodeToBeDeleted with the lastLeafNode
-      remove noteToBeDeleted
-   
-    heapify the array
-   ```
-   ```
-    For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
-   ```
-
-</details>
-   
-<details> <summary>  Code </summary>
-   
-   <br/>
-    
-    void heapify(vector<int> &hT, int i)
-    {
-      int size = hT.size();
-      int largest = i;
-      int l = 2 * i + 1;
-      int r = 2 * i + 2;
-      if (l < size && hT[l] > hT[largest])
-        largest = l;
-      if (r < size && hT[r] > hT[largest])
-        largest = r;
-
-      if (largest != i)
-      {
-        swap(&hT[i], &hT[largest]);
-        heapify(hT, largest);
-      }
-     }
-       
-    void deleteNode(vector<int> &hT, int num)
-    {
-      int size = hT.size();
-      int i;
-      for (i = 0; i < size; i++)
-      {
-        if (num == hT[i])
-          break;
-      }
-      swap(&hT[i], &hT[size - 1]);
-
-      hT.pop_back();
-      for (int i = size / 2 - 1; i >= 0; i--)
-      {
-        heapify(hT, i);
-      }
-    }
-  
-</details>
-   
  
 ### Problem
 
