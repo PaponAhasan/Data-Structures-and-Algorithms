@@ -239,7 +239,7 @@ with insertions and deletions in O(logn).
     
    </details>
    
-      <details> <summary>  Code </summary>
+   <details> <summary>  Code </summary>
    
     ```c++
     void heapify(vector<int> &hT, int i)
