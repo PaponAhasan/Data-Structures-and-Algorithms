@@ -18,4 +18,4 @@
 * [Abinash's blog](https://codeforces.com/blog/entry/13529)
 
 ---
-[log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
+* [log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
