@@ -7,6 +7,16 @@ There are two types:
     root node.
   * Min-Heap: The key present at any node is smaller than the keys present at both of its children. The smallest key is at the
     root node.
+
+Suppose there are N Jobs in a queue to be done, and each job has its own priority. The job with maximum priority will get completed 
+first than others.
+
+So at each instant we have to check for the job with maximum priority to complete it and also insert if there is a new job.
+
+If we are storing one element at index i in array Ar.
+  -  then its parent will be stored at index i/2 (its a root)
+  -  its left child can be accessed by Ar[ 2 * i ]
+  - its right child can be accessed by Ar[ 2 * i +1 ]
 ```
 <details> <summary> Max-Heap Example </summary>
  <img src="https://user-images.githubusercontent.com/59710234/157077980-1e4f4440-e4eb-4641-b493-502c36fa8cd8.png" alt="image" border="0">
