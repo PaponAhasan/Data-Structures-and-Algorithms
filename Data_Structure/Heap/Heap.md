@@ -206,7 +206,7 @@ with insertions and deletions in O(logn).
    <br/>
    
    <details> <summary>  1. Select the element to be deleted. </summary>
-    <img src="https://user-images.githubusercontent.com/59710234/157140002-35c808c8-6075-43a2-bd42-43f5eaa44bd5.png" alt="image" border="0">
+    <img src="https://user-images.githubusercontent.com/59710234/157141821-52b4a8b2-784c-4c12-91d2-de15d03adf12.png" alt="image" border="0">
    </details> 
    <details> <summary>  2. Swap it with the last element. </summary>
     <img src="https://user-images.githubusercontent.com/59710234/157141595-ac6d6d35-678c-4d48-8193-0e43a06f3281.png" alt="image" border="0">
@@ -218,7 +218,69 @@ with insertions and deletions in O(logn).
     <img src="https://user-images.githubusercontent.com/59710234/157141712-86e7a716-671b-44e8-b839-6b4a4dfa8aaa.png" alt="image" border="0">
    </details> 
   
-  </details> 
+  </details>
+   
+   <details> <summary>  Algorithm </summary>
+   
+    ```c++
+    If nodeToBeDeleted is the leafNode
+      remove the node
+    Else swap nodeToBeDeleted with the lastLeafNode
+      remove noteToBeDeleted
+   
+    heapify the array
+    ```
+    ```
+    For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
+    ```
+    
+   <br/>
+    
+   </details>
+   
+      <details> <summary>  Code </summary>
+   
+    ```c++
+    void heapify(vector<int> &hT, int i)
+    {
+      int size = hT.size();
+      int largest = i;
+      int l = 2 * i + 1;
+      int r = 2 * i + 2;
+      if (l < size && hT[l] > hT[largest])
+        largest = l;
+      if (r < size && hT[r] > hT[largest])
+        largest = r;
+
+      if (largest != i)
+      {
+        swap(&hT[i], &hT[largest]);
+        heapify(hT, largest);
+      }
+     }
+       
+    void deleteNode(vector<int> &hT, int num)
+    {
+      int size = hT.size();
+      int i;
+      for (i = 0; i < size; i++)
+      {
+        if (num == hT[i])
+          break;
+      }
+      swap(&hT[i], &hT[size - 1]);
+
+      hT.pop_back();
+      for (int i = size / 2 - 1; i >= 0; i--)
+      {
+        heapify(hT, i);
+      }
+    }
+    ```
+    
+   <br/>
+    
+   </details>
    
  
 ### Problem
