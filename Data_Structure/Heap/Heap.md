@@ -380,9 +380,8 @@ void deleteNode(vector<int> &hT, int num)
    <br/>
     
     ```
-    - Max_heapify has complexity O(logN),
+    - Max_heapify has complexity O(logN) [max_heapify N-1 times in heap_sort function],
     - Build_maxheap has complexity O(N) and
-    - we run max_heapify N-1 times in heap_sort function,
     Therefore complexity of heap_sort function is O(N logN).
     ```
     
