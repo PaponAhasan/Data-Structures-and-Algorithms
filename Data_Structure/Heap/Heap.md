@@ -448,8 +448,8 @@ void deleteNode(vector<int> &hT, int num)
 * [Leetcode 1673](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 * [Atcoder ABC 141D](https://atcoder.jp/contests/abc141/tasks/abc141_d)
 
- https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/
- https://www.programiz.com/dsa/heap-sort#heap
+ - https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/
+ - https://www.programiz.com/dsa/heap-sort#heap
  
  
 Good luck <a href="https://emoji.gg/emoji/8771_blobheart"><img src="https://emoji.gg/assets/emoji/8771_blobheart.png" width="16px" height="16px" alt="blobheart"></a>.
