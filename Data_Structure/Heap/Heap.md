@@ -23,6 +23,8 @@ O(1) time. One use of a heap is to implement a priority queue.
 
 A priority queue is a data structure, usually implemented using heaps, that supports finding max (or min) element in O(1) along 
 with insertions and deletions in O(logn).
+
+In binary heap, if the heap is a complete binary tree with N nodes, then it has has smallest possible height which is log 2 N .
 ```
 ### Heap Operations
 <details> <summary> Heapify </summary>
