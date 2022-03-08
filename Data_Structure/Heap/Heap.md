@@ -139,7 +139,7 @@ with insertions and deletions in O(logn).
  
  </details>
  
-  <details> <summary> Algorithm </summary>
+ <details> <summary> Algorithm </summary>
   
   <br/>
    
@@ -151,11 +151,12 @@ with insertions and deletions in O(logn).
 
    heapify the array
    ```
+  
    ```
    For Min Heap, the above algorithm is modified so that parentNode is always smaller than newNode.
    ```
    
-  </details>
+ </details>
   
   <details> <summary> Code </summary>
    
