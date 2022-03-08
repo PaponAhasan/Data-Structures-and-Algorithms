@@ -244,8 +244,7 @@ with insertions and deletions in O(logn).
    
 <details> <summary>  Code </summary>
    
-    <br/>
-    
+   <br/>
     
     void heapify(vector<int> &hT, int i)
     {
@@ -283,7 +282,6 @@ with insertions and deletions in O(logn).
       }
     }
   
-    
 </details>
    
  
