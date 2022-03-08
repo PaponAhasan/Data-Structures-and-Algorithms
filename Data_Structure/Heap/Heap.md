@@ -17,6 +17,7 @@ If we are storing one element at index i in array Ar.
   -  Then its parent will be stored at index i/2 (its a root)
   -  Its left child can be accessed by Ar[ 2 * i ]
   -  Its right child can be accessed by Ar[ 2 * i +1 ]
+  -  A N element heap stored in an array has leaves indexed by N/2+1, N/2+2 , N/2+3 …. upto N.
 ```
 <details> <summary> Max-Heap Example </summary>
  <img src="https://user-images.githubusercontent.com/59710234/157077980-1e4f4440-e4eb-4641-b493-502c36fa8cd8.png" alt="image" border="0">
@@ -308,7 +309,7 @@ void deleteNode(vector<int> &hT, int num)
  
 </details>
  
-#### Full Code : https://ideone.com/xwzdbs
+#### Full Code : https://ideone.com/xwzdbs <br/> https://ideone.com/QdWBnx
 
 
 ### Heap Data Structure
@@ -328,4 +329,7 @@ void deleteNode(vector<int> &hT, int num)
 * [Leetcode 1673](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 * [Atcoder ABC 141D](https://atcoder.jp/contests/abc141/tasks/abc141_d)
 
+ https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/
+ 
+ 
 Good luck <a href="https://emoji.gg/emoji/8771_blobheart"><img src="https://emoji.gg/assets/emoji/8771_blobheart.png" width="16px" height="16px" alt="blobheart"></a>.
