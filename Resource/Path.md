@@ -1,5 +1,6 @@
 * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
 * [Summer-Group-2021](https://github.com/crux-bphc/CC-Summer-Group-2021)
+* [Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics)
 * [CUET Syllabus](https://drive.google.com/file/d/1JGNeGPyzaLTuw_F1DxlldjMbXBxX-3fG/view?usp=sharing)
 * [Competitive Programmer’s Handbook](https://drive.google.com/file/d/1CSTWYKO5GxawqVAU2PNCFc3eeapngo1v/view?usp=sharing)
 ---
@@ -26,3 +27,11 @@
 ---
 * [Leetcode](https://leetcode.com/explore/learn/)
 * [Shahjalalshohag Topic](https://blog.shahjalalshohag.com/topic-list/)
+* [Leetcode Problemset](https://leetcode.com/problemset/all/)
+* [Codechef Problem](https://www.codechef.com/LEARNDSA?itm_medium=navmenu&itm_campaign=learndsa)
+* [Hackerearth](https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/)
+* [CC/CSES/](https://github.com/the-hyp0cr1t3/CC/tree/master/CSES)
+* [Codechef 3to4star](https://www.codechef.com/learning/3to4star/register)
+* [Learning Camps](https://www.codechef.com/learning?itm_medium=navmenu&itm_campaign=learncp)
+* [Practice](https://www.codechef.com/practice?page=0&limit=20&sort_by=difficulty_rating&sort_order=asc&search=&start_rating=1200&end_rating=1399&topic=)
+* [CSES problemset](https://cses.fi/problemset/list/)
