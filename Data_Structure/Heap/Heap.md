@@ -393,7 +393,7 @@ void deleteNode(vector<int> &hT, int num)
  
  </details>
  
-  <details> <summary>  Create min-heap for the priority queue </summary>
+  <details> <summary>  Create Min-Heap for the Priority Queue </summary>
   
    <br/>
    
