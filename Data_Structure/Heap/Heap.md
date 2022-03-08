@@ -224,9 +224,15 @@ with insertions and deletions in O(logn).
   
 </details>
 
-<details> <summary>  Delete Element from Heap </summary> 
+<details> <summary>  Algorithm </summary> 
  
  ```c++
+ If nodeToBeDeleted is the leafNode
+  remove the node
+Else swap nodeToBeDeleted with the lastLeafNode
+  remove noteToBeDeleted
+   
+heapify the array
  ```
  
 </details>
