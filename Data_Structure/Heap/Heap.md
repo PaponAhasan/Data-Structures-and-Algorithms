@@ -79,11 +79,13 @@ with insertions and deletions in O(logn).
 
     swap array[i] and array[largest]
   ```
+ 
   ```c++
   MaxHeap(array, size)
     loop from the first index of non-leaf node down to zero
       call heapify
   ```
+ 
   ```
   For Min-Heap, both leftChild and rightChild must be larger than the parent for all nodes.
   ```
@@ -222,7 +224,7 @@ with insertions and deletions in O(logn).
   
   </details>
    
-  <details> <summary>  Algorithm </summary>
+ <details> <summary>  Algorithm </summary>
    
    <br/>
    
@@ -239,9 +241,9 @@ with insertions and deletions in O(logn).
     For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
     ```
 
-  </details>
+ </details>
    
-  <details> <summary>  Code </summary>
+<details> <summary>  Code </summary>
    
     <br/>
     
@@ -283,7 +285,7 @@ with insertions and deletions in O(logn).
     }
     ```
     
-  </details>
+</details>
    
  
 ### Problem
