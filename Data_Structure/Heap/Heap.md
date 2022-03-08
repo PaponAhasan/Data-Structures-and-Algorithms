@@ -231,6 +231,7 @@ with insertions and deletions in O(logn).
    
     heapify the array
     ```
+    
     ```
     For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
     ```
@@ -241,6 +242,8 @@ with insertions and deletions in O(logn).
    
    <details> <summary>  Code </summary>
    
+    <br/>
+    
     ```c++
     void heapify(vector<int> &hT, int i)
     {
@@ -278,8 +281,6 @@ with insertions and deletions in O(logn).
       }
     }
     ```
-    
-   <br/>
     
    </details>
    
