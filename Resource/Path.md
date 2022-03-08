@@ -1,5 +1,5 @@
 * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
-* [CUET Syllabus](file:///F:/Windows/CUET%20CP%20Syllabus.pdf)
+* [CUET Syllabus](https://drive.google.com/file/d/1JGNeGPyzaLTuw_F1DxlldjMbXBxX-3fG/view?usp=sharing)
 
 ---
 
