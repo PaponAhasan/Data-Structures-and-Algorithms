@@ -8,3 +8,4 @@
 * [Javatpoint DS](https://www.javatpoint.com/data-structure-tutorial) / [Javatpoint Algo](https://www.javatpoint.com/daa-tutorial)
 
 ---
+* [CP-Algorithms](https://cp-algorithms.com/index.html)
