@@ -393,7 +393,7 @@ void deleteNode(vector<int> &hT, int num)
  
  </details>
  
-  <details> <summary>  Complexity </summary>
+  <details> <summary>  Create min-heap for the priority queue </summary>
   
    <br/>
    
@@ -440,6 +440,7 @@ void deleteNode(vector<int> &hT, int num)
    ```
    
   </details> 
+   
 ### Problem
 
 * [Hackerearth](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/)
