@@ -16,6 +16,9 @@
 * [CP-Algorithms](https://cp-algorithms.com/index.html)
 * [CodeChef_01](https://www.codechef.com/certification/data-structures-and-algorithms/prepare) / [CodeChef_02](https://drive.google.com/file/d/1gGmkLmIo8vetRUEOuyDgTANVSZCZ3HgevTm9T8tsG-R5smhfsJKsCVZsMB3u7KJ1cKM4XdNW-ZqVXZOE/view)
 * [Abinash's blog](https://codeforces.com/blog/entry/13529)
+* [Algorithm and programming Technique list](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%2C%20Data%20Structure%20Programming%20Technique%20List%20with%20LINKS.md)
+* [বাংলায় প্রোগ্রামিং রিসোর্সসমূহ](https://github.com/me-shaon/bangla-programming-resources)
 
 ---
 * [log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
+* [Algorithm List and Technique List](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%20and%20Programming%20Technique%20Link.md)
