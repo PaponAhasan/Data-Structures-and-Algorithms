@@ -285,6 +285,8 @@ void deleteNode(vector<int> &hT, int num)
 
 <details> <summary>  Peek </summary>
  
+ <br/>
+ 
  ```
  Peek operation returns the maximum element from Max Heap or minimum element from Min Heap without deleting the node.
  ```
