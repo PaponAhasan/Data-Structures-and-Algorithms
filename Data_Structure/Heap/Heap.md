@@ -223,7 +223,13 @@ with insertions and deletions in O(logn).
    </details> 
   
 </details>
-   
+
+<details> <summary>  Delete Element from Heap </summary> 
+ 
+ ```c++
+ ```
+ 
+</details>
  
 ### Problem
 
