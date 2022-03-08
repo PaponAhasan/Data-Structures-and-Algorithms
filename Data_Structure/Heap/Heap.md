@@ -126,7 +126,7 @@ with insertions and deletions in O(logn).
  
 </details>
  
-
+---
  
  <details> <summary> Insert Element Heap </summary>
   
@@ -205,7 +205,7 @@ with insertions and deletions in O(logn).
    
 ---
 
-  <details> <summary>  Delete Element from Heap </summary>
+<details> <summary>  Delete Element from Heap </summary>
    
    <br/>
    
@@ -222,26 +222,25 @@ with insertions and deletions in O(logn).
     <img src="https://user-images.githubusercontent.com/59710234/157141712-86e7a716-671b-44e8-b839-6b4a4dfa8aaa.png" alt="image" border="0">
    </details> 
   
-  </details>
+</details>
    
- <details> <summary>  Algorithm </summary>
+<details> <summary>  Algorithm </summary>
    
    <br/>
    
-    
+    ```c++
     If nodeToBeDeleted is the leafNode
       remove the node
     Else swap nodeToBeDeleted with the lastLeafNode
       remove noteToBeDeleted
    
     heapify the array
-   
-    
-   
+   ```
+   ```
     For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
-   
+   ```
 
- </details>
+</details>
    
 <details> <summary>  Code </summary>
    
