@@ -91,7 +91,9 @@ with insertions and deletions in O(logn).
 </details>
 
 <details> <summary> Code </summary>
-  
+
+ <br/>
+ 
  ```c++
  void heapify(vector<int> &hT, int i)
  {
@@ -138,6 +140,8 @@ with insertions and deletions in O(logn).
  </details>
  
   <details> <summary> Algorithm </summary>
+  
+  <br/>
    
    ```c++
    If there is no node, 
@@ -154,6 +158,8 @@ with insertions and deletions in O(logn).
   </details>
   
   <details> <summary> Code </summary>
+   
+   <br/>
    
    ```c++
     void heapify(vector<int> &hT, int i)
