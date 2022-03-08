@@ -226,13 +226,15 @@ with insertions and deletions in O(logn).
 
 <details> <summary>  Algorithm </summary> 
  
+  <br/>
+ 
  ```c++
- If nodeToBeDeleted is the leafNode
-  remove the node
-Else swap nodeToBeDeleted with the lastLeafNode
-  remove noteToBeDeleted
-   
-heapify the array
+  If nodeToBeDeleted is the leafNode
+     remove the node
+  Else swap nodeToBeDeleted with the lastLeafNode
+     remove noteToBeDeleted
+ 
+  heapify the array
  ```
  
 </details>
