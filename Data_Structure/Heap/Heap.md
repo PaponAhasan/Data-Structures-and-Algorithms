@@ -126,7 +126,7 @@ with insertions and deletions in O(logn).
  
 </details>
  
----
+
  
  <details> <summary> Insert Element Heap </summary>
   
