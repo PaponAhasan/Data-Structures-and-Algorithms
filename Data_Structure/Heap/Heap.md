@@ -241,10 +241,9 @@ with insertions and deletions in O(logn).
 
 <details> <summary>  Code </summary> 
  
+  <br/>
+ 
  ```c++
- 
- <br/>
- 
  void heapify(vector<int> &hT, int i)
 {
   int size = hT.size();
