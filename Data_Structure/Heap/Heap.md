@@ -133,6 +133,58 @@ with insertions and deletions in O(logn).
       <img src="https://user-images.githubusercontent.com/59710234/157140002-35c808c8-6075-43a2-bd42-43f5eaa44bd5.png" alt="image" border="0">
   </details>
   
+  <details> <summary> Algorithm </summary>
+   
+   ```c++
+   If there is no node, 
+      create a newNode.
+   else (a node is already present)
+      insert the newNode at the end (last node from left to right.)
+
+   heapify the array
+   ```
+  </details>
+  
+  <details> <summary> Code </summary>
+   
+   ```c++
+    void heapify(vector<int> &hT, int i)
+    {
+      int size = hT.size();
+      int largest = i;
+      int l = 2 * i + 1;
+      int r = 2 * i + 2;
+      if (l < size && hT[l] > hT[largest])
+        largest = l;
+      if (r < size && hT[r] > hT[largest])
+        largest = r;
+
+      if (largest != i)
+      {
+        swap(&hT[i], &hT[largest]);
+        heapify(hT, largest);
+      }
+    }
+   
+    void insert(vector<int> &hT, int newNum)
+    {
+      int size = hT.size();
+      if (size == 0)
+      {
+        hT.push_back(newNum);
+      }
+      else
+      {
+        hT.push_back(newNum);
+        for (int i = size / 2 - 1; i >= 0; i--)
+        {
+          heapify(hT, i);
+        }
+      }
+    }
+   ```
+  </details>
+  
   ```
   For Min Heap, the above algorithm is modified so that parentNode is always smaller than newNode.
   ```
