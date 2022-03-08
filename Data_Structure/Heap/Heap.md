@@ -241,7 +241,7 @@ with insertions and deletions in O(logn).
 
   </details>
    
-   <details> <summary>  Code </summary>
+  <details> <summary>  Code </summary>
    
     <br/>
     
@@ -283,7 +283,7 @@ with insertions and deletions in O(logn).
     }
     ```
     
-   </details>
+  </details>
    
  
 ### Problem
