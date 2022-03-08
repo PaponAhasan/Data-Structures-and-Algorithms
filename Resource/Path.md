@@ -1,6 +1,7 @@
 * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
+* [Summer-Group-2021](https://github.com/crux-bphc/CC-Summer-Group-2021)
 * [CUET Syllabus](https://drive.google.com/file/d/1JGNeGPyzaLTuw_F1DxlldjMbXBxX-3fG/view?usp=sharing)
-
+* [Competitive Programmer’s Handbook](https://drive.google.com/file/d/1CSTWYKO5GxawqVAU2PNCFc3eeapngo1v/view?usp=sharing)
 ---
 
 * [Hackerearth DSA](https://www.hackerearth.com/practice/)
@@ -9,5 +10,11 @@
 * [Javatpoint DS](https://www.javatpoint.com/data-structure-tutorial) / [Javatpoint Algo](https://www.javatpoint.com/daa-tutorial)
 
 ---
+* [শাফায়েতের ব্লগ](https://www.shafaetsplanet.com/)
 * [ShahjalalShohag](https://github.com/PaponAhasan/Competitive-Programming-A-Complete-Guideline#what-is-competitive-programmingcp)
 * [CP-Algorithms](https://cp-algorithms.com/index.html)
+* [CodeChef_01](https://www.codechef.com/certification/data-structures-and-algorithms/prepare) / [CodeChef_02](https://drive.google.com/file/d/1gGmkLmIo8vetRUEOuyDgTANVSZCZ3HgevTm9T8tsG-R5smhfsJKsCVZsMB3u7KJ1cKM4XdNW-ZqVXZOE/view)
+* [Abinash's blog](https://codeforces.com/blog/entry/13529)
+
+---
+[log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
