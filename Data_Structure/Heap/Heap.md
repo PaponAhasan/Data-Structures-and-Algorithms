@@ -198,6 +198,28 @@ with insertions and deletions in O(logn).
     }
    ```
   </details>
+   
+---
+
+  <details> <summary>  Delete Element from Heap </summary>
+   
+   <br/>
+   
+   <details> <summary>  1. Select the element to be deleted. </summary>
+    <img src="https://user-images.githubusercontent.com/59710234/157140002-35c808c8-6075-43a2-bd42-43f5eaa44bd5.png" alt="image" border="0">
+   </details> 
+   <details> <summary>  2. Swap it with the last element. </summary>
+    <img src="https://user-images.githubusercontent.com/59710234/157141595-ac6d6d35-678c-4d48-8193-0e43a06f3281.png" alt="image" border="0">
+   </details>
+   <details> <summary>  3. Remove the last element. </summary>
+    <img src="https://user-images.githubusercontent.com/59710234/157141647-ad1cbae8-6e15-4a2f-be85-5fd745882dc5.png" alt="image" border="0">
+   </details> 
+   <details> <summary>  4. Heapify the tree. </summary>
+    <img src="https://user-images.githubusercontent.com/59710234/157141712-86e7a716-671b-44e8-b839-6b4a4dfa8aaa.png" alt="image" border="0">
+   </details> 
+  
+  </details> 
+   
  
 ### Problem
 
