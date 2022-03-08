@@ -221,7 +221,9 @@ with insertions and deletions in O(logn).
   
   </details>
    
-   <details> <summary>  Algorithm </summary>
+  <details> <summary>  Algorithm </summary>
+   
+   <br/>
    
     ```c++
     If nodeToBeDeleted is the leafNode
@@ -235,10 +237,8 @@ with insertions and deletions in O(logn).
     ```
     For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
     ```
-    
-   <br/>
-    
-   </details>
+
+  </details>
    
    <details> <summary>  Code </summary>
    
