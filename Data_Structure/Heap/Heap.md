@@ -322,6 +322,36 @@ void deleteNode(vector<int> &hT, int num)
  - Heap Sort
  ```
  
+<details> <summary>  Heap Sort </summary>
+ 
+<br/>
+ 
+ ```
+ Sort elements of array Arr in ascending order. We can use max heap to perform this operation.
+ ```
+ 
+ <details> <summary>  Implementation </summary>
+  
+  <br/>
+  
+  ```c++
+    void heap_sort(int Ar[ ])
+    {
+      int heap_size = N;
+      build_maxheap(Arr);
+      for(int i = N; i>=2 ; i-- )
+      {
+          swap|(Arr[ 1 ], Arr[ i ]);
+          heap_size = heap_size-1;
+          max_heapify(Arr, 1, heap_size);
+      }
+    }
+  ```
+  
+  </details>
+ 
+</details>
+ 
 ### Problem
 
 * [Hackerearth](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/)
