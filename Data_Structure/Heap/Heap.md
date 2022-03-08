@@ -384,6 +384,12 @@ void deleteNode(vector<int> &hT, int num)
     Therefore complexity of heap_sort function is O(N logN).
     
    </details>
+  
+   <details> <summary>  Code </summary>
+      
+   <br/>
+     https://ideone.com/bfilRR
+   </details>
  
 </details>
  
