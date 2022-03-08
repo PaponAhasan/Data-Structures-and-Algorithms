@@ -309,7 +309,9 @@ void deleteNode(vector<int> &hT, int num)
  
 </details>
  
-#### Full Code : https://ideone.com/xwzdbs <br/> https://ideone.com/QdWBnx
+#### Full Code
+ 
+ https://ideone.com/xwzdbs <br/> https://ideone.com/QdWBnx
 
 
 ### Heap Data Structure
