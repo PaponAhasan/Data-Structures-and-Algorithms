@@ -283,7 +283,7 @@ void deleteNode(vector<int> &hT, int num)
  
 </details> 
 
-### Full Code : https://ideone.com/xwzdbs
+#### Full Code : https://ideone.com/xwzdbs
  
 ### Problem
 
