@@ -132,7 +132,12 @@ with insertions and deletions in O(logn).
   <details> <summary> 2. Heapify the tree </summary>
       <img src="https://user-images.githubusercontent.com/59710234/157140002-35c808c8-6075-43a2-bd42-43f5eaa44bd5.png" alt="image" border="0">
   </details>
-  
+ 
+  ```
+  For Min Heap, the above algorithm is modified so that parentNode is always smaller than newNode.
+  ```
+ </details>
+ 
   <details> <summary> Algorithm </summary>
    
    ```c++
@@ -184,11 +189,6 @@ with insertions and deletions in O(logn).
     }
    ```
   </details>
-  
-  ```
-  For Min Heap, the above algorithm is modified so that parentNode is always smaller than newNode.
-  ```
- </details>
  
 ### Problem
 
