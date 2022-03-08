@@ -205,7 +205,7 @@ with insertions and deletions in O(logn).
    
 ---
 
-<details> <summary>  Delete Element from Heap </summary>
+<details> <summary>  Delete Element Heap </summary>
    
    <br/>
    
