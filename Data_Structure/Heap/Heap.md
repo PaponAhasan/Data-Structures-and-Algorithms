@@ -126,6 +126,8 @@ with insertions and deletions in O(logn).
  
  <details> <summary> Insert Element Heap </summary>
   
+  <br/>
+  
   <details> <summary> 1. Insert at the end </summary>
       <img src="https://user-images.githubusercontent.com/59710234/157139935-5c157940-cca9-4280-a87b-cb7a08bea85b.png" alt="image" border="0">
   </details>
