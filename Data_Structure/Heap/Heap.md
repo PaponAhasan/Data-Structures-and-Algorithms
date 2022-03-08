@@ -228,18 +228,18 @@ with insertions and deletions in O(logn).
    
    <br/>
    
-    ```c++
+    
     If nodeToBeDeleted is the leafNode
       remove the node
     Else swap nodeToBeDeleted with the lastLeafNode
       remove noteToBeDeleted
    
     heapify the array
-    ```
+   
     
-    ```
+   
     For Min Heap, above algorithm is modified so that both childNodes are greater smaller than currentNode.
-    ```
+   
 
  </details>
    
@@ -247,7 +247,7 @@ with insertions and deletions in O(logn).
    
     <br/>
     
-    ```c++
+    
     void heapify(vector<int> &hT, int i)
     {
       int size = hT.size();
@@ -283,7 +283,7 @@ with insertions and deletions in O(logn).
         heapify(hT, i);
       }
     }
-    ```
+  
     
 </details>
    
