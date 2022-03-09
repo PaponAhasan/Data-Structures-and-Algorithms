@@ -32,8 +32,8 @@ A : Simple solution to this problem is traverse the whole array A and check if t
 - We will consider worst case scenario i.e., when is not present in the array A. the if condition will run N times
   where A is the length of the array A.
 - So in the worst case, total execution time will be (N * c ) + c. N*c for the if condition and c for the return statement. 
-- As we can see that the total time depends on the length of the array A. If the length of the array will increase the time of execution 
-  will also increase.
+- As we can see that the total time depends on the length of the array A. If the length of the array will increase the time of 
+  execution will also increase.
 ```
 ### Different Notation of a Function
 ```
