@@ -29,3 +29,5 @@ There are two uses for dynamic programming:
    * Finding an optimal solution : You want to find a solution that is as large as possible or as small as possible.(Greedy)
    * Counting the number of solutions : You want to calculate the total number of possible solutions. (Combination)
 ```
+
+## Dynamic Programming Example
