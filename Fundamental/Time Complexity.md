@@ -90,5 +90,9 @@ wrong. Lets see why.
 
 ## Practice
 * [GFG](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
+* [Time & Space GFG](https://www.geeksforgeeks.org/time-complexity-and-space-complexity/?ref=rp)
+* [Space GFG](https://www.geeksforgeeks.org/g-fact-86/)
 * [Codechef](https://discuss.codechef.com/t/multiple-choice-questions-related-to-testing-knowledge-about-time-and-space-complexity-of-a-program/17976)
 * [InterviewBit](https://www.interviewbit.com/courses/programming/topics/time-complexity/#problems)
+* [Scanftree](https://scanftree.com/Data_Structure/time-complexity-and-space-complexity-comparison-of-sorting-algorithms)
+* [Bigocheatsheet](https://www.bigocheatsheet.com/?fbclid=IwAR3fLKNHE2eezeXu3rO7MA4dTK5lHSY7rPfSOYiU9_Zr6ExRK7Mjo_9MX8o)
