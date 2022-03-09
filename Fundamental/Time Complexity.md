@@ -96,3 +96,5 @@ wrong. Lets see why.
 * [InterviewBit](https://www.interviewbit.com/courses/programming/topics/time-complexity/#problems)
 * [Scanftree](https://scanftree.com/Data_Structure/time-complexity-and-space-complexity-comparison-of-sorting-algorithms)
 * [Bigocheatsheet](https://www.bigocheatsheet.com/?fbclid=IwAR3fLKNHE2eezeXu3rO7MA4dTK5lHSY7rPfSOYiU9_Zr6ExRK7Mjo_9MX8o)
+* [Time Complexity [V]](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn&fbclid=IwAR0kaAXKECS6iAP2kGUYf__X2j6_SS-c4yeq0dzjJvgBAyS8U-L4LBBwsPM)
+* [Time complexity in recursion [V]](https://www.youtube.com/watch?v=ncpTxqK35PI&fbclid=IwAR2a_OraRdPheSV0tDNcp5p10jswXgAHpYeowuZIMUjmB0ad0DBDnABdxxE)
