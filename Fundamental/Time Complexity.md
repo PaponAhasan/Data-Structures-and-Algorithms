@@ -6,7 +6,8 @@ memory limit.If your solution is logically 'correct', it may not meet these requ
 - Time complexity is the number of steps/operations your algorithm takes to finish executing a given input. 
 - Space complexity is the amount of space your algorithm can occupy when it runs on a given input.
 
-- Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input. 
+- Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the
+  input.
 - Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of
   the length of the input.
 ```
