@@ -7,8 +7,8 @@ memory limit.If your solution is logically 'correct', it may not meet these requ
 - Space complexity is the amount of space your algorithm can occupy when it runs on a given input.
 
 - Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input. 
-- Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the 
-  length of the input.
+- Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of
+  the length of the input.
 ```
 
 ```
@@ -78,6 +78,13 @@ wrong. Lets see why.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
 
+```
+- You can assume approximately 108 operations per second to run in time.
+- You can use approximately 5*10^7 ints worth of memory, 
+   be it through a single array of that size (say arr[10000000]), 
+   or multidimensional arrays (say arr[10000][1000]). 
+   Be wary that long long takes more space than int.
+```
 
 ## Practice
 * [GFG](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
