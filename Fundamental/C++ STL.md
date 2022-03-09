@@ -609,22 +609,24 @@
  
 </details>
 
+ 
 <details> <summary> Stack  </summary>
  
   
 </details>
 
+ 
 <details> <summary> Queue </summary>
  
   
 </details>
 
-<details> <summary> Priority_Queue </summary>
  
+<details> <summary> Priority_Queue </summary>
   
 </details>
 
+ 
 <details> <summary> Deque </summary>
  
-  
 </details>
