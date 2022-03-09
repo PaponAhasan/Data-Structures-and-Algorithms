@@ -2,7 +2,7 @@
 Dynamic programming, or DP, is an approach to solving problems through 'clever bruteforce'.
 ```
 
-<details> <summary> ### Brute Force </summary>
+###  <details> <summary> Brute Force </summary>
  
  <br/>
  
