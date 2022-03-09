@@ -1,5 +1,8 @@
 ```
 Dynamic programming, or DP, is an approach to solving problems through 'clever bruteforce'.
+It is a technique that combines the 
+- Correctness of complete search and (if at least one solution exists then the algorithm is guaranteed find a solution in a finite amount of time.)
+- The efficiency of greedy algorithms (Greedy algorithms try to find a localized optimum solution)
 ```
 
 <details> <summary> Brute Force </summary>
