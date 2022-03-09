@@ -47,21 +47,24 @@ O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 ```
 ### Example
 
-01.
 ```c++
+01.
+
 int count = 0;
 for (int i = 0; i < N; i++) 
     for (int j = 0; j < i; j++) 
         count++;
 ```
 ```
-Lets see how many times count++ will run. When i = 0, it will run 0 times. When i = 1, it will run 1 times. When i = 2, it will run 2 times and so
-on.
+Lets see how many times count++ will run. When i = 0, it will run 0 times. When i = 1, it will run 1 times. When i = 2, it will run
+2 times and so on.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404103-35e2c191-c831-4481-b4b0-1978046e09da.png)
 
-02.
+
 ```c++
+02.
+
 int count = 0;
 for (int i = N; i > 0; i /= 2) 
     for (int j = 0; j < i; j++) 
