@@ -3,6 +3,7 @@ Dynamic programming, or DP, is an approach to solving problems through 'clever b
 It is a technique that combines the 
 - Correctness of complete search and (if at least one solution exists then the algorithm is guaranteed find a solution in a finite amount of time.)
 - The efficiency of greedy algorithms (Greedy algorithms try to find a localized optimum solution)
+
 N.T : Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved independently.
 ```
 
