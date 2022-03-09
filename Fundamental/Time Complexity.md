@@ -42,6 +42,6 @@ A : Simple solution to this problem is traverse the whole array A and check if t
 - Θ-notation: To denote asymptotic tight bound. ( Θ(f(n) ) pronounced “big-theta of f of n”)
 
 We mostly consider O-notation because it will give us an upper limit of the execution time.
-f(N) = 2* N<sup>2</sup> + 3*N + 5 ; 
-O(f(N)) = O(2* N<sup>2</sup> + 3*N + 5) = O(N<sup>2</sup>)
+f(N) = 2*N^2 + 3*N + 5;
+O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 ```
