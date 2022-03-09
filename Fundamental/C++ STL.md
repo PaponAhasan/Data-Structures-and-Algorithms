@@ -136,7 +136,7 @@
   <br/>
   
   ```c++
-  #include <bits/stdc++.h>
+   #include <bits/stdc++.h>
    using namespace std;
 
    bool Pred (int a, int b) {
@@ -184,6 +184,7 @@
         complexity is O(1).*/
 
         s1.at(2); // s0 = “l”
+  
 
         /* ----------------------------------------------------------------
         begin(): Returns an iterator pointing to the first character. Its time complexity is O(1).*/
@@ -197,6 +198,7 @@
 
         for(it = s1.begin(); it != s1.end(); ++it)
         cout<<*it<<"\n";
+  
 
        /* ----------------------------------------------------------------
        rbegin()	This function returns a reverse iterator pointing at the end of the string.*/
@@ -204,11 +206,13 @@
        string::reverse_iterator it1;
        for (it1 = s1.rbegin(); it1 != s1.rend(); it++)
        cout << *it1<<"\n";
+  
 
        /* ----------------------------------------------------------------
        clear(): Erases all the contents of the string and assign an empty string (“”) of length zero. 
        Its time complexity is O(1).*/
        s0.clear();
+  
 
        /* ----------------------------------------------------------------
        compare(): Compares the value of the string with the string passed 
@@ -234,7 +238,8 @@
            cout << s1 << " is not equal to " << s2 << endl;
            if (s1 > s2) cout << s1 << " is greater than " << s2 << endl;
            else cout << s2 << " is greater than " << s1 << endl;
-       }      
+       }
+  
 
        /* ----------------------------------------------------------------
        copy(): Copies the substring of the string in the string passed as parameter 
@@ -252,6 +257,7 @@
         int a[5]={1,2,3,4,5};
         vector<int> v(5);
         copy(a,a+5,v.begin());
+  
 
        /* ----------------------------------------------------------------
        c_str(): Convert the string into C-style string (null terminated string) 
@@ -259,12 +265,14 @@
        // c_str returns null terminated char array version of string
        const char* charstr = s1.c_str();
        printf("%s\n", charstr);
+  
 
        /* ----------------------------------------------------------------
        empty(): Returns a boolean value, true if the string is empty and false 
        if the string is not empty. Its time complexity is O(1).*/
 
-        if(s1.empty()) cout << "string is empty";
+       if(s1.empty()) cout << "string is empty";
+  
 
        /* ----------------------------------------------------------------
        erase(): Deletes a substring of the string. Its time complexity is O(N) where N 
@@ -304,9 +312,10 @@
        it = find_end(s0.begin(), s0.end(), s1.begin(), s1.end(), Pred);
        cout << (it - s0.begin()) <<"\n";         
 
+  
        /* ----------------------------------------------------------------
        insert(): Inserts additional characters into the string at a particular position.
-        Its time complexity is O(N) where N is the size of the new string.*/
+       Its time complexity is O(N) where N is the size of the new string.*/
 
        //Inserts s0 in s1 starting; from 6th index of s1
        s0.insert(6, s1); //s0[0-5] + s1[6..s1.end()] + s0 [6..s0.end()]
@@ -324,11 +333,13 @@
        // Inserts s1.begin() + 5 ,  s1.end() - 6 at position s0.begin() + 6
        s0.insert(s0.begin() + 6, s1.begin() + 5 ,  s1.end() - 6);
 
+  
        /* ----------------------------------------------------------------
        length(): Returns the length of the string. Its time complexity is O(1).*/
 
        int len = s1.length(); 
 
+  
        /* ----------------------------------------------------------------
        replace(): Replaces the particular portion of the string. Its time complexity 
        is O(N) where N is size of the new string.*/
@@ -340,15 +351,16 @@
 
        replace_if(s0.begin(), s0.end(), "a", "b");
 
+  
        /* ----------------------------------------------------------------
-        resize(): Resize the string to the new length which can be less than or greater
-        than the current length. Its time complexity is O(N) where N is 
-        the size of the new string.*/
+       resize(): Resize the string to the new length which can be less than or greater
+       than the current length. Its time complexity is O(N) where N is 
+       the size of the new string.*/
 
-        // Resizes s0 to a string with 5 initial characters only 
-        s0.resize(5);
-        // Resizes str to character length of 15 and fill the space with '$'
-        s0.resize(15, '$'); //GeeksforGeeks$$
+       // Resizes s0 to a string with 5 initial characters only 
+       s0.resize(5);
+       // Resizes str to character length of 15 and fill the space with '$'
+       s0.resize(15, '$'); //GeeksforGeeks$$
 
        /* ----------------------------------------------------------------
        size(): Returns the length of the string. Its time complexity is O(1).*/
@@ -356,14 +368,14 @@
 
        /* ----------------------------------------------------------------
        substr(): Returns a string which is the copy of the substring. Its time
-        complexity is O(N) where N is the size of the substring.*/
+       complexity is O(N) where N is the size of the substring.*/
 
-        string r = s0.substr(1, 3);
+       string r = s0.substr(1, 3);
 
-        int pos = s0.find(":"); //"dog:cat"
-        //Copy substring after pos
-        string sub = s0.substr(pos + 1); //cat
-        string sub = s0.substr(0 , pos); //dog
+       int pos = s0.find(":"); //"dog:cat"
+       //Copy substring after pos
+       string sub = s0.substr(pos + 1); //cat
+       string sub = s0.substr(0 , pos); //dog
 
        /* ----------------------------------------------------------------
        front() and back() */
