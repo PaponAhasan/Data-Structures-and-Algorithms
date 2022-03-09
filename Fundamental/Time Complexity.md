@@ -77,3 +77,9 @@ This is a tricky case. In the first look, it seems like the complexity is O(N*lo
 wrong. Lets see why.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
+
+
+## Practice
+* [GFG](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
+* [Codechef](https://discuss.codechef.com/t/multiple-choice-questions-related-to-testing-knowledge-about-time-and-space-complexity-of-a-program/17976)
+* [InterviewBit](https://www.interviewbit.com/courses/programming/topics/time-complexity/#problems)
