@@ -603,7 +603,6 @@
           // inserts at the beginning of the list
           LI.emplace(it, 3, 'b');
      }
-     ```
  
 </details>
 
