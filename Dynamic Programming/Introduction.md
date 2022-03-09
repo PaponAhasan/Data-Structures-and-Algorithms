@@ -9,7 +9,7 @@ Dynamic programming, or DP, is an approach to solving problems through 'clever b
   ```
   A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given problem.
   ```
-  #### Disadvantages
+  ##### Disadvantages
   ```
   - It is an inefficient algorithm 
   - It is a very slow algorithm to find the correct solution
