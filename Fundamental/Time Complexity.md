@@ -8,7 +8,7 @@ memory limit.If your solution is logically 'correct', it may not meet these requ
 
 - Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input. 
 - Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the 
-length of the input.
+  length of the input.
 ```
 
 ```
@@ -34,4 +34,14 @@ A : Simple solution to this problem is traverse the whole array A and check if t
 - So in the worst case, total execution time will be (N * c ) + c. N*c for the if condition and c for the return statement. 
 - As we can see that the total time depends on the length of the array A. If the length of the array will increase the time of execution 
   will also increase.
+```
+### Different Notation of a Function
+```
+- O-notation: To denote asymptotic upper bound. ( O(f(n) ) pronounced “big-oh of f of n”) 
+- Ω-notation: To denote asymptotic lower bound. ( Ω(f(n) ) pronounced “big-omega of f of n”) 
+- Θ-notation: To denote asymptotic tight bound. ( Θ(f(n) ) pronounced “big-theta of f of n”)
+
+We mostly consider O-notation because it will give us an upper limit of the execution time.
+f(N) = 2* N<sup>2</sup> + 3*N + 5 ; 
+O(f(N)) = O(2* N<sup>2</sup> + 3*N + 5) = O(N<sup>2</sup>)
 ```
