@@ -14,4 +14,5 @@ Dynamic programming, or DP, is an approach to solving problems through 'clever b
   - It is a very slow algorithm to find the correct solution
   - The brute force algorithm is neither constructive nor creative
   ```
+ 
 </details>
