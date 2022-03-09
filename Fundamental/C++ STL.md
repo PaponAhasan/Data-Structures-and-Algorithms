@@ -603,9 +603,7 @@
      }
 
       ```
-      /*Forward List in C++ 
-        https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/
-       */
+      Forward List in C++ : https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/
  
 </details>
 
