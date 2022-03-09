@@ -128,7 +128,7 @@
 }
 
  ```
-
+ 
 </details>
 
  
@@ -416,22 +416,22 @@
 
    }
 
-  ```
+   ```
   
- </details>
+</details>
  
   
- <details> <summary> set </summary>
+<details> <summary> set </summary>
 
- </details>
+</details>
 
   
- <details> <summary> Map </summary>
+<details> <summary> Map </summary>
  
- </details>
+</details>
 
   
- <details> <summary> List </summary>
+<details> <summary> List </summary>
  
  <br/>
  
@@ -603,6 +603,9 @@
           // inserts at the beginning of the list
           LI.emplace(it, 3, 'b');
      }
+ ```
+ 
+ Forward List in C++ : https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/
  
 </details>
 
