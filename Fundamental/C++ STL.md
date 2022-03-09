@@ -128,9 +128,10 @@
 }
 
  ```
- 
+
 </details>
 
+ 
  <details> <summary> String </summary>
    
   <br/>
@@ -419,17 +420,18 @@
   
  </details>
  
-<details> <summary> set </summary>
- 
   
-</details>
+ <details> <summary> set </summary>
 
-<details> <summary> Map </summary>
- 
+ </details>
+
   
-</details>
+ <details> <summary> Map </summary>
+ 
+ </details>
 
-<details> <summary> List </summary>
+  
+ <details> <summary> List </summary>
  
  <br/>
  
@@ -601,27 +603,23 @@
           // inserts at the beginning of the list
           LI.emplace(it, 3, 'b');
      }
-
      ```
-      
  
 </details>
 
  
 <details> <summary> Stack  </summary>
  
-  
 </details>
 
  
 <details> <summary> Queue </summary>
  
-  
 </details>
 
  
 <details> <summary> Priority_Queue </summary>
-  
+ 
 </details>
 
  
