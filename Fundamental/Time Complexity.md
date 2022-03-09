@@ -72,4 +72,7 @@ for (int i = N; i > 0; i /= 2)
     for (int j = 0; j < i; j++) 
         count++;
 ```
+```
+This is a tricky case. In the first look, it seems like the complexity is O(N*logN). N for the j loop and logN for i loop. But its wrong. Lets see why.
+```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
