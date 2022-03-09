@@ -30,4 +30,23 @@ There are two uses for dynamic programming:
    * Counting the number of solutions : You want to calculate the total number of possible solutions. (Combination)
 ```
 
-## Dynamic Programming Example
+### Dynamic Programming Example
+```
+A fibonacci series is the sequence 0, 1, 1, 2, 3. Here, each number is the sum of the two preceding numbers.
+```
+```c++
+ Let n be the number of terms.
+
+ 1. If n <= 1, return 1.
+ 2. Else, return the sum of two preceding numbers.
+```
+```
+F(0) = 0
+F(1) = 1
+F(2) = F(1) + F(0)
+F(3) = F(2) + F(1)
+F(4) = F(3) + F(2)
+```
+```
+Here, we have used the results of the previous steps as shown below. This is called a dynamic programming approach.
+```
