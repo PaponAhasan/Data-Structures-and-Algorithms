@@ -8,8 +8,8 @@ memory limit.If your solution is logically 'correct', it may not meet these requ
 
 - Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the
   input.
-- Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of
-  the length of the input.
+- Similarly, Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function
+  of the length of the input.
 ```
 
 ```
