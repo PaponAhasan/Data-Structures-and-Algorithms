@@ -5,6 +5,7 @@ Dynamic programming, or DP, is an approach to solving problems through 'clever b
 <details> <summary> Brute Force </summary>
  
  <br/>
+ 
   ```
   A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given problem.
   ```
