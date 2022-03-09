@@ -1,4 +1,4 @@
-### Complexity
+## Complexity
 
 ```
 Time and space complexity analysis is an important part of problem solving. All programming problems have a time limit and a 
@@ -16,7 +16,7 @@ The Big-O notation is used to describe how an algorithm scales with the size of 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157398014-98fb33d3-0115-40b1-9dbc-b1347fc7a996.png)
 
-### Simple Example
+## Simple Example
 
 ```
 Q :  Suppose you are given an array A and an integer x and you have to find if x exists in array A.
@@ -35,7 +35,7 @@ A : Simple solution to this problem is traverse the whole array A and check if t
 - As we can see that the total time depends on the length of the array A. If the length of the array will increase the time of 
   execution will also increase.
 ```
-### Different Notation of a Function
+## Different Notation of a Function
 ```
 - O-notation: To denote asymptotic upper bound. ( O(f(n) ) pronounced “big-oh of f of n”) 
 - Ω-notation: To denote asymptotic lower bound. ( Ω(f(n) ) pronounced “big-omega of f of n”) 
