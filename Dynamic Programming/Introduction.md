@@ -1,3 +1,5 @@
+### DP
+
 ```
 Dynamic programming, or DP, is an approach to solving problems through 'clever bruteforce'.
 It is a technique that combines the 
