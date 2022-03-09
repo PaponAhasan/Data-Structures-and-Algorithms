@@ -79,6 +79,7 @@ wrong. Lets see why.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
 
+### N.T
 ```
 - You can assume approximately 10^8 operations per second to run in time.
 - You can use approximately 5*10^7 int worth of memory, 
