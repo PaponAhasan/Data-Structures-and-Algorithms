@@ -431,7 +431,182 @@
 
 <details> <summary> List </summary>
  
-  
+ <br/>
+ 
+ ```c++
+      #include <iostream>
+      #include<list>
+
+      using namespace std;
+      int main()
+      {
+          list <int> LI;
+          list<int> LI(5, 100);
+          list<int> LI1 = { 10, 20, 30, 40, 50 };
+
+          /*
+          begin( ): It returns an iterator pointing to the first element in list.Its time complexity is O(1).
+          end( ): It returns an iterator referring to the theoretical element(doesn’t point to an element) which follows the last element.Its time complexity is O(1).*/
+          for (auto it = LI.begin(); it != LI.end(); ++it) cout<< *it;
+
+
+          /*rbegin() is an inbuilt function in C++ STL that returns a reverse iterator which points to the last element of the list.*/
+          /*rend() is an inbuilt function in C++ STL that returns a reverse iterator which points to the position before the beginning of the list.*/
+          *LI.crbegin();
+          *LI.crend();
+          for (auto it = LI.rbegin(); it != LI.rend(); ++it) cout << *it;
+
+
+          /*
+          empty( ): It returns whether the list is empty or not.It returns 1 if the list is empty otherwise returns 0.Its time complexity is O(1).*/
+          LI.empty();
+
+
+          /*
+          assign( ): It assigns new elements to the list by replacing its current elements and change its size accordingly.It time complexity is O(N).*/
+           LI.assign(5, 100);
+           LI.assign(LI.begin(),LI.end());
+
+
+          /*
+          back( ): It returns reference to the last element in the list.Its time complexity is O(1).*/
+          LI.back();
+
+
+          /*
+          front( ): It returns reference to the first element in the list.Its time complexity is O(1).*/
+          LI.front();
+
+
+          /*
+          erase( ): It removes a single element or the range of element from the list.Its time complexity is O(N).*/
+          list<int>::iterator it = LI.begin();
+          // deleting the first element
+          LI.erase(it);
+
+          list<int>::iterator itr1, itr2;
+          itr1 = LI.begin();
+          itr2 = LI.begin();
+          // Incrementing itr2 by 3 positions
+          advance(itr2, 3);
+          // deleting range of elements from index [0, 3)
+          LI.erase(itr1, itr2);
+
+
+          /*
+          push_back( ): It adds a new element at the end of the list, after its current last element. Its time complexity is O(1).*/
+          LI.push_back(2);
+
+
+          /*
+          push_front( ): It adds a new element at the beginning of the list, before its current first element. Its time complexity is O(1).*/
+          LI.push_front(3);
+
+
+          /*
+          remove( ): It removes all the elements from the list, which are equal to given element. Its time complexity is O(N).*/
+          // delete all elements with value 20
+          LI.remove(20);
+
+          list<int> LI{ 1, 2, 2, 2, 5, 6, 7 };
+          //LI.remove_if(even); // bool even(const int& value) { return (value % 2) == 0; }
+
+
+          /*
+          pop_back( ): It removes the last element of the list, thus reducing its size by 1. Its time complexity is O(1).*/
+          LI.pop_back();
+
+
+          /*
+          pop_front( ): It removes the first element of the list, thus reducing its size by 1. Its time complexity is O(1).*/
+          LI.pop_front();
+
+
+          /*
+          insert( ): It insert new elements in the list before the element on the specified position. Its time complexity is O(N).*/
+          list<int>::iterator it = LI.begin();
+          // iterator to point to 3rd position
+          advance(it, 2);
+          // using insert to insert 1 element at the 3rd position
+          // inserts 5 at 3rd position
+          LI.insert(it, 5);
+
+          // inserts 2 occurrences of 7 at 3th position
+          LI.insert(it, 2, 7);
+
+
+          /*
+          reverse ( ): It reverses the order of elements in the list. Its time complexity is O(N).*/
+          LI.reverse();
+
+
+          /*
+          size( ): It returns the number of elements in the list. Its time complexity is O(1).*/
+          LI.size();
+
+
+          /*sort() function is used to sort the elements of the container by changing their positions.*/
+          LI.sort();
+
+
+          /*unique() is an inbuilt function in C++ STL which removes all duplicate consecutive elements from the list. 
+          It works only on sorted list.*/
+          LI.sort();
+          LI.unique();
+
+
+          /*
+          emplace_front() This function is used to insert a new element into the list container, the new element is added to the beginning of the list.*/
+          LI.emplace_front(6);
+
+
+          /*
+          emplace_back() This function is used to insert a new element into the list container, the new element is added to the end of the list.*/
+          LI.emplace_back(6);
+
+
+          /*
+          splice() is a built-in function in C++ STL which is used to transfer elements from one list to another.*/
+          // transfer all the elements of LI1
+          LI.splice(LI.begin(), LI1);
+
+          // Iterator pointing to 4
+          auto it = LI1.begin();
+          // transfer 4 at the end of LI
+          LI.splice(LI.end(), LI1, it);
+
+
+          it = LI1.begin();
+          // advance the iterator by 2 positions
+          advance(it, 2);
+          // transfer at the beginning of LI
+          LI.splice(LI.begin(), LI1, it, LI1.end());
+
+
+          /*
+          merge() is an inbuilt function in C++ STL which merges two sorted lists into one. */
+          LI.merge(LI1);
+
+          //LI.merge(LI1, comparator); //bool comparator(int first, int second){return first < second;}
+
+
+          /*
+          emplace() is a built-in function in C++ STL which extends list by inserting new element at a given position.*/
+          auto it = LI.emplace(LI.begin(), 2);
+          LI.emplace(it, 1);
+
+          list<pair<int, char> > lis;
+          // inserts at the beginning of the list
+          auto it = lis.emplace(lis.begin(), 4, 'a');
+          // inserts at the beginning of the list
+          LI.emplace(it, 3, 'b');
+     }
+
+      ```
+      /*Forward List in C++ 
+        https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/
+       */
+ 
 </details>
 
 <details> <summary> Stack  </summary>
