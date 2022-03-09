@@ -14,7 +14,7 @@ N.T : Dynamic programming can be applied if the problem can be divided into over
   ```
   A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given problem.
   ```
-  ##### Disadvantages
+  ###### Disadvantages
   ```
   - It is an inefficient algorithm 
   - It is a very slow algorithm to find the correct solution
