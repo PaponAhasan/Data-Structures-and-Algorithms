@@ -45,3 +45,14 @@ Sum[L..R] = PreSum[R] { If L=0 }
 ```
 - [JAVAAID - Coding Interview Preparation 01](https://www.youtube.com/watch?v=scD312I7kkE&list=RDCMUCx1hbK753l3WhwXP5r93eYA&index=2)
 - [JAVAAID - Coding Interview Preparation 02](https://www.youtube.com/watch?v=pVS3yhlzrlQ)
+
+### Problem
+* [codeforces](https://codeforces.com/blog/entry/59915)
+* [usaco.guide](https://usaco.guide/silver/prefix-sums/#1d-prefix-sums)
+* [codechef](https://www.codechef.com/problems/UNQEQ)
+* [Spoj CSUM](https://www.spoj.com/problems/CSUMQ/)
+* [Leetcode 560](https://leetcode.com/problems/subarray-sum-equals-k/)
+* [Leetcode 523](https://leetcode.com/problems/continuous-subarray-sum/)
+* [Leetcode 1248](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+* [Leetcode 1477](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+* [CF 1118B](https://codeforces.com/contest/1118/problem/B)
