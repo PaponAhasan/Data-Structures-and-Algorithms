@@ -19,3 +19,12 @@ The prefix sums corresponding to A will be: PreSum[] = {1,4,8,13,15,22,30,41}
 Prefix sum operations can be generalized to any binary operator ⊕. Prefix sum operation takes a sequence of n elements [a0, a1,..
 ..., an] and returns a sequence [a0, (a0 ⊕ a1) , ... , (a0 ⊕ a1 ⊕ a2 ... ⊕ an) ] containing the prefix sums.
 ```
+### Pseudocode for calculating prefix sums
+```c++
+A is a sequence containing n elements
+
+PreSum[0] = A[0]
+
+for i=1 to n-1
+    PreSum[i] = PreSum[i-1] + A[i]
+```
