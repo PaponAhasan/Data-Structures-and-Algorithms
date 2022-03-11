@@ -40,7 +40,7 @@ Sum[L..R] = PreSum[R] { If L=0 }
 ### Analysis of Algorithm
 ```
 - To calculate prefix sum array of n size array -  Time Complexity: O(n)
-- Time take to perform range sum query is - Time Complexity: O(n)
+- Time take to perform range sum query is - Time Complexity: O(1)
 ```
 - [JAVAAID - Coding Interview Preparation 01](https://www.youtube.com/watch?v=scD312I7kkE&list=RDCMUCx1hbK753l3WhwXP5r93eYA&index=2)
 - [JAVAAID - Coding Interview Preparation 02](https://www.youtube.com/watch?v=pVS3yhlzrlQ)
