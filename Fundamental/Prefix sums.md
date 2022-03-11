@@ -30,7 +30,8 @@ for i=1 to n-1
 ```
 ```
 Prefix sums can be used to calculate the sum of elements in a given range.
-If we wish to find out the sum of values between [L...R]. We can obtain the sum by subtracting the prefix sum PreSum[R] by PreSum[L-1].
+If we wish to find out the sum of values between [L...R]. We can obtain the sum by subtracting the prefix sum PreSum[R] 
+by PreSum[L-1].
 ```
 ```c++
 Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
