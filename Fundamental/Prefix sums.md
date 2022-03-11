@@ -37,6 +37,7 @@ by PreSum[L-1].
 Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
 Sum[L..R] = PreSum[R] { If L=0 }
 ```
+### Code : https://pastebin.com/7JsvrzrB
 ### Analysis of Algorithm
 ```
 - To calculate prefix sum array of n size array -  Time Complexity: O(n)
