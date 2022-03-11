@@ -26,14 +26,14 @@ A is a sequence containing n elements
 prefix[0] = A[0]
 
 for i=1 to n-1
-    prefix[i] = prefix[i-1] + A[i]
+    PreSum[i] = PreSum[i-1] + A[i]
 ```
 ```
 Prefix sums can be used to calculate the sum of elements in a given range.
-If we wish to find out the sum of values between [L...R]. We can obtain the sum by subtracting the prefix sum prefix[R] 
-by prefix[L-1].
+If we wish to find out the sum of values between [L...R]. We can obtain the sum by subtracting the prefix sum PreSum[R] 
+by PreSum[L-1].
 ```
 ```c++
-Sum[L..R] = prefix[R] - prefix[L-1] { If L!=0 }
-Sum[L..R] = prefix[R] { If L=0 }
+Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
+Sum[L..R] = PreSum[R] { If L=0 }
 ```
