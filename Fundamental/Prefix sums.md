@@ -19,7 +19,7 @@ The prefix sums corresponding to A will be: PreSum[] = {1,4,8,13,15,22,30,41}
 Prefix sum operations can be generalized to any binary operator ⊕. Prefix sum operation takes a sequence of n elements [a0, a1,..
 ..., an] and returns a sequence [a0, (a0 ⊕ a1) , ... , (a0 ⊕ a1 ⊕ a2 ... ⊕ an) ] containing the prefix sums.
 ```
-### Pseudocode
+#### Pseudocode
 ```c++
 A is a sequence containing n elements
 
@@ -37,7 +37,7 @@ by PreSum[L-1].
 Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
 Sum[L..R] = PreSum[R] { If L=0 }
 ```
-### Code
+#### Code
 https://pastebin.com/7JsvrzrB <br/>
 https://pastebin.com/a09xCDGw (Prefix Sums 2D from 1D) <br/>
 https://pastebin.com/Yezy0Lkb (Prefix Sums 2D recurrent) <br/>
@@ -49,7 +49,7 @@ https://pastebin.com/Yezy0Lkb (Prefix Sums 2D recurrent) <br/>
 - [JAVAAID - Coding Interview Preparation 01](https://www.youtube.com/watch?v=scD312I7kkE&list=RDCMUCx1hbK753l3WhwXP5r93eYA&index=2)
 - [JAVAAID - Coding Interview Preparation 02](https://www.youtube.com/watch?v=pVS3yhlzrlQ)
 
-### Problem
+#### Problem
 * [codeforces](https://codeforces.com/blog/entry/59915)
 * [usaco.guide](https://usaco.guide/silver/prefix-sums/#1d-prefix-sums)
 * [codechef](https://www.codechef.com/problems/UNQEQ)
