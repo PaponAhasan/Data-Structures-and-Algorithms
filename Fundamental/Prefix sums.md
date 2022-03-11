@@ -37,5 +37,5 @@ by PreSum[L-1].
 Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
 Sum[L..R] = PreSum[R] { If L=0 }
 ```
-[JAVAAID - Coding Interview Preparation 01](https://www.youtube.com/watch?v=scD312I7kkE&list=RDCMUCx1hbK753l3WhwXP5r93eYA&index=2)
-[JAVAAID - Coding Interview Preparation 02](https://www.youtube.com/watch?v=pVS3yhlzrlQ)
+- [JAVAAID - Coding Interview Preparation 01](https://www.youtube.com/watch?v=scD312I7kkE&list=RDCMUCx1hbK753l3WhwXP5r93eYA&index=2)
+- [JAVAAID - Coding Interview Preparation 02](https://www.youtube.com/watch?v=pVS3yhlzrlQ)
