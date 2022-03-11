@@ -10,5 +10,5 @@ PreSum2 = a0 + a1 + a2 = PreSum1 + a2
 . . .
 . . .
 . . .
-PreSumn=PreSumn-1+an
+PreSumn  =PreSumn -1 + an
 ```
