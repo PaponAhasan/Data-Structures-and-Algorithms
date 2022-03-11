@@ -3,3 +3,13 @@
 ```Given an array``` `A` ```of``` `n` ```elements, prefix sums are a very powerful technique that allows you to calculate the sum of any range of elements``` `[l, r]` ```for``` `1 <= l <= r <= n` ```in``` `O(1)` ```constant time with the help of``` `O(n)` ```pre-processing.```
 
 ```The trick is to pre-calculate in another array``` `prefix` ```, of cumulative sums, such that for each``` `i` ```from``` `1 to n`, `prefix[i]` ```stores the sum``` `a[1] + a[2] + ... + a[i]` ```. Then, the sum of elements in the range``` `[l,r]` ```can be easily found out as``` `prefix[r] - prefix[l-1].`
+
+```
+PreSum0 = a0
+PreSum1 = a0 + a1 = PreSum0 + a1
+PreSum2 = a0 + a1 + a2 = PreSum1 + a2
+. . .
+. . .
+. . .
+PreSumn=PreSumn-1+an
+```
