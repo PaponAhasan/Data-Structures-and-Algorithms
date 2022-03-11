@@ -58,3 +58,6 @@ https://pastebin.com/Yezy0Lkb (Prefix Sums 2D recurrent)
 * [Leetcode 1248](https://leetcode.com/problems/count-number-of-nice-subarrays/)
 * [Leetcode 1477](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 * [CF 1118B](https://codeforces.com/contest/1118/problem/B)
+
+https://www.geeksforgeeks.org/calculate-sum-of-bitwise-and-of-all-pairs/
+https://www.geeksforgeeks.org/sum-of-xor-of-all-subarrays/
