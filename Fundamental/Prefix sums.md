@@ -38,6 +38,8 @@ Sum[L..R] = PreSum[R] - PreSum[L-1] { If L!=0 }
 Sum[L..R] = PreSum[R] { If L=0 }
 ```
 ### Code : https://pastebin.com/7JsvrzrB
+https://pastebin.com/a09xCDGw (Prefix Sums 2D from 1D)
+https://pastebin.com/Yezy0Lkb (Prefix Sums 2D recurrent)
 ### Analysis of Algorithm
 ```
 - To calculate prefix sum array of n size array -  Time Complexity: O(n)
