@@ -10,7 +10,7 @@ PreSum2 = a0 + a1 + a2 = PreSum1 + a2
 . . .
 . . .
 . . .
-PreSumN  =PreSumN -1 + aN
+PreSumN  = PreSumN - 1 + aN
 
 For example: A[] = {1,3,4,5,2,7,8,11}
 The prefix sums corresponding to A will be: PreSum[] = {1,4,8,13,15,22,30,41}
