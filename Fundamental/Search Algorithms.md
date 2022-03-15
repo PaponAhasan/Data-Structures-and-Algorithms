@@ -8,3 +8,6 @@ introduce two faster searching algorithms :
 ```
 
 ## Binary Search
+```
+Binary Search is used to search in sorted values in logarithmic time.
+```
