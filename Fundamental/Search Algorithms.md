@@ -20,5 +20,7 @@ the possible range [1,2e9]
 [C. Maximum Median](https://codeforces.com/contest/1201/problem/C)
 
 ![image](https://user-images.githubusercontent.com/59710234/158400788-ef8cbbc6-a6b6-483d-9667-41e5f366a67d.png)
+  
+[Solution Code](https://ideone.com/LeqozV)  
 
 
