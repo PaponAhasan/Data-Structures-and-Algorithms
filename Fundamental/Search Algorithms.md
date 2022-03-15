@@ -10,5 +10,6 @@ introduce two faster searching algorithms :
 ## Binary Search
 ```
 Binary search is an efficient algorithm for finding an item from a sorted list of items. Binary Search is used to search in sorted
-values in logarithmic time. It works by repeatedly dividing in half the portion of the list.
+values in logarithmic time. It works by repeatedly dividing in half the portion of the list. You may binary search the answer over 
+the possible range [1,2e9]
 ```
