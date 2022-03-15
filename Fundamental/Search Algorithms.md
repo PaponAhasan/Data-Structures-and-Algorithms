@@ -23,4 +23,10 @@ the possible range [1,2e9]
   
 [Solution Code](https://ideone.com/LeqozV)  
 
-
+### Problems
+* [Codeforces 706B](https://codeforces.com/problemset/problem/706/B)
+* [Codeforces 1187B](https://codeforces.com/contest/1187/problem/B)
+* [Codeforces 1208B](https://codeforces.com/contest/1208/problem/B)
+* [Codeforces 812C](https://codeforces.com/contest/812/problem/C)
+* [Codeforces 269B](https://codeforces.com/contest/269/problem/B)
+* [Codeforces 118D2](https://codeforces.com/contest/1118/problem/D2)
