@@ -640,7 +640,7 @@
  ---
  
 <details>
-<summary>Problems</summary>
+<summary>PROBLEMS</summary>
 <br/>
 <ul>
     <li><a href="https://hackerrank.com/domains/cpp/stl">Hackerrank STL</a></li>
