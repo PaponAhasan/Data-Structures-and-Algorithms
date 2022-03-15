@@ -1,3 +1,9 @@
+<details> <summary> DSA LIST </summary>
+  
+ * [log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
+* [Algorithm List and Technique List](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%20and%20Programming%20Technique%20Link.md)
+  
+</details>
 * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
 * [Summer-Group-2021](https://github.com/crux-bphc/CC-Summer-Group-2021)
 * [Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics)
@@ -24,8 +30,7 @@
 * [বাংলায় প্রোগ্রামিং রিসোর্সসমূহ](https://github.com/me-shaon/bangla-programming-resources)
 
 ---
-* [log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
-* [Algorithm List and Technique List](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%20and%20Programming%20Technique%20Link.md)
+
 
 ---
 * [CSES](https://cses.fi/problemset/)
