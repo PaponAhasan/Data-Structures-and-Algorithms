@@ -13,6 +13,7 @@ Binary search is an efficient algorithm for finding an item from a sorted list o
 values in logarithmic time. It works by repeatedly dividing in half the portion of the list. You may binary search the answer over 
 the possible range [1,2e9]
 ```
+
 <details> <summary> Try Problem </summary> 
 
   <br/>
@@ -22,7 +23,9 @@ the possible range [1,2e9]
 ![image](https://user-images.githubusercontent.com/59710234/158400788-ef8cbbc6-a6b6-483d-9667-41e5f366a67d.png)
   
 [Solution Code](https://ideone.com/LeqozV)  
-
+  
+<details/>
+  
 ### Problems
 * [Codeforces 706B](https://codeforces.com/problemset/problem/706/B)
 * [Codeforces 1187B](https://codeforces.com/contest/1187/problem/B)
