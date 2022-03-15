@@ -18,6 +18,7 @@ Try Problem
 [C. Maximum Median](https://codeforces.com/contest/1201/problem/C)
 
 ```Sort the array in non-decreasing order. In the new array b1,b2,…,bn you can make binary search with the maximum median value.For a given median value (x), it is required to make```![image](https://user-images.githubusercontent.com/59710234/158398873-dd2d25c8-27a2-4f63-b9e3-ee1349c8061e.png)``` operations. If this value is more than k, x can't be median, otherwise it can. Time complexity: O((n/2)⋅log(10^9))```
+
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <munderover>
     <mo>&#x2211;<!-- ∑ --></mo>
