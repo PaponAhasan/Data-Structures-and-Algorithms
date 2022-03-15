@@ -19,40 +19,4 @@ Try Problem
 
 ```Sort the array in non-decreasing order. In the new array b1,b2,…,bn you can make binary search with the maximum median value.For a given median value (x), it is required to make```![image](https://user-images.githubusercontent.com/59710234/158398873-dd2d25c8-27a2-4f63-b9e3-ee1349c8061e.png)``` operations. If this value is more than k, x can't be median, otherwise it can. Time complexity: O((n/2)⋅log(10^9))```
 
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-  <munderover>
-    <mo>&#x2211;<!-- ∑ --></mo>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mi>i</mi>
-      <mo>=</mo>
-      <mo stretchy="false">(</mo>
-      <mi>n</mi>
-      <mo>+</mo>
-      <mn>1</mn>
-      <mo stretchy="false">)</mo>
-      <mrow class="MJX-TeXAtom-ORD">
-        <mo>/</mo>
-      </mrow>
-      <mn>2</mn>
-    </mrow>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mi>n</mi>
-    </mrow>
-  </munderover>
-  <mi>m</mi>
-  <mi>a</mi>
-  <mi>x</mi>
-  <mrow class="MJX-TeXAtom-ORD">
-    <mo>&#x2061;</mo>
-  </mrow>
-  <mo stretchy="false">(</mo>
-  <mn>0</mn>
-  <mo>,</mo>
-  <mi>x</mi>
-  <mo>&#x2212;<!-- − --></mo>
-  <msub>
-    <mi>b</mi>
-    <mi>i</mi>
-  </msub>
-  <mo stretchy="false">)</mo>
-</math>
+\sum_{i=(n+1)/2}^{n} max⁡(0,x-b_i)
