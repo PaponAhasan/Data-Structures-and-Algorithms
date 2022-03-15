@@ -7,6 +7,8 @@
   
 </details>
 
+--
+
 <details> <summary> DSA BASIC </summary>
   
  <br/>
@@ -21,6 +23,8 @@
   
 </details>
 
+--
+
 <details> <summary> DSA WEBSITE </summary>
   
  <br/>
@@ -33,6 +37,8 @@
 * [Studytonight](https://www.studytonight.com/data-structures/introduction-to-sorting)
 
 </details>
+
+--
 
 <details> <summary> DSA ADVANCED </summary>
   
@@ -50,6 +56,7 @@
   
 </details>
 
+--
 
 <details> <summary> DSA PRACTICE PROBLEM </summary>
   
