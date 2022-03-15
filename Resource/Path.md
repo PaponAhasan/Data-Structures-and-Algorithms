@@ -7,7 +7,7 @@
   
 </details>
 
---
+---
 
 <details> <summary> DSA BASIC </summary>
   
@@ -23,7 +23,7 @@
   
 </details>
 
---
+---
 
 <details> <summary> DSA WEBSITE </summary>
   
@@ -38,7 +38,7 @@
 
 </details>
 
---
+---
 
 <details> <summary> DSA ADVANCED </summary>
   
@@ -56,7 +56,7 @@
   
 </details>
 
---
+---
 
 <details> <summary> DSA PRACTICE PROBLEM </summary>
   
