@@ -1,4 +1,4 @@
-<details> <summary> Vector </summary>
+<details> <summary> VECTOR </summary>
  
  <br/>
  
@@ -131,8 +131,9 @@
  
 </details>
 
+ ---
  
- <details> <summary> String </summary>
+ <details> <summary> STRING </summary>
    
   <br/>
   
@@ -420,18 +421,21 @@
   
 </details>
  
+ ---
   
-<details> <summary> set </summary>
+<details> <summary> SET </summary>
 
 </details>
 
+  ---
   
-<details> <summary> Map </summary>
+<details> <summary> MAP </summary>
  
 </details>
 
+  ---
   
-<details> <summary> List </summary>
+<details> <summary> LIST </summary>
  
  <br/>
  
@@ -609,26 +613,32 @@
  
 </details>
 
+ ---
  
-<details> <summary> Stack  </summary>
- 
-</details>
-
- 
-<details> <summary> Queue </summary>
+<details> <summary> STACK  </summary>
  
 </details>
 
+ ---
  
-<details> <summary> Priority_Queue </summary>
- 
-</details>
-
- 
-<details> <summary> Deque </summary>
+<details> <summary> QUEUE </summary>
  
 </details>
 
+---
+ 
+<details> <summary> PRIORITY_QUEUE </summary>
+ 
+</details>
+
+---
+ 
+<details> <summary> DEQUE </summary>
+ 
+</details>
+
+ ---
+ 
 <details>
 <summary>Problems</summary>
 <br/>
