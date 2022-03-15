@@ -14,9 +14,9 @@ values in logarithmic time. It works by repeatedly dividing in half the portion 
 the possible range [1,2e9]
 ```
 
-<details> <summary> Try Problem </summary> 
+<details> <summary> Try Problem </summary>
 
-  <br/>
+ <br/>
   
 [C. Maximum Median](https://codeforces.com/contest/1201/problem/C)
 
@@ -24,7 +24,7 @@ the possible range [1,2e9]
   
 [Solution Code](https://ideone.com/LeqozV)  
   
-<details/>
+</details>
   
 ### Problems
 * [Codeforces 706B](https://codeforces.com/problemset/problem/706/B)
