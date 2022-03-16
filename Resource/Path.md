@@ -73,6 +73,7 @@
 * [Learning Camps](https://www.codechef.com/learning?itm_medium=navmenu&itm_campaign=learncp)
 * [Practice](https://www.codechef.com/practice?page=0&limit=20&sort_by=difficulty_rating&sort_order=asc&search=&start_rating=1200&end_rating=1399&topic=)
 * [CSES problemset](https://cses.fi/problemset/list/)
+* [CodeChef Youtube](https://www.youtube.com/c/CodeChef1/playlists)
   
 </details>
 
