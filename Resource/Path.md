@@ -13,7 +13,7 @@
   
  <br/>
 
- * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
+* [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
 * [Summer-Group-2021](https://github.com/crux-bphc/CC-Summer-Group-2021)
 * [Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics)
 * [CUET Syllabus](https://drive.google.com/file/d/1JGNeGPyzaLTuw_F1DxlldjMbXBxX-3fG/view?usp=sharing)
@@ -52,6 +52,8 @@
 * [Abinash's blog](https://codeforces.com/blog/entry/13529)
 * [Algorithm and programming Technique list](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%2C%20Data%20Structure%20Programming%20Technique%20List%20with%20LINKS.md)
 * [বাংলায় প্রোগ্রামিং রিসোর্সসমূহ](https://github.com/me-shaon/bangla-programming-resources)
+* [CodeChef DSA](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
+* [Programming Camp Syllabus](https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit)
   
   
 </details>
