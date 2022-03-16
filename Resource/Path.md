@@ -3,7 +3,8 @@
   <br/>
   
  * [log2base2](https://log2base2.com/dsa?utm_src=youtube&utm_target=ydsarecall&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd29WxR72bpTKnwUWsdIBt0xJ84vPB5ltV5lqpFyiI5DNji8-QSXdAaAjDLEALw_wcB)
-* [Algorithm List and Technique List](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%20and%20Programming%20Technique%20Link.md)
+ * [Algorithm List and Technique List](https://github.com/hasancse91/Programming-Problem-In-Bengali/blob/master/Algorithm%20and%20Programming%20Technique%20Link.md)
+ * [Algorithms required to solve all problems](https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest)
   
 </details>
 
@@ -73,10 +74,10 @@
 * [CC/CSES/](https://github.com/the-hyp0cr1t3/CC/tree/master/CSES)
 * [Codechef 3to4star](https://www.codechef.com/learning/3to4star/register)
 * [Learning Camps](https://www.codechef.com/learning?itm_medium=navmenu&itm_campaign=learncp)
-* [Practice](https://www.codechef.com/practice?page=0&limit=20&sort_by=difficulty_rating&sort_order=asc&search=&start_rating=1200&end_rating=1399&topic=)
 * [CSES problemset](https://cses.fi/problemset/list/)
 * [CodeChef Youtube](https://www.youtube.com/c/CodeChef1/playlists)
 * [Codechef Practice](https://www.codechef.com/practice?page=0&limit=20&sort_by=difficulty_rating&sort_order=asc&search=&start_rating=0&end_rating=999&topic=Binary+Search)
+* [AtCoder Problems](https://kenkoooo.com/atcoder#/table//)
   
 </details>
 
