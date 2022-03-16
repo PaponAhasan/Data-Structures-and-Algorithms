@@ -22,7 +22,9 @@ Here's a quick rundown on how to get better at coding, which will eventually tur
 5. Don’t look at the standings during contest time.
 
 https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view
+
 https://codeforces.com/blog/entry/53341
+
 https://codeforces.com/blog/entry/66909
 
 
