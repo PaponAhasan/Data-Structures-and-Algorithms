@@ -1,4 +1,4 @@
-Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , 
+Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
 
 implementation, sorting, greedy
