@@ -13,6 +13,13 @@ Bitmasks,
 Dijkstra,
 Dijkstra,
 
+https://www.codechef.com/learning/?itm_medium=hpbanner_4&itm_campaign=CC_Learning_Camps
+
+---
+
+ z-algorithm, Segment tree, binary search, some graph algos, different sorts of DP, sqrt-decomposition and DSU.
+ BIT, segment tree, two pointers, implementation, graph algorithms, dp, strings math, binary search
+ 
 ---
 If you rating is steadily going down, doesn't mean you haven't been improving; it just means relative to others you haven't been doing as well. So don't give up hope just yet. 
 Here's a quick rundown on how to get better at coding, which will eventually turn into an increase in rating.
@@ -29,7 +36,3 @@ https://codeforces.com/blog/entry/53341
 
 https://codeforces.com/blog/entry/66909
 
----
-
- z-algorithm, Segment tree, binary search, some graph algos, different sorts of DP, sqrt-decomposition and DSU.
- BIT, segment tree, two pointers, implementation, graph algorithms, dp, strings math, binary search
