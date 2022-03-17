@@ -2,6 +2,7 @@ Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( excep
 Binary Search , usage of STLs, Number theory and math.
 
 implementation, sorting, greedy
+brute force    constructive algorithms    graphs    implementation, Math, Disjoint Set Union 
 
 Brute force(Binary Indexed Tree),
 DP(nCr, nPr),
