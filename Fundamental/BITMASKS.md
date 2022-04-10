@@ -1,7 +1,7 @@
 https://codeforces.com/blog/entry/18169
 
 ```c++
-int highest_L0_bit(unsigned x) {
+    int highest_L0_bit(unsigned x) {
         // count the number of leading zero’s
         return x == 0 ? -1 : 31 - __builtin_clz(x);
     }
