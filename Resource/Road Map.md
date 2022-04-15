@@ -13,6 +13,22 @@ Bitmasks,
 Dijkstra,
 Dijkstra,
 
+Time Complexity Analysis
+Breadth and Depth first search
+Binary Search
+Dijkstra's Algorithm
+Greedy Algorithm
+Dynamic Programming
+Divide and Conquer
+Common DS - Binary Search Tree,Priority Queues,Hash Tables
+
+Mathematics :
+Basic Number Theory : Prime Factorization, Greatest Common Denominator
+Combinatorics : Premutations , Combinatorics
+Probability : Expected Values
+SSC Math
+
+
 https://www.codechef.com/learning/?itm_medium=hpbanner_4&itm_campaign=CC_Learning_Camps
 
 ---
