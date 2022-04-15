@@ -52,3 +52,4 @@ https://codeforces.com/blog/entry/53341
 
 https://codeforces.com/blog/entry/66909
 
+https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit
