@@ -18,8 +18,8 @@ Adjacency Matrix is a 2D array of size V x V where V is the number of vertices i
 - Adding a vertex is O(V^2) time. 
 - Consumes more space O(V^2).
 
-- The basic operations like adding an edge(inEdges), removing an edge(outEdges), and checking whether there is an edge from vertex i 
-  to vertex j are extremely time efficient.
+- The basic operations like adding an edge(inEdges), removing an edge(outEdges), and checking whether there is an edge from vertex 
+  i to vertex j are extremely time efficient.
 ```
 ```c++
 int main()
