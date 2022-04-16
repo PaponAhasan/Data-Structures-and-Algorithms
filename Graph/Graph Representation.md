@@ -83,7 +83,10 @@ int main()
       return 0;
 }
 ```
+
 <details> <summary> Problem </summary>
+
+<br/>
 	
 ![image](https://user-images.githubusercontent.com/59710234/163693388-d38e2404-94bd-4dd1-a3cc-00906133ad27.png)
 ```c++
