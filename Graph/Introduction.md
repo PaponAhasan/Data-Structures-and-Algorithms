@@ -8,6 +8,8 @@ following two basic components:
 - Edges/Lines: Edge is the connection between two vertices. Each edge connects one vertex to another vertex in the graph. 
   Edge can either be directed or undirected.
 ```
+![image](https://user-images.githubusercontent.com/59710234/163689505-1cc5fd8e-5744-4c2c-8ddc-9caf7996d078.png)
+
 ```
 Types of nodes :
 
