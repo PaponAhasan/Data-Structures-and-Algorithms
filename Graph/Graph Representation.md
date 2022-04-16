@@ -121,3 +121,14 @@ int main() {
 }
 ```
 </details>
+
+### Incidence Matrix
+	
+````
+This matrix is filled with either 0 or 1 or -1. Where,
+
+=> 0 is used to represent row edge which is not connected to column vertex.
+=> 1 is used to represent row edge which is connected as outgoing edge to column vertex.
+=> -1 is used to represent row edge which is connected as incoming edge to column vertex.
+````
+![image](https://user-images.githubusercontent.com/59710234/163694243-294eb9c0-3196-48a3-bdf3-0e03dba562f0.png)
