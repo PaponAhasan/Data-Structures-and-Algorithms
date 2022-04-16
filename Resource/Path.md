@@ -24,7 +24,7 @@
 * [Jenny's lectures CS/IT NET&JRF](https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
 * [Geeksforgeeks Competitive Programming – A Complete Guide](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
 * [Colin Galen Cp road-map](https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit)
-* [Bro Coders DSA](hhttps://www.youtube.com/c/BroCoders/playlists) 
+* [Bro Coders DSA](https://www.youtube.com/c/BroCoders/playlists) 
   
 </details>
 
