@@ -38,7 +38,7 @@ Lavel 01:
     Frequency tables
     Bit manipulation :  Bitmasks , Binary + bitwise stuff
     Recursion
-    Number theory : Divisors,Primality, Factorization and Sieve, Sieve of Eratosthenes
+    Number theory : GCD, Divisors,Primality, Factorization and Sieve, Sieve of Eratosthenes
     Datastructure : Stacks, Queues and Types (Priority Queue), Dequeus
     Dynamic programming : Fibonacci, iteration vs recursion
 Tag : Implementation,Constructive algorithms,Brute force,Greedy,Strings
