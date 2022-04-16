@@ -43,6 +43,20 @@ Lavel 01:
     Datastructure : Stacks, Queues and Types (Priority Queue), Dequeus
     Dynamic programming : Fibonacci, iteration vs recursion
 Tag : Implementation,Constructive algorithms,Brute force,Greedy,Strings
+
+Lavel 02:
+    Bit manipulation :  
+    Number theory : 
+    Datastructure :
+    Dynamic programming : 
+Tag : 
+
+Lavel 03:
+    Bit manipulation :  
+    Number theory : 
+    Datastructure :
+    Dynamic programming : 
+Tag : 
 ```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
