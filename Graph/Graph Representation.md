@@ -83,3 +83,36 @@ int main()
       return 0;
 }
 ```
+### Problem 
+![image](https://user-images.githubusercontent.com/59710234/163693388-d38e2404-94bd-4dd1-a3cc-00906133ad27.png)
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int>adj[10000];
+
+int main() {
+	int n,m;
+    cin>>n>>m;
+    while(m--){
+        int x,y;
+        cin>>x>>y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
+    }
+    int q;
+    cin>>q;
+    while(q--){
+        int a,b;
+        cin>>a>>b;
+        int f = 0;
+        for(int i=0;i<adj[a].size();i++){
+            if(adj[a][i]==b){
+                f = 1;
+                break;
+            }
+        }
+        (f?cout<<"YES\n":cout<<"NO\n");
+    }
+}
+```
