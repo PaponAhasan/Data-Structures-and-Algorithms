@@ -1,1 +1,17 @@
-- [wrong submission](https://www.youtube.com/watch?v=ThYnlQ1epac&list=PL0G2Ga9ALv6k1BcKKvKM5yrRFQ2lQ4fCH&index=2&ab_channel=wrongsubmission)
+```
+Graphs are mathematical structures that represent pairwise relationships between objects. It can be visualized by using the following two basic components:
+- Nodes: 
+- Edges:
+```
+```
+Types of nodes :
+- Root node:
+- Leaf nodes:
+```
+```
+Types of graphs:
+- Undirected: 
+- Directed: 
+- Weighted:
+- Cyclic: 
+```
