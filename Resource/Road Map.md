@@ -45,17 +45,30 @@ Lavel 01:
 Tag : Implementation,Constructive algorithms,Brute force,Greedy,Strings
 
 Lavel 02:
-    Bit manipulation :  
-    Number theory : 
-    Datastructure :
-    Dynamic programming : 
+    Divide and Conquer
+    Backtracking
+    Tail-call recursion
+    Number Theory : Modular Arithmetic, Big-mod, Modular inverse, Binary Exponentiation, Totient function
+    Graph : Breadth and Depth first search, Directed and Weighted Graphs, Topological Ordering Shortest Path,Shortest path using BFS
+    Datastructure : Linked lists and Types, Tree,Binary Trees, Binary Search Tree,Priority Queues,Hash Tables, Heaps
+    Dynamic programming : Coin change, Maximum subarray sum, Knapsack, Longest Common Subsequence, Longest Increasing Subsequence, Grid DP, 
+    Matrix Chain Multiplication, Edit Distance
+
 Tag : 
 
 Lavel 03:
-    Bit manipulation :  
-    Number theory : 
-    Datastructure :
-    Dynamic programming : 
+    Datastructure : Segment Tree, LCS Binary Search
+    Dijkstra’s Algorithm
+    String Algorithms :
+    Bellman-Ford
+    Dijkstra's
+    Floyd-Warshall
+    Disjoint Set Union (Union Find)
+    Kruskal's MST
+    Prim's MST
+    (MST) Minimum Spanning Trees
+
+    DP on Bitmasks (Advanced)
 Tag : 
 ```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
