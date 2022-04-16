@@ -1,8 +1,8 @@
 ### Motivation
 ```
-If you rating is steadily going down, doesn't mean you haven't been improving; it just means relative to others you haven't 
-been doing as well. So don't give up hope just yet. Here's a quick rundown on how to get better at coding, which will eventually 
-turn into an increase in rating.
+If you rating is steadily going down, doesn't mean you haven't been improving; it just means relative to others you haven't been 
+doing as well. So don't give up hope just yet. Here's a quick rundown on how to get better at coding, which will eventually turn 
+into an increase in rating.
 
 1. Forget about rating. 
 2. Attempt C/D first instead of A/B.
