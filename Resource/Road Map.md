@@ -12,13 +12,14 @@ into an increase in rating.
 ```
 ### Tips
 ```
-Good resources as well. Geeksforgeeks, emaxx, competitive programming 3, Mahbubul Hasan Shanto vai’s book on programming contest, Shafaet Ashraf vai’s blog.
+Good resources as well. Geeksforgeeks, emaxx, competitive programming 3, Mahbubul Hasan Shanto vai’s book on programming contest, 
+Shafaet Ashraf vai’s blog.
 
-Spend around an hour or two at each problem before searching for solutions online. Learn
-to think in a IDA* approach.
+Spend around an hour or two at each problem before searching for solutions online. Learn to think in a IDA* approach.
 
-After seeing the solution to a problem, make sure to understand the solution fully and absolutely.There should be no doubt regarding anything with the solution, and if there 
-is, that means you have not understood it fully/internalized it. Problem solving is more about pattern matching.
+After seeing the solution to a problem, make sure to understand the solution fully and absolutely.There should be no doubt regarding 
+anything with the solution, and if there is, that means you have not understood it fully/internalized it. Problem solving is more about 
+pattern matching.
 
 You should spend most of times on thinking about problems. You can also think about problems when eating, bathing or even before sleeping.
 
