@@ -10,8 +10,20 @@ into an increase in rating.
 4. Try to solve at least two problems a week that is out of your comfort zone.
 5. Don’t look at the standings during contest time.
 ```
+### Tips
+```
+Good resources as well. Geeksforgeeks, emaxx, competitive programming 3, Mahbubul Hasan Shanto vai’s book on programming contest, Shafaet Ashraf vai’s blog.
 
+Spend around an hour or two at each problem before searching for solutions online. Learn
+to think in a IDA* approach.
 
+After seeing the solution to a problem, make sure to understand the solution fully and absolutely.There should be no doubt regarding anything with the solution, and if there 
+is, that means you have not understood it fully/internalized it. Problem solving is more about pattern matching.
+
+You should spend most of times on thinking about problems. You can also think about problems when eating, bathing or even before sleeping.
+
+Upsolve problems after attending online contest.
+```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
 
@@ -45,24 +57,6 @@ SSC Math
 ```
 
 ```
-Tips:
-good resources as well. Geeksforgeeks, emaxx, competitive
-programming 3, Mahbubul Hasan Shanto vai’s book on programming contest,
-Shafaet Ashraf vai’s blog.
-
-Spend around an hour or two at each problem before searching for solutions
-online. Learn to think in a IDA* approach,
-
-After seeing the solution to a problem, make sure to understand the solution fully
-and absolutely
-There should be no doubt regarding anything with the solution,
-and if there is, that means you have not understood it fully/internalized it. Problem
-solving is more about pattern matching,
-
-You should spend most of times on thinking about problems. You can
-also think about problems when eating, bathing or even before sleeping
-
-Upsolve problems after attending online contest
 
 Recursion
 Binary Search + Ternary Search 
