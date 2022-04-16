@@ -33,6 +33,7 @@ Lavel 01:
     Implementation and Greedy 
     Sorting
     Prefix sums
+    Matrix
     Binary search/Ternary search
     Two pointer
     Frequency tables
