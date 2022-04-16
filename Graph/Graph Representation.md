@@ -4,8 +4,9 @@ The following two are the most commonly used representations of a graph.
 2. Adjacency List 
 There are other representations also like, Incidence Matrix and Incidence List. 
 ```
+### Adjacency Matrix
 ```
-Adjacency Matrix : Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph.
+Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph.
 - Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. 
 - Adjacency matrix for undirected graph is always symmetric. 
 - If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w. 
