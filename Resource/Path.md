@@ -21,6 +21,7 @@
 * [Competitive Programmer’s Handbook](https://drive.google.com/file/d/1CSTWYKO5GxawqVAU2PNCFc3eeapngo1v/view?usp=sharing)
 * [Abdul Bari](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 * [Jenny's lectures CS/IT NET&JRF](https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
+* [Geeksforgeeks Competitive Programming – A Complete Guide](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
   
 </details>
 
