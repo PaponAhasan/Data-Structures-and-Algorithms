@@ -20,6 +20,9 @@ Adjacency Matrix is a 2D array of size V x V where V is the number of vertices i
 
 - The basic operations like adding an edge(inEdges), removing an edge(outEdges), and checking whether there is an edge from vertex 
   i to vertex j are extremely time efficient.
+  
+- It takes a lot of space and time to visit all the neighbors of a vertex, we have to traverse all the vertices in the graph, which takes quite some time.
+  This is because using an adjacency matrix will take up a lot of space where most of the elements will be 0, anyway. 
 ```
 ```c++
 int main()
@@ -34,5 +37,42 @@ int main()
           adjMat[v][u] = 1 ;
     } 
     return 0;
+}
+```
+### Adjacency Matrix
+```
+Adjacency list is a linked representation. In this representation, for each vertex in the graph, we maintain the list of its neighbors. 
+```
+![image](https://user-images.githubusercontent.com/59710234/163690589-11bcc87d-b886-4b91-9480-6088a2b86ae1.png)
+```
+- Adjacency list saves lot of space.
+- We can easily insert or delete as we use linked list.
+- Such kind of representation is easy (singly linked list).
+- The space complexity of adjacency list is O(V + E), because in an adjacency list information is stored only for those edges that actually 
+  exist in the graph.
+```
+```c++
+int main()
+{
+     int x, y, nodes, edges;
+     cin >> nodes;       //Number of nodes
+     cin >> edges;       //Number of edges
+     for(int i = 0;i < edges;++i)
+     {
+         cin >> x >> y;
+         adj[x].push_back(y);        //Insert y in adjacency list of x
+     }
+     for(int i = 1;i <= nodes;++i)
+     {   
+         cout << "Adjacency list of node " << i << ": ";
+         for(int j = 0;j < adj[i].size();++j)
+         {
+            if(j == adj[i].size() - 1)
+               cout << adj[i][j] << endl;
+            else
+               cout << adj[i][j] << " --> ";
+         }
+      }
+      return 0;
 }
 ```
