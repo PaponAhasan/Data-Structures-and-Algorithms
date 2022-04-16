@@ -50,6 +50,8 @@ Adjacency list is a linked representation. In this representation, for each vert
 - Such kind of representation is easy (singly linked list).
 - The space complexity of adjacency list is O(V + E), because in an adjacency list information is stored only for those edges that actually 
   exist in the graph.
+  
+- Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.  
 ```
 ```c++
 vector <int> adj[10];
