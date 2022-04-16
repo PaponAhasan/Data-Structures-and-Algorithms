@@ -15,6 +15,7 @@
  <br/>
 
 * [DSA-Training-2021](https://github.com/crux-bphc/DSA-Training-2021)
+* [Hackerearth Competitive Programming](https://www.hackerearth.com/getstarted-competitive-programming/)
 * [Summer-Group-2021](https://github.com/crux-bphc/CC-Summer-Group-2021)
 * [Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics)
 * [CUET Syllabus](https://drive.google.com/file/d/1JGNeGPyzaLTuw_F1DxlldjMbXBxX-3fG/view?usp=sharing)
@@ -22,6 +23,7 @@
 * [Abdul Bari](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 * [Jenny's lectures CS/IT NET&JRF](https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
 * [Geeksforgeeks Competitive Programming – A Complete Guide](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
+* [Colin Galen Cp road-map](https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit)
   
 </details>
 
@@ -56,6 +58,8 @@
 * [বাংলায় প্রোগ্রামিং রিসোর্সসমূহ](https://github.com/me-shaon/bangla-programming-resources)
 * [CodeChef DSA](https://discuss.codechef.com/t/data-structures-and-algorithms/6599)
 * [Programming Camp Syllabus](https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit)
+* [Codeforces - An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054?)
+* [Topcoder - COMPETITIVE PROGRAMMING](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming)
   
   
 </details>
