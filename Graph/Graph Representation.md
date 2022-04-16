@@ -52,13 +52,15 @@ Adjacency list is a linked representation. In this representation, for each vert
   exist in the graph.
 ```
 ```c++
+vector <int> adj[10];
 int main()
 {
-     int x, y, nodes, edges;
+     int nodes, edges;
      cin >> nodes;       //Number of nodes
      cin >> edges;       //Number of edges
-     for(int i = 0;i < edges;++i)
+     for(int i = 0;i < edges; ++i)
      {
+         int x, y;
          cin >> x >> y;
          adj[x].push_back(y);        //Insert y in adjacency list of x
      }
