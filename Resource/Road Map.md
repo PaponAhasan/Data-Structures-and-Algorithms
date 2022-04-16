@@ -26,6 +26,23 @@ before sleeping.
 
 * Upsolve problems after attending online contest.
 ```
+```
+Lavel 01:
+    Time Complexity Analysis
+    C++ STL 
+    Implementation and Greedy 
+    Sorting
+    Prefix sums
+    Binary search/Ternary search
+    Two pointer
+    Frequency tables
+    Bit manipulation :  Bitmasks , Binary + bitwise stuff
+    Recursion
+    Number theory : Divisors,Primality, Factorization and Sieve, Sieve of Eratosthenes
+    Datastructure : Stacks, Queues and Types (Priority Queue), Dequeus
+    Dynamic programming : Fibonacci, iteration vs recursion
+Tag : Implementation,Constructive algorithms,Brute force,Greedy,Strings
+```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
 
