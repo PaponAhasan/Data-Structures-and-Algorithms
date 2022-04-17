@@ -49,6 +49,9 @@ Types of graphs:
 
 - Bipartite Graph : 
 ```
+![image](https://user-images.githubusercontent.com/59710234/163694813-33228ff7-9bd5-4ba7-bfc4-7d02b7c679a9.png)
+![image](https://user-images.githubusercontent.com/59710234/163694821-7c94cb1d-4873-44af-bba3-0bb55671de3d.png)
+
 ```
 Adjacent : If there is an edge between vertices A and B then both A and B are said to be adjacent. In other words, vertices
 A and B are said to be adjacent if there is an edge between them.
