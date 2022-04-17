@@ -104,7 +104,7 @@ int main(){
  
 ![image](https://user-images.githubusercontent.com/59710234/163706685-bfa1b8da-081d-4276-b886-31063712f9cf.png)
  ```c++
- vector<int>adj[10000];
+vector<int>adj[10000];
 vector<int>vis(10000,0);
 
 void DFS(int node){
@@ -119,6 +119,15 @@ void DFS(int node){
 }
 
 int main(){
+     int n,m;
+     cin>>n>>m;
+     while(m--){
+        int x,y;
+        cin>>x>>y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
+     }
+	
      int unreachableNodes = 0;
      int head;
      cin>>head;
@@ -142,5 +151,44 @@ int main(){
 - It can also be used to detect cycles in the graph.
 - DFS algorithm is also used for one solution puzzles.
 - DFS is used to determine if a graph is bipartite or not.
-```	
+```
 	
+### Single Source Sortest Path (On Tree )	
+```c++
+vector<int>adj[10000];
+vector<int>vis(10000,0);
+vector<int>dis(10000,0);
+
+void DFS(int node,int cost){
+     vis[node] = 1;
+     dis[node] = cost;
+     for(int i=0;i<adj[node].size();i++){
+         int child = adj[node][i];
+         if(vis[child] == 0){
+            DFS(child,cost+1);
+         }
+     }
+}
+
+int main(){
+     int n,m;
+     cin>>n>>m;
+     while(m--){
+        int x,y;
+        cin>>x>>y;
+        adj[x].push_back(y);
+        adj[y].push_back(x);
+     }
+     
+     int source;
+     cin>>source;
+     DFS(source,0);
+        
+     for(int i=1;i<=n;i++){
+        if(dis[i] or source==i)
+           cout<<source<<" --> "<<i<<" = "<<dis[i]<<'\n';
+           else cout<<source<<" --> "<<i<<" = "<<"can't connected components"<<'\n';
+     }
+     return 0;
+}
+```
