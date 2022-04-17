@@ -81,7 +81,7 @@ loops. We use Queue data structure with maximum size of total number of vertices
 ```
 
 REFERENCE :
-- [btechsmartclass](http://www.btechsmartclass.com/data_structures/graph-traversal-dfs.html|)
+- [btechsmartclass](http://www.btechsmartclass.com/data_structures/graph-traversal-dfs.html)
 - [hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
 - [javatpoint](https://www.javatpoint.com/depth-first-search-algorithm)
 - [geeksforgeeks](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
