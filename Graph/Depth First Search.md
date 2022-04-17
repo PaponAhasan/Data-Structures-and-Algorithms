@@ -91,7 +91,7 @@ int main(){
      int connectedComponents = 0;
      for(int i=1;i<=n;i++){
          if(vis[i]==0){
-            DFS(1);
+            DFS(i);
             connectedComponents++;
          }
      }
