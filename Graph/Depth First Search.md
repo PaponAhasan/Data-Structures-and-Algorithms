@@ -116,16 +116,17 @@ void DFS(int node){
 
 int main(){
      int unreachableNodes = 0;
-	    int head;
-	    cin>>head;
-	    DFS(head);
+     int head;
+     cin>>head;
+     DFS(head);
      for(int i=1;i<=n;i++){
         if(vis[i]==0){
             unreachableNodes++;
         }
      }
+			   
      cout<<unreachableNodes<<'\n';
-	    return 0;
+     return 0;
 }
  ```
 </details>
