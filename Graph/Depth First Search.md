@@ -69,7 +69,6 @@ vector<int>vis(10000,0);
 
 void DFS(int node){
      vis[node] = 1;
-     cout<<node<<" ";
      for(int i=0;i<adj[node].size();i++){
          int child = adj[node][i];
          if(vis[child] == 0){
@@ -109,7 +108,6 @@ vector<int>vis(10000,0);
 
 void DFS(int node){
      vis[node] = 1;
-     cout<<node<<" ";
      for(int i=0;i<adj[node].size();i++){
          int child = adj[node][i];
          if(vis[child] == 0){
