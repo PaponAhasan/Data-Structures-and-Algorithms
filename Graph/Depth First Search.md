@@ -130,3 +130,13 @@ int main(){
 }
  ```
 </details>
+
+## The applications of using the DFS algorithm
+```
+- DFS algorithm can be used to implement the topological sorting.
+- It can be used to find the paths between two vertices.
+- It can also be used to detect cycles in the graph.
+- DFS algorithm is also used for one solution puzzles.
+- DFS is used to determine if a graph is bipartite or not.
+```	
+	
