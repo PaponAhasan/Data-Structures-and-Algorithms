@@ -112,7 +112,6 @@ void DFS(int node){
             DFS(child);
          }
      }
-     cout<<"\n";
 }
 
 int main(){
