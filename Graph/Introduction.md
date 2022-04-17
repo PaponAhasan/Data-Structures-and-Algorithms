@@ -66,3 +66,16 @@ Outgoing Edge : A directed edge is said to be outgoing edge on its "origin verte
 
 Incoming Edge : A directed edge is said to be incoming edge on its "destination vertex".
 ```
+### Graph Traversal
+```
+Graph traversal is a technique used for a searching vertex in a graph. Using graph traversal we visit all the vertices of the graph 
+without getting into looping path.
+
+There are two graph traversal techniques and they are as follows...
+
+1. DFS (Depth First Search) : DFS traversal of a graph produces a spanning tree as final result. Spanning Tree is a graph without loops. 
+We use Stack data structure with maximum size of total number of vertices in the graph to implement DFS traversal.
+
+2. BFS (Breadth First Search) : BFS traversal of a graph produces a spanning tree as final result. Spanning Tree is a graph without loops. 
+We use Queue data structure with maximum size of total number of vertices in the graph to implement BFS traversal.
+```
