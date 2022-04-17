@@ -15,4 +15,4 @@
 5. If no vertex is left, go back and pop a vertex from the stack.
 6. Repeat steps 2, 3, and 4 until the stack is empty.
 ```
-[Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
+Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
