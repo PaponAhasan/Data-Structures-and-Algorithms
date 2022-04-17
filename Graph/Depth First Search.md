@@ -62,6 +62,9 @@ int main(){
 }
 ```
 ### How to find connected components using DFS?
+
+--
+
 ```c++
 vector<int>adj[10000];
 vector<int>vis(10000,0);
