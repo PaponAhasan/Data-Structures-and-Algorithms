@@ -16,3 +16,5 @@
 6. Repeat steps 2, 3, and 4 until the stack is empty.
 ```
 Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
+
+![image](https://user-images.githubusercontent.com/59710234/163703902-70ad7691-a11d-4efa-a2a8-82d941e1d673.png)
