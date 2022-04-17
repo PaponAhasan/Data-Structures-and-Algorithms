@@ -17,4 +17,10 @@
 ```
 Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
 
+<details> <summary> How DFS Traversal </summary>
+
+<br/>
+ 
 ![image](https://user-images.githubusercontent.com/59710234/163703902-70ad7691-a11d-4efa-a2a8-82d941e1d673.png)
+
+</details>
