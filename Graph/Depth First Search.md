@@ -25,7 +25,8 @@ Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/gra
 
 </details>
 
-### Time complexity : O(V + E), when implemented using an adjacency list.
+### Time complexity 
+```O(V + E), when implemented using an adjacency list.```
 
 ```c++
 vector<int>adj[10000];
