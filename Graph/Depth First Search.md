@@ -28,6 +28,9 @@ Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/gra
 ### Time complexity 
 ```
 O(V + E), when implemented using an adjacency list.
+
+The time complexity of the DFS algorithm is O(V+E), where V is the number of vertices and E is the number of edges in the graph.
+The space complexity of the DFS algorithm is O(V).
 ```
 
 ```c++
