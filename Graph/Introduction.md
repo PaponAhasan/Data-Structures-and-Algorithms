@@ -79,3 +79,11 @@ loops. We use Stack data structure with maximum size of total number of vertices
 2. BFS (Breadth First Search) : BFS traversal of a graph produces a spanning tree as final result. Spanning Tree is a graph without 
 loops. We use Queue data structure with maximum size of total number of vertices in the graph to implement BFS traversal.
 ```
+
+REFERENCE :
+- (btechsmartclass)[http://www.btechsmartclass.com/data_structures/graph-traversal-dfs.html]
+- (hackerearth)[https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/]
+- (javatpoint)[https://www.javatpoint.com/depth-first-search-algorithm]
+- (geeksforgeeks)[https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/]
+- (hackerearth)[https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/]
+- (programiz)[https://www.programiz.com/dsa/graph-dfs]
