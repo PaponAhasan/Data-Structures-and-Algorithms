@@ -196,11 +196,7 @@ int main(){
  
 ![image](https://user-images.githubusercontent.com/59710234/163873918-2fe257ff-8fa7-4112-8814-a27a4ea64833.png)
 
-```c++
-#include "bits/stdc++.h"
-using namespace std;
-#define LL long long
- 
+```c++ 
 vector<int>adj[10000];
 vector<int>vis(10000,0);
 vector<int>dis(10000,0);
@@ -216,7 +212,7 @@ void DFS(int node,int cost){
      }
 }
  
-void solve(){
+int main(){
      int n,m;
      cin>>n>>m;
      while(m--){
@@ -240,15 +236,6 @@ void solve(){
 	  if(dis[x]==mn and x<Ans) Ans = x; 
      }
      cout<<Ans<<"\n";
-}
-   
-int main()
-{
-	//freopen("in.txt","r",stdin);
-	//int tc;cin>>tc;
-	//while(tc--)
-	solve(); 
-    return 0;
 }	
 ```
 	
