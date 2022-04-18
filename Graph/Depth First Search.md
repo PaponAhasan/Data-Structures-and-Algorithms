@@ -199,7 +199,7 @@ int main(){
 - DFS is used to determine if a graph is bipartite or not.
 ```
 
-### Time complexity 
+## Time complexity 
 ```
 O(V + E), when implemented using an adjacency list.
 
