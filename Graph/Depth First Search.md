@@ -25,13 +25,6 @@ Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/gra
 
 </details>
 
-### Time complexity 
-```
-O(V + E), when implemented using an adjacency list.
-
-The time complexity of the DFS algorithm is O(V+E), where V is the number of vertices and E is the number of edges in the graph.
-The space complexity of the DFS algorithm is O(V).
-```
 <details> <summary> DFS Code </summary>
  
 <br/>
@@ -204,4 +197,12 @@ int main(){
 - It can also be used to detect cycles in the graph.
 - DFS algorithm is also used for one solution puzzles.
 - DFS is used to determine if a graph is bipartite or not.
+```
+
+### Time complexity 
+```
+O(V + E), when implemented using an adjacency list.
+
+The time complexity of the DFS algorithm is O(V+E), where V is the number of vertices and E is the number of edges in the graph.
+The space complexity of the DFS algorithm is O(V).
 ```
