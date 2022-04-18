@@ -190,7 +190,7 @@ int main(){
 
 </details>
 
-<details> <summary> Single Source Sortest Path (On Tree ) </summary>
+<details> <summary> Problem 02 </summary>
  
 <br/>
  
