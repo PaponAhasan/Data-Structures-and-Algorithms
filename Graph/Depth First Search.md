@@ -32,7 +32,10 @@ O(V + E), when implemented using an adjacency list.
 The time complexity of the DFS algorithm is O(V+E), where V is the number of vertices and E is the number of edges in the graph.
 The space complexity of the DFS algorithm is O(V).
 ```
-
+<details> <summary> DFS Code </summary>
+ 
+<br/>
+	
 ```c++
 vector<int>adj[10000];
 vector<int>vis(10000,0);
@@ -61,8 +64,13 @@ int main(){
      DFS(1);
 }
 ```
-### How to find connected components using DFS?
 
+</details>
+
+<details> <summary> How many Find connected components using DFS </summary>
+ 
+<br/>
+	
 ```c++
 vector<int>adj[10000];
 vector<int>vis(10000,0);
@@ -97,6 +105,8 @@ int main(){
      cout<<"\nNumber of connected components: "<<connectedComponents<<'\n';
 }
 ```
+</details>
+	
 <details> <summary> Problem </summary>
  
  <br/>
@@ -142,16 +152,10 @@ int main(){
  ```
 </details>
 
-## The applications of using the DFS algorithm
-```
-- DFS algorithm can be used to implement the topological sorting.
-- It can be used to find the paths between two vertices.
-- It can also be used to detect cycles in the graph.
-- DFS algorithm is also used for one solution puzzles.
-- DFS is used to determine if a graph is bipartite or not.
-```
-	
-### Single Source Sortest Path (On Tree )	
+<details> <summary> Single Source Sortest Path (On Tree ) </summary>
+ 
+ <br/>
+ 
 ```c++
 vector<int>adj[10000];
 vector<int>vis(10000,0);
@@ -189,4 +193,15 @@ int main(){
      }
      return 0;
 }
+```
+
+</details>
+
+## The applications of using the DFS algorithm
+```
+- DFS algorithm can be used to implement the topological sorting.
+- It can be used to find the paths between two vertices.
+- It can also be used to detect cycles in the graph.
+- DFS algorithm is also used for one solution puzzles.
+- DFS is used to determine if a graph is bipartite or not.
 ```
