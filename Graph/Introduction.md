@@ -68,8 +68,8 @@ Incoming Edge : A directed edge is said to be incoming edge on its "destination 
 ```
 ### Graph Traversal
 ```
-Graph traversal is a technique used for a searching vertex in a graph. Using graph traversal we visit all the vertices of the graph 
-without getting into looping path.
+Graph traversal is a technique used for a searching vertex in a graph. Using graph traversal we visit all the vertices of the 
+graph without getting into looping path.
 
 There are two graph traversal techniques and they are as follows...
 
