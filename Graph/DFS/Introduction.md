@@ -16,3 +16,20 @@
 6. Repeat steps 2, 3, and 4 until the stack is empty.
 ```
 Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
+
+## The applications of using the DFS algorithm
+```
+- DFS algorithm can be used to implement the topological sorting.
+- It can be used to find the paths between two vertices.
+- It can also be used to detect cycles in the graph.
+- DFS algorithm is also used for one solution puzzles.
+- DFS is used to determine if a graph is bipartite or not.
+```
+
+## Time complexity 
+```
+O(V + E), when implemented using an adjacency list.
+
+The time complexity of the DFS algorithm is O(V+E), where V is the number of vertices and E is the number of edges in the graph.
+The space complexity of the DFS algorithm is O(V).
+```
