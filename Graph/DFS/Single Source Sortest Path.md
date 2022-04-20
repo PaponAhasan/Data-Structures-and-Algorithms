@@ -1,6 +1,4 @@
-<details> <summary> Single Source Sortest Path (On Tree ) </summary>
- 
- <br/>
+#### Single Source Sortest Path (On Tree )
  
 ```c++
 vector<int>adj[10000];
@@ -40,8 +38,6 @@ int main(){
      return 0;
 }
 ```
-
-</details>
 
 <details> <summary> Problem 02 </summary>
  
