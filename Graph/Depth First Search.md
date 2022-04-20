@@ -286,6 +286,7 @@ int main(){
      else cout<<"Not Bipartite ";
 }	
 ```
+https://ideone.com/vdGJWR
 	
 </details>
 	
