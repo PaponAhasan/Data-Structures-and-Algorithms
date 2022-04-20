@@ -6,9 +6,7 @@
 
 </details>
 
-<details> <summary> DFS Code </summary>
- 
-<br/>
+## DFS Code
 	
 ```c++
 vector<int>adj[10000];
@@ -38,5 +36,3 @@ int main(){
      DFS(1);
 }
 ```
-
-</details>
