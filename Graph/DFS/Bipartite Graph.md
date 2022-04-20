@@ -1,6 +1,4 @@
-<details> <summary> Bipartite Graph  </summary>
- 
-<br/>
+### Bipartite Graph
 
 ```c++ 
 vector<int>adj[10000];
@@ -44,5 +42,3 @@ int main(){
 }	
 ```
 https://ideone.com/vdGJWR
-	
-</details>
