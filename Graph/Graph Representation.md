@@ -1,3 +1,4 @@
+### Graph
 ```
 The following two are the most commonly used representations of a graph. 
 1. Adjacency Matrix 
