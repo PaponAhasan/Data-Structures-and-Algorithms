@@ -290,7 +290,7 @@ https://ideone.com/vdGJWR
 	
 </details>
 
-	<details> <summary> Problem 01</summary>
+	<details> <summary> Problem 03</summary>
  
  <br/>
  
@@ -346,6 +346,7 @@ int main(){
      return 0;
 }
  ```
+	  
 </details>
 
 ## The applications of using the DFS algorithm
