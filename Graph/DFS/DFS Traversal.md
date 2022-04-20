@@ -37,10 +37,8 @@ int main(){
 }
 ```
 
-<details> <summary> How many Find connected components using DFS </summary>
+## How many Find connected components using DFS
  
-<br/>
-	
 ```c++
 vector<int>adj[10000];
 vector<int>vis(10000,0);
@@ -75,7 +73,6 @@ int main(){
      cout<<"\nNumber of connected components: "<<connectedComponents<<'\n';
 }
 ```
-</details>
 	
 <details> <summary> Problem 01</summary>
  
