@@ -110,3 +110,4 @@ cout << __builtin_popcount(4) << endl;
 - https://medium.com/techie-delight/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
 - https://www.albany.edu/faculty/dsaha/teach/2017Spring_CEN360/slides/lec15.pdf
 - https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+- https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
