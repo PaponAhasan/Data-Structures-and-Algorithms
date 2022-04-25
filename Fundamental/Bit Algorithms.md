@@ -86,7 +86,7 @@ int main() {
 Time Complexity: Θ(logn) (Theta of logn)
 Auxiliary Space: O(1)
 ```
-####  Count the number of 1s in the binary representation
+####  Count the number of 1s/set-bit in the binary representation
 ```c++
 unsigned int countSetBits(unsigned int n)
 {
