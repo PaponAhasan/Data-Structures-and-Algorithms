@@ -28,7 +28,7 @@ So binary(11) = 1101
 2 two 0 otherwise 1 -> OR
 Same bit 0 otherwise 1 -> X-OR
 ```
-#### eft Shift
+#### Left Shift
 ```
 n = 3 (left shift)
 1<<n = 1000 
