@@ -117,5 +117,5 @@ cout << __builtin_popcount(4) << endl;
 - https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
 
 ### Practice Problem
-[Play With OR](https://practice.geeksforgeeks.org/problems/play-with-or5515/1)
-[Number of 1 Bits](https://practice.geeksforgeeks.org/problems/set-bits0143/1/?category)
+- [Play With OR](https://practice.geeksforgeeks.org/problems/play-with-or5515/1)
+- [Number of 1 Bits](https://practice.geeksforgeeks.org/problems/set-bits0143/1/?category)
