@@ -20,6 +20,13 @@ Right Shift ( >> )
 1/2 = 0
 
 So binary(11) = 1101
+7 -> (MSB)1101(LSB)
+```
+![image](https://user-images.githubusercontent.com/59710234/165022620-13a3537e-f6ff-4452-8077-f322134332ae.png)
+```
+2 two 1 otherwise 0 -> AND
+2 two 0 otherwise 1 -> OR
+Same bit 0 otherwise 1 -> X-OR
 ```
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
