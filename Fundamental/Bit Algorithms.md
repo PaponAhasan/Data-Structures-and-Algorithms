@@ -21,6 +21,6 @@ Right Shift ( >> )
 
 So binary(11) = 1101
 ```
-https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
-https://www.geeksforgeeks.org/calculate-xor-1-n/
+- https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
+- https://www.geeksforgeeks.org/calculate-xor-1-n/
 
