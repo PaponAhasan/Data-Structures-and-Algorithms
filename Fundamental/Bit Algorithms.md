@@ -115,3 +115,7 @@ cout << __builtin_popcount(4) << endl;
 - https://www.albany.edu/faculty/dsaha/teach/2017Spring_CEN360/slides/lec15.pdf
 - https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
 - https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+
+### Practice Problem
+[Play With OR](https://practice.geeksforgeeks.org/problems/play-with-or5515/1)
+[Number of 1 Bits](https://practice.geeksforgeeks.org/problems/set-bits0143/1/?category)
