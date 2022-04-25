@@ -64,6 +64,10 @@ Afetr right shift 1 0    = 2 << 1 = 1     = 1
 x >> y = ⌊ x / (2^y) ⌋
 ```
 #### Count number of bits
+```
+17 = 10001
+log2(17) = 4 + 1 = 5 bits
+```
 ```c++
 int main() {
 
