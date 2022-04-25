@@ -28,6 +28,33 @@ So binary(11) = 1101
 2 two 0 otherwise 1 -> OR
 Same bit 0 otherwise 1 -> X-OR
 ```
+#### eft Shift
+```
+n = 3 (left shift)
+1<<n = 1000 
+value is 1*2^n
+
+64 32 16 8 4 2 1
+
+1 0 1 1 = 11
+Afetr left shift 1 0 1 1 0 = 22
+After left shift 1 0 1 1 0 0 = 44
+we see that left shift it's value is double
+
+1
+10
+100
+1000
+x<<y = x*2^y
+```
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
-
+- https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
+- https://www.geeksforgeeks.org/bits-manipulation-important-tactics/
+- https://www.educative.io/blog/bit-manipulation-algorithm
+- https://leetcode.com/tag/bit-manipulation/
+- https://www.interviewbit.com/courses/programming/topics/bit-manipulation/
+- https://isaaccomputerscience.org/concepts/data_numbases_bitwise_manipulation?examBoard=all&stage=all
+- https://medium.com/techie-delight/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+- https://www.albany.edu/faculty/dsaha/teach/2017Spring_CEN360/slides/lec15.pdf
+- https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
