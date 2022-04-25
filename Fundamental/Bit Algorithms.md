@@ -82,6 +82,22 @@ int main() {
 Time Complexity: Θ(logn) (Theta of logn)
 Auxiliary Space: O(1)
 ```
+####  Count the number of 1s in the binary representation
+```c++
+unsigned int countSetBits(unsigned int n)
+{
+    unsigned int count = 0;
+    while (n) {
+        count += n & 1;
+        n >>= 1;
+    }
+    return count;
+}
+
+OR
+
+cout << __builtin_popcount(4) << endl;
+```
 
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
