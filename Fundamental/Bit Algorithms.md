@@ -63,6 +63,23 @@ Afetr right shift 1 0    = 2 << 1 = 1     = 1
 1000 >> 3 = 8/(2^3) = 1 = 1
 x >> y = ⌊ x / (2^y) ⌋
 ```
+#### Count number of bits
+```c++
+int main() {
+
+    int num = 5; // 101
+    int cnt = 0;
+    while(num){
+        cnt++;
+        num >>= 1; /* [ 5/2 = 2/2 = 1/2 = 0 ] */
+    }
+    cout<<cnt<<" number bits in "<<num<<"\n";
+    return 0;
+}
+
+// 3 number bits in 5
+```
+
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
 - https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
