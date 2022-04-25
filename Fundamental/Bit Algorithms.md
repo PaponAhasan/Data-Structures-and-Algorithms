@@ -77,7 +77,10 @@ int main() {
     return 0;
 }
 
-// 3 number bits in 5
+//Answer: 3 number bits in 5
+
+Time Complexity: Θ(logn) (Theta of logn)
+Auxiliary Space: O(1)
 ```
 
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
