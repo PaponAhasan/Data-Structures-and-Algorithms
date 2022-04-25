@@ -66,7 +66,7 @@ x >> y = ⌊ x / (2^y) ⌋
 #### Count number of bits
 ```
 17 = 10001
-log2(17) = 4 + 1 = 5 bits
+⌊log2(17)⌋ = 4 + 1 = 5 bits
 ```
 ```c++
 int main() {
