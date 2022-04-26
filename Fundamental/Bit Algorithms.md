@@ -118,6 +118,8 @@ P(2) + P(3) = P(2 U 3) + P(2 ∩ 3)
 11    11
 --    --
 10    11
+
+But, WE use '+' operator
 ```
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
