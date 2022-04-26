@@ -157,6 +157,17 @@ carry = 1 so ans = ans ^ 2^3 = 13
  
 so we can get 7 + 6 = 13
 ```
+```c++
+ int sum(int a , int b)
+ {
+    int s = a ^ b;
+    int carry = a & b;
+      
+    if (carry == 0) return s;
+    else return sum(s, carry << 1);
+ }
+```
+
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
 - https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
