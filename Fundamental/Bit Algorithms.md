@@ -160,13 +160,42 @@ so we can get 7 + 6 = 13
 ```c++
  int sum(int a , int b)
  {
-    int s = a ^ b;                    // At least one of the bits is not set
-    int carry = a & b;                // carry now contains common set bits of x and y
+    a = a ^ b;                    // At least one of the bits is not set
+    int carry = a & b;                // carry now contains common set bits of a and b
+    b = carry << 1;
       
-    if (carry == 0) return s;         
-    else return sum(s, carry << 1);  // Carry is shifted by one, so that adding it to x gives the required sum
+    if (carry == 0) return a;         
+    else return sum(a, b);  // Carry is shifted by one, so that adding it to a gives the required sum
  }
 ```
+```
+5 + 3 = 8
+5 - 00101
+3 - 00011
+
+Step 01:
+carry = 5&3 = 00001
+a = 5^3 = 00110
+b = carry << 1 = 00010
+
+Step 02:
+carry = a&b = 00010
+a = a^b = 00100
+b = carry << 1 = 00100
+
+Step 03:
+carry = a&b = 00100
+a = a^b = 00000
+b = carry << 1 = 01000
+
+Step 03:
+carry = a&b = 00000
+a = a^b = 01000
+b = carry << 1 = 00000
+
+return a (2^3 = 8)
+```
+https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether
 
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
