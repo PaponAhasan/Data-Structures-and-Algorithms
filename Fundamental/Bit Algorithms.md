@@ -160,12 +160,12 @@ so we can get 7 + 6 = 13
 ```c++
  int sum(int a , int b)
  {
-    a = a ^ b;                    // At least one of the bits is not set
-    int carry = a & b;                // carry now contains common set bits of a and b
-    b = carry << 1;
+    a = a ^ b;             // At least one of the bits is not set
+    int carry = a & b;     // carry now contains common set bits of a and b
+    b = carry << 1;        // Carry is shifted by one, so that adding it to a gives the required sum
       
     if (carry == 0) return a;         
-    else return sum(a, b);  // Carry is shifted by one, so that adding it to a gives the required sum
+    else return sum(a, b);  
  }
 ```
 ```
