@@ -131,19 +131,21 @@ x/2 = carry
 bit possition : 2^3 2^2 2^1 2^0
 initialize : carry = 0, ans = 0
 
+STEP 01 :
   1 1 1 = 7
 + 1 1 0 = 6
  ------
       1
 carry = 0, ans = ans ^ 2^0 = 1   
 
---
+STEP 02:
   1 1 1 = 7
 + 1 1 0 = 6
  ------
     0 1
 carry = 1, ans = 1 
---
+
+STEP 03:
 
   1 1 1 = 7
 + 1 1 0 = 6
@@ -151,7 +153,7 @@ carry = 1, ans = 1
   1 0 1
 carry = 1, ans = ans ^ 2^2 = 5 
 
--- 
+STEP 04:
 carry = 1 so ans = ans ^ 2^3 = 13  
  
 so we can get 7 + 6 = 13
