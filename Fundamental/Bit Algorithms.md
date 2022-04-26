@@ -161,9 +161,9 @@ so we can get 7 + 6 = 13
  int sum(int a , int b)
  {
     int s = a ^ b;
-    int carry = a & b;
+    int carry = a & b;                // carry now contains common set bits of x and y
       
-    if (carry == 0) return s;
+    if (carry == 0) return s;         // At least one of the bits is not set
     else return sum(s, carry << 1);
  }
 ```
