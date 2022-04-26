@@ -102,6 +102,7 @@ OR
 
 cout << __builtin_popcount(4) << endl;
 ```
+#### Add two numbers without using arithmetic operators (+, -, ++, –, …?)
 
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
