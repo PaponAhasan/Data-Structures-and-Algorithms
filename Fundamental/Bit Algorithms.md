@@ -103,7 +103,22 @@ OR
 cout << __builtin_popcount(4) << endl;
 ```
 #### Add two numbers without using arithmetic operators (+, -, ++, –, …?)
+```
+P(A U B) = P(A) + P(B) - P(A ∩ B)
+P(A) + P(B) = P(A U B) + P(A ∩ B)
+U = OR(|)
+∩ = AND(&)
 
+A = 2,B = 3
+P(2) + P(3) = P(2 U 3) + P(2 ∩ 3)
+(2 + 3) = (2 | 3) + (2 & 3)
+2 = 10, 3 = 11
+
+10    10
+11    11
+--    --
+10    11
+```
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
 - https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
