@@ -179,24 +179,24 @@ so we can get 7 + 6 = 13
 3 - 00011
 
 Step 01:
-carry = 5&3 = 00001
-a = 5^3 = 00110
-b = carry << 1 = 00010
+carry = 5&3 = 00001 = 1
+a = 5^3 = 00110 = 5
+b = carry << 1 = 00010 = 2
 
 Step 02:
-carry = a&b = 00010
-a = a^b = 00100
-b = carry << 1 = 00100
+carry = a&b = 00010 = 2
+a = a^b = 00100 = 4
+b = carry << 1 = 00100 = 4
 
 Step 03:
-carry = a&b = 00100
-a = a^b = 00000
-b = carry << 1 = 01000
+carry = a&b = 00100 = 4
+a = a^b = 00000 = 0
+b = carry << 1 = 01000 = 8
 
 Step 03:
-carry = a&b = 00000
-a = a^b = 01000
-b = carry << 1 = 00000
+carry = a&b = 00000 = 0
+a = a^b = 01000 = 8
+b = carry << 1 = 00000 = 0
 
 return a (2^3 = 8)
 ```
