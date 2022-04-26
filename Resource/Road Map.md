@@ -97,6 +97,38 @@ Lavel 03:
     DP on Bitmasks (Advanced)
 Tag : 
 ```
+```
+Time Complexity Analysis
+C++ STL 
+String 
+
+Prefix sums
+Matrix
+Divide and Conquer
+Backtracking
+Binary search/Ternary search
+Two pointer
+Frequency tables
+Recursion
+Fibonacci
+
+Bit manipulation :  Bitmasks , Binary + bitwise stuff
+
+Sorting : Marge Sort,Topological Sort
+
+Implementation and Greedy :
+
+Data Structures : Array,Hash,Stack,Queue, Map, Priority Queue, Dequeus
+
+Dynamic programming : Fibonacci, iteration vs recursion
+
+Number Theory : GCD,Divisors,Primality, Factorization and Sieve, Sieve of Eratosthenes, Modular Arithmetic, Big-mod, Modular inverse, Binary Exponentiation
+
+Graph : Breadth and Depth first search, Single Source Shortest Path
+
+Dynamic programming : Coin change, Maximum subarray sum, Knapsack, Longest Common Subsequence,
+     Longest Increasing Subsequence, Grid DP, Matrix Chain Multiplication, Edit Distance
+```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
 
