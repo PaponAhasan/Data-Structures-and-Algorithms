@@ -130,8 +130,8 @@ Dynamic programming : Coin change, Maximum subarray sum, Knapsack, Longest Commo
      Longest Increasing Subsequence, Grid DP, Matrix Chain Multiplication, Edit Distance
 ```
 ```
- *constructive algorithms, *implementation, math, *greedy,  *two pointers, *brute force,  *sortings,  *binary search,  data structures, *bitmasks, *strings, dp,
- combinatorics, number theory, hashing, matrices, geometry, dsu, graphs
+ *constructive algorithms, *implementation, math, *greedy,  *two pointers, *brute force,  *sortings,  *binary search,  
+ data structures, *bitmasks, *strings, dp, combinatorics, number theory, hashing, matrices, geometry, dsu, graphs
 ```
 Algorithms and DS I know are : Fenwick tree , Segment Tree , Graph Theory( except Flow algorithms ) , DP , Greedy ,String Algorithms( except Suffix Structures ), Two Pointer , Matrix, Backtracking, Modular Arithmetic , LCS
 Binary Search , usage of STLs, Number theory and math.
