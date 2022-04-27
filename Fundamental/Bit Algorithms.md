@@ -228,7 +228,16 @@ int main() {
     return 0;
 }
 ```
-
+###  Single Number
+```c++
+int Solution::singleNumber(const vector<int> &A) {
+    int ans = 0;
+    for(int i=0;i<A.size();i++){
+        ans^=A[i];
+    }
+    return ans;
+}
+```
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
 - https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
@@ -247,3 +256,4 @@ int main() {
 - [Number of 1 Bits](https://practice.geeksforgeeks.org/problems/set-bits0143/1/?category)
 - [Sum of two numbers](https://practice.geeksforgeeks.org/problems/sum-of-two-numbers-without-using-arithmetic-operators/1/?track=md-bm)
 - [Reverse-Bits](https://www.interviewbit.com/old/problems/reverse-bits/)
+- [Single-number](https://www.interviewbit.com/problems/single-number/)
