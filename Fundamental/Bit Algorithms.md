@@ -229,6 +229,10 @@ int main() {
 }
 ```
 ###  Single Number
+```
+Input: A = [1, 2, 2, 3, 1]
+Output: 3
+```
 ```c++
 int Solution::singleNumber(const vector<int> &A) {
     int ans = 0;
