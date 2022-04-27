@@ -210,7 +210,7 @@ return a (2^3 = 8)
 [this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
 
 #### Reverse Bits
-**[Reverse-Bits](https://www.interviewbit.com/old/problems/reverse-bits/)**
+**[Question](https://www.interviewbit.com/old/problems/reverse-bits/)**
 ```c++
 int main() {
     unsigned int cnt = 0,ans = 0;
