@@ -242,6 +242,10 @@ int Solution::singleNumber(const vector<int> &A) {
     return ans;
 }
 ```
+#### Find Missing And Repeating
+https://ideone.com/r4QSHM
+
+
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
 - https://www.youtube.com/watch?v=UI94HhwjnFg&list=PLjeQ9Mb66hM0ewIZ50zJKoU8v8Wc-ODTt&ab_channel=BroCoders
@@ -261,3 +265,4 @@ int Solution::singleNumber(const vector<int> &A) {
 - [Sum of two numbers](https://practice.geeksforgeeks.org/problems/sum-of-two-numbers-without-using-arithmetic-operators/1/?track=md-bm)
 - [Reverse-Bits](https://www.interviewbit.com/old/problems/reverse-bits/)
 - [Single-number](https://www.interviewbit.com/problems/single-number/)
+- [Find-Missing-and-Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1/#)
