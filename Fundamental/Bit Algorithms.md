@@ -211,6 +211,11 @@ return a (2^3 = 8)
 
 #### Reverse Bits
 **[Question](https://www.interviewbit.com/old/problems/reverse-bits/)**
+```
+Reverse the bits of an 32 bit unsigned integer A.
+
+00000000000000000000000000000011    =>      11000000000000000000000000000000
+```
 ```c++
 int main() {
     unsigned int cnt = 0,ans = 0;
