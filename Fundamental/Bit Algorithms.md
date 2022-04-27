@@ -200,7 +200,21 @@ b = carry << 1 = 00000 = 0
 
 return a (2^3 = 8)
 ```
-https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether
+[this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
+
+#### Reverse Bits
+```c++
+int main() {
+	unsigned int cnt = 0,ans = 0;
+    while(A){
+        if(A&1)ans+=(1<<(31-cnt));
+        A>>=1;
+        cnt++;
+    }
+    cout<<ans<<"\n";
+	return 0;
+}
+```
 
 - https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
 - https://www.geeksforgeeks.org/calculate-xor-1-n/
