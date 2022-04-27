@@ -92,11 +92,18 @@ unsigned int countSetBits(unsigned int n)
 {
     unsigned int count = 0;
     while (n) {
-        count += n & 1;
+        count += n & 1; // if n is odd
         n >>= 1;
     }
     return count;
 }
+
+5 = 101
+[ 5/2 = 2/2 = 1/2 = 0 ]
+[if right first bit always 1 ,this is odd number]
+5 odd
+2 even
+1 odd
 
 OR
 
@@ -205,14 +212,14 @@ return a (2^3 = 8)
 #### Reverse Bits
 ```c++
 int main() {
-	unsigned int cnt = 0,ans = 0;
+    unsigned int cnt = 0,ans = 0;
     while(A){
         if(A&1)ans+=(1<<(31-cnt));
         A>>=1;
         cnt++;
     }
     cout<<ans<<"\n";
-	return 0;
+    return 0;
 }
 ```
 
