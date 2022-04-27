@@ -63,7 +63,7 @@ Afetr right shift 1 0    = 2 << 1 = 1     = 1
 1000 >> 3 = 8/(2^3) = 1 = 1
 x >> y = ⌊ x / (2^y) ⌋
 ```
-#### Count number of bits
+### Count number of bits
 ```
 17 = 10001
 ⌊log2(17)⌋ = 4 + 1 = 5 bits
@@ -86,7 +86,7 @@ int main() {
 Time Complexity: Θ(logn) (Theta of logn)
 Auxiliary Space: O(1)
 ```
-####  Count the number of 1s/set-bit in the binary representation
+###  Count the number of 1s/set-bit in the binary representation
 ```c++
 unsigned int countSetBits(unsigned int n)
 {
@@ -109,7 +109,7 @@ OR
 
 cout << __builtin_popcount(4) << endl;
 ```
-#### Add two numbers without using arithmetic operators (+, -, ++, –, …?)
+### Add two numbers without using arithmetic operators (+, -, ++, –, …?)
 ```
 P(A U B) = P(A) + P(B) - P(A ∩ B)
 P(A) + P(B) = P(A U B) + P(A ∩ B)
@@ -209,7 +209,7 @@ return a (2^3 = 8)
 ```
 [this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
 
-#### Reverse Bits
+### Reverse Bits
 **[Question](https://www.interviewbit.com/old/problems/reverse-bits/)**
 ```
 Reverse the bits of an 32 bit unsigned integer A.
