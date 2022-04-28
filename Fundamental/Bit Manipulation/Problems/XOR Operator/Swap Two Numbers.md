@@ -23,6 +23,18 @@ int main()
     cout << "After Swapping: x =" << x << ", y=" << y;
 }
 ```
+```c++
+void swap(int* xp, int* yp)
+{
+ 
+    // Check if the two addresses are same
+    if (xp == yp)
+        return;
+    *xp = *xp + *yp;
+    *yp = *xp - *yp;
+    *xp = *xp - *yp;
+}
+```
 #### Method 2 (Using Bitwise XOR)
 ```c++
 int main()
