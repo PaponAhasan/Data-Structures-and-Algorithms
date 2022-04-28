@@ -36,3 +36,9 @@ int main()
     return 0;
 }
 ```
+```
+1) The multiplication and division based approach doesn’t work if one of the numbers is 0 as the product becomes 0 
+   irrespective of the other number.
+2) Both Arithmetic solutions may cause an arithmetic overflow. If x and y are too large, addition and multiplication 
+   may go out of integer range.
+```
