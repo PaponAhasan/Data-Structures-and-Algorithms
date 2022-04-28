@@ -8,6 +8,7 @@
  5. The >> (right shift) : Right shifts the bits of the first operand, the second operand decides the number of places to shift. 
  6. The ~ (bitwise NOT) : Takes one number and inverts all bits of it. 
 ```
+```
 Bit : A bit (short for binary digit) is the smallest unit of data in a computer. A bit has a single binary value, either 0 or 1.
 There are different bitwise operations used in the bit manipulation. Bit operations are fast and can be used in optimizing time 
 complexity.
