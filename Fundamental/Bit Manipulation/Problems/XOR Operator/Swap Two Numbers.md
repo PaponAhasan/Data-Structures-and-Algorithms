@@ -36,6 +36,14 @@ int main()
     return 0;
 }
 ```
+```c++
+void swap(int* xp, int* yp)
+{
+    *xp = *xp ^ *yp;
+    *yp = *xp ^ *yp;
+    *xp = *xp ^ *yp;
+}
+```
 ```
 1) The multiplication and division based approach doesn’t work if one of the numbers is 0 as the product becomes 0 
    irrespective of the other number.
