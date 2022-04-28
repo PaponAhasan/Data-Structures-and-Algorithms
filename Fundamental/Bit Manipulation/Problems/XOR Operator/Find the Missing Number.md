@@ -52,6 +52,15 @@ Time Complexity: O(n).
 Space Complexity: O(1). 
 ```
 #### Method 2:
+```
+Algorithm: 
+  1. Create two variables a = 0 and b = 0
+  2. Run a loop from 1 to n with i as counter.
+  3. For every index update a as a = a ^ i
+  4. Now traverse the array from start to end.
+  5. For every index update b as b = b ^ array[i]
+  6. Print the missing number as a ^ b.
+```
 ```c++
 int getMissingNo(int a[], int n)
 {
@@ -70,3 +79,11 @@ int getMissingNo(int a[], int n)
     return (x1 ^ x2);
 }
 ```
+![image](https://user-images.githubusercontent.com/59710234/165682422-7b21fda9-9d0c-4355-99a6-4e3b98de6f1a.png)
+
+```
+Time Complexity: O(n). 
+Space Complexity: O(1). 
+```
+
+[The topic discussed](https://youtu.be/lBk6fVhuCyw)
