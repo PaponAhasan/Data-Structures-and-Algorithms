@@ -71,3 +71,9 @@ Auxiliary Space: O(n)
 1) Get the XOR of all the elements.
      xor = 2^4^7^9^2^4 = 14 (1110)
 ```
+```c++
+```
+```
+Time Complexity: O(n) 
+Auxiliary Space: O(1)
+```
