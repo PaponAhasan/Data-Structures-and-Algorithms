@@ -110,6 +110,7 @@ void get2NonRepeatingNos(int arr[], int n, int* x, int* y)
         }
     }
 }
+// x and y are two Non Repeating number
 ```
 ```
 Time Complexity: O(n) 
