@@ -82,4 +82,7 @@ x >> y = ⌊ x / (2^y) ⌋
 - The left shift and right shift operators should not be used for negative numbers (both 1 <<- 1 and 1 >> -1 is undefined)
 - If the number is shifted more than the size of the integer, the behaviour is undefined. For example, 1 << 33 is undefined 
    if integers are stored using 32 bits. 
+- The result of logical operators (&&, || and !) is either 0 or 1, but bitwise operators return an integer value.   
 ```
+
+https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/
