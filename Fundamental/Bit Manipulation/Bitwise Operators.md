@@ -22,6 +22,7 @@ Right Shift ( >> )
 ```
 ![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
 ```
+Decimal to Binary Convert :
 11        odd      1
 11/2 = 5  odd      1
 5/2 = 2   even     0
