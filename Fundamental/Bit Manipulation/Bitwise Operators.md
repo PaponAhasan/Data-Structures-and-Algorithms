@@ -23,6 +23,7 @@ Right Shift ( >> )
 ![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
 ```
 Decimal to Binary Convert :
+
 11        odd      1
 11/2 = 5  odd      1
 5/2 = 2   even     0
@@ -31,6 +32,9 @@ Decimal to Binary Convert :
 
 So binary(11) = 1101
 7 -> (MSB)1101(LSB)
+
+64 32 16 8 4 2 1
+13 binary =  8 4 0 1 = 1 1 0 1
 ```
 ![image](https://user-images.githubusercontent.com/59710234/165022620-13a3537e-f6ff-4452-8077-f322134332ae.png)
 ```
@@ -72,4 +76,10 @@ Afetr right shift 1 0    = 2 << 1 = 1     = 1
 1000 >> 2 = 8/(2^2) = 2 = 10
 1000 >> 3 = 8/(2^3) = 1 = 1
 x >> y = ⌊ x / (2^y) ⌋
+```
+
+```
+- The left shift and right shift operators should not be used for negative numbers (both 1 <<- 1 and 1 >> -1 is undefined)
+- If the number is shifted more than the size of the integer, the behaviour is undefined. For example, 1 << 33 is undefined 
+   if integers are stored using 32 bits. 
 ```
