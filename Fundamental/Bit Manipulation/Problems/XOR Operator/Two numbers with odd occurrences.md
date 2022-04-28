@@ -1,3 +1,8 @@
+```
+Examples:
+  Input: {12, 23, 34, 12, 12, 23, 12, 45}
+  Output: 34 and 45
+```
 #### Method 01
 ```
 A naive method to solve this problem is to run two nested loops. The time complexity of this method is O(n^2).
