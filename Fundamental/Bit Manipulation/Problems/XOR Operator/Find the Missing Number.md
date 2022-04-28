@@ -87,3 +87,6 @@ Space Complexity: O(1).
 ```
 
 [The topic discussed](https://youtu.be/lBk6fVhuCyw)
+
+#### Problem
+[missing-number-in-array](https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1/)
