@@ -11,6 +11,8 @@ Explanation: The missing number from 1 to 8 is 5
 #### Method 1:
 ```
 sum of numbers from 1 to n can be calculated using the formula n*(n+1)/2. 
+```
+```c++
 int arr[] = { 1, 2, 4, 5, 6 };
 
 int getMissingNo(int a[], int n)
@@ -20,11 +22,13 @@ int getMissingNo(int a[], int n)
         total -= a[i];
     return total;
 }
+```
+```
 Time Complexity: O(n). 
 Space Complexity: O(1). 
 ```
 #### Method 2:
-```
+```c++
 int getMissingNo(int a[], int n)
 {
     // For xor of all the elements in array
