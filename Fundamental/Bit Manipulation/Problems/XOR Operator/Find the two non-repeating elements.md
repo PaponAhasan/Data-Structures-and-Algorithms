@@ -62,6 +62,10 @@ void get2NonRepeatingNos(int arr[], int n)
     cout << endl;
 }
 ```
+```
+Time Complexity: O(nlogn) 
+Auxiliary Space: O(n)
+```
 #### Method 4(Use XOR) 
 ```
 1) Get the XOR of all the elements.
