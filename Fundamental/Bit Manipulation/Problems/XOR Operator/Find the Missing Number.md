@@ -22,6 +22,7 @@ int getMissingNo(int a[], int n)
         total -= a[i];
     return total;
 }
+// The approach remains the same but there can be overflow if n is large.
 ```
 ```c++
 int getMissingNo(int a[], int n)
