@@ -42,3 +42,6 @@ b = carry << 1 = 00000 = 0
 return a (2^3 = 8)
 ```
 [this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
+
+#### Problem 
+https://practice.geeksforgeeks.org/problems/sum-of-two-numbers-without-using-arithmetic-operators/1/?track=md-bm
