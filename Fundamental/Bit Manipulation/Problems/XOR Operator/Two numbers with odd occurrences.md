@@ -78,3 +78,5 @@ void printTwoOdd(int arr[], int size)
     cout << "The two ODD elements are " << x << " & " << y;
 }
 ```
+#### Problem
+https://practice.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1/
