@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/59710234/165887603-2317b338-1fc5-465d-ad14-02116a88d76d.png)
-
 ```c++
 int F(int n){
     if(n==1) return 1;
