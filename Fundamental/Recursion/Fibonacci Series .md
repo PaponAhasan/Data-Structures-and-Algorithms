@@ -34,3 +34,7 @@ Output :
 ```
 The time complexity of the given program can depend on the function call.
 ```
+Problem :
+
+- [Geek-onacci-number](https://practice.geeksforgeeks.org/problems/geek-onacci-number/0/?category#)
+Code : https://ideone.com/eA7HjG
