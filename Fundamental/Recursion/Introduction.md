@@ -12,7 +12,7 @@ int add(int n){
     return n + add(n-1);
 }
 ```
-![image](https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png)
+####  How recursion works by taking a simple function
 ```c++
 void printFun(int test)
 {
@@ -29,3 +29,4 @@ void printFun(int test)
 ```
 Output : 3 2 1 1 2 3
 ```
+![image](https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png)
