@@ -23,17 +23,15 @@ int fun1(int x, int y)
 ```
 Problem 02:
 ```c++
-// minimum index finder
-
 int minIndex(int arr[], int s, int e)
 {
 	int sml = INT32_MAX;
 	int mindex;
 	for (int i = s; i < e; i++) {
-		if (sml > arr[i]) {
-			sml = arr[i];
-			mindex = i;
-		}
+	   if (sml > arr[i]) {
+		sml = arr[i];
+		mindex = i;
+	   }
 	}
 	return mindex;
 }
