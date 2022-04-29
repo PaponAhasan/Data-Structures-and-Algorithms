@@ -5,3 +5,10 @@ All recursive algorithms must have the following:
   - Work toward Base Case (Return statement)
   - Recursive Call (i.e., call ourselves)
 ```
+#### Sum of Natural Numbers using Recursion
+```c++
+int add(int n){
+    if(n==1) return 1;
+    return n + add(n-1);
+}
+```
