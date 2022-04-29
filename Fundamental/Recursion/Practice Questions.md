@@ -6,6 +6,8 @@ int fun1(int x, int y)
     else
         return fun1(x - 1, x + y);
 }
+```
+```
  if x is 5 and y is 2
  x = 5, y = 2
  x = 4, y = 5 + 2 = 7
