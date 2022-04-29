@@ -12,3 +12,20 @@ int add(int n){
     return n + add(n-1);
 }
 ```
+![image](https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png)
+```c++
+void printFun(int test)
+{
+    if (test < 1)
+        return;
+    else {
+        cout << test << " ";
+        printFun(test - 1); // statement 2
+        cout << test << " ";
+        return;
+    }
+}
+```
+```
+Output : 3 2 1 1 2 3
+```
