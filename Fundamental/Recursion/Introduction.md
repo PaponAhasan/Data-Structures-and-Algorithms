@@ -30,3 +30,8 @@ void printFun(int test)
 Output : 3 2 1 1 2 3
 ```
 ![image](https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png)
+
+```
+The recursive program has greater space requirements than iterative program as all functions will remain in the stack until the base 
+case is reached. It also has greater time requirements because of function calls and returns overhead.
+```
