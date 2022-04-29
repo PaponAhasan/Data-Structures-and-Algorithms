@@ -16,4 +16,6 @@ int fun1(int x, int y)
  x = 1, y = 2 + 14 = 16
  x = 0, y = 1 + 16 = 17
  return 17
+ 
+ x(x+1)/2 + y
 ```
