@@ -54,5 +54,5 @@ void fun2(int arr[], int start_index, int end_index)
 
 	fun2(arr, start_index + 1, end_index);
 }
-
+implementation of Selection Sort.
 ```
