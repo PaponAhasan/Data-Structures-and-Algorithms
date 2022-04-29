@@ -55,6 +55,4 @@ void fun2(int arr[], int start_index, int end_index)
 	fun2(arr, start_index + 1, end_index);
 }
 
-// This code is contributed by nishant_0073
-
 ```
