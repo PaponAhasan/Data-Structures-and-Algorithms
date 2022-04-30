@@ -59,9 +59,6 @@ int main()
 	}
 }
 ```
-#### Problem :
-- [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
-  ([Code](https://ideone.com/heWSFk))
 ```c++
 void pascal(vector<vector<ll>>&vec,int n){
     if(n==1){
@@ -74,7 +71,7 @@ void pascal(vector<vector<ll>>&vec,int n){
             vec[n-1].push_back(1);
             continue;
         }
-        vec[n-1].push_back((vec[n-2][i]+vec[n-2][i-1])%1000000007);
+        vec[n-1].push_back(vec[n-2][i]+vec[n-2][i-1]);
     }
     return;
 }
@@ -90,3 +87,7 @@ void solve(){
     }
 }
 ```
+
+#### Problem :
+- [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
+  ([Code](https://ideone.com/heWSFk))
