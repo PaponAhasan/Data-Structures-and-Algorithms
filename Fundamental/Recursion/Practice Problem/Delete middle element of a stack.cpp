@@ -1,9 +1,6 @@
-#include<bits/stdc++.h>
-using namespace std;
+    #include<bits/stdc++.h>
+    using namespace std;
 
-class Solution
-{
-    public:
     void midDelete(stack<int>&s,int i, int size){
         if(i==size) return;
         int x = s.top();
@@ -18,5 +15,4 @@ class Solution
         // code here..
          midDelete(s,0,size);
     }
-};
-// } Driver Code Ends
+    // } Driver Code Ends
