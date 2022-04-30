@@ -27,6 +27,7 @@ elements from n-1 elements and ways to select r elements from n-1 elements.
 
 For example, to calculate nCr, use the values of (n-1)C(r-1) and (n-1)C(r).
 ```
+Method 01 : Way nCr
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
@@ -35,34 +36,32 @@ int l[1001][1001] = { 0 };
 
 void initialize()
 {
-	l[0][0] = 1; // 0C0 = 1
-	for (int i = 1; i < 1001; i++) {
-		l[i][0] = 1; // Set every nCr = 1 where r = 0
-		for (int j = 1; j < i + 1; j++) {
-			l[i][j] = (l[i - 1][j - 1] + l[i - 1][j]); // Value for the current cell of Pascal's triangle
-		}
-	}
+    l[0][0] = 1; // 0C0 = 1
+    for (int i = 1; i < 1001; i++) {
+       l[i][0] = 1; // Set every nCr = 1 where r = 0
+       for (int j = 1; j < i + 1; j++) {
+           l[i][j] = (l[i - 1][j - 1] + l[i - 1][j]); // Value for the current cell of Pascal's triangle
+       }
+    }
 }
 
 int nCr(int n, int r)
 {
-	return l[n][r]; // Return nCr
+    return l[n][r]; // Return nCr
 }
 
 int main()
 {
-	initialize();
-	int n = 5;
-	int r = n+1;
-	for(int i=0;i<r;i++){
-	    cout << nCr(n, i)<<" ";
-	}
+    initialize();
+    int n = 5;
+    int r = n+1;
+    for(int i=0;i<r;i++){
+       cout << nCr(n, i)<<" ";
+    }
 }
 ```
+Method 02 : Using Recursion
 ```c++
-#include <bits/stdc++.h>
-using namespace std;
-
 void pascal(vector<vector<ll>>&vec,int n){
     if(n==1){
         vec[n-1].push_back(1);
@@ -89,13 +88,25 @@ void solve(){
         else cout<<vec[n-1][i]<<" ";
     }
 }
-
-int main()
+```
+Method 03 : Using Math Pattern
+```c++
+void printPascal(int n)
 {
-    solve();
+     
+for (int line = 1; line <= n; line++)
+{
+    int C = 1; // used to represent C(line, i)
+    for (int i = 1; i <= line; i++)
+    {
+         
+        // The first value in a line is always 1
+        cout<<C<<" ";
+        C = C * (line - i) / i;
+    }
+    cout<<"\n";
 }
 ```
-
 #### Problem :
 - [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
   ([Code](https://ideone.com/heWSFk))
