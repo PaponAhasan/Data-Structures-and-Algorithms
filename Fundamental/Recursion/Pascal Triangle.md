@@ -1,3 +1,13 @@
+![image](https://user-images.githubusercontent.com/59710234/166085655-4f75705b-7225-4b16-b8e6-bd1583bc64d0.png)
+
+```
+1  
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
+```
 #### Problem :
 - [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
   ([Code](https://ideone.com/heWSFk))
