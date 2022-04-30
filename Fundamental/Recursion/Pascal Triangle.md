@@ -22,10 +22,10 @@ n! / r! * (n - r)! = 5! / 5! * (0!) = 120 / 120 = 1
 ```
 To create the pascal triangle use these two formula: 
 1. nC0 = 1, number of ways to select 0 elements from a set of n elements is 0
-2. nCr = n-1Cr-1 + n-1Cr, number of ways to select r elements from a set of n elements is summation of ways to select r-1 
+2. nCr = (n-1)C(r-1) + (n-1)C(r), number of ways to select r elements from a set of n elements is summation of ways to select r-1 
 elements from n-1 elements and ways to select r elements from n-1 elements.
 
-For example, to calculate nCr, use the values of n-1Cr-1 and n-1Cr.
+For example, to calculate nCr, use the values of (n-1)C(r-1) and (n-1)C(r).
 ```
 ```c++
 #include <bits/stdc++.h>
