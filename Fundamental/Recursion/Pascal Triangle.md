@@ -17,11 +17,11 @@ void pascal(vector<vector<ll>>&vec,int n){
 void solve(){
     int n;
     cin>>n;
-	vector<vector<ll>>vec(n);
+    vector<vector<ll>>vec(n);
     pascal(vec,n);
     for(int i=0;i<n;++i){
         if(i==n-1) cout<<vec[n-1][i]<<"\n";
         else cout<<vec[n-1][i]<<" ";
-	}
+    }
 }
 ```
