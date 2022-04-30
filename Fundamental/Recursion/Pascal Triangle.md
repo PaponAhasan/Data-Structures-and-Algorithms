@@ -60,6 +60,9 @@ int main()
 }
 ```
 ```c++
+#include <bits/stdc++.h>
+using namespace std;
+
 void pascal(vector<vector<ll>>&vec,int n){
     if(n==1){
         vec[n-1].push_back(1);
@@ -85,6 +88,11 @@ void solve(){
         if(i==n-1) cout<<vec[n-1][i]<<"\n";
         else cout<<vec[n-1][i]<<" ";
     }
+}
+
+int main()
+{
+    solve();
 }
 ```
 
