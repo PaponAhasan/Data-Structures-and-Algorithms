@@ -27,7 +27,7 @@ elements from n-1 elements and ways to select r elements from n-1 elements.
 
 For example, to calculate nCr, use the values of (n-1)C(r-1) and (n-1)C(r).
 ```
-Method 01 : Way nCr
+#### Method 01 : Way nCr
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
@@ -60,7 +60,7 @@ int main()
     }
 }
 ```
-Method 02 : Using Recursion
+#### Method 02 : Using Recursion
 ```c++
 void pascal(vector<vector<ll>>&vec,int n){
     if(n==1){
@@ -89,7 +89,7 @@ void solve(){
     }
 }
 ```
-Method 03 : Using Math Pattern
+#### Method 03 : Using Math Pattern
 ```c++
 void printPascal(int n)
 {
