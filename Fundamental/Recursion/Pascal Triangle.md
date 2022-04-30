@@ -7,6 +7,15 @@
 1 3 3 1 
 1 4 6 4 1 
 1 5 10 10 5 1 
+
+The formula to find nCr is n! / r! * (n – r)! which is also the formula for a cell of Pascal’s triangle.
+n = 5, r = 0 - 4
+n! / r! * (n - r)! = 5! / 0! * (5!) = 120 / 120 = 1
+n! / r! * (n - r)! = 5! / 1! * (4!) = 120 / 24 = 5
+n! / r! * (n - r)! = 5! / 2! * (3!) = 120 / 12 = 10
+n! / r! * (n - r)! = 5! / 3! * (2!) = 120 / 12 = 10
+n! / r! * (n - r)! = 5! / 4! * (1!) = 120 / 24 = 5
+n! / r! * (n - r)! = 5! / 5! * (0!) = 120 / 120 = 1
 ```
 #### Problem :
 - [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
