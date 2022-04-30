@@ -14,6 +14,7 @@ void pascal(vector<vector<ll>>&vec,int n){
     }
     return;
 }
+
 void solve(){
     int n;
     cin>>n;
