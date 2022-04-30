@@ -1,3 +1,5 @@
+Problem :
+[Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
 ```c++
 void pascal(vector<vector<ll>>&vec,int n){
     if(n==1){
