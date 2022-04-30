@@ -1,4 +1,4 @@
-Problem :
+#### Problem :
 - [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
   ([Code](https://ideone.com/heWSFk))
 ```c++
