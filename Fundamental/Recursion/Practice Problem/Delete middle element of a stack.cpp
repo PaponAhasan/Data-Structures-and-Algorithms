@@ -16,3 +16,5 @@
          midDelete(s,0,size);
     }
     // } Driver Code Ends
+
+https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1/?category
