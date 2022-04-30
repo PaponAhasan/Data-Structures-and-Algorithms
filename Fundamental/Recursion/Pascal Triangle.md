@@ -9,13 +9,55 @@
 1 5 10 10 5 1 
 
 The formula to find nCr is n! / r! * (n – r)! which is also the formula for a cell of Pascal’s triangle.
+
 n = 5, r = 0 - 4
+
 n! / r! * (n - r)! = 5! / 0! * (5!) = 120 / 120 = 1
 n! / r! * (n - r)! = 5! / 1! * (4!) = 120 / 24 = 5
 n! / r! * (n - r)! = 5! / 2! * (3!) = 120 / 12 = 10
 n! / r! * (n - r)! = 5! / 3! * (2!) = 120 / 12 = 10
 n! / r! * (n - r)! = 5! / 4! * (1!) = 120 / 24 = 5
 n! / r! * (n - r)! = 5! / 5! * (0!) = 120 / 120 = 1
+```
+```
+To create the pascal triangle use these two formula: 
+1. nC0 = 1, number of ways to select 0 elements from a set of n elements is 0
+2. nCr = n-1Cr-1 + n-1Cr, number of ways to select r elements from a set of n elements is summation of ways to select r-1 
+elements from n-1 elements and ways to select r elements from n-1 elements.
+
+For example, to calculate nCr, use the values of n-1Cr-1 and n-1Cr.
+```
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int l[1001][1001] = { 0 };
+
+void initialize()
+{
+	l[0][0] = 1; // 0C0 = 1
+	for (int i = 1; i < 1001; i++) {
+		l[i][0] = 1; // Set every nCr = 1 where r = 0
+		for (int j = 1; j < i + 1; j++) {
+			l[i][j] = (l[i - 1][j - 1] + l[i - 1][j]); // Value for the current cell of Pascal's triangle
+		}
+	}
+}
+
+int nCr(int n, int r)
+{
+	return l[n][r]; // Return nCr
+}
+
+int main()
+{
+	initialize();
+	int n = 5;
+	int r = n+1;
+	for(int i=0;i<r;i++){
+	    cout << nCr(n, i)<<" ";
+	}
+}
 ```
 #### Problem :
 - [Pascal-Triangle](https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1#)
