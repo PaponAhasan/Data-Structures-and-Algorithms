@@ -79,6 +79,29 @@ wrong. Lets see why.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
 
+```c++
+03.
+
+int p = 0;
+for (int i = 1; p < n; i ++) 
+    p = p + i;
+```
+```    
+i    p
+------
+1   0 + 1 = 1
+2   1 + 2 = 3
+3   1 + 2 + 3 = 6
+:
+:
+k   1 + 2 + 3 + ... + k
+
+Assume p > n
+p = k*(k+1) / 2
+k*(k+1)/2 > n
+k^2 > n
+k > root(n)
+```
 ## N.T
 ```
 - You can assume approximately 10^8 operations per second to run in time.
