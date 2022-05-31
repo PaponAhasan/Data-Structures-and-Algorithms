@@ -9,4 +9,40 @@ Step 3 − merge the smaller lists into new list in sorted order.
 ```
 [Merge Sort Implementation](https://www.youtube.com/watch?v=JSceec-wEyw)
 
+### Implementation Merge Sort
+
 <img src="https://user-images.githubusercontent.com/59710234/171281571-2fbe15ce-c6cb-4dcb-a6a7-e38dd771e74b.png" width="600" height="500" />
+
+### Merge Sort in C/C++
+```
+MergeSort(A, p, r):
+    if p > r 
+        return
+    q = (p+r)/2
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+
+```
+
+### Time complexity analysis
+```
+Binary Search that whenever we divide a number into half in every step, it can be represented using a logarithmic function, which is log n 
+and the number of steps can be represented by log n + 1(at most) And to merge the subarrays, made by dividing the original array of n elements,
+a running time of O(n) will be required.
+```
+```
+- Worst Case Complexity: O(n*log n)
+  An array is in ascending order, and you want to sort it in descending order. 
+  
+  Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
+  Thus, the total number of comparisons = n*(n-1) ~ n^2
+
+- Best Case Complexity: O(n*log n)
+  When the array is already sorted, the outer loop runs for n number of times whereas the inner loop does not run at all.
+
+- Average Case Complexity: O(n*log n) 
+  It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
+
+- Space Complexity : O(n)
+```
