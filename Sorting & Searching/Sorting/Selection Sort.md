@@ -8,7 +8,6 @@ element at the beginning of the unsorted list.
 ```
 1. Select first element as minimum
 ```
-
 <img src="https://user-images.githubusercontent.com/59710234/171263026-5f43268d-6de6-4bb6-b1f8-51762cab4c30.png" width="600" height="300" />
 
 ```
