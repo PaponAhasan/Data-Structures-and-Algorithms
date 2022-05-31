@@ -33,17 +33,11 @@ the original array of n elements, a running time of O(n) will be required.
 ```
 ```
 - Worst Case Complexity: O(n*log n)
-  An array is in ascending order, and you want to sort it in descending order. 
-  
-  Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
-  Thus, the total number of comparisons = n*(n-1) ~ n^2
 
 - Best Case Complexity: O(n*log n)
-  When the array is already sorted, the outer loop runs for n number of times whereas the inner loop does not run at all.
-
+  
 - Average Case Complexity: O(n*log n) 
-  It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
-
+  
 - Space Complexity : O(n)
 ```
 ### Divide and Conquer Strategy
@@ -60,3 +54,9 @@ the original array of n elements, a running time of O(n) will be required.
 ```
 
 Code : https://ideone.com/gJwIcf
+
+```
+O(N) linear time search.
+```
+![image](https://user-images.githubusercontent.com/59710234/171300770-8f4e643f-4f28-4c2f-b8b7-706089805e8d.png)
+![image](https://user-images.githubusercontent.com/59710234/171300783-b5042917-6f9d-4520-bc1b-8168913359f9.png)
