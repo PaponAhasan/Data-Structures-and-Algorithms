@@ -53,8 +53,7 @@ the original array of n elements, a running time of O(n) will be required.
  Divide : If q is the half-way point between p and r, then we can split the subarray A[p..r] into two arrays A[p..q] and A[q+1, r].
  
  Conquer : We try to sort both the subarrays A[p..q] and A[q+1, r]. If we haven't yet reached the base case(the base case of array 
-           with 1 element), 
- we again divide both these subarrays.
+           with 1 element), we again divide both these subarrays.
  
  Combine : The conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r].
  
