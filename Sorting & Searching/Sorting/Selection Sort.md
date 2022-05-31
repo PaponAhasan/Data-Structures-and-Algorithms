@@ -49,3 +49,28 @@ goes on until the last element.
 
 <img src="https://user-images.githubusercontent.com/59710234/171264612-6d7a3afa-ffb4-4d72-8829-8c098e32c772.png" width="500" height="500" />
 
+### Selection Sort in C/C++
+
+```c++
+void selectionSort(int arr[], int n)
+{
+    int i, j, min_idx;
+ 
+    // One by one move boundary of
+    // unsorted subarray
+    for (i = 0; i < n-1; i++)
+    {
+       
+        // Find the minimum element in
+        // unsorted array
+        min_idx = i;
+        for (j = i+1; j < n; j++)
+        if (arr[j] < arr[min_idx])
+            min_idx = j;
+ 
+        // Swap the found minimum element
+        // with the first element
+        swap(&arr[min_idx], &arr[i]);
+    }
+}
+```
