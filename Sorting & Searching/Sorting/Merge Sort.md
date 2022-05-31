@@ -9,4 +9,4 @@ Step 3 − merge the smaller lists into new list in sorted order.
 ```
 [Merge Sort Implementation](https://www.youtube.com/watch?v=JSceec-wEyw)
 
-<img src="https://user-images.githubusercontent.com/59710234/171281571-2fbe15ce-c6cb-4dcb-a6a7-e38dd771e74b.png" width="600" height="600" />
+<img src="https://user-images.githubusercontent.com/59710234/171281571-2fbe15ce-c6cb-4dcb-a6a7-e38dd771e74b.png" width="600" height="500" />
