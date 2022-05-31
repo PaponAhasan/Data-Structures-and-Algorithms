@@ -27,21 +27,25 @@ goes on until the last element.
 ### Implementation Selection sort
 
 ```
+1.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171264538-e4e9c256-df40-4b51-889d-57eb35bb5d7e.png" width="500" height="300" />
 
 ```
+2.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171264554-b213d97f-3bc3-475c-a6f9-e02b87ebe503.png" width="500" height="300" />
 
 ```
+3.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171264577-465accf5-db09-43bc-a3a8-f414cad6e9a6.png" width="500" height="300" />
 
 ```
+4.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171264612-6d7a3afa-ffb4-4d72-8829-8c098e32c772.png" width="500" height="300" />
