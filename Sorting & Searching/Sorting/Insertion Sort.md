@@ -9,13 +9,4 @@ in the sorted part.Insertion sort is efficient for small data values.
 
 <img src="https://user-images.githubusercontent.com/59710234/171119573-6a365939-71a6-4032-be25-fcdcaf028c21.png" width="400" height="300" />
 
-![image]()
-
-![image]()
-
-![image](https://user-images.githubusercontent.com/59710234/171119592-b693d912-0b2a-422f-916b-9a7b9d20c4cf.png)
-
-![image](https://user-images.githubusercontent.com/59710234/171119608-d91eb836-3ea4-44cf-95aa-2ab9157b1dad.png)
-
-![image](https://user-images.githubusercontent.com/59710234/171119614-d903ab41-d143-4025-b42a-96113cdc3b7d.png)
 
