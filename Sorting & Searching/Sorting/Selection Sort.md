@@ -1,6 +1,10 @@
 ```
 Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that 
 element at the beginning of the unsorted list.
+
+The algorithm  two subarrays - 1. The subarray which is already sorted 2. Remaining subarray which is unsorted
+In every iteration of selection sort, select the minimum element (considering ascending order) from the unsorted subarray is picked and 
+moved to the sorted subarray. 
 ```
 [Selection Sort Implementation](https://youtu.be/xWBP4lzkoyM)
 ### Selection sort processes
@@ -86,6 +90,17 @@ last    1
 Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n^2
 ```
 ```
+The time complexity of Selection Sort is O(N^2) as there are two nested loops:
+
+  - One loop to select an element of Array one by one = O(N)
+  - Another loop to compare that element with every other Array element = O(N)
+  
+  Therefore overall complexity = O(N)*O(N) = O(N*N) = O(N^2)
+```
+```
+At every step, you have to find the minimum element and put it in the right place. The minimum element is not known until 
+the end of the array is not reached.
+
 - Worst Case Complexity: O(n^2) 
   An array is in ascending order, and you want to sort it in descending order. 
   
@@ -101,3 +116,4 @@ Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 ne
 
 - Space Complexity : O(1)
 ```
+- [Practice Problem](https://practice.geeksforgeeks.org/problems/selection-sort/1/)
