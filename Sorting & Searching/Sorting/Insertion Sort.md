@@ -60,14 +60,28 @@ void insertionSort(int array[], int size) {
 ```
 - Insertion sort takes maximum time(Order of n*n) to sort if elements are sorted in reverse order.
 - Insertion sort takes minimum time(Order of n) to sort if elements are already sorted.
-- Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only few 
-  elements are misplaced.
-- We can use binary search to reduce the number of comparisons in normal insertion sort. Binary Insertion Sort uses binary search 
-  to find the proper location to insert the selected item at each iteration. Normal insertion, sorting takes O(i) (at ith iteration) in worst case.
-  We can reduce it to O(logi) by using binary search.
+- Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only 
+  few elements are misplaced.
+- We can use binary search to reduce the number of comparisons in normal insertion sort. Binary Insertion Sort uses binary 
+  search to find the proper location to insert the selected item at each iteration. Normal insertion, sorting takes O(i) 
+  (at ith iteration) in worst case. We can reduce it to O(logi) by using binary search.
 ```
-[Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)
-[Insertion Sort for Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
-[Insertion Sort Practice Problem](https://practice.geeksforgeeks.org/problems/insertion-sort/1/)
+```
+Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
+Thus, the total number of comparisons = n*(n-1) ~ n^2
 
-[Coding practice for sorting](https://practice.geeksforgeeks.org/explore?page=3&category[]=Sorting&sortBy=submissions)
+Therefore overall time complexity of the insertion sort is O(n + f(n)) where f(n) is inversion count. If the inversion count 
+is O(n), then the time complexity of insertion sort is O(n). In worst case, there can be n*(n-1)/2 inversions. The worst case 
+occurs when the array is sorted in reverse order. So the worst case time complexity of insertion sort is O(n2).
+```
+```
+Worst case time complexity - O(n^2 )
+Best case time complexity - O(n)
+Average time complexity - O(n^2 )
+Space complexity - O(1)
+```
+- [Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)
+- [Insertion Sort for Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+- [Insertion Sort Practice Problem](https://practice.geeksforgeeks.org/problems/insertion-sort/1/)
+
+- [Coding practice for sorting](https://practice.geeksforgeeks.org/explore?page=3&category[]=Sorting&sortBy=submissions)
