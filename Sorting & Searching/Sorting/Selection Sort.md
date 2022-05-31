@@ -77,11 +77,11 @@ void selectionSort(int arr[], int n)
 ### Time complexity analysis
 ```
 Cycle	Number of Comparison
-1st	    (n-1)
-2nd	    (n-2)
-3rd	    (n-3)
-...	    ...
-last	1
+1st	     (n-1)
+2nd	     (n-2)
+3rd	     (n-3)
+...	     ...
+last	 1
 
 Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n^2
 ```
