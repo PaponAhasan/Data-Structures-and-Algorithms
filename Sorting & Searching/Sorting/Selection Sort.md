@@ -9,12 +9,14 @@ element at the beginning of the unsorted list.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171263026-5f43268d-6de6-4bb6-b1f8-51762cab4c30.png" width="600" height="300" />
+
 ```
 2. Compare minimum with the remaining elements. Compare minimum with the second element, third element and so on. The process 
 goes on until the last element.
 ```
 
 <img src="https://user-images.githubusercontent.com/59710234/171263233-fe4dca46-ecb4-4b35-9d84-688e74eddd2f.png" width="500" height="300" />
+
 ```
 3. After each iteration, minimum is placed in the front of the unsorted list. Swap the first with minimum.
 ```
