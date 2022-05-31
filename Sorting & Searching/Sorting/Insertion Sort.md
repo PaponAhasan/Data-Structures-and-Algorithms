@@ -67,19 +67,26 @@ void insertionSort(int array[], int size) {
   (at ith iteration) in worst case. We can reduce it to O(logi) by using binary search.
 ```
 ```
-Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
-Thus, the total number of comparisons = n*(n-1) ~ n^2
+- Worst Case Complexity: O(n2) 
+  An array is in ascending order, and you want to sort it in descending order. 
+  
+  Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
+  Thus, the total number of comparisons = n*(n-1) ~ n^2
 
+- Best Case Complexity: O(n)
+  When the array is already sorted, the outer loop runs for n number of times whereas the inner loop does not run at all.
+
+- Average Case Complexity: O(n2) 
+  It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
+
+- Space Complexity : O(1)
+```
+```
 Therefore overall time complexity of the insertion sort is O(n + f(n)) where f(n) is inversion count. If the inversion count 
 is O(n), then the time complexity of insertion sort is O(n). In worst case, there can be n*(n-1)/2 inversions. The worst case 
 occurs when the array is sorted in reverse order. So the worst case time complexity of insertion sort is O(n2).
 ```
-```
-Worst case time complexity - O(n^2 )
-Best case time complexity - O(n)
-Average time complexity - O(n^2 )
-Space complexity - O(1)
-```
+
 - [Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)
 - [Insertion Sort for Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
 - [Insertion Sort Practice Problem](https://practice.geeksforgeeks.org/problems/insertion-sort/1/)
