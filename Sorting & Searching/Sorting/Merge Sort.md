@@ -58,5 +58,5 @@ Code : https://ideone.com/gJwIcf
 ```
 O(N) linear time search.
 ```
-![image](https://user-images.githubusercontent.com/59710234/171300770-8f4e643f-4f28-4c2f-b8b7-706089805e8d.png)
-![image](https://user-images.githubusercontent.com/59710234/171300783-b5042917-6f9d-4520-bc1b-8168913359f9.png)
+<img src="https://user-images.githubusercontent.com/59710234/171300770-8f4e643f-4f28-4c2f-b8b7-706089805e8d.png" width="500" height="200" />
+<img src="https://user-images.githubusercontent.com/59710234/171300783-b5042917-6f9d-4520-bc1b-8168913359f9.png" width="500" height="200" />
