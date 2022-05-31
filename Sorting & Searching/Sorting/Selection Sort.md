@@ -85,3 +85,19 @@ last    1
 
 Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n^2
 ```
+```
+- Worst Case Complexity: O(n^2) 
+  An array is in ascending order, and you want to sort it in descending order. 
+  
+  Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
+  Thus, the total number of comparisons = n*(n-1) ~ n^2
+
+- Best Case Complexity: O(n^2)
+  When the array is already sorted, the outer loop runs for n number of times whereas the inner loop n number of times.
+  Thus, the total number of comparisons = n*(n-1) ~ n^2
+
+- Average Case Complexity: O(n^2) 
+  It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
+
+- Space Complexity : O(1)
+```
