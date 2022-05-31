@@ -7,6 +7,6 @@ in the sorted part.Insertion sort is efficient for small data values.
 
 [Insertion Sort Implementation](https://youtu.be/OGzPmgsI-pQ)
 
-<img src="https://user-images.githubusercontent.com/59710234/171119573-6a365939-71a6-4032-be25-fcdcaf028c21.png" width="400" height="300" />
+<img src="https://user-images.githubusercontent.com/59710234/171119573-6a365939-71a6-4032-be25-fcdcaf028c21.png" width="500" height="300" />
 
 
