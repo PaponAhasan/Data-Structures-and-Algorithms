@@ -3,8 +3,8 @@ Selection sort is a sorting algorithm that selects the smallest element from an 
 element at the beginning of the unsorted list.
 
 The algorithm  two subarrays - 1. The subarray which is already sorted 2. Remaining subarray which is unsorted
-In every iteration of selection sort, select the minimum element (considering ascending order) from the unsorted subarray is picked and 
-moved to the sorted subarray. 
+In every iteration of selection sort, select the minimum element (considering ascending order) from the unsorted subarray is picked 
+and moved to the sorted subarray. 
 ```
 [Selection Sort Implementation](https://youtu.be/xWBP4lzkoyM)
 ### Selection sort processes
