@@ -38,6 +38,7 @@ Initial array
 
 <img src="https://user-images.githubusercontent.com/59710234/171121647-8223610b-433d-475d-ab30-7d1733bb9872.png" width="500" height="300" />
 
+# Insertion Sort in C/C++
 ```c++
 void insertionSort(int array[], int size) {
   for (int step = 1; step < size; step++) {
@@ -55,3 +56,18 @@ void insertionSort(int array[], int size) {
   }
 }
 ```
+# Time complexity analysis
+```
+- Insertion sort takes maximum time(Order of n*n) to sort if elements are sorted in reverse order.
+- Insertion sort takes minimum time(Order of n) to sort if elements are already sorted.
+- Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only few 
+  elements are misplaced.
+- We can use binary search to reduce the number of comparisons in normal insertion sort. Binary Insertion Sort uses binary search 
+  to find the proper location to insert the selected item at each iteration. Normal insertion, sorting takes O(i) (at ith iteration) in worst case.
+  We can reduce it to O(logi) by using binary search.
+```
+[Binary Insertion Sort](https://www.geeksforgeeks.org/binary-insertion-sort/)
+[Insertion Sort for Linked List](https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+[Insertion Sort Practice Problem](https://practice.geeksforgeeks.org/problems/insertion-sort/1/)
+
+[Coding practice for sorting](https://practice.geeksforgeeks.org/explore?page=3&category[]=Sorting&sortBy=submissions)
