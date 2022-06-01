@@ -40,21 +40,6 @@ the original array of n elements, a running time of O(n) will be required.
   
 - Space Complexity : O(n)
 ```
-### Divide and Conquer Strategy
-```
- We had to sort an array A. This array starting at index p and ending at index r, denoted as A[p..r].
- 
- Divide : If q is the half-way point between p and r, then we can split the subarray A[p..r] into two arrays A[p..q] and A[q+1, r].
- 
- Conquer : We try to sort both the subarrays A[p..q] and A[q+1, r]. If we haven't yet reached the base case(the base case of array 
-           with 1 element), we again divide both these subarrays.
- 
- Combine : The conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r].
- 
-```
-
-Code : https://ideone.com/gJwIcf
-
 ```
 if the number of elements n, we only need one additional step of divisions d. if n is four elements, two division steps are 
 needed, and for n is eight elements, three division steps are needed: So the number of division stages is log2 n.
@@ -72,3 +57,18 @@ So we have n elements times log2 n division and merge stages. Therefore: The tim
 ```
 <img src="https://user-images.githubusercontent.com/59710234/171300770-8f4e643f-4f28-4c2f-b8b7-706089805e8d.png" width="800" height="300" />
 <img src="https://user-images.githubusercontent.com/59710234/171300783-b5042917-6f9d-4520-bc1b-8168913359f9.png" width="800" height="300" />
+
+### Divide and Conquer Strategy
+```
+ We had to sort an array A. This array starting at index p and ending at index r, denoted as A[p..r].
+ 
+ Divide : If q is the half-way point between p and r, then we can split the subarray A[p..r] into two arrays A[p..q] and A[q+1, r].
+ 
+ Conquer : We try to sort both the subarrays A[p..q] and A[q+1, r]. If we haven't yet reached the base case(the base case of array 
+           with 1 element), we again divide both these subarrays.
+ 
+ Combine : The conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r].
+ 
+```
+
+Code : https://ideone.com/gJwIcf
