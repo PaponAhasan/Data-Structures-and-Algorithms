@@ -115,5 +115,5 @@ So we have n elements times log2 n division and merge stages. Therefore: The tim
  
 ```
 
-https://www.programiz.com/dsa/merge-sort
-https://www.happycoders.eu/algorithms/merge-sort/
+- https://www.programiz.com/dsa/merge-sort
+- https://www.happycoders.eu/algorithms/merge-sort/
