@@ -24,6 +24,7 @@ MergeSort(A, p, r):
     merge(A, p, q, r)
 
 ```
+Code : https://ideone.com/gJwIcf
 
 ### Time complexity analysis
 ```
@@ -70,5 +71,3 @@ So we have n elements times log2 n division and merge stages. Therefore: The tim
  Combine : The conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r].
  
 ```
-
-Code : https://ideone.com/gJwIcf
