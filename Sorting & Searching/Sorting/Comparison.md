@@ -11,6 +11,14 @@ Insertion Sort
 4. It is more efficient than the Selection sort.
 
 5. The number of comparison operations is less for sorting.
+
+6. Space - Constant	O(1)
+
+7. In-place - yes
+
+8. Shifting
+
+In-place if the algorithm does not use extra space 
 ```
 
 ```
@@ -27,4 +35,21 @@ and places that element at the beginning of the unsorted list for  ascending / d
 4. It is less efficient than the Insertion sort.
 
 5. The number of comparison operations is more for sorting.
+
+6. Space - Constant	O(1)
+
+7. In-place - yes
+
+8. swaping
+```
+```
+Merge Sort
+```
+```
+2. Stability - Stable
+1. Space - Depends
+
+3. In-place - no
+
+4. allocation extar memory and data copy
 ```
