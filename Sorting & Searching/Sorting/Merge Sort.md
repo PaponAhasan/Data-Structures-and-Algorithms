@@ -31,6 +31,15 @@ Code : https://ideone.com/gJwIcf
 Binary Search that whenever we divide a number into half in every step, it can be represented using a logarithmic function,
 which is log n and the number of steps can be represented by log n + 1(at most) And to merge the subarrays, made by dividing 
 the original array of n elements, a running time of O(n) will be required.
+
+                n           ---> 1(n-1) = 2^0 (n/(2^0) -1)
+             /     \
+           n/2     n/2      ---> 2(n/2-1) = 2^1 (n/(2^1) -1)
+          /  \     /  \ 
+        n/4  n/4  n/4 n/4   ---> 4(n/4-1) = 2^2 (n/(2^2) -1)
+        /  \ / \ / \  /  \
+       .   . . . . . .   .  
+       .   . . . . . .   .  ---> base case = 2^i (n/(2^i) -1)
                
                 8
              /     \
