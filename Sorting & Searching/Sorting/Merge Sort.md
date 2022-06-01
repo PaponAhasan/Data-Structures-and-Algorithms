@@ -56,14 +56,14 @@ the original array of n elements, a running time of O(n) will be required.
 Code : https://ideone.com/gJwIcf
 
 ```
-if the number of elements n, we only need one additional step of divisions d. if n is four elements, two division steps are needed, 
-and for n is eight elements, three division steps are needed: So the number of division stages is log2 n.
+if the number of elements n, we only need one additional step of divisions d. if n is four elements, two division steps are 
+needed, and for n is eight elements, three division steps are needed: So the number of division stages is log2 n.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/171356687-b9b702f9-8123-4d75-8a71-7d9dca67861f.png)
 
 ```
-On each merge stage, we have to merge a total of n elements (on the first stage n × 1, on the second stage n/2 × 2, on the third stage n/4 × 4, etc.):
-So The merge process linear complexity O(n)
+On each merge stage, we have to merge a total of n elements (on the first stage n × 1, on the second stage n/2 × 2, on the 
+third stage n/4 × 4, etc.): So The merge process linear complexity O(n)
 ```
 ![image](https://user-images.githubusercontent.com/59710234/171356888-ab575043-869f-4b19-a11a-ed85ddc81452.png)
 
