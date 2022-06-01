@@ -10,7 +10,7 @@ for (i = 0; i < N; i++) {
 ```
 ```
 Lets see how many times count++ will run. 
-   When i = 0, it will run 0 times.
-   When i = 1, it will run 1 times. 
-   When i = 2, it will run 2 times and so on.
+   When i = 0, it will run N times.
+   When i = 1, it will run N-1 times. 
+   When i = 2, it will run N-2 times and so on.
 ```
