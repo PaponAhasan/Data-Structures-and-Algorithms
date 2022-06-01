@@ -65,23 +65,3 @@ k*(k+1)/2 > n
 k^2 > n
 k > root(n)
 ```
-## N.T
-```
-- You can assume approximately 10^8 operations per second to run in time.
-- You can use approximately 5*10^7 int worth of memory, 
-- Single array of that size (say arr[10000000]), 
-- Multidimensional arrays (say arr[10000][1000]), 
-  Be wary that long long takes more space than int.
-```
-
-## Practice
-* [GFG](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
-* [Time & Space GFG](https://www.geeksforgeeks.org/time-complexity-and-space-complexity/?ref=rp)
-* [Space GFG](https://www.geeksforgeeks.org/g-fact-86/)
-* [Codechef](https://discuss.codechef.com/t/multiple-choice-questions-related-to-testing-knowledge-about-time-and-space-complexity-of-a-program/17976)
-* [InterviewBit](https://www.interviewbit.com/courses/programming/topics/time-complexity/#problems)
-* [Scanftree](https://scanftree.com/Data_Structure/time-complexity-and-space-complexity-comparison-of-sorting-algorithms)
-* [Bigocheatsheet](https://www.bigocheatsheet.com/?fbclid=IwAR3fLKNHE2eezeXu3rO7MA4dTK5lHSY7rPfSOYiU9_Zr6ExRK7Mjo_9MX8o)
-* [Time Complexity [V]](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn&fbclid=IwAR0kaAXKECS6iAP2kGUYf__X2j6_SS-c4yeq0dzjJvgBAyS8U-L4LBBwsPM)
-* [Time complexity in recursion [V]](https://www.youtube.com/watch?v=ncpTxqK35PI&fbclid=IwAR2a_OraRdPheSV0tDNcp5p10jswXgAHpYeowuZIMUjmB0ad0DBDnABdxxE)
-* [Abdul Bari](https://www.youtube.com/watch?v=9TlHvipP5yA&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=7&ab_channel=AbdulBari)
