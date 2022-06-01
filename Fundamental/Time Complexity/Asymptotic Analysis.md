@@ -26,12 +26,12 @@ Theta Notation (Θ-notation) : Since it represents the upper and the lower bound
 ```
 ```
 For example: In bubble sort, when the input array is already sorted, the time taken by the algorithm is linear i.e. the best 
-case. Ω(f(n)
+case. Ω(f(n))
 
 But, when the input array is in reverse condition, the algorithm takes the maximum time (quadratic) to sort the elements i.e. 
-the worst case. O(f(n)
+the worst case. O(f(n))
 
-When the input array is neither sorted nor in reverse order, then it takes average time. Θ(f(n)
+When the input array is neither sorted nor in reverse order, then it takes average time. Θ(f(n))
 
 We mostly consider O-notation because it will give us an upper limit of the execution time.
 f(N) = 2*N^2 + 3*N + 5;
