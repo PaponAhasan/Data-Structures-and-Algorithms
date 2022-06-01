@@ -40,3 +40,22 @@ Let’s take the examples here :
     
     So, total steps = O(n/ 2 * log (n)) = O(n*logn)
 ```
+```c++
+03.
+
+int a = 0, i = N;
+while (i > 0) {
+    a += i;
+    i /= 2;
+}
+```
+```
+Let’s take the examples here :
+    for n = 16, j = 2, 4, 8, 16 
+    for n = 32, j = 2, 4, 8, 16, 32 
+    So, j would run for O(log n) steps.
+    
+    i runs for n/2 steps.
+    
+    So, total steps = O(n/ 2 * log (n)) = O(n*logn)
+```
