@@ -24,6 +24,18 @@ MergeSort(A, p, r):
     merge(A, p, q, r)
 
 ```
+### Merging step
+```
+Our task is to merge two subarrays A[p..q] and A[q+1..r]. So the inputs to the function are A, p, q and r
+```
+![image](https://user-images.githubusercontent.com/59710234/171379232-cd30b4f3-ed10-4d8b-be4f-3e58db260c1c.png)
+```
+Comparing individual elements of sorted subarrays until we reach end of one
+```
+![image](https://user-images.githubusercontent.com/59710234/171379290-6343dc2c-2a61-45b7-a961-b79b557cf42a.png)
+```
+Copy the remaining elements from the first array to main subarray
+```
 Code : https://ideone.com/gJwIcf
 
 ### Time complexity analysis
