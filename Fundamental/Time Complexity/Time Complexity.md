@@ -14,6 +14,16 @@ memory limit.If your solution is logically 'correct', it may not meet these requ
 
 ```
 The Big-O notation is used to describe how an algorithm scales with the size of the input.
+
+Time Complexity Analysis for :
+   (1) very large input size
+   (2) worst case scenario
+   
+T(n) = 2*n^2 + 3*n + 1
+
+ 1. Drop lower order terms
+ 2. Drop all the multiful constant
+So, O(n^2) 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157398014-98fb33d3-0115-40b1-9dbc-b1347fc7a996.png)
 
@@ -46,7 +56,18 @@ We mostly consider O-notation because it will give us an upper limit of the exec
 f(N) = 2*N^2 + 3*N + 5;
 O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 ```
-
+```c++
+ a = a + b ; # constant time = c1
+ 
+ for(int i=1;i<=n;i++)
+    x = y + z; # constant time = c2 * n
+    
+ for(int i=1;i<=n;i++)
+    c = d + e;    # constant time = c3 * n
+ 
+ c1 + c2*n + c3*n
+ = O(n) # constant time ignore
+```
 ## N.T
 ```
 - You can assume approximately 10^8 operations per second to run in time.
