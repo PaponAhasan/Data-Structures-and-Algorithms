@@ -17,8 +17,8 @@ Insertion Sort
 Selection Sort
 ```
 ```
-1. Selection sort is a sorting algorithm that selects the smallest/largest element from an unsorted list in each iteration and places that 
-element at the beginning of the unsorted list for  ascending / descending order.
+1. Selection sort is a sorting algorithm that selects the smallest/largest element from an unsorted list in each iteration 
+and places that element at the beginning of the unsorted list for  ascending / descending order.
 
 2. It is an unstable sorting algorithm.
 
