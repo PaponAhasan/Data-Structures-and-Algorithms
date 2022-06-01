@@ -81,8 +81,8 @@ wrong. Lets see why.
 
 ```
 = a/1-r (a = first term, r = comman ratio)
-= 1/1-½
-= 1/½
+= 1/1-(½)
+= 1/ (½)
 = 2
 
 N + N/2 + N/4 + N/8 + ......
