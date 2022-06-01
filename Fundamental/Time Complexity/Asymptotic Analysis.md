@@ -32,4 +32,8 @@ But, when the input array is in reverse condition, the algorithm takes the maxim
 the worst case. O(f(n)
 
 When the input array is neither sorted nor in reverse order, then it takes average time. Θ(f(n)
+
+We mostly consider O-notation because it will give us an upper limit of the execution time.
+f(N) = 2*N^2 + 3*N + 5;
+O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 ```
