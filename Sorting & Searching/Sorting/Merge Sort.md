@@ -31,10 +31,20 @@ Code : https://ideone.com/gJwIcf
 Binary Search that whenever we divide a number into half in every step, it can be represented using a logarithmic function,
 which is log n and the number of steps can be represented by log n + 1(at most) And to merge the subarrays, made by dividing 
 the original array of n elements, a running time of O(n) will be required.
-
+               
+                8
+             /     \
+            4       4
+          /  \     /  \ 
+         2    2   2    2
+        /  \ / \ / \  /  \
+        1  1 1 1 1  1 1  1  ---> base case
+        
 Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
-
-T(n) = 2T(n/2) + O(n)
+       
+split = left     right    mearging
+ T(n) = T(n/2) + T(n/2) + O(n - 1)
+ T(n) = 2T(n/2) + O(n)
 ```
 ```
 - Worst Case Complexity: O(n*log n)
@@ -63,6 +73,7 @@ third stage n/4 × 4, etc.): So The merge process linear complexity O(n)
 ```
 So we have n elements times log2 n division and merge stages. Therefore: The time complexity of Merge Sort is: O(n log n)
 ```
+
 <img src="https://user-images.githubusercontent.com/59710234/171300770-8f4e643f-4f28-4c2f-b8b7-706089805e8d.png" width="800" height="300" />
 <img src="https://user-images.githubusercontent.com/59710234/171300783-b5042917-6f9d-4520-bc1b-8168913359f9.png" width="800" height="300" />
 
