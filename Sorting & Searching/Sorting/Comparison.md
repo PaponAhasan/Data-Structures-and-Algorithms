@@ -53,4 +53,7 @@ Merge Sort
 3. In-place - no
 
 4. allocation extar memory and data copy
+
+mearge sort fast is also other sort algorithm but mearge lot of space for operation
+bubble sort slow is also other sort algorithm but bubble required minimum space for operation
 ```
