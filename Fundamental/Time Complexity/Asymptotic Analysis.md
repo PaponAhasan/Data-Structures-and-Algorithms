@@ -37,4 +37,5 @@ We mostly consider O-notation because it will give us an upper limit of the exec
     f(N) = 2*N^2 + 3*N + 5;
     O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 ```
+
 ![image](https://user-images.githubusercontent.com/59710234/171439751-b4ee9a2d-8125-4bbe-810d-2f240c9b077d.png)
