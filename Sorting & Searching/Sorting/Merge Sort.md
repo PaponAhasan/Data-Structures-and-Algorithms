@@ -114,3 +114,6 @@ So we have n elements times log2 n division and merge stages. Therefore: The tim
  Combine : The conquer step reaches the base step and we get two sorted subarrays A[p..q] and A[q+1, r] for array A[p..r].
  
 ```
+
+https://www.programiz.com/dsa/merge-sort
+https://www.happycoders.eu/algorithms/merge-sort/
