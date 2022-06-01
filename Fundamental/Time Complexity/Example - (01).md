@@ -79,6 +79,15 @@ wrong. Lets see why.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/157404239-706efd09-3ff7-49be-9190-bbb9bdd17372.png)
 
+```
+= a/1-r (a = first term, r = comman ratio)
+
+= 1/1-½
+
+= 1/½
+
+= 2
+```
 ```c++
 03.
 
