@@ -50,12 +50,8 @@ while (i > 0) {
 }
 ```
 ```
-Let’s take the examples here :
-    for n = 16, j = 2, 4, 8, 16 
-    for n = 32, j = 2, 4, 8, 16, 32 
-    So, j would run for O(log n) steps.
-    
-    i runs for n/2 steps.
-    
-    So, total steps = O(n/ 2 * log (n)) = O(n*logn)
+We have to find the smallest x such that N / 2^x [ x = 0,1,2,3,...]
+x = log(N)
+
+So, total steps = O(log N)
 ```
