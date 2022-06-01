@@ -46,8 +46,9 @@ and places that element at the beginning of the unsorted list for  ascending / d
 Merge Sort
 ```
 ```
-2. Stability - Stable
-1. Space - Depends
+1. Stability - Stable
+
+2. Space - Depends
 
 3. In-place - no
 
