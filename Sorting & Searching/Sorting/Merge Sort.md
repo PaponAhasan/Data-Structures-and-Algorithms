@@ -40,8 +40,9 @@ the original array of n elements, a running time of O(n) will be required.
 - Average Case Complexity: O(n*log n) 
   
 - Space Complexity : O(n)
-  The merge phase, elements from two subarrays are copied into a newly created target array. In the very last merge step, the target array 
-  is exactly as large as the    array to be sorted. Thus, we have a linear space requirement: The space complexity of Merge Sort is: O(n).
+  The merge phase, elements from two subarrays are copied into a newly created target array. In the very last merge step, the target 
+  array is exactly as large as the    array to be sorted. Thus, we have a linear space requirement: The space complexity of Merge Sort 
+  is: O(n).
 ```
 ```
 if the number of elements n, we only need one additional step of divisions d. if n is four elements, two division steps are 
