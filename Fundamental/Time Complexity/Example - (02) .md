@@ -13,4 +13,10 @@ Lets see how many times count++ will run.
    When i = 0, it will run N times.
    When i = 1, it will run N-1 times. 
    When i = 2, it will run N-2 times and so on.
+   
+The above code runs total no of times 
+    = N + (N – 1) + (N – 2) + … 1 + 0 
+    = N * (N + 1) / 2 
+    = 1/2 * N^2 + 1/2 * N 
+    O(N^2) times.
 ```
