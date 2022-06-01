@@ -31,6 +31,10 @@ Code : https://ideone.com/gJwIcf
 Binary Search that whenever we divide a number into half in every step, it can be represented using a logarithmic function,
 which is log n and the number of steps can be represented by log n + 1(at most) And to merge the subarrays, made by dividing 
 the original array of n elements, a running time of O(n) will be required.
+
+Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
+
+T(n) = 2T(n/2) + O(n)
 ```
 ```
 - Worst Case Complexity: O(n*log n)
