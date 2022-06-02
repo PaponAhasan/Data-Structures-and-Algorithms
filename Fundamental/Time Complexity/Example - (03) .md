@@ -39,3 +39,18 @@ Total Times = 1*100 + 2*100 + 3*100 + ... + n*100
             = 100 * n*(n+1)/2
 So, time Complexity is : O(n^2)
 ```
+```c++
+03.
+
+int fib(int n){
+    if (n <= 1)
+        return n;
+    return fib(n-1) + fib(n-2);
+}
+```
+![image](https://user-images.githubusercontent.com/59710234/171729062-245d743f-df43-45f6-991c-a9d26f98a4e3.png)
+
+```
+In the recursive approach or every value from 0 to n two functions are called (except the base cases). 
+For example, fib(6) is calling fib(5) and fib(4). So the time complexity of the recursive approach is O(2^n). 
+```
