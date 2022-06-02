@@ -3,10 +3,9 @@ Dynamic programming an ideal example can be solving the Fibonacci number sequenc
 
 A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two 
 preceding numbers except the first two numbers.
-
-Values are : F0 = 0 and F1 = 1
-So, Recurrence relation : Fn = Fn-1 + Fn-2 [ n > 1 ]
 ```
+![image](https://user-images.githubusercontent.com/59710234/171693526-caebb745-859c-4e67-86f8-48a5906edf54.png)
+
 ```
 Recursion vs Dynamic programming
 
