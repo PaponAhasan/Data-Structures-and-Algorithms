@@ -98,7 +98,7 @@ They are overlapping subproblem. The overlapping subproblems are solved only onc
 ```
 We can avoid the repeated work done in method 1 by storing value using DP
 ```
-#### A Recursively Approach
+#### A Recursively (Top-Down) Approach 
 ```c++
 #include<bits/stdc++.h>
 using namespace std;
@@ -131,7 +131,7 @@ int main ()
     return 0;
 }
 ```
-#### The Iterative  Approach
+#### The Iterative (Bottom-Up) Approach 
 ```c++
 int fib(int n)
 {
