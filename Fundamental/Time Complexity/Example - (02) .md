@@ -53,5 +53,7 @@ while (i > 0) {
 We have to find the smallest x such that N / 2^x [ x = 0,1,2,3,...]
 x = log(N)
 
+for n = 16, i = 16, 8, 4, 2 , 1
+
 So, total steps = O(log N)
 ```
