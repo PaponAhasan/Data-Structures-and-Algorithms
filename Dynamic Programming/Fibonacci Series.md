@@ -2,7 +2,7 @@
 Dynamic programming an ideal example can be solving the Fibonacci number sequence. As it is very easy to understand.
 
 A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two 
-preceding numbers.
+preceding numbers except the first two numbers.
 
 Values are : F0 = 0 and F1 = 1
 So, Recurrence relation : Fn = Fn-1 + Fn-2 [ n > 1 ]
