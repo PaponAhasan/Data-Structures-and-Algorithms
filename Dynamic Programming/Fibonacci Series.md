@@ -103,7 +103,7 @@ int fib(int n)
     
     if (n <= 1)
         return n;
-    // if it is -1 then we can say that the problem was solved before.     
+    // if it is not -1 then we can say that the problem was solved before.     
     if (memo[n] != -1)
         return memo[n];
         
