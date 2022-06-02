@@ -48,7 +48,6 @@ int main ()
 {
     int n = 9;
     cout << fib(n);
-    getchar();
     return 0;
 }
 ```
@@ -87,6 +86,39 @@ They are overlapping subproblem. The overlapping subproblems are solved only onc
 ```
 We can avoid the repeated work done in method 1 by storing value using DP
 ```
+#### A Recursively Approach
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+int memo[20];
+
+void assign(){
+    for(int i=0;i<20;i++)
+      memo[i] = -1;
+}
+
+int fib(int n)
+{
+    
+    if (n <= 1)
+        return n;
+    if memo[n] != -1:
+        return memo[n];
+        
+    memo[n] = fib(n-1) + fib(n-2);
+    return memo[n];
+}
+ 
+int main ()
+{
+    assign();
+    int n = 9;
+    cout << fib(n);
+    return 0;
+}
+```
+#### The Iterative  Approach
 ```c++
 int fib(int n)
 {
