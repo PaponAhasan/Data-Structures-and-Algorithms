@@ -1,5 +1,5 @@
 ```
-Dynamic programming is a problem-solving technique for solving a problem by breaking it into similar subproblems. But we will 
+Dynamic programming is a problem-solving technique for solving a problem by **breaking it into similar subproblems**. But we will 
 never solve the same subproblem twice. 
 
 Dynamic programming, like the divide-and-conquer method, solves problems by combining the solutions to subproblems.
