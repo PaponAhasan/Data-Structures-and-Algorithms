@@ -68,7 +68,7 @@ Original tree for recursion : n times the recursion function is called
 fib(1) fib(0)
 ```
 ```
-Recursively we have to break the problem into similar subproblems. with the help of this formula — fib(n) = fib(n-1) + fib(n-2) if n>1
+Recursively we have to break the problem into similar subproblems.With the help of this formula — fib(n) = fib(n-1) + fib(n-2) if n>1
  
 Base cases : fib(0) = 0 and fib(1) = 1
 ```
