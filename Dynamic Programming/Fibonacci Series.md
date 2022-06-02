@@ -4,8 +4,6 @@ Dynamic programming an ideal example can be solving the Fibonacci number sequenc
 A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two 
 preceding numbers except the first two numbers.
 ```
-![image](https://user-images.githubusercontent.com/59710234/171693526-caebb745-859c-4e67-86f8-48a5906edf54.png)
-
 ```c++
  Let n be the number of terms.
 
@@ -19,6 +17,7 @@ F(2) = F(1) + F(0)
 F(3) = F(2) + F(1)
 F(4) = F(3) + F(2)
 ```
+![image](https://user-images.githubusercontent.com/59710234/171693526-caebb745-859c-4e67-86f8-48a5906edf54.png)
 ```
 Here, we have used the results of the previous steps as shown below. This is called a dynamic programming approach.
 ```
