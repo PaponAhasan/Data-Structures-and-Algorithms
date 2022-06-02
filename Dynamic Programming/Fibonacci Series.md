@@ -1,20 +1,21 @@
 ```
-Dynamic programming is a problem-solving technique for solving a problem by **breaking it into similar subproblems**. But we will 
-never solve the same subproblem twice. 
-
-Dynamic programming, like the divide-and-conquer method, solves problems by combining the solutions to subproblems.
-
-A dynamic-programming algorithm solves each subsubproblem just once and then saves its answer in a table, thereby avoiding 
-the work of recomputing the answer every time it solves each subsubproblem.
-
-Such problems can have many possible solutions. Each solution has a value, and we wish to find a solution with the optimal 
-(minimum or maximum) value.
+Dynamic programming an ideal example can be solving the Fibonacci number sequence. As it is very easy to understand.
 
 A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two 
 preceding numbers.
 
 Values are : F0 = 0 and F1 = 1
 So, Recurrence relation : Fn = Fn-1 + Fn-2 [ n > 1 ]
+```
+```
+Recursion vs Dynamic programming
+- In DP and recursion, we also break a problem into similar subproblems.
+- The difference is in recursion similar subproblems may be solved multiple times. But in dynamic programming, we keep track
+  of already solved subproblems and don’t solve them more than once.
+  
+  [ The problems that appear multiple times are called overlapping subproblems.]
+  
+  In DP we save the solutions of overlapping subproblems. This is called as “Memoization”.
 ```
 ```c++
  Let n be the number of terms.
