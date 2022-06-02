@@ -69,7 +69,7 @@ bool isPrime(int n)
         return false;
  
     // Check from 2 to square root of n
-    for (int i = 2; i <= sqrt(n); i++) ----> [ root(n) - 2 ] times
+    for (int i = 2; i <= sqrt(n); i++) // ----> [ root(n) - 2 ] times
         if (n % i == 0)
             return false;
  
