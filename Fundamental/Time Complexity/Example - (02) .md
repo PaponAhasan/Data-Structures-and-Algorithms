@@ -69,7 +69,7 @@ bool isPrime(int n)
         return false;
  
     // Check from 2 to square root of n
-    for (int i = 2; i <= sqrt(n); i++)
+    for (int i = 2; i <= sqrt(n); i++) ----> [ root(n) - 2 ] times
         if (n % i == 0)
             return false;
  
@@ -77,10 +77,6 @@ bool isPrime(int n)
 }
 ```
 ```
-We have to find the smallest x such that N / 2^x [ x = 0,1,2,3,...]
-x = log(N)
-
-for n = 16, i = 16, 8, 4, 2 , 1
-
-Time Complexity: O(\sqrt{n}      ) 
+if n = 16 when i = 2, 3, .. 4 times
+Time Complexity: O(sqrt{n})
 ```
