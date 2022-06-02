@@ -68,6 +68,9 @@ O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
  c1 + c2*n + c3*n
  = O(n) # constant time ignore
 ```
+
+![image](https://user-images.githubusercontent.com/59710234/171522444-a472680c-981c-47df-b6d6-8014072156cb.png)
+
 ## N.T
 ```
 - You can assume approximately 10^8 operations per second to run in time.
