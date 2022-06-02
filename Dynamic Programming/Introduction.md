@@ -24,7 +24,14 @@ It is a technique that combines the
 N.T : Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved 
       independently.
 ```
+```
+So we can solve a problem using dynamic programming if the problem has the following attributes:
 
+- Optimal subproblems: We can break a larger problem into similar subproblems. If we can solve the subproblems optimally we can use 
+  them to solve the main problem.
+  
+- Overlapping subproblems: The recursive solution to the problem contains subproblems that are repeated multiple times.
+```
 <details> <summary> Brute Force </summary>
  
  <br/>
