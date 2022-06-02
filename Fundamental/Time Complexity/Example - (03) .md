@@ -59,4 +59,4 @@ Let’s say c = 4; T(n) = T(n-1) + T(n-2) + c
 In the recursive approach or every value from 0 to n two functions are called (except the base cases). 
 For example, fib(6) is calling fib(5) and fib(4). So the time complexity of the recursive approach is O(2^n). 
 ```
-[Fibonacci Time Complexity](https://syedtousifahmed.medium.com/fibonacci-iterative-vs-recursive-5182d7783055#:~:text=Time%20Complexity%3A&text=Hence%20the%20time%20taken%20by,2%5En)%20or%20exponential.)
+[Fibonacci Time Complexity](https://syedtousifahmed.medium.com/fibonacci-iterative-vs-recursive-5182d7783055#:~:text=Time%20Complexity%3A&text=Hence%20the%20time%20taken%20by,2%5En)
