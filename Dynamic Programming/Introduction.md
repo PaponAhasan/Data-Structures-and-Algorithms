@@ -87,3 +87,15 @@ Dynamic Programming Approaches :
 
   2. Top-Down approach
 ```
+```
+Top-Down approach : Top-Down breaks the large problem into multiple subproblems.T he idea here is similar to the recursive approach. 
+
+if the subproblem solved already just reuse the answer.
+Otherwise, Solve the subproblem and store the result.
+```
+[Top-Down solution for Fibonacci Series](https://gist.github.com/thmain/2210823f41c8b236f4db)
+```
+Bottom-Up approach : Start computing result for the subproblem. Using the subproblem result store it for future and solve another 
+subproblem. 
+```
+[Bottom-Up solution for Fibonacci Series](https://gist.github.com/thmain/c258434e3a6830ff4ca0)
