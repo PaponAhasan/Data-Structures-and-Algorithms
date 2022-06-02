@@ -10,8 +10,8 @@ work of recomputing the answer every time it solves each subsubproblem.
 Such problems can have many possible solutions. Each solution has a value, and we wish to find a solution with the optimal (minimum 
 or maximum) value.
 
-A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two preceding 
-numbers.
+A fibonacci series is the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …….. Here, each number is the sum of the two 
+preceding numbers.
 
 Values are : F0 = 0 and F1 = 1
 So, Recurrence relation : Fn = Fn-1 + Fn-2 [ n > 1 ]
