@@ -40,6 +40,8 @@ Recursion vs Dynamic programming
   
   [ The problems that appear multiple times are called overlapping subproblems.]
   
+  (N.T: Recursion is the process in which a function calls itself until the base cases are reached. )
+  
   In DP we save the solutions of overlapping subproblems. This is called as “Memoization”.
 ```
 ### Method 1 (Use recursion) 
@@ -173,5 +175,26 @@ int fib(int n)
     return b;
 }
 ```
+
+[Leetcode 509](https://leetcode.com/problems/fibonacci-number/)
+
+```
+For recursion :
+ The time complexity would be O(2^n) since every node will split into two subbranches.
+ And the space complexity would be O(N) since the depth of the tree.\
+ 
+ Leetcode 509 runtime result :
+```
+![image](https://user-images.githubusercontent.com/59710234/171734227-c1d8bfd6-f1cc-40b5-ab86-2a8c768af882.png)
+
+```
+For dynamic Programming, the time complexity would be O(n) since we only loop through it once. 
+And the space complexity would be O(N) since we need to store all intermediate values into our memo.
+
+Leetcode 509 runtime result :
+```
+![image](https://user-images.githubusercontent.com/59710234/171734446-eb01fb36-b14a-4f3b-9df6-b619f2c07aac.png)
+
+
 - https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/?ref=lbp
 - https://medium.com/geekculture/how-to-solve-fibonacci-sequence-using-dynamic-programming-b7cd784ee10d
