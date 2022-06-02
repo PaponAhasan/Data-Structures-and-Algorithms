@@ -75,6 +75,8 @@ bool isPrime(int n)
  
     return true;
 }
+
+i <= sqrt(n) we can write i * i = n
 ```
 ```
 if n = 16 when i = 2, 3, .. 4 times
