@@ -80,3 +80,10 @@ F(4) = F(3) + F(2)
 ```
 Here, we have used the results of the previous steps as shown below. This is called a dynamic programming approach.
 ```
+```
+Dynamic Programming Approaches :
+
+  1. Bottom-Up approach
+
+  2. Top-Down approach
+```
