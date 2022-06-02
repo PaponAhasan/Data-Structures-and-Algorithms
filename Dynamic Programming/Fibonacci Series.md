@@ -6,17 +6,6 @@ preceding numbers except the first two numbers.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/171693526-caebb745-859c-4e67-86f8-48a5906edf54.png)
 
-```
-Recursion vs Dynamic programming
-
-- In DP and recursion, we also break a problem into similar subproblems.
-- The difference is in recursion similar subproblems may be solved multiple times. But in dynamic programming, we keep track
-  of already solved subproblems and don’t solve them more than once.
-  
-  [ The problems that appear multiple times are called overlapping subproblems.]
-  
-  In DP we save the solutions of overlapping subproblems. This is called as “Memoization”.
-```
 ```c++
  Let n be the number of terms.
 
@@ -32,6 +21,17 @@ F(4) = F(3) + F(2)
 ```
 ```
 Here, we have used the results of the previous steps as shown below. This is called a dynamic programming approach.
+```
+```
+Recursion vs Dynamic programming
+
+- In DP and recursion, we also break a problem into similar subproblems.
+- The difference is in recursion similar subproblems may be solved multiple times. But in dynamic programming, we keep track
+  of already solved subproblems and don’t solve them more than once.
+  
+  [ The problems that appear multiple times are called overlapping subproblems.]
+  
+  In DP we save the solutions of overlapping subproblems. This is called as “Memoization”.
 ```
 ### Method 1 (Use recursion) 
 ```c++
