@@ -68,7 +68,23 @@ Original tree for recursion : n times the recursion function is called
   /     \
 fib(1) fib(0)
 ```
+```
+ Recursively we have to break the problem into similar subproblems. with the help of 
+ this formula — fib(n) = fib(n-1) + fib(n-2) if n > 1
+ 
+ Base cases : fib(0) = 0 and fib(1) = 1
+```
+![image](https://user-images.githubusercontent.com/59710234/171721832-0bbeda51-9807-4938-8ecf-143d49b5bfa7.png)
 
+```
+Now let’s find the overlapping subproblems —
+```
+![image](https://user-images.githubusercontent.com/59710234/171722568-da5a5b1f-eec7-4a66-9554-5b0ccc75e9c1.png)
+
+```
+We can see from above fib(4) is being called 2 times, fib(3) is being called 3 times and fib(2) is being called 4 times. 
+They are overlapping subproblem. The overlapping subproblems are solved only once using dynamic programming.
+```
 ### Method 2 (Use Dynamic Programming) 
 ```
 We can avoid the repeated work done in method 1 by storing value using DP
