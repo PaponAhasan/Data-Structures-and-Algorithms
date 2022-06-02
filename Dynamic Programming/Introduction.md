@@ -88,7 +88,8 @@ Dynamic Programming Approaches :
   2. Top-Down approach
 ```
 ```
-Top-Down approach : Top-Down breaks the large problem into multiple subproblems.The idea here is similar to the recursive approach. 
+Top-Down approach : Top-Down breaks the large problem into multiple subproblems.The idea here is similar to the recursive 
+approach. 
 
 if the subproblem solved already just reuse the answer.
 Otherwise, Solve the subproblem and store the result.
