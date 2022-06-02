@@ -103,7 +103,8 @@ int fib(int n)
     
     if (n <= 1)
         return n;
-    if memo[n] != -1:
+    // if it is -1 then we can say that the problem was solved before.     
+    if (memo[n] != -1)
         return memo[n];
         
     memo[n] = fib(n-1) + fib(n-2);
