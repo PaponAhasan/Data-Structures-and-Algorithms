@@ -51,6 +51,11 @@ int fib(int n){
 ![image](https://user-images.githubusercontent.com/59710234/171729062-245d743f-df43-45f6-991c-a9d26f98a4e3.png)
 
 ```
+for n > 1:
+T(n) = T(n-1) + T(n-2) + 4 (1 comparison, 2 subtractions, 1 addition)
+
+Let’s say c = 4; T(n) = T(n-1) + T(n-2) + c
+
 In the recursive approach or every value from 0 to n two functions are called (except the base cases). 
 For example, fib(6) is calling fib(5) and fib(4). So the time complexity of the recursive approach is O(2^n). 
 ```
