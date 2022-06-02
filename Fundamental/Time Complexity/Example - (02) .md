@@ -56,4 +56,6 @@ x = log(N)
 for n = 16, i = 16, 8, 4, 2 , 1
 
 So, total steps = O(log N)
+
+[N.T : If i/=3 , log base is 3]
 ```
