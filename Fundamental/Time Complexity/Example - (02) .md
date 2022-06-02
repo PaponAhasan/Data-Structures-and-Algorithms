@@ -59,3 +59,28 @@ So, total steps = O(log N)
 
 [N.T : If i/=3 , log base is 3]
 ```
+```c++
+04.
+
+bool isPrime(int n)
+{
+    // base case
+    if (n <= 1)
+        return false;
+ 
+    // Check from 2 to square root of n
+    for (int i = 2; i <= sqrt(n); i++)
+        if (n % i == 0)
+            return false;
+ 
+    return true;
+}
+```
+```
+We have to find the smallest x such that N / 2^x [ x = 0,1,2,3,...]
+x = log(N)
+
+for n = 16, i = 16, 8, 4, 2 , 1
+
+Time Complexity: O(\sqrt{n}      ) 
+```
