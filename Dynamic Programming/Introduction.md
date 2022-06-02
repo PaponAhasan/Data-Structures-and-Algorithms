@@ -13,7 +13,18 @@ It is a technique that combines the
 N.T : Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved 
       independently.
 ```
+```
+Dynamic programming is a problem-solving technique for solving a problem by **breaking it into similar subproblems**. But we will 
+never solve the same subproblem twice. 
 
+Dynamic programming, like the divide-and-conquer method, solves problems by combining the solutions to subproblems.
+
+A dynamic-programming algorithm solves each subsubproblem just once and then saves its answer in a table, thereby avoiding 
+the work of recomputing the answer every time it solves each subsubproblem.
+
+Such problems can have many possible solutions. Each solution has a value, and we wish to find a solution with the optimal 
+(minimum or maximum) value.
+```
 <details> <summary> Brute Force </summary>
  
  <br/>
