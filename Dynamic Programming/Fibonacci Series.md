@@ -25,11 +25,14 @@ Here, we have used the results of the previous steps as shown below. This is cal
 Recursion vs Dynamic programming
 
 - In DP and recursion, we also break a problem into similar subproblems.
+
 - The difference is in recursion similar subproblems may be solved multiple times. But in dynamic programming, we keep track
   of already solved subproblems and don’t solve them more than once.
+  
 - In the recursive approach or every value from 0 to n two functions are called (except the base cases). 
   For example, fib(6) is calling fib(5) and fib(4). So the time complexity of the recursive approach is O(2^n). 
   Which is an exponential complexity. A code with exponential complexity is very slow and not efficient at all.
+  
 - In the dynamic programming approach, we are solving a subproblem once. For fib(n) we have total 
   n subproblems — fib(0), fib(1), fib(2) … fib(n).
   So the time complexity for the dynamic approach is O(n). It is a linear complexity. 
