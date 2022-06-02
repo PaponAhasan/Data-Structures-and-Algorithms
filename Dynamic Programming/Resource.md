@@ -1,2 +1,4 @@
 - [Jenny's lectures CS/IT NET&JRF](https://www.youtube.com/watch?v=lVR2u9lsxl8&list=PLdo5W4Nhv31aBrJE1WS4MR9LRfbmZrAQu)
 - [Geeksforgeeks](https://www.geeksforgeeks.org/dynamic-programming/?ref=ghm)
+- https://medium.com/@codingfreak
+- https://medium.com/techie-delight/top-50-dynamic-programming-practice-problems-4208fed71aa3
