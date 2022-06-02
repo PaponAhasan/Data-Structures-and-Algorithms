@@ -59,9 +59,12 @@ i    p
 :
 k   1 + 2 + 3 + ... + k
 
-Assume p > n
+Assume p > n the loop stop
 p = k*(k+1) / 2
 k*(k+1)/2 > n
+k^2 + k > 2*n
 k^2 > n
 k > root(n)
+
+So, Time complexity O( root(n) )
 ```
