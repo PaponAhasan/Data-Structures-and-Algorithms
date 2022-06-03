@@ -1,1 +1,2 @@
 - https://medium.com/geekculture/how-to-solve-the-0-1-knapsack-problem-using-dynamic-programming-9f22e38f9916
+- https://www.techiedelight.com/0-1-knapsack-problem/
