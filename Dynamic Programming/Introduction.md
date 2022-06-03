@@ -108,4 +108,6 @@ Otherwise, Solve the subproblem and store the result.
 Bottom-Up approach : Start computing result for the subproblem. Using the subproblem result store it for future and solve another 
 subproblem. 
 ```
-[Bottom-Up solution for Fibonacci Series](https://gist.github.com/thmain/c258434e3a6830ff4ca0)
+- [Bottom-Up solution for Fibonacci Series](https://gist.github.com/thmain/c258434e3a6830ff4ca0)
+
+- [Top-50-dynamic-programming-practice-problems](https://medium.com/techie-delight/top-50-dynamic-programming-practice-problems-4208fed71aa3)
