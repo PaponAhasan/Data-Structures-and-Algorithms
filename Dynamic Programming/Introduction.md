@@ -12,9 +12,13 @@ Such problems can have many possible solutions. Each solution has a value, and w
 (minimum or maximum) value.
 ```
 ```
-Imagine you are given a box of coins and you have to count the total number of coins in it. Once you have done this, you are provided with another box and now you have to calculate the total number of coins in both boxes. Obviously, you are not going to count the number of coins in the first box again. Instead, you would just count the total number of coins in the second box and add it to the number of coins in the first box you have already counted and stored in your mind. This is the exact idea behind dynamic programming.
+Imagine you are given a box of coins and you have to count the total number of coins in it. Once you have done this, you are
+provided with another box and now you have to calculate the total number of coins in both boxes. Obviously, you are not going 
+to count the number of coins in the first box again. Instead, you would just count the total number of coins in the second box 
+and add it to the number of coins in the first box you have already counted and stored in your mind. This is the exact idea behind 
+dynamic programming.
 ```
-![image](https://user-images.githubusercontent.com/59710234/171965065-58de49d4-14f3-4b72-8e47-98ce50a4f7b2.png)
+<img src="https://user-images.githubusercontent.com/59710234/171965065-58de49d4-14f3-4b72-8e47-98ce50a4f7b2.png" width="500" height="300" />
 
 ```
 Dynamic programming, or DP, is an approach to solving problems through 'clever bruteforce'.
