@@ -20,4 +20,8 @@ Advantages :
 3. Arrays represent multiple data items of the same type using a single name.
 ```
 
-_rrffw_
+rrffw_
+
+`gtgt`
+``ghbgj``
+``````
