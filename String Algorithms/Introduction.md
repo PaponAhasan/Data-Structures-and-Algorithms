@@ -1,1 +1,2 @@
-```An array of characters is called a ‘string’.```
+```An array of characters is called a ‘string’.
+```
