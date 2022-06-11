@@ -53,5 +53,6 @@ Disadvantages :
 ```
 A vector in C++ is a class in STL that represents an array.
 
-1. We do not need pass size as an extra parameter when we declare a vector i.e, Vectors support dynamic sizes. We can also resize a vector.
+1. We do not need pass size as an extra parameter when we declare a vector i.e, Vectors support dynamic sizes. We can also resize 
+   a vector.
 ```
