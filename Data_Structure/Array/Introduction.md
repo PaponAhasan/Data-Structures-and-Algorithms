@@ -18,6 +18,8 @@ Advantages :
 2. Arrays have better cache locality that makes a pretty big difference in performance.
 
 3. Arrays represent multiple data items of the same type using a single name.
+
+4. Traversal through the array becomes easy using a single loop.
 ```
 ```
 Disadvantages :
@@ -46,4 +48,10 @@ Disadvantages :
 8. Arrays can be used for CPU scheduling.
 
 9. Used to Implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.
+```
+### What is vector 
+```
+A vector in C++ is a class in STL that represents an array.
+
+1. We do not need pass size as an extra parameter when we declare a vector i.e, Vectors support dynamic sizes. We can also resize a vector.
 ```
