@@ -19,9 +19,31 @@ Advantages :
 
 3. Arrays represent multiple data items of the same type using a single name.
 ```
+```
+Disadvantages :
 
-rrffw_
+1. You can’t change the size i.e. once you have declared the array you can’t change its size because of static memory allocation.
 
-`gtgt`
-``ghbgj``
-```gtg `gtrtr` tgeg```
+2. Here Insertion(s) and deletion(s) are difficult as the elements are stored in consecutive memory locations and the shifting 
+   operation is costly too.
+```
+### Applications on Array / When we use array
+```
+1. Array stores data elements of the same data type.
+
+2. Arrays are used when the size of the data set is known.
+
+3. Used in solving matrices problem.
+
+4. Applied as lookup table in computer.
+
+5. Databases record are also implemented by array.
+
+6. Helps in implementing sorting algorithm.
+
+7. Different variable of same type can be saved under one name.
+
+8. Arrays can be used for CPU scheduling.
+
+9. Used to Implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.
+```
