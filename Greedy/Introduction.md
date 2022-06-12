@@ -21,6 +21,11 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 
 [Ref image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Source_to_Destination_Greedy_Algorithm_Solution.gif)
 
+```
+- Start from the source vertex.
+- Pick one vertex at a time with a minimum edge weight (distance) from the source vertex.
+- 
+```
 ### Example
 ```
 For Example 01: You are given an array A of integers, where each element indicates the time a thing takes for completion. You want 
