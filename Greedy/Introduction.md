@@ -44,8 +44,8 @@ For Example 02: The Scheduling problem
    This is because jth work has to wait till the first (j-1) tasks are completed after which it requires T[j] time for completion.
    You obviously want completion times to be as short as possible.
    
-   In a given sequence, the jobs that are queued up at the beginning have a shorter completion time and jobs that are queued up towards
-   the end have longer completion times.
+   In a given sequence, the jobs that are queued up at the beginning have a shorter completion time and jobs that are queued up 
+   towards the end have longer completion times.
    
 2. F = P[1] * C(1) + P[2] * C(2) + ...... + P[N] * C(N)
    [ F is the weighted sum of the completion times ]
