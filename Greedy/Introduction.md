@@ -113,3 +113,4 @@ having cost paths as 7 and 9. In the greedy approach 20 is the minimum cost path
 ```
 
 [Greedy Algorithms Explained with Examples](https://www.freecodecamp.org/news/what-is-a-greedy-algorithm/)
+[programiz](https://www.programiz.com/dsa/greedy-algorithm#:~:text=A%20greedy%20algorithm%20is%20an,if%20the%20choice%20is%20wrong.)
