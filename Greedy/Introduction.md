@@ -8,6 +8,8 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 - Greedy algorithm has only one shot to compute the optimal solution so that it never goes back and reverses the decision.
 
 - This is not an algorithm, it is a technique.
+
+- There would be only one optimal solution.
 ```
 ```
 - It is quite easy to come up with a greedy algorithm.
@@ -20,6 +22,7 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 
 ```
 How paths will be picked up in order to reach the destination city.
+
 - Start from the source vertex.
 - Pick one vertex at a time with a minimum edge weight (distance) from the source vertex.
 ```
@@ -30,6 +33,15 @@ How paths will be picked up in order to reach the destination city.
   [ An optimization problem is a problem that demands either maximum or minimum results. ]
 ```
 ### Example
+```
+Suppose there is a problem 'P'. I want to travel from A to B shown as below:
+P : A → B
+
+The problem is that we have to travel this journey from A to B. There are various solutions to go from A to B. We can go from A to
+B by walk, car, bike, train, aeroplane, etc. 
+
+If I go by train or aeroplane minimum time need.
+```
 ```
 For Example 01: You are given an array A of integers, where each element indicates the time a thing takes for completion. You want 
 to calculate the maximum number of things that you can do in the limited time that you have.
