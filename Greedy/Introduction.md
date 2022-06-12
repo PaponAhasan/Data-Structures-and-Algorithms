@@ -83,7 +83,7 @@ If the time required to complete different tasks is the same, then you should gi
 ![image](https://user-images.githubusercontent.com/59710234/173249810-35c27bc9-7844-4a3a-abb9-820471204c36.png)
 ```
 In the above graph, We have to travel from the source to the destination at the minimum cost. Since we have two feasible solutions 
-having cost paths as 10, 20, and 5.
+having cost paths as 7 and 9. In the greedy approach 20 is the minimum cost path But the optimal solution is 18.
 ```
 ### Greedy Algorithms Uses
 ```
