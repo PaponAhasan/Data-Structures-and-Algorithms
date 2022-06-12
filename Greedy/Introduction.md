@@ -53,6 +53,7 @@ For Example 02: The Scheduling problem
 ```
 ```
 For Special cases;
+
 1. If the time required to complete different tasks is the same i.e. T[i] = T[j] where 1 <= i, j <= N
 
 2. If the priorities of different tasks are the same i.e. P[i] = P[j] where 1 <= i, j <= N
