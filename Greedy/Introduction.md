@@ -23,7 +23,8 @@ calculate the maximum number of things that you can do in the limited time that 
 
 This is a simple Greedy-algorithm problem.
 
-In each iteration, you have to greedily select two variables currentTime and numberOfThings and Sort the array A in a non-decreasing order.
+In each iteration, you have to greedily select two variables currentTime and numberOfThings and Sort the array A in a non-decreasing 
+order.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173217224-46b01651-835b-4f74-b7f6-9fe8ac286ebf.png)
 
