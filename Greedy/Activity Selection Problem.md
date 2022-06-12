@@ -3,6 +3,7 @@
 - Each of the activities has a starting time and ending time. 
 - You need to schedule the activities in such a way the person can complete a maximum number of activities.
 ```
+### Simulation
 
 ```We have 6 activities with corresponding start and end time.```
 
