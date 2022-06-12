@@ -76,6 +76,6 @@ If the time required to complete different tasks is the same, then you should gi
 2. Used for Constructing Minimum Spanning Trees: Prim’s and Kruskal’s Algorithms used to construct minimum spanning trees are greedy 
    algorithms.
 
-3. Solve Optimization Problems: Graph - Map Coloring, Graph - Vertex Cover, Knapsack Problem, Job Scheduling Problem, and activity selection 
-   problem are classic optimization problems solved using a greedy algorithmic paradigm.
+3. Solve Optimization Problems: Graph - Map Coloring, Graph - Vertex Cover, Knapsack Problem, Job Scheduling Problem, and activity 
+   selection problem are classic optimization problems solved using a greedy algorithmic paradigm.
 ```
