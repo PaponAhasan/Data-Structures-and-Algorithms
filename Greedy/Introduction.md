@@ -38,9 +38,13 @@ Suppose there is a problem 'P'. I want to travel from A to B shown as below:
 P : A → B
 
 The problem is that we have to travel this journey from A to B. There are various solutions to go from A to B. We can go from A to
-B by walk, car, bike, train, aeroplane, etc. 
+B by walk, car, bike, train, aeroplane, etc. Here is a constraint in the journey that we have to travel this journey within 12 hrs. 
 
-If I go by train or aeroplane minimum time need.
+1. If I go by train or aeroplane travel this journey within 12 hrs (distance as minimum as possible).
+
+2. If travelling by train will lead to the minimum cost so it is an optimal solution (minimum cost).
+
+So , Travelling by train by optimal solution.
 ```
 ```
 For Example 01: You are given an array A of integers, where each element indicates the time a thing takes for completion. You want 
