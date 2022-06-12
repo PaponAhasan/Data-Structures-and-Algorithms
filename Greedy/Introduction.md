@@ -70,3 +70,12 @@ For Special cases;
 
 If the time required to complete different tasks is the same, then you should give preference to the task with the higher priority.
 ```
+```
+1. Optimization problems (Dijkstra’s Algorithm) with negative graph edges cannot be solved using a greedy algorithm.
+
+2. Used for Constructing Minimum Spanning Trees: Prim’s and Kruskal’s Algorithms used to construct minimum spanning trees are greedy 
+   algorithms.
+
+3. Solve Optimization Problems: Graph - Map Coloring, Graph - Vertex Cover, Knapsack Problem, Job Scheduling Problem, and activity selection 
+   problem are classic optimization problems solved using a greedy algorithmic paradigm.
+```
