@@ -45,5 +45,13 @@ In the bellow diagram, the selected activities have been highlighted in grey.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173254968-f8a547f1-910a-465c-8a87-7ffbc5662baa.png)
 
-- https://www.studytonight.com/data-structures/activity-selection-problem
-- https://www.javatpoint.com/activity-selection-problem
+### Time Complexity
+```
+Best Case : When a given set of activities are already sorted according to their finishing time. In such a case the complexity
+of the algorithm will be O(n)
+
+Worst Case : A given set of activities is unsorted, then we will have to use the sort() method. The time complexity of this method 
+will be O(nlogn)
+```
+- [studytonight](https://www.studytonight.com/data-structures/activity-selection-problem)
+- [javatpoint](https://www.javatpoint.com/activity-selection-problem)
