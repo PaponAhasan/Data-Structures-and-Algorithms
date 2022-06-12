@@ -25,7 +25,12 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 How paths will be picked up in order to reach the destination city.
 - Start from the source vertex.
 - Pick one vertex at a time with a minimum edge weight (distance) from the source vertex.
-- 
+```
+```
+- The greedy method is one of the strategies like Divide and conquer used to solve the problems. 
+
+- The greedy method is one of the strategies like Divide and conquer used to solve the problems. 
+  [ An optimization problem is a problem that demands either maximum or minimum results. ]
 ```
 ### Example
 ```
