@@ -3,9 +3,9 @@
 - Each of the activities has a starting time and ending time. 
 - You need to schedule the activities in such a way the person can complete a maximum number of activities.
 ```
-```
-We have 6 activities with corresponding start and end time.
-```
+
+```We have 6 activities with corresponding start and end time.```
+
 ![image](https://user-images.githubusercontent.com/59710234/173254687-daf000b0-9076-43af-a5d7-91067c62a512.png)
 
 #### Step 1: ```Sort the given activities in ascending order according to their finishing time.```
