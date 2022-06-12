@@ -17,6 +17,8 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 - The difficult part is that for greedy algorithms you have to work much harder to understand correctness issues.
   Most greedy algorithms are not correct.
 ```
+![image](https://user-images.githubusercontent.com/59710234/173228187-8a71a544-4787-4c38-95ac-6d79fee2bf16.png)
+
 ### Example
 ```
 For Example 01: You are given an array A of integers, where each element indicates the time a thing takes for completion. You want 
