@@ -70,6 +70,7 @@ For Special cases;
 
 If the time required to complete different tasks is the same, then you should give preference to the task with the higher priority.
 ```
+### Greedy Algorithms Uses
 ```
 1. Optimization problems (Dijkstra’s Algorithm) with negative graph edges cannot be solved using a greedy algorithm.
 
@@ -79,5 +80,5 @@ If the time required to complete different tasks is the same, then you should gi
 3. Solve Optimization Problems: Graph - Map Coloring, Graph - Vertex Cover, Knapsack Problem, Job Scheduling Problem, and activity 
    selection problem are classic optimization problems solved using a greedy algorithmic paradigm.
 ```
-### Greedy Algorithms Uses
+
 [Greedy Algorithms Explained with Examples](https://www.freecodecamp.org/news/what-is-a-greedy-algorithm/)
