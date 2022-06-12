@@ -55,3 +55,4 @@ will be O(nlogn)
 ```
 - [studytonight](https://www.studytonight.com/data-structures/activity-selection-problem)
 - [javatpoint](https://www.javatpoint.com/activity-selection-problem)
+- [geeksforgeeks](https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/)
