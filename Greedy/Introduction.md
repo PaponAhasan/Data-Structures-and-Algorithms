@@ -20,8 +20,6 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 - The Greedy algorithm attempts to take the best in each step, Don't overthink about the future. So, there might be a possibility 
   that the greedy solution does not give the best solution for every problem.  
 ```
-![image](https://user-images.githubusercontent.com/59710234/173249810-35c27bc9-7844-4a3a-abb9-820471204c36.png)
-
 ![image](https://user-images.githubusercontent.com/59710234/173228187-8a71a544-4787-4c38-95ac-6d79fee2bf16.png)
 
 [Ref image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Source_to_Destination_Greedy_Algorithm_Solution.gif)
@@ -80,6 +78,9 @@ For Special cases;
 
 If the time required to complete different tasks is the same, then you should give preference to the task with the higher priority.
 ```
+### Disadvantages
+![image](https://user-images.githubusercontent.com/59710234/173249810-35c27bc9-7844-4a3a-abb9-820471204c36.png)
+
 ### Greedy Algorithms Uses
 ```
 1. Optimization problems (Dijkstra’s Algorithm) with negative graph edges cannot be solved using a greedy algorithm.
