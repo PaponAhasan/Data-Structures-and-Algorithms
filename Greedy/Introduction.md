@@ -19,6 +19,8 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173228187-8a71a544-4787-4c38-95ac-6d79fee2bf16.png)
 
+https://www.simplilearn.com/ice9/free_resources_article_thumb/Source_to_Destination_Greedy_Algorithm_Solution.gif
+
 ### Example
 ```
 For Example 01: You are given an array A of integers, where each element indicates the time a thing takes for completion. You want 
