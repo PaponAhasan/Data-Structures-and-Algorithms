@@ -17,6 +17,9 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 - The difficult part is that for greedy algorithms you have to work much harder to understand correctness issues.
   Most greedy algorithms are not correct.
 ```
+```
+How paths will be picked up in order to reach the destination city.
+```
 ![image](https://user-images.githubusercontent.com/59710234/173228187-8a71a544-4787-4c38-95ac-6d79fee2bf16.png)
 
 [Ref image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Source_to_Destination_Greedy_Algorithm_Solution.gif)
