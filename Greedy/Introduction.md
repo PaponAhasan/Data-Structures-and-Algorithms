@@ -102,7 +102,14 @@ If the time required to complete different tasks is the same, then you should gi
   that the greedy solution does not give the best solution for every problem. 
   
 - Greedy algorithms cannot always be applied. For example, the Fractional Knapsack problem can be solved using Greedy, 
-  but 0-1 Knapsack cannot be solved using Greedy.
+  but 0-1 Knapsack cannot be solved using Greedy. Because Greedy approach does not ensure an optimal solution.
+  It's take the best in each step.
+  
+  why fractional knapsack be solved by Greedy approach ?
+  
+  Ans : An efficient solution is to use the Greedy approach. The basic idea of the greedy approach is to calculate the ratio value/weight 
+  for each item and sort the item on basis of this ratio. Then take the item with the highest ratio and add them until we can’t add 
+  the next item.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173249810-35c27bc9-7844-4a3a-abb9-820471204c36.png)
 ```
