@@ -59,8 +59,8 @@ will be O(nlogn)
 ```
 ### Activity Selection Problem Using Dynamic Programming
 ```
-If we slove in the problem using Dynamic Programming, in which we consider several choice when determining which subproblems to use 
-in an optimal solution. But greedy choice consider only one choice amd only one subproblem remains.
+If we slove in the problem using Dynamic Programming, in which we consider several choice when determining which subproblems to 
+use in an optimal solution. But greedy choice consider only one choice amd only one subproblem remains.
 ```
 
 - [studytonight](https://www.studytonight.com/data-structures/activity-selection-problem)
