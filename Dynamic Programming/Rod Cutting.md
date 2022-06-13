@@ -18,6 +18,10 @@ cutting up the rod and selling the pieces.
   * Finding an optimal solution requires solutions to multiple subproblems
 ```
 ```
+For a rod of n units long, for every i units, we have two choices - either make that cut or not.
+```
+![image](https://user-images.githubusercontent.com/59710234/173338669-863075e7-5a78-4bca-9e6d-d4fd667bfd37.png)
+```
 For example, if the length of the rod is 8 then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6) 
 
 length   | 1   2   3   4   5   6   7   8  
@@ -59,10 +63,6 @@ gain. Since the same subproblems are called again, this problem has the Overlapp
 
 So, the same subproblems can be avoided by constructing a temporary array val[] in a bottom-up manner(dynamic programming). 
 ```
-```
-For a rod of n units long, for every i units, we have two choices - either make that cut or not.
-```
-![image](https://user-images.githubusercontent.com/59710234/173338669-863075e7-5a78-4bca-9e6d-d4fd667bfd37.png)
 
 ### Time Complexity
 ```
