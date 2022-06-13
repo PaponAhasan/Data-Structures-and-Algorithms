@@ -75,14 +75,14 @@ configurations of different pieces and finding the maximum among them, we can ge
 Time Complexity: Exponential
 Space Complexity: O(1) if recursion stack space is not considered
 
-2. Memoization Based Approach  (top down approach): Fig Memoization, The recursion as normal, but store the result of the
+2. Memoization Based Approach  (top down approach): Bellow Fig Memoization, The recursion as normal, but store the result of the
 recursive calls, and if we need the result in a future recursive call.
 
 Time Complexity: O(n^2)
 Space Complexity: O(n)
 
-3. Iterative Dynamic Programming Approach (Bottom up approach): Similar to the memoization approach, we can also solve this problem 
-using tabulation-based Dynamic Programming. But you don’t have to keep a recursive call stack.
+3. Iterative Dynamic Programming Approach (Bottom up approach): Similar to the memoization approach, we can also solve this 
+problem using tabulation-based Dynamic Programming. But you don’t have to keep a recursive call stack.
 
 Time Complexity: O(n^2)
 Space Complexity: O(n)
