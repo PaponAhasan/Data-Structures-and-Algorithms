@@ -4,6 +4,20 @@ different cost associated. (i.e. a rod of i units length will have a cost of ci 
 cutting up the rod and selling the pieces. 
 ```
 ```
+# Problem: Find best way to cut a rod of length n
+
+  * Given: rod of length n
+
+  * Assume that each length rod has a price pi
+
+  * Find best set of cuts to get maximum revenue (ie ri/sub>
+       - Each cut is integer length
+       - Can use any number of cuts, from 0 to n−1
+       - No cost for a cut
+
+  * Finding an optimal solution requires solutions to multiple subproblems
+```
+```
 For example, if the length of the rod is 8 then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6) 
 
 length   | 1   2   3   4   5   6   7   8  
@@ -45,14 +59,21 @@ gain. Since the same subproblems are called again, this problem has the Overlapp
 
 So, the same subproblems can be avoided by constructing a temporary array val[] in a bottom-up manner(dynamic programming). 
 ```
+```
+For a rod of n units long, for every i units, we have two choices - either make that cut or not.
+```
+![image](https://user-images.githubusercontent.com/59710234/173338669-863075e7-5a78-4bca-9e6d-d4fd667bfd37.png)
+
 ### Time Complexity
 ```
-Time Complexity: O(n2)
+Time Complexity: O(n^2)
 
 Space Complexity: O(n)
 ```
 
 - [geeksforgeeks](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)
+- [techiedelight](https://www.techiedelight.com/rod-cutting/)
+- [codesdope](https://www.codesdope.com/course/algorithms-rod-cutting/)
 - [techiedelight](https://www.techiedelight.com/rod-cutting/)
 
 ### Practice Problem
