@@ -11,11 +11,7 @@ A Greedy algorithm is one of the problem-solving methods which takes optimal sol
 
 - There would be only one optimal solution.
 ```
-```
-- It is quite easy to come up with a greedy algorithm.
 
-- Analyzing the run time for greedy algorithms will generally be much easier than for other techniques (like Divide and conquer). 
-```
 ![image](https://user-images.githubusercontent.com/59710234/173228187-8a71a544-4787-4c38-95ac-6d79fee2bf16.png)
 
 [Ref image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Source_to_Destination_Greedy_Algorithm_Solution.gif)
@@ -87,6 +83,14 @@ For Special cases;
 2. If the priorities of different tasks are the same i.e. P[i] = P[j] where 1 <= i, j <= N
 
 If the time required to complete different tasks is the same, then you should give preference to the task with the higher priority.
+```
+### Advantages
+```
+- The Greedy algorithm attempts to take the best in each step; simpler, more efficient algorithm.
+
+- It is quite easy to come up with a greedy algorithm.
+
+- Analyzing the run time for greedy algorithms will generally be much easier than for other techniques (like Divide and conquer). 
 ```
 ### Disadvantages
 ```
