@@ -59,12 +59,13 @@ i    p
 :
 k   1 + 2 + 3 + ... + k
 
-Assume p > n the loop stop
-p = k*(k+1) / 2
-k*(k+1)/2 > n
-k^2 + k > 2*n
-k^2 > n
-k > root(n)
+Assume p > n the loop stop;
+
+p > n
+= k*(k+1)/2 > n [ p = k*(k+1) / 2 ]
+= k^2 + k > 2*n
+= k^2 > n
+= k > root(n)
 
 So, Time complexity O( root(n) )
 ```
