@@ -19,6 +19,8 @@ cutting up the rod and selling the pieces.
 ```
 ```
 For a rod of n units long, for every i units, we have two choices - either make that cut or not.
+
+Can cut rod in 2^(n−1) ways since each inch can have a cut or no cut
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173338669-863075e7-5a78-4bca-9e6d-d4fd667bfd37.png)
 ```
@@ -75,6 +77,8 @@ Space Complexity: O(n)
 - [techiedelight](https://www.techiedelight.com/rod-cutting/)
 - [codesdope](https://www.codesdope.com/course/algorithms-rod-cutting/)
 - [techiedelight](https://www.techiedelight.com/rod-cutting/)
+- [radford](https://sites.radford.edu/~nokie/classes/360/dp-rod-cutting.html)
+- [interviewbit](https://www.interviewbit.com/blog/rod-cutting-problem/)
 
 ### Practice Problem
 
