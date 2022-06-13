@@ -68,6 +68,31 @@ gain. Since the same subproblems are called again, this problem has the Overlapp
 
 So, the same subproblems can be avoided by constructing a temporary array val[] in a bottom-up manner(dynamic programming). 
 ```
+```
+1. Naive Approach : We can solve this problem naively with a recursive backtracking-based solution. By generating all possible 
+configurations of different pieces and finding the maximum among them, we can get our optimal solution.
+
+Time Complexity: Exponential
+Space Complexity: O(1) if recursion stack space is not considered
+
+2. Memoization Based Approach  (top down approach): Fig Memoization, The recursion as normal, but store the result of the
+recursive calls, and if we need the result in a future recursive call.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+
+3. Iterative Dynamic Programming Approach (Bottom up approach): Similar to the memoization approach, we can also solve this problem 
+using tabulation-based Dynamic Programming. But you don’t have to keep a recursive call stack.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+
+Q : How to identify that a problem can be solved by Dynamic Programming?
+
+A : A problem can be solved using Dynamic Programming if it contains some 'Optimal Substructure' and 'Overlapping Subproblems'.
+```
+
+![Fig Memoization](https://user-images.githubusercontent.com/59710234/173378713-f91e6dc4-2780-483c-8bba-32230d78585e.png)
 
 ### Time Complexity
 ```
