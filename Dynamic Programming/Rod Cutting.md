@@ -79,6 +79,7 @@ Space Complexity: O(n)
 - [techiedelight](https://www.techiedelight.com/rod-cutting/)
 - [radford](https://sites.radford.edu/~nokie/classes/360/dp-rod-cutting.html)
 - [interviewbit](https://www.interviewbit.com/blog/rod-cutting-problem/)
+- [web.stanford.edu]([url](https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture12.pdf))
 
 ### Practice Problem
 
