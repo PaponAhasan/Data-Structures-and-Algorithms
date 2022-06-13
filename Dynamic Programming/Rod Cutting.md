@@ -51,9 +51,10 @@ Time Complexity: O(n2)
 Space Complexity: O(n)
 ```
 
-- https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
-- https://www.techiedelight.com/rod-cutting/
+- [geeksforgeeks](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)
+- [techiedelight](https://www.techiedelight.com/rod-cutting/)
 
 ### Practice Problem
 
-[geeksforgeeks](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1/)
+- [geeksforgeeks](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1/)
+- [interviewbit](https://www.interviewbit.com/problems/rod-cutting/)
