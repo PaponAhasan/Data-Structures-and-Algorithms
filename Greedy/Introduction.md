@@ -86,7 +86,8 @@ If the time required to complete different tasks is the same, then you should gi
 ```
 ### Advantages
 ```
-- The Greedy algorithm attempts to take the best in each step; simpler, more efficient algorithm.
+- The Greedy algorithm attempts to take the best in each step; simpler, more efficient algorithm than other techniques
+  like Dynamic Programming.
 
 - It is quite easy to come up with a greedy algorithm.
 
@@ -99,6 +100,9 @@ If the time required to complete different tasks is the same, then you should gi
   
 - The Greedy algorithm attempts to take the best in each step, Don't overthink about the future. So, there might be a possibility 
   that the greedy solution does not give the best solution for every problem. 
+  
+- Greedy algorithms cannot always be applied. For example, the Fractional Knapsack problem can be solved using Greedy, 
+  but 0-1 Knapsack cannot be solved using Greedy.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/173249810-35c27bc9-7844-4a3a-abb9-820471204c36.png)
 ```
@@ -114,6 +118,8 @@ having cost paths as 7 and 9. In the greedy approach 20 is the minimum cost path
 
 3. Solve Optimization Problems: Graph - Map Coloring, Graph - Vertex Cover, Knapsack Problem, Job Scheduling Problem, and activity 
    selection problem are classic optimization problems solved using a greedy algorithmic paradigm.
+   
+   huffman coding
 ```
 
 - [Greedy Algorithms Explained with Examples](https://www.freecodecamp.org/news/what-is-a-greedy-algorithm/)
