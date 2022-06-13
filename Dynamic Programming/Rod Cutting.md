@@ -2,6 +2,9 @@
 we are provided with a long rod of length n units(smaller than n). We can cut the rod in different sizes and each size has a 
 different cost associated. (i.e. a rod of i units length will have a cost of ci $). Determine the maximum value obtainable by
 cutting up the rod and selling the pieces. 
+
+dynamic programming is mainly an optimization-over-plain recursion, we can use it to optimize the above exponential time algorithm. 
+The idea is to store the results of subproblems so that we do not have to re-compute them when they are needed.
 ```
 ```
 # Problem: Find best way to cut a rod of length n
@@ -79,7 +82,8 @@ Space Complexity: O(n)
 - [techiedelight](https://www.techiedelight.com/rod-cutting/)
 - [radford](https://sites.radford.edu/~nokie/classes/360/dp-rod-cutting.html)
 - [interviewbit](https://www.interviewbit.com/blog/rod-cutting-problem/)
-- [web.stanford.edu]([url](https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture12.pdf))
+- [web.stanford.edu]([url](https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture12.pdf)
+- [educative.io](https://www.educative.io/edpresso/the-rod-cutting-problem)
 
 ### Practice Problem
 
