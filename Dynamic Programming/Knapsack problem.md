@@ -26,6 +26,29 @@ Example :
   The total weight of items taken is less than or equal to the capacity C.
 ```
 ```
+1. Naive Approach : We can solve this problem naively with a recursive backtracking-based solution. By generating all possible 
+configurations of different pieces and finding the maximum among them, we can get our optimal solution.
+
+Time Complexity: Exponential
+Space Complexity: O(1) if recursion stack space is not considered
+
+2. Memoization Based Approach  (top down approach): Fig Memoization, The recursion as normal, but store the result of the
+recursive calls, and if we need the result in a future recursive call.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+
+3. Iterative Dynamic Programming Approach (Bottom up approach): Similar to the memoization approach, we can also solve this problem 
+using tabulation-based Dynamic Programming. But you don’t have to keep a recursive call stack.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+
+Q : How to identify that a problem can be solved by Dynamic Programming?
+
+A : A problem can be solved using Dynamic Programming if it contains some 'Optimal Substructure' and 'Overlapping Subproblems'.
+```
+```
 The time complexity of the solution is O(n.w) and requires O(n.w) extra space.
 ```
 
