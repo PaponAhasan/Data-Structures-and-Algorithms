@@ -11,3 +11,7 @@ price    | 1   5   8   9  10  17  17  20
 ```
 
 https://www.techiedelight.com/rod-cutting/
+
+### Practice Problem
+
+[geeksforgeeks](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1/)
