@@ -1,1 +1,2 @@
 - [Hackerearth](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
+- [codesdope](https://www.codesdope.com/course/algorithms-greedy-algorithm/)
