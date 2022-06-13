@@ -36,8 +36,19 @@ cR() ---> cutRod()
         /
        /
       CR(0)
-```
+      
+      
+In the above partial recursion tree, cR(2) is solved twice. We can see that there are many subproblems that are solved again and a
+gain. Since the same subproblems are called again, this problem has the Overlapping Subproblems property.
 
+So, the same subproblems can be avoided by constructing a temporary array val[] in a bottom-up manner(dynamic programming). 
+```
+### Time Complexity
+```
+Time Complexity: O(n2)
+
+Space Complexity: O(n)
+```
 
 - https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
 - https://www.techiedelight.com/rod-cutting/
