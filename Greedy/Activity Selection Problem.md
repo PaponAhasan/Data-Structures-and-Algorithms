@@ -2,6 +2,10 @@
 - Activity selection problem is a problem in which a person has a list of works to do.
 - Each of the activities has a starting time and ending time. 
 - You need to schedule the activities in such a way the person can complete a maximum number of activities.
+
+The problem statement for Activity Selection is that "Given a set of n activities with their start and finish times, we need to select 
+maximum number of non-overlap activities, given that the person can handle only one activity 
+at a time and complete maximum number of activities.
 ```
 ### Simulation
 
