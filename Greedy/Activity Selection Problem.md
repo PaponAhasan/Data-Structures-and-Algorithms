@@ -57,6 +57,12 @@ of the algorithm will be O(n)
 Worst Case : A given set of activities is unsorted, then we will have to use the sort() method. The time complexity of this method 
 will be O(nlogn)
 ```
+### Activity Selection Problem Using Dynamic Programming
+```
+If we slove in the problem using Dynamic Programming, in which we consider several choice when determining which subproblems to use 
+in an optimal solution. But greedy choice consider only one choice amd only one subproblem remains.
+```
+
 - [studytonight](https://www.studytonight.com/data-structures/activity-selection-problem)
 - [javatpoint](https://www.javatpoint.com/activity-selection-problem)
 - [geeksforgeeks](https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/)
