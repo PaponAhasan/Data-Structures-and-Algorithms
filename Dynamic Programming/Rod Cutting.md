@@ -9,8 +9,38 @@ length   | 1   2   3   4   5   6   7   8
 --------------------------------------------
 price    | 1   5   8   9  10  17  17  20
 ```
+```
+A naive solution to this problem is to generate all configurations of different pieces and find the highest-priced configuration. 
+This solution is exponential in terms of time complexity. So In this problem efficiently be solved using Dynamic Programming.
 
-https://www.techiedelight.com/rod-cutting/
+1) Optimal Substructure : We can get the best price by making a cut at different positions and comparing the values obtained after 
+a cut. We can recursively call the same function for a piece obtained after a cut.
+
+cutRod(n) = max(price[i] + cutRod(n-i-1)) for all i in {0, 1 .. n-1}
+[ cutRod(n) be the required (best possible price) ]
+
+2) Overlapping Subproblems :
+
+cR() ---> cutRod() 
+
+                            cR(4)
+                         /   |   \  \   
+                        /    |    \   \             
+                   cR(3)  cR(2)    cR(1) cR(0)
+                  /  | \      |  \      \ 
+                 /   |  \     |   \      \ 
+            cR(2) cR(1) cR(0) cR(1) cR(0) cR(0)
+            / \     |          |
+           /   \    |          |   
+        cR(1) cR(0) cR(0)     cR(0)
+        /
+       /
+      CR(0)
+```
+
+
+- https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
+- https://www.techiedelight.com/rod-cutting/
 
 ### Practice Problem
 
