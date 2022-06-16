@@ -79,6 +79,12 @@ O(f(N)) = O(2*N^2 + 3*N + 5) = O(N^2)
 - Multidimensional arrays (say arr[10000][1000]), 
   Be wary that long long takes more space than int.
 ```
+```c++
+int  = 1999999999 = 1.9*(10^9)
+long long = 8999999999999999999 = 9*(10^18)
+unsigned long long int = 17999999999999999999 = 1.8 * (10^19)
+```
+[Range of values](https://en.cppreference.com/w/cpp/language/types)
 
 ## Practice
 * [GFG](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
