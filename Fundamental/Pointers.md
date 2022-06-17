@@ -122,7 +122,7 @@ p++;
 |102| 
 
 ### 1D Array Using Pointer
-```
+```c++
 printf("%u",A);  100
 printf("%u",&A); 100
 printf("%d",A[2]); 9
