@@ -17,6 +17,8 @@ main(){
     
     printf("%d",++*p) // 6
     
+    printf("%d",*p++) // print 5, then increment
+    
     p++; 
 }
 ```
@@ -82,10 +84,29 @@ printf("%d",++*p)
 
 ```
 in unary operator , we should move right to left
-first *(print data) then ++(data increment)
+first *(take data) then ++(data increment)
 
 print 6
 ```
+
+####  Step 06: 
+
+```c++
+printf("%d",*p++)
+```
+| p |
+| - |
+|100| 
+
+```
+in unary operator , we should move right to left
+first ++(increment but after) then *(data print)
+
+print 5 then increment
+```
+| p |
+| - |
+|102|
 
 ####  Step 06: 
 ```c++
