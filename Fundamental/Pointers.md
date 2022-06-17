@@ -13,11 +13,13 @@ main(){
     p = &A[0] // 100
     q = &A[3] // 106
     
-    printf("%d",*++p) // 8
+    printf("%d",*++p) // 8 ( move pointer to next element and read data)
     
-    printf("%d",++*p) // 6
+    printf("%d",++*p) // 6 (take data and increment data)
     
-    printf("%d",*p++) // print 5, then increment
+    printf("%d",*p++) // print 5, then increment ( read data then move p to next)
+    
+    (*p)++ // read the data and increment the data
     
     p++; 
 }
