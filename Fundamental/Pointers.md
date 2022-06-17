@@ -78,7 +78,7 @@ print 8
 ####  Step 05: 
 
 ```c++
-printf("%d",++*p)
+printf("%d",++*p) // ++(*p) same
 ```
 | p |
 | - |
@@ -94,7 +94,7 @@ print 6
 ####  Step 06: 
 
 ```c++
-printf("%d",*p++)
+printf("%d",*p++) // (*p)++ are not same
 ```
 | p |
 | - |
@@ -110,7 +110,7 @@ print 5 then increment
 | - |
 |102|
 
-####  Step 06: 
+####  Step 07: 
 ```c++
 p++;
 ```
