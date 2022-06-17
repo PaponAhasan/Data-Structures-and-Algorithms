@@ -207,6 +207,8 @@ Three parts of the main memory.
       Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174209936-cf657073-a8af-4702-b1f7-460b08bf93e6.png)
+![image](https://user-images.githubusercontent.com/59710234/174398727-b785ddda-86b6-4db7-9837-008abe33c57b.png)
+
 
 ### USES OF POINTER
 
