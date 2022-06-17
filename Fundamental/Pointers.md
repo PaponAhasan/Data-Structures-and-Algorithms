@@ -14,6 +14,10 @@ main(){
     q = &A[3]
     
     p++; 
+    
+    printf("%d",*++p)
+    
+    printf("%d",++*p)
 }
 ```
 #### Step 01: 
@@ -59,6 +63,26 @@ p++;
 | p |
 | - |
 |102| 
+
+####  Step 04: 
+
+| p |
+| - |
+|100| 
+
+```
+printf("%d",*++p)
+```
+| p |
+| - |
+|102| 
+
+```
+in unary operator , we should move right to left
+first ++ then *
+
+print 8
+```
 
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
