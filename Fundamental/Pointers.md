@@ -3,9 +3,13 @@
 Pointers are called as addrass variables. They store the addrass of data. They are usefull for indirectly accessing in the data.
 For Example : Heap Memory access
 ```
+```c++
+main(){
+    int a[5] = {5,8,9,6,10};
+    int *p, *q; 
+}
 ```
-int a[] = {5,8,9,6,10}
-```
+| |
 
 | Index   | 0 | 1 | 2 | 3 | 4 |
 | ------- | - | - | - | - | - |
