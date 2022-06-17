@@ -161,6 +161,5 @@ USES OF POINTER
 | double        |    8 bytes    |    8  bytes   |
 | long double   |    16 bytes   |    16 bytes   |
 
-[AbdulBari](https://www.youtube.com/watch?v=868qXWoGS9E&list=PLDN4rrl48XKp1ubbVUHVrOMkO4rTsjXrg&index=4&ab_channel=AbdulBari)
-[mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
-
+- [AbdulBari](https://www.youtube.com/watch?v=868qXWoGS9E&list=PLDN4rrl48XKp1ubbVUHVrOMkO4rTsjXrg&index=4&ab_channel=AbdulBari)
+- [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
