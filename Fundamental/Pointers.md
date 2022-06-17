@@ -6,25 +6,22 @@ For Example : Heap Memory access
 ```c++
 main(){
 
-    # Step 01
     int A[5] = {5,8,9,6,10};
     
-    # Step 02
     int *p, *q;
-    
-    # Step 03
+   
     p = &A[0]
     q = &A[3]
 }
 ```
-#### Step 01:
+#### Step 01: int A[5] = {5,8,9,6,10};
 
 | Index   | 0 | 1 | 2 | 3 | 4 |
 | ------- | - | - | - | - | - |
 | A       | 5 | 8 | 9 |6  |10 |
 | Address |100|102|104|106|108|
 
-####  Step 02:
+####  Step 02: int *p, *q;
 
 | p |
 | - |
@@ -35,7 +32,7 @@ main(){
 |   |
 
 
-####  Step 03:
+####  Step 03: p = &A[0] ;  q = &A[3]
 
 | p |
 | - |
