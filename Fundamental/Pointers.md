@@ -17,7 +17,13 @@ Three parts of the main memory.
   2. The Stack and 
   3. The Heap
   
-  Stack Memory : Stack Memory directly access of the program and size of the stack memory is static.
+  Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
+     because number of variable in the program).
+     When program is loadded , the memory allocate this program variable from stack.
+     
+  Heap Memory : Heap memory indirectly access of the program and size of the stack memory is dynamic(size is depend on -
+     menmory[ malloc, new & pointer] ).
+      Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174050681-b108c616-c33b-40f9-b765-9a45006fa516.png)
 ![image](https://user-images.githubusercontent.com/59710234/174203517-6680b0d5-198f-4d74-b5c4-585ddc329de2.png)
