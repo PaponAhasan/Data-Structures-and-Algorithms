@@ -10,12 +10,12 @@ main(){
     
     int *p, *q;
    
-    p = &A[0]
-    q = &A[3]
+    p = &A[0] // 100
+    q = &A[3] // 106
     
-    printf("%d",*++p)
+    printf("%d",*++p) // 8
     
-    printf("%d",++*p)
+    printf("%d",++*p) // 6
     
     p++; 
 }
@@ -67,9 +67,24 @@ printf("%d",*++p)
 
 ```
 in unary operator , we should move right to left
-first ++ then *
+first ++ (address increment) then * (print data)
 
 print 8
+```
+####  Step 04: 
+
+```c++
+printf("%d",++*p)
+```
+| p |
+| - |
+|100| 
+
+```
+in unary operator , we should move right to left
+first *(print data) then ++(data increment)
+
+print 6
 ```
 
 ####  Step 04: 
