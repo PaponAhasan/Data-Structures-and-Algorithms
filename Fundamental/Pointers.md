@@ -1,3 +1,4 @@
+### What is pointer
 ```
 Pointers are called as addrass variables. They store the addrass of data. They are usefull for indirectly accessing in the data.
 ```
@@ -16,7 +17,9 @@ Three parts of the main memory.
   1. The code
   2. The Stack and 
   3. The Heap
-  
+```
+### Stack VS Heap
+```
   Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
      because number of variable in the program).
      When program is loadded , the memory allocate this program variable from stack.
