@@ -120,21 +120,21 @@ p++;
 
 ### 2D Array Using Pointer
 ```c++
-printf("%u",p);  500
+printf("%u",p);  #500
 
-printf("%u",&p); 700 [ address of pointe , assume 700]
+printf("%u",&p); #700 [ address of pointe , assume 700]
 
-printf("%u",*p);  550
+printf("%u",*p); #550
 
-printf("%u",p+1); 502
+printf("%u",p+1); #502
 
-printf("%u",*(p+1)); 600
+printf("%u",*(p+1)); #600
 
-printf("%u",*(p+1)+2); 604
+printf("%u",*(p+1)+2); #604
 
-printf("%u",*(*(p+1)+2)); 25
+printf("%u",*(*(p+1)+2)); #25
 
-printf("%d",*(*(p+i)+j)); 18 [ i = 1,j = 3]
+printf("%d",*(*(p+i)+j)); #18 [ i = 1,j = 3]
       p[i][j] are same
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174277594-474a79a6-24f6-4f5f-b45e-8ee4dd8130ab.png)
