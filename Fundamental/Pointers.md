@@ -118,6 +118,8 @@ p++;
 | - |
 |102| 
 
+### 2D Array Using Pointer
+
 ![image](https://user-images.githubusercontent.com/59710234/174277594-474a79a6-24f6-4f5f-b45e-8ee4dd8130ab.png)
 
 ```c++
