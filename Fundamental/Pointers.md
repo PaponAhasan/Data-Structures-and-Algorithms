@@ -13,11 +13,11 @@ main(){
     p = &A[0]
     q = &A[3]
     
-    p++; 
-    
     printf("%d",*++p)
     
     printf("%d",++*p)
+    
+    p++; 
 }
 ```
 #### Step 01: 
@@ -57,18 +57,6 @@ q = &A[3] ;
 |106|
 
 ####  Step 03: 
-```c++
-p++;
-```
-| p |
-| - |
-|102| 
-
-####  Step 04: 
-
-| p |
-| - |
-|100| 
 
 ```c++
 printf("%d",*++p)
@@ -83,6 +71,14 @@ first ++ then *
 
 print 8
 ```
+
+####  Step 04: 
+```c++
+p++;
+```
+| p |
+| - |
+|102| 
 
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
