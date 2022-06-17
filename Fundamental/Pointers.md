@@ -46,7 +46,6 @@ main(){
 |106|
 
 ```
-```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
 Three parts of the main memory.
   1. The code
