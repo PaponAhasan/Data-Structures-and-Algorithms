@@ -140,7 +140,7 @@ printf("%u",*(*(p+1)+2)); 25
 printf("%d",*(*(p+i)+j)); 18 [ i = 1,j = 3]
       p[i][j] are same
 ```
-
+### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
 Three parts of the main memory.
