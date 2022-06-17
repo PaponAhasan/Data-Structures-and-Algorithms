@@ -172,6 +172,10 @@ printf("%u",**p); // 10
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174282133-a118ab3a-6b09-47a5-a5b0-80e60cf9393c.png)
 
+```
+```
+![image](https://user-images.githubusercontent.com/59710234/174294861-e14db58a-3875-4932-8dfd-6eae742451c6.png)
+
 ### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
