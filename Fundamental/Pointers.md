@@ -42,16 +42,18 @@ USES OF POINTER
 - Accessing any Peripheral
 ```
 
+### Data Types and Sizes
+
 | Type Name     | 32–bit Size   | 64–bit Size   |
 | ------------- | ------------- | ------------- |
-| char          |      1        |      1        |
-| short         |      2        |      2        |
-| int           |      4        |      4        |
-| long          |      4        |      8        |
-| long long     |      8        |      8        | 
-| float         |      4        |      4        |
-| double        |      8        |      8        |
-| long double   |     16        |      16       |
+| char          |    1 bytes    |    1 bytes    |
+| short         |    2 bytes    |    2 bytes    |
+| int           |    4 bytes    |    4 bytes    |
+| long          |    4 bytes    |    8 bytes    |
+| long long     |    8 bytes    |    8 bytes    | 
+| float         |    4 bytes    |    4  bytes   |
+| double        |    8 bytes    |    8  bytes   |
+| long double   |    16 bytes   |    16 bytes   |
 
 [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
 
