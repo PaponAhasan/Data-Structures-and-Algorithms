@@ -11,6 +11,8 @@ int main(){
    printf("%d",c);
 }
 ```
+![image](https://user-images.githubusercontent.com/59710234/174211200-2646a2bf-d61b-4728-a32f-be9ee81511fe.png)
+
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
 Three parts of the main memory.
