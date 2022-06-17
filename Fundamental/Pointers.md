@@ -19,3 +19,6 @@ Three parts of the main memory.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174050681-b108c616-c33b-40f9-b765-9a45006fa516.png)
 
+
+[mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
+
