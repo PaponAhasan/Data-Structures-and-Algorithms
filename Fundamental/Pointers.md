@@ -56,7 +56,7 @@ q = &A[3] ;
 | - |
 |106|
 
-####  Step 03: 
+####  Step 04: 
 
 ```c++
 printf("%d",*++p)
@@ -71,7 +71,7 @@ first ++ (address increment) then * (print data)
 
 print 8
 ```
-####  Step 04: 
+####  Step 05: 
 
 ```c++
 printf("%d",++*p)
@@ -87,7 +87,7 @@ first *(print data) then ++(data increment)
 print 6
 ```
 
-####  Step 04: 
+####  Step 06: 
 ```c++
 p++;
 ```
