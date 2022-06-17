@@ -147,7 +147,7 @@ printf("%u",p+2);  // 104
 
 printf("%d",*(A+2);  // 9
 ```
-![image](https://user-images.githubusercontent.com/59710234/174280796-39bb663e-9cdb-4282-9bcb-b1a2318afe5f.png)
+![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
 ### 2D Array Using Pointer
 ```c++
