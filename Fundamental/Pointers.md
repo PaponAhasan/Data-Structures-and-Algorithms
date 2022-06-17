@@ -43,14 +43,6 @@ main(){
 | - |
 |106|
 
-```c++
-int main(){
-   int a,b,c;
-   a = 10,
-   b = 20;
-   c = a+b;
-   printf("%d",c);
-}
 ```
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
