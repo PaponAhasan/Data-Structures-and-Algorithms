@@ -41,5 +41,17 @@ USES OF POINTER
 - Accessing Files
 - Accessing any Peripheral
 ```
+
+| Type Name     | 32–bit Size   | 64–bit Size   |
+| ------------- | ------------- | ------------- |
+| char          |      1        |      1        |
+| short         |      2        |      2        |
+| int           |      4        |      4        |
+| long          |      4        |      8        |
+| long long     |      8        |      8        | 
+| float         |      4        |      4        |
+| double        |      8        |      8        |
+| long double   |     16        |      16       |
+
 [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
 
