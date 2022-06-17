@@ -119,9 +119,6 @@ p++;
 |102| 
 
 ### 2D Array Using Pointer
-
-![image](https://user-images.githubusercontent.com/59710234/174277594-474a79a6-24f6-4f5f-b45e-8ee4dd8130ab.png)
-
 ```c++
 printf("%u",p);  500
 
@@ -140,6 +137,8 @@ printf("%u",*(*(p+1)+2)); 25
 printf("%d",*(*(p+i)+j)); 18 [ i = 1,j = 3]
       p[i][j] are same
 ```
+![image](https://user-images.githubusercontent.com/59710234/174277594-474a79a6-24f6-4f5f-b45e-8ee4dd8130ab.png)
+
 ### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
@@ -162,9 +161,9 @@ Three parts of the main memory.
 
 ![image](https://user-images.githubusercontent.com/59710234/174203517-6680b0d5-198f-4d74-b5c4-585ddc329de2.png)
 
-```
-USES OF POINTER
+### USES OF POINTER
 
+```
 - Accessing Heap Memory
 - Call By Reference
 - Accessing Files
