@@ -20,6 +20,7 @@ Three parts of the main memory.
   Stack Memory : Stack Memory directly access of the program and size of the stack memory is static.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174050681-b108c616-c33b-40f9-b765-9a45006fa516.png)
+![image](https://user-images.githubusercontent.com/59710234/174203517-6680b0d5-198f-4d74-b5c4-585ddc329de2.png)
 
 ```
 USES OF POINTER
