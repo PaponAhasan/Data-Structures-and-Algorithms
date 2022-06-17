@@ -5,6 +5,7 @@ For Example : Heap Memory access
 ```
 ```c++
 main(){
+
     # Step 01
     int A[5] = {5,8,9,6,10};
     
@@ -25,13 +26,10 @@ main(){
 
 ####  Step 02
 
-| p |
-| - |
-|   | 
+| p |   | q | 
+| - |   | - |
+|   |   |   |
 
-| q |
-| - |
-|   |
 
 ####  Step 03
 
