@@ -2,6 +2,8 @@
 ```
 Pointers are called as addrass variables. They store the addrass of data. They are usefull for indirectly accessing in the data.
 For Example : Heap Memory access
+
+[N.T : Every Integer taka a two bytes ]
 ```
 ### Pointer Arithmetic
 ```c++
@@ -119,6 +121,24 @@ p++;
 | - |
 |102| 
 
+### 1D Array Using Pointer
+```
+printf("%u",A);  100
+printf("%u",&A); 100
+printf("%d",A[2]); 9
+printf("%d",2[A]); 9
+printf("%u",A+2); 104
+printf("%d",*(A+2); 9
+
+printf("%u",p);  100
+printf("%u",&p); 500 [ address of pointe , assume 500]
+printf("%d",p[2]); 9
+printf("%d",2[p]); 9
+printf("%u",p+2); 104
+printf("%d",*(A+2); 9
+```
+![image](https://user-images.githubusercontent.com/59710234/174280796-39bb663e-9cdb-4282-9bcb-b1a2318afe5f.png)
+
 ### 2D Array Using Pointer
 ```c++
 printf("%u",p);  // 500
@@ -137,8 +157,10 @@ printf("%u",*(*(p+1)+2)); // 25
 
 printf("%d",*(*(p+i)+j)); // 18 [ i = 1,j = 3]
       p[i][j] are same
+      
+printf("%u",**p); // 10      
 ```
-![image](https://user-images.githubusercontent.com/59710234/174277594-474a79a6-24f6-4f5f-b45e-8ee4dd8130ab.png)
+![image](https://user-images.githubusercontent.com/59710234/174282133-a118ab3a-6b09-47a5-a5b0-80e60cf9393c.png)
 
 ### Program in Memory
 ```
