@@ -12,6 +12,8 @@ main(){
    
     p = &A[0]
     q = &A[3]
+    
+    p++; 
 }
 ```
 #### Step 01: 
@@ -49,6 +51,14 @@ q = &A[3] ;
 | q |
 | - |
 |106|
+
+####  Step 03: 
+```c++
+p++;
+```
+| p |
+| - |
+|102| 
 
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
