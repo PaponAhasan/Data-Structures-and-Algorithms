@@ -124,17 +124,27 @@ p++;
 ### 1D Array Using Pointer
 ```c++
 printf("%u",A);  // 100
+
 printf("%u",&A);  // 100
+
 printf("%d",A[2]); // 9
+
 printf("%d",2[A]); // 9
+
 printf("%u",A+2);  // 104
+
 printf("%d",*(A+2); // 9
 
 printf("%u",p);  // 100
+
 printf("%u",&p);  // 500 [ address of pointe , assume 500]
+
 printf("%d",p[2]);  // 9
+
 printf("%d",2[p]); // 9
+
 printf("%u",p+2);  // 104
+
 printf("%d",*(A+2);  // 9
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174280796-39bb663e-9cdb-4282-9bcb-b1a2318afe5f.png)
