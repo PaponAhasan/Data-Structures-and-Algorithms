@@ -3,10 +3,10 @@ A backtracking algorithm is a problem-solving algorithm that uses a brute force 
 
 The term backtracking suggests that if the current solution is not suitable, then backtrack and try other solutions. Backtracking
 is used when you have multiple solution and you want all those solution. Thus, recursion is used in this approach.
-
-[ A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given 
-problem. ]
 ```
+`[ A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given 
+problem. ]`
+
 ![image](https://user-images.githubusercontent.com/59710234/174453147-8ccdda0d-497a-41c8-87f3-faf253aff1a4.png)
 
 ### Example Backtracking Approach
