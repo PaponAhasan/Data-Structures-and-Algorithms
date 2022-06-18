@@ -54,7 +54,7 @@ The time complexity of the given program can depend on the function call.
 Iterative Time Complexity O(n)
 Recursively Time Complexity O(2^n)
 ```
-- https://pastebin.com/GKuEng6x
+- [Recursively Code](https://pastebin.com/GKuEng6x)
 
 Problem :
 
