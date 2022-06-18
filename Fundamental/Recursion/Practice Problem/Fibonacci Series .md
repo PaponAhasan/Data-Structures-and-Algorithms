@@ -29,8 +29,6 @@ int main()
 Output :
   Fibonacci series of 5 numbers is: 0 1 1 2 3 
 ```
-![image](https://user-images.githubusercontent.com/59710234/165957799-02b9abac-3d6f-432e-9893-c778dbb93f16.png)
-
 ![image](https://user-images.githubusercontent.com/59710234/174422393-ceebce83-6f51-48e3-b1b5-58896ca12984.png)
 ```
 The time complexity of the given program can depend on the function call.
