@@ -1,5 +1,4 @@
 - [AbdulBari](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63&ab_channel=AbdulBari)
-- [programiz](https://www.programiz.com/dsa/backtracking-algorithm)
 - [javatpoint](https://www.javatpoint.com/backtracking-introduction)
 - [interviewbit](https://www.interviewbit.com/courses/programming/backtracking/)
 - [hackerearth](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
