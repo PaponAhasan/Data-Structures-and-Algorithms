@@ -18,8 +18,8 @@ Now we find out all possible arrangement. For finding all possible all possible 
 tree (state space tree).
 ```
 
-[`A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from 
-the root as an initial state to the leaf as a terminal state.`]
+`[A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from 
+the root as an initial state to the leaf as a terminal state.]`
 
 ![image](https://user-images.githubusercontent.com/59710234/174454202-351d1a8a-5296-4c80-9898-25a515e408a7.png)
 
