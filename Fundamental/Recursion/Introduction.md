@@ -39,11 +39,11 @@ base case is reached. It also has greater time requirements because of function 
 ### Recursion VS Iteration
 |NO  |Recursion|Iteration|
 | -  | ------  | --------|
-| 1. |         | Iteration is the repetition of a process in order to 
-                 generate a sequence of outcomes. Each repetition of 
-                 the process is a single iteration, and the outcome of 
-                 each iteration is then the starting point of the next 
-                 iteration.        |
+| 1. |         | Iteration is the repetition of a process in order to |
+               |  generate a sequence of outcomes. Each repetition of |
+               |  the process is a single iteration, and the outcome of |
+               |  each iteration is then the starting point of the next |
+               |  iteration.        |
 | 2. |         |         |
 | 3. |         |         |
 | 4. |         |         |
