@@ -13,3 +13,5 @@ can represent in the form of a tree (state space tree).
 [A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from 
 the root as an initial state to the leaf as a terminal state.]
 ```
+![image](https://user-images.githubusercontent.com/59710234/174453091-f81ee617-48eb-471f-adf5-4c2453801c83.png)
+
