@@ -90,6 +90,9 @@ base case is reached. It also has greater time requirements because of function 
 
 So the running time of Recursively program is growing exponentially as the input increases.So it's code be 
 expensive in terms of the time and space that it takes.
+
+Iterative Time Complexity O(n)
+Recursively Time Complexity O(2^n)
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174422393-ceebce83-6f51-48e3-b1b5-58896ca12984.png)
 
