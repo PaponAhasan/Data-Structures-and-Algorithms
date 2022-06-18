@@ -208,7 +208,8 @@ Three parts of the main memory.
      menmory[ malloc, new & pointer] ).
       Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
 ```
-![image](https://user-images.githubusercontent.com/59710234/174428150-a21b1ce6-00fb-40db-a465-de493db9ddd0.png)
+![image](https://user-images.githubusercontent.com/59710234/174428164-11df545d-f724-43a8-af27-757fe2122868.png)
+
 
 ### USES OF POINTER
 
