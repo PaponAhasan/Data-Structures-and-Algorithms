@@ -196,7 +196,7 @@ Three parts of the main memory.
   2. The Stack and 
   3. The Heap
 ```
-![image](https://user-images.githubusercontent.com/59710234/174428119-86b7abda-b8e6-4b0f-9d10-ded089edf47d.png)
+![image](https://user-images.githubusercontent.com/59710234/174428263-55580669-6974-4789-b176-568d772fa761.png)
 
 ### Stack VS Heap
 ```
@@ -208,9 +208,6 @@ Three parts of the main memory.
      menmory[ malloc, new & pointer] ).
       Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
 ```
-![image](https://user-images.githubusercontent.com/59710234/174428164-11df545d-f724-43a8-af27-757fe2122868.png)
-![image](https://user-images.githubusercontent.com/59710234/174428263-55580669-6974-4789-b176-568d772fa761.png)
-
 
 ### USES OF POINTER
 
