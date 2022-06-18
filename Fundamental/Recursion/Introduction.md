@@ -30,9 +30,7 @@ void printFun(int test)
 ```
 Output : 3 2 1 1 2 3
 ```
-<img src="https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png" width="700" height="300">
-
-![image](https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png)
+<img src="https://user-images.githubusercontent.com/59710234/165937627-f6d15a2b-6088-4f42-8dd7-b347a99b3b1d.png" width="800" height="400">
 
 ### Why recursion is not always good
 ```
