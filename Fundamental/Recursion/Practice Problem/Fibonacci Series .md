@@ -31,6 +31,33 @@ Output :
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174422393-ceebce83-6f51-48e3-b1b5-58896ca12984.png)
 
+```c++
+// Karim Write Code (The Iterative (Bottom-Up) Approach)
+
+int fib(int n)
+{
+    int F1 = 0, F2 = 1, F, i;
+    if( n == 0)
+        return F1;
+    for(i = 2; i <= n; i++)
+    {
+       F = F1 + F2;
+       F1 = F2;
+       F2 = F;
+    }
+    return F;
+}
+```
+```c++
+// Rahim Write Code (A Recursively (Top-Down) Approach)
+
+int Fib(int n)
+{
+    if (n <= 1)
+        return n;
+    return Fib(n-1) + Fib(n-2);
+}
+```
 ```
 Time complexity : T(n) = T(n-1) + T(n-2) + 4
 => T(n) = 2*T(n-1) + c  [T(n-1) ~ T(n-2)]
@@ -50,6 +77,9 @@ Assume n-k = 0
 ```
 ```
 The time complexity of the given program can depend on the function call.
+
+Iterative Time Complexity O(n)
+Recursively Time Complexity O(2^n)
 ```
 Problem :
 
