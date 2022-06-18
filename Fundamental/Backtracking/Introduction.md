@@ -40,3 +40,6 @@ Backtrack(x)
 - Maze solving problem.
 - The Knight's tour problem.
 ```
+```
+Branch Vs Bound Algorithm
+```
