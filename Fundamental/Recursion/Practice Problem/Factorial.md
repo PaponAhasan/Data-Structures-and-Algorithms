@@ -1,7 +1,20 @@
+```
+n! = n * (n-1) * (n-2) *....* 2 * 1
+    -------------------------------
+            (n-1)!
+ 
+0 factorial spacial case, the factorial 1
+ 
+ So,
+      { 1        n == 0
+ n! = {
+      { n*(n-1)  n > 0
+```
 ```c++
 int F(int n){
     if(n==1) return 1;
     
+    //recursive call
     return n*F(n-1);
 }
 ```
