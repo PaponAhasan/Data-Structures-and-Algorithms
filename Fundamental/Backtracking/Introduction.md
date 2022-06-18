@@ -15,7 +15,7 @@ Example : If ther are three student two boys and girl (B1,B2,G1) and ther are th
 sits. How many way we can arrange. Number are student are 3, arrange them 3! = 6 ways possibilities. 
 
 Now we find out all possible arrangement. For finding all possible all possible arrangement solution can represent in the form of a
-tree (state space tree).
+tree (state space tree). Constraint: Girl should not be on the middle bench.
 ```
 
 `[A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from 
