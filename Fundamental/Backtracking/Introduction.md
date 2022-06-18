@@ -32,3 +32,11 @@ Backtrack(x)
         add to list of solutions
     backtrack(expand x)
 ```
+
+### Backtracking Algorithm Applications
+```
+- To find all Hamiltonian Paths present in a graph.
+- To solve the N Queen problem.
+- Maze solving problem.
+- The Knight's tour problem.
+```
