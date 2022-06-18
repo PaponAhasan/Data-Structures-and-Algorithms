@@ -68,14 +68,13 @@ int Fib(int n)
 }
 ```
 ```
-We run two this program and this time for an input 40 and output is 102334155 which 9 digit number.
-We observe that Rahim code takes a couple of seconds to executing code. And is it so.
+We run two this program and this time for an input 40 and output is 102334155 which 9 digit number. We observe that 
+Rahim code takes a couple of seconds to executing code. And is it so. Karim write Iterative program and Rahim write 
+Recursively program , So happens :
 
-Karim write Iterative program and Rahim write Recursively program , So happens
+- Karim is that to calculate F(0), F(1), F(2) ...F(n). So he calculate each of these exactly once.
 
-Karim is that to calculate F(0), F(1), F(2) ...F(n). So he calculate each of these exactly once.
-
-On the other hand, Rahim calculate Recursively call and he calculate F() function twice. We can See bellow pic the
+- On the other hand, Rahim calculate Recursively call and he calculate F() function twice. We can See bellow pic the
 value F(2) and F(3) call thrice and twice. It is unnecessary overhead or redundancy.
 
 N   F(2)
