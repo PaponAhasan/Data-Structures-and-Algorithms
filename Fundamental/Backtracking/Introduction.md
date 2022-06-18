@@ -1,1 +1,10 @@
-
+- [AbdulBari](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63&ab_channel=AbdulBari)
+- [programiz](https://www.programiz.com/dsa/backtracking-algorithm)
+- [javatpoint](https://www.javatpoint.com/backtracking-introduction)
+- [interviewbit](https://www.interviewbit.com/courses/programming/backtracking/)
+- [hackerearth](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
+- [Simplilearn](https://www.youtube.com/watch?v=Lnw2CRLWy5A&ab_channel=Simplilearn)
+- [freeCodeCamp](https://www.youtube.com/watch?v=A80YzvNwqXA&ab_channel=freeCodeCamp.org)
+- [leetcode Problem](https://leetcode.com/explore/learn/card/recursion-ii/472/backtracking/)
+- [leetcode](https://leetcode.com/tag/backtracking/)
+- [geeksforgeeks](https://www.geeksforgeeks.org/backtracking-algorithms/?ref=ghm)
