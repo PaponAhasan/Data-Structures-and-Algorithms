@@ -196,6 +196,8 @@ Three parts of the main memory.
   2. The Stack and 
   3. The Heap
 ```
+![image](https://user-images.githubusercontent.com/59710234/174428119-86b7abda-b8e6-4b0f-9d10-ded089edf47d.png)
+
 ### Stack VS Heap
 ```
   Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
