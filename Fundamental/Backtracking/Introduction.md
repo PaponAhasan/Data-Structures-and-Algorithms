@@ -7,6 +7,8 @@ is used when you have multiple solution and you want all those solution. Thus, r
 [ A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given 
 problem. ]
 ```
+![image](https://user-images.githubusercontent.com/59710234/174453147-8ccdda0d-497a-41c8-87f3-faf253aff1a4.png)
+
 ### Example Backtracking Approach
 ```
 Example : If ther are three student two boys and girl (B1,B2,G1) and ther are three sits.we have to arrange them in those three 
@@ -20,8 +22,6 @@ arrangement. For finding all possible all possible arrangement solution can repr
 A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from 
 the root as an initial state to the leaf as a terminal state.
 ```
-![image](https://user-images.githubusercontent.com/59710234/174453147-8ccdda0d-497a-41c8-87f3-faf253aff1a4.png)
-
 ### Backtracking Algorithm
 ```c++
 Backtrack(x)
