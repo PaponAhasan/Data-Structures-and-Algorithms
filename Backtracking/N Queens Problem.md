@@ -9,7 +9,7 @@ Lebel 04 : 4*3*2*1 nodes = 24 nodes
                            --------
                            65 nodes
 ```
-Number of nodes : $$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
+`Number of nodes :` $$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
 
 
 ![image](https://user-images.githubusercontent.com/59710234/174467693-687f2ffd-7eee-43ad-aefb-d82173724e3d.png)
