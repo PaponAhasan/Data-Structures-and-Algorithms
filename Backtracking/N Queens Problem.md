@@ -145,3 +145,16 @@ int main()
 
 // This code is contributed by Aditya Kumar (adityakumar129)
 ```
+![image](https://user-images.githubusercontent.com/59710234/174480165-6239bb0f-aafc-4100-97d8-76f68d4dd499.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480170-c04a7b0d-2d7f-450c-8788-ee522d517b17.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480188-02bef865-9a70-461e-a9f5-83262d64725e.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480195-0179bb59-fd7a-4558-bdb9-2dd2a7564d5b.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480204-87498e02-5916-403f-b722-93a2365fea1f.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480207-e9b5c440-4513-4d5a-a7f5-7bbf1c50a7cf.png)
+
+![image](https://user-images.githubusercontent.com/59710234/174480212-0f9f067f-2c39-497d-a14e-a20dcef249f2.png)
