@@ -11,7 +11,7 @@ Lebel 04 : 24*1 nodes = 24 nodes
 1 + Σ [ π (4-j) ]
    i=0  j=0 
 ```
-  $$\left \sum_{i=0}^n  \right$$
+  $$ \sum_{i=0}^n $$
 
 
 ![image](https://user-images.githubusercontent.com/59710234/174467693-687f2ffd-7eee-43ad-aefb-d82173724e3d.png)
