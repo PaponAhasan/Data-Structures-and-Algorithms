@@ -73,8 +73,8 @@ that there is no safe place where we can put the fourth queen. so again we backt
 This time we backtrack all the way to the first queen. Then All the queens placed successfully after backtracking. All the queens 
 placed. SO, We will get the solution.
 
-This is not the only possible solution to the problem. If you move each queen one step forward in a clockwise manner, you get another 
-solution.
+This is not the only possible solution to the problem. If you move each queen one step forward in a clockwise manner, you get 
+another solution.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174483001-a51646af-9c19-4fc1-aaaa-a2766956ecba.png)
 
