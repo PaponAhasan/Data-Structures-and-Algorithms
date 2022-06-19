@@ -10,8 +10,6 @@ Lebel 04 : 24*1 nodes = 24 nodes
    N    i
 1 + Σ [ π (4-j) ]
    i=0  j=0 
-   
-   $$\left( \sum_{k=1}^n a_k b_k \right)^2$$
 ```
   $$\left( \sum_{k=1}^n a_k b_k \right)^2$$
 
