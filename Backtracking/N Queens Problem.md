@@ -1,11 +1,13 @@
 ```
 1 + 4 + 4*3 + 4*3*2 + 4*3*2*1
 
-Lebel 00 : 1 nodes
-Lebel 01 : 4 nodes
-Lebel 02 : 4*3 nodes = 12 nodes
-Lebel 03 : 12*2 nodes = 24 nodes
-Lebel 04 : 24*1 nodes = 24 nodes
+Lebel 00 : 1                1 nodes
+Lebel 01 :  4               4 nodes
+Lebel 02 : 4*3 nodes =     12 nodes
+Lebel 03 : 4*3*2 nodes =   24 nodes
+Lebel 04 : 4*3*2*1 nodes = 24 nodes
+                           --------
+                           65 nodes
 ```
 $$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
 
