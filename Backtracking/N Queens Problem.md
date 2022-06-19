@@ -13,7 +13,7 @@ Lebel 04 : 24*1 nodes = 24 nodes
 ```
   $$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
   
-$$\left \sum_{i=0}^n(\leq \right) $$
+$$ \sum_{i=0}^n (\leq) $$
 
 
 ![image](https://user-images.githubusercontent.com/59710234/174467693-687f2ffd-7eee-43ad-aefb-d82173724e3d.png)
