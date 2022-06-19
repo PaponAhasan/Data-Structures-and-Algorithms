@@ -50,3 +50,5 @@ Difference
 1. Both Approach different. Backtracking follow DFS and
 Branch Bound follow BFS.
 ```
+![image](https://user-images.githubusercontent.com/59710234/174461293-fb9b3796-464d-4297-a0a0-d1b36e065642.png)
+
