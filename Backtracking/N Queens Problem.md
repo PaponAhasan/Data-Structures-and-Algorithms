@@ -28,8 +28,8 @@ Lebel 04 : 4*3*2*1 nodes = 24 nodes
 
 ![image](https://user-images.githubusercontent.com/59710234/174467590-8b882359-4df6-493f-a5a2-fbcc8b81e656.png)
 
-[Abdul Bari](https://www.youtube.com/watch?v=xFv_Hl4B83A&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=65)
-[geeksforgeeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/#:~:text=Backtracking%20Algorithm&text=When%20we%20place%20a%20queen,we%20backtrack%20and%20return%20false.)
+- [Abdul Bari](https://www.youtube.com/watch?v=xFv_Hl4B83A&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=65)
+- [geeksforgeeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/#:~:text=Backtracking%20Algorithm&text=When%20we%20place%20a%20queen,we%20backtrack%20and%20return%20false.)
 ```c++
 /* C++ program to solve N Queen Problem using
 backtracking */
