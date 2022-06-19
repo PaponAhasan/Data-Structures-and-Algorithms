@@ -146,6 +146,8 @@ int main()
 // This code is contributed by Aditya Kumar (adityakumar129)
 ```
 
+#### Solution to the N-Queens Problem
+
 ![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
 
 ```
