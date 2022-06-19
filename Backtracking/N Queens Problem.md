@@ -164,12 +164,15 @@ the current position. we try the next position.
 ![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
 
 ```
- we will start by placing the first queen. Now, the second step is to place the second queen in a safe position
+ we will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that there 
+ is no safe place where we can put the third queen. So, we will just change the position of the previous queen. So we backtrack.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
 
 ```
+So, Change the position of the second queen. And now we will place the third queen again in a safe position. After you can see that there 
+is no safe place where we can put the fourth queen. so again we backtrack.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/174482984-5c1368b2-ef24-4e01-9fdd-4c0db5fe3d9a.png)
