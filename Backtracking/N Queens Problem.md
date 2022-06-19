@@ -199,11 +199,11 @@ int main()
 
 ### Time complexity of N queens algorithm 
 ```
-For finding a single solution where the first queen ‘Q’ has been assigned the first column and can be put on N positions, the second 
-queen has been assigned the second column and would choose from N-1 possible positions and so on; 
+For finding a single solution where the first queen ‘Q’ has been assigned the first column and can be put on N positions, the 
+second queen has been assigned the second column and would choose from N-1 possible positions and so on; 
 
-The time complexity is O ( N ) * ( N - 1 ) * ( N - 2 ) * … 1 ). i.e The worst-case time complexity is O ( N! ). Thus, for finding all 
-the solutions to the N Queens problem the time complexity runs in polynomial time.
+The time complexity is O ( N ) * ( N - 1 ) * ( N - 2 ) * … 1 ). i.e The worst-case time complexity is O ( N! ). Thus, for finding 
+all the solutions to the N Queens problem the time complexity runs in polynomial time.
 ```
 
 ### Problem
