@@ -56,8 +56,8 @@ the current position. we try the next position.
 ![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
 
 ```
- we will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that 
- there is no safe place where we can put the third queen. So, we will just change the position of the previous queen. So we backtrack.
+We will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that 
+there is no safe place where we can put the third queen. So, we will just change the position of the previous queen.So we backtrack.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
@@ -70,9 +70,18 @@ that there is no safe place where we can put the fourth queen. so again we backt
 ![image](https://user-images.githubusercontent.com/59710234/174482984-5c1368b2-ef24-4e01-9fdd-4c0db5fe3d9a.png)
 
 ```
+This time we backtrack all the way to the first queen. Then All the queens placed successfully after backtracking. All the queens 
+placed. SO, We will get the solution.
+
+This is not the only possible solution to the problem. If you move each queen one step forward in a clockwise manner, you get another 
+solution.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174483001-a51646af-9c19-4fc1-aaaa-a2766956ecba.png)
 
+[queen algorithm gif](https://www.codesdope.com/staticroot/images/algorithm/queen.gif)
+
+
+### Code 
 ```c++
 /* C++ program to solve N Queen Problem using
 backtracking */
