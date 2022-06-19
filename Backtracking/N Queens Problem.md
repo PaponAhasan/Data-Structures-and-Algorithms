@@ -37,6 +37,7 @@ Lebel 04 : 4*3*2*1 nodes = 24 nodes
 - [Abdul Bari](https://www.youtube.com/watch?v=xFv_Hl4B83A&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=65)
 - [geeksforgeeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/#:~:text=Backtracking%20Algorithm&text=When%20we%20place%20a%20queen,we%20backtrack%20and%20return%20false.)
 - [codesdope](https://www.codesdope.com/course/algorithms-backtracking/)
+- [algotree](https://www.algotree.org/algorithms/backtracking/nqueens/)
 
 #### Solution to the N-Queens Problem
 
