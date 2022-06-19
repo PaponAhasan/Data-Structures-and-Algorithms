@@ -38,6 +38,41 @@ Lebel 04 : 4*3*2*1 nodes = 24 nodes
 - [geeksforgeeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/#:~:text=Backtracking%20Algorithm&text=When%20we%20place%20a%20queen,we%20backtrack%20and%20return%20false.)
 - [codesdope](https://www.codesdope.com/course/algorithms-backtracking/)
 
+#### Solution to the N-Queens Problem
+
+```
+How can N queens be placed on an NxN chessboard so that no two of them attack each other?
+
+- We check if there is a queen on the left in the row.
+- We check if there is a queen on the upper diagonal.
+- We check if there is a queen on the lower diagonal.
+
+The way we try to solve this is by placing a queen at a position and trying to rule out the possibility of it being under attack. 
+We place one queen in each row/column.
+
+If we see that the queen is under attack at its chosen position, we backtrack and change the position of the queen placed prior to 
+the current position. we try the next position.
+```
+![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
+
+```
+ we will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that 
+ there is no safe place where we can put the third queen. So, we will just change the position of the previous queen. So we backtrack.
+```
+
+![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
+
+```
+So, Change the position of the second queen. And now we will place the third queen again in a safe position. After you can see 
+that there is no safe place where we can put the fourth queen. so again we backtrack.
+```
+
+![image](https://user-images.githubusercontent.com/59710234/174482984-5c1368b2-ef24-4e01-9fdd-4c0db5fe3d9a.png)
+
+```
+```
+![image](https://user-images.githubusercontent.com/59710234/174483001-a51646af-9c19-4fc1-aaaa-a2766956ecba.png)
+
 ```c++
 /* C++ program to solve N Queen Problem using
 backtracking */
@@ -151,38 +186,3 @@ int main()
 
 // This code is contributed by Aditya Kumar (adityakumar129)
 ```
-
-#### Solution to the N-Queens Problem
-
-```
-How can N queens be placed on an NxN chessboard so that no two of them attack each other?
-
-- We check if there is a queen on the left in the row.
-- We check if there is a queen on the upper diagonal.
-- We check if there is a queen on the lower diagonal.
-
-The way we try to solve this is by placing a queen at a position and trying to rule out the possibility of it being under attack. 
-We place one queen in each row/column.
-
-If we see that the queen is under attack at its chosen position, we backtrack and change the position of the queen placed prior to 
-the current position. we try the next position.
-```
-![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
-
-```
- we will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that there 
- is no safe place where we can put the third queen. So, we will just change the position of the previous queen. So we backtrack.
-```
-
-![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
-
-```
-So, Change the position of the second queen. And now we will place the third queen again in a safe position. After you can see that there 
-is no safe place where we can put the fourth queen. so again we backtrack.
-```
-
-![image](https://user-images.githubusercontent.com/59710234/174482984-5c1368b2-ef24-4e01-9fdd-4c0db5fe3d9a.png)
-
-```
-```
-![image](https://user-images.githubusercontent.com/59710234/174483001-a51646af-9c19-4fc1-aaaa-a2766956ecba.png)
