@@ -57,7 +57,8 @@ the current position. we try the next position.
 
 ```
 We will start by placing the first queen. Now, the second step is to place the second queen in a safe position. you can see that 
-there is no safe place where we can put the third queen. So, we will just change the position of the previous queen.So we backtrack.
+there is no safe place where we can put the third queen. So, we will just change the position of the previous queen. So we 
+backtrack.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
