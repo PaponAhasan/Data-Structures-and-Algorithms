@@ -148,9 +148,23 @@ int main()
 
 #### Solution to the N-Queens Problem
 
+```
+How can N queens be placed on an NxN chessboard so that no two of them attack each other?
+
+- We check if there is a queen on the left in the row.
+- We check if there is a queen on the upper diagonal.
+- We check if there is a queen on the lower diagonal.
+
+The way we try to solve this is by placing a queen at a position and trying to rule out the possibility of it being under attack. 
+We place one queen in each row/column.
+
+If we see that the queen is under attack at its chosen position, we backtrack and change the position of the queen placed prior to 
+the current position. we try the next position.
+```
 ![image](https://user-images.githubusercontent.com/59710234/174482923-0efab63b-3499-4cf5-9e5c-b0ddf8f5c305.png)
 
 ```
+ we will start by placing the first queen. Now, the second step is to place the second queen in a safe position
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/174482933-5ce7a01c-84f6-4976-b329-ffa34a0116f5.png)
