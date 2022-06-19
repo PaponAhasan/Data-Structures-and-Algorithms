@@ -40,6 +40,13 @@ Backtrack(x)
 - Maze solving problem.
 - The Knight's tour problem.
 ```
+### Backtracking VS Branch Bound Algorithm
 ```
-Branch Vs Bound Algorithm
+Similarity
+1. Both follow brute force approach and
+2. Both generate space state tree.
+
+Difference
+1. Both Approach different. Backtracking follow DFS and
+Branch Bound follow BFS.
 ```
