@@ -1,3 +1,19 @@
+```
+1 + 4 + 4*3 + 4*3*2 + 4*3*2*1
+
+Lebel 00 : 1 nodes
+Lebel 01 : 4 nodes
+Lebel 02 : 4*3 nodes = 12 nodes
+Lebel 03 : 12*2 nodes = 24 nodes
+Lebel 04 : 24*1 nodes = 24 nodes
+    
+   N    i
+1 + Σ [ π (4-j) ]
+   i=0  j=0   
+```
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2
+
 ![image](https://user-images.githubusercontent.com/59710234/174467693-687f2ffd-7eee-43ad-aefb-d82173724e3d.png)
 
 ![image](https://user-images.githubusercontent.com/59710234/174467684-9bdf4887-a3bd-4f1e-9d90-d2602ce08eea.png)
