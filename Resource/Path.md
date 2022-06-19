@@ -28,6 +28,7 @@
 * [Code NCode DSA](https://www.youtube.com/c/CodeNCode/playlists) 
 * [wrong submission DSA](https://www.youtube.com/channel/UC3Jjc7x00HFheNogxCTghow/playlists)
 * [simplilearn](https://www.simplilearn.com/tutorials/data-structure-tutorial)
+* [codesdope](https://www.codesdope.com/course/algorithms-introduction/)
   
 </details>
 
