@@ -6,14 +6,8 @@ Lebel 01 : 4 nodes
 Lebel 02 : 4*3 nodes = 12 nodes
 Lebel 03 : 12*2 nodes = 24 nodes
 Lebel 04 : 24*1 nodes = 24 nodes
-    
-   N    i
-1 + Σ [ π (4-j) ]
-   i=0  j=0 
 ```
-  $$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
-  
-$$ \sum_{i=0}^n (\leq) $$
+$$ 1+\sum_{i=0}^n[\pi_{j=0}^i(4-j)] $$
 
 
 ![image](https://user-images.githubusercontent.com/59710234/174467693-687f2ffd-7eee-43ad-aefb-d82173724e3d.png)
