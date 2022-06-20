@@ -7,17 +7,17 @@ N.T : Before starting this tutorial, if you have less knowledge about your point
 ![image](https://user-images.githubusercontent.com/59710234/155120811-c06d17cc-7271-4cae-825e-d5b715a54496.png)
 
 ```
-Linked lists are one of the most fundamental linear data structures. It is a chain of nodes with each node having data and a pointer to
-the next node. The head pointer points to the first node and the last element of the list points to NULL.
-Lists can be empty too. In that case, the head points to NULL.
+Linked lists are one of the most fundamental linear data structures. It is a chain of nodes with each node having data and a 
+pointer to the next node. The head pointer points to the first node and the last element of the list points to NULL.Lists can 
+be empty too. In that case, the head points to NULL.
 
 A linked list is a way to store a collection of elements. Each element in a linked list is stored in the form of a node.
 ```
 
 ### Need of linked list 
 ```
-In Arrays store elements in contiguous memory locations. And The size of the arrays is fixed. If we need new element store,we cannot 
-be resized due to the risk of other data being overwritten or If we not use full size of array our memory wastage.
+In Arrays store elements in contiguous memory locations. And The size of the arrays is fixed. If we need new element store, we 
+cannot be resized due to the risk of other data being overwritten or If we not use full size of array our memory wastage.
 
 In this case, we need linked list. Linked list is collect similar data. But linked list aren’t in consecutive memory locations.
 Linked list consists of nodes that are connected with one another using pointers. size is not fixed.
