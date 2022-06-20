@@ -1,5 +1,5 @@
 [ N.T : Before starting this tutorial, if you have less knowledge about your pointer, you can find out from the reference below :
- https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/ 
+ Fundamental/Pointers/Pointers.md
 ]
 
 ### What is Linked List?
