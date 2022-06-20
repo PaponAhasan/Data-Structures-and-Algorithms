@@ -13,6 +13,7 @@ Lists can be empty too. In that case, the head points to NULL.
 
 A linked list is a way to store a collection of elements. Each element in a linked list is stored in the form of a node.
 ```
+
 ### Need of linked list 
 ```
 In Arrays store elements in contiguous memory locations. And The size of the arrays is fixed. If we need new element store,we cannot 
@@ -21,6 +22,7 @@ be resized due to the risk of other data being overwritten or If we not use full
 In this case, we need linked list. Linked list is collect similar data. But linked list aren’t in consecutive memory locations.
 Linked list consists of nodes that are connected with one another using pointers. size is not fixed.
 ```
+[Why Need Linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
 
 ### Node
 
