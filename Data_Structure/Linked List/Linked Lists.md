@@ -1,5 +1,5 @@
 N.T : Before starting this tutorial, if you have less knowledge about your pointer, you can find out from the reference below :
-[Fundamental Pointers](Fundamental/Pointers/Pointers.md](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/69c48649a4a7356c686925ee1751fedb2028df21/Fundamental/Pointers/Pointers.md)
+[Fundamental Pointers](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/69c48649a4a7356c686925ee1751fedb2028df21/Fundamental/Pointers/Pointers.md)
 
 
 ### What is Linked List?
