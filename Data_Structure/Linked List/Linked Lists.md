@@ -22,6 +22,8 @@ be resized due to the risk of other data being overwritten or If we not use full
 In this case, we need linked list. Linked list is collect similar data. But linked list aren’t in consecutive memory locations.
 Linked list consists of nodes that are connected with one another using pointers. size is not fixed.
 ```
+![image](https://user-images.githubusercontent.com/59710234/174536036-5ea30ba3-f020-4cc2-b878-1ed8f81df9a6.png)
+
 [Why Need Linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
 
 ### Node
