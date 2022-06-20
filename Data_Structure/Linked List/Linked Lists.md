@@ -7,7 +7,7 @@ N.T : Before starting this tutorial, if you have less knowledge about your point
 ![image](https://user-images.githubusercontent.com/59710234/155120811-c06d17cc-7271-4cae-825e-d5b715a54496.png)
 
 ```
-Linked lists are one of the most fundamental data structures. It is a chain of nodes with each node having data and a pointer to
+Linked lists are one of the most fundamental linear data structures. It is a chain of nodes with each node having data and a pointer to
 the next node. The head pointer points to the first node and the last element of the list points to NULL.
 Lists can be empty too. In that case, the head points to NULL.
 
