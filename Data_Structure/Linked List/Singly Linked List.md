@@ -52,10 +52,10 @@ C
 ```
 ### Traversing/Display
 
-  ```c
-    void traversList(struct LinkedList *head)
+  ```c++
+    void traversList(Node *head)
     {
-        struct LinkedList *p;
+        Node *p;
         p = head;
         while(p != NULL){
            p = p->next;
@@ -63,7 +63,7 @@ C
     }
   ```
   ```c++
-    void printList(Node* n)
+    void printList(Node *n)
     {
         while (n != NULL) {
             cout << n->data << " ";
