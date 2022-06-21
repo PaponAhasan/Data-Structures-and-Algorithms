@@ -70,7 +70,7 @@ C
 ```
 Code : </br>
   https://ideone.com/E1zDQQ </br>
-  https://ideone.com/zd8nKm </br>
+  https://pastebin.com/UgqVu5KN </br>
   
 ### Searching
 ```c
