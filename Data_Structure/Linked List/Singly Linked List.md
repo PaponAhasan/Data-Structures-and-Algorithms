@@ -53,7 +53,7 @@ C
 ### Traversing/Display
 
   ```c
-    void printList(struct LinkedList *head)
+    void traversList(struct LinkedList *head)
     {
         struct LinkedList *p;
         p = head;
