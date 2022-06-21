@@ -103,3 +103,4 @@ the next node.
   size flexibility in linked lists may make them use less memory overall;
   Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed to reach any element.
 ```
+[linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
