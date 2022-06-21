@@ -50,7 +50,7 @@ C
       third = new Node();
   }
 ```
-### Traversing/Display the List
+### Traversing/Display
 
   ```c
     node p;
@@ -72,7 +72,7 @@ Code : </br>
   https://ideone.com/E1zDQQ </br>
   https://ideone.com/zd8nKm </br>
   
-### Search Operation
+### Searching
 ```c
 pseudocode
 
