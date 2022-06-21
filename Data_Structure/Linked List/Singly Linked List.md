@@ -53,10 +53,13 @@ C
 ### Traversing/Display
 
   ```c
-    node p;
-    p = head;
-    while(p != NULL){
-        p = p->next;
+    void printList(struct LinkedList *head)
+    {
+        struct LinkedList *p;
+        p = head;
+        while(p != NULL){
+           p = p->next;
+        }
     }
   ```
   ```c++
