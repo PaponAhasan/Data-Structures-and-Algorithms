@@ -3,7 +3,9 @@
 ![image](https://user-images.githubusercontent.com/59710234/155121977-ccbbfbd0-2e9f-472e-9fd2-18d24c412ddb.png)
 
 ```
-Which every node contains some data and a pointer to the next node of the same data type. The node contains a pointer to the next node means that the node stores the address of the next node in the sequence. A single linked list allows traversal of data only in one way.
+Which every node contains some data and a pointer to the next node of the same data type. The node contains a pointer to the next 
+node means that the node stores the address of the next node in the sequence. A single linked list allows traversal of data only in 
+one way.
 ```
 ### Declaring a Linked list
 ```c
