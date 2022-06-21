@@ -90,7 +90,8 @@ the next node.
      but in Linked list if we have the head node then we can traverse to any node through it and insert new node at the required
      position.
 
-  *Linked List Advantages :
+  * Linked List Advantages :
+  
   1) The Linked List size is not fixed, dynamic size. However If we need new element store, we easily insert and first.
   
   2) Linked List does not wastage memory.
@@ -122,4 +123,6 @@ the next node.
   Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed
   to reach any element.
 ```
+![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
+
 [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
