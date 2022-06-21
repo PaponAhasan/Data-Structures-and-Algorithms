@@ -132,9 +132,9 @@ the next node.
 
 |  Types                                                         | Array                            | Linked List                                |
 | -------------------------------------------------------------- | -------------------------------- | ------------------------------------------ |
-| Cost of accessing an element for begining / end / ith position | O(1) / O(n) / O(n)               | O(1) / O(n) / O(n)                         |
+| Cost of accessing an element for begining , end , ith position | O(1) - O(n) - O(n)               | O(1) / O(n) / O(n)                         |
 | Memory Requrement and utilization                              | 2(int) element = 2 * 4 = 8 bytes | 2(int) element = 2 * (4 + 4) = 16 bytes    |            
-| Cost of Insertion/Deletion for begining / end / ith position   | O(n) / O(1) / O(n)               | O(1) / O(n) / O(n)                         |
+| Cost of Insertion/Deletion for begining , end , ith position   | O(n) - O(1) - O(n)               | O(1) / O(n) / O(n)                         |
 
 - [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
 - [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
