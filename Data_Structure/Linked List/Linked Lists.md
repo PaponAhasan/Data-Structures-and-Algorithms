@@ -132,9 +132,9 @@ the next node.
 
 |  Types                                                       | Array  | Linked List |
 | ------------------------------------------------------------ | ------ | ----------- |
-| Cost of accessing an element for begining, end, ith position |        |             |
+| Cost of accessing an element for begining/ end/ ith position |        |             |
 | Memory Requrement and utilization                            |        |             |
-| Cost of Insertion for begining, end, ith position            |        |             |
+| Cost of Insertion for begining/ end/ ith position            |        |             |
 
 - [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
 - [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
