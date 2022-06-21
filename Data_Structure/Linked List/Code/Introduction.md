@@ -40,4 +40,4 @@ int main()
 	return 0;
 }
 ```
-- [practice.geeksforgeeks.org](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
+- [Practice Problem 01](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
