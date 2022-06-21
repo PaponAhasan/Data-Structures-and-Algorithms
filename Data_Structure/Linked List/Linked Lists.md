@@ -74,6 +74,7 @@ the next node.
   elements are linked using pointers.
 
   * Array Advantages :
+  --------------------
   
   1) Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and 
   this allows faster access to an element at a specific index.
@@ -81,6 +82,7 @@ the next node.
   2) Also, better cache locality in arrays (due to contiguous memory allocation) can significantly improve performance.
 
   * Arrays limitations :
+  ----------------------
   
   1) The size of the arrays is fixed.
   
@@ -91,6 +93,7 @@ the next node.
      position.
 
   * Linked List Advantages :
+  --------------------------
   
   1) The Linked List size is not fixed, dynamic size. However If we need new element store, we easily insert and first.
   
@@ -99,6 +102,7 @@ the next node.
   3) Ease of insertion/deletion.
   
   * Linked List limitations :
+  --------------------------
 
   1) Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot 
   do binary search with linked lists efficiently but implementation O(n) possible.
@@ -111,6 +115,7 @@ the next node.
   4) It takes a lot of time in traversing and changing the pointers.
 
   * Major differences :
+  ---------------------
   
   Size: Stored in contiguous blocks of memory in an array. It cannot be resized due to the risk of other data being overwritten.
         However, in a linked list allows for a dynamic size so that can change size.
