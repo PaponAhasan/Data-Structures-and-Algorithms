@@ -505,7 +505,7 @@ void reverse() {
   }
  ```
 
-### Sort Linked List
+### Sorting
 
 ```c++
 void sortLinkedList(struct Node** head_ref) {
