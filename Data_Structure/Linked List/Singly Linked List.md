@@ -35,7 +35,7 @@ C
     // allocate 3 nodes in the heap
     head = (struct Node*)malloc(sizeof(struct Node));
     second = (struct Node*)malloc(sizeof(struct Node));
-    third = (struct Node*)malloc(sizeof(struct
+    third = (struct Node*)malloc(sizeof(struct Node));
   }
  ``` 
  ```c++
