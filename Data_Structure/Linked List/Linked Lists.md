@@ -70,22 +70,27 @@ the next node.
 
 ### Array vs Linked List
 ```
-  Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
-  using pointers.
+  Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements 
+  are linked using pointers.
 
   Array Advantages :
-  1. Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows 
-  faster access to an element at a specific index.
-  2.  Also, better cache locality in arrays (due to contiguous memory allocation) can significantly improve performance. 
+  1) Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and 
+  this allows faster access to an element at a specific index.
+  2) Also, better cache locality in arrays (due to contiguous memory allocation) can significantly improve performance.
 
-  Arrays can be used to store linear data of similar types, but arrays have the following limitations :
+  Arrays limitations :
   1) The size of the arrays is fixed
   2) Inserting a new element in an array of elements is expensive because ,
      the room has to be created for the new elements and to create room existing elements have to be shifted 
      |1|2|5| if 4 insert 2 index ; |1|2|4|?| -> |1|2|4|5| ; we have to move all the elements after 2
      but in Linked list if we have the head node then we can traverse to any node through it and insert new node at the required position.
 
-  Linked List have the following limitations :
+  Linked List Advantages :
+  1) The Linked List size is not fixed, dynamic size. However If we need new element store, we easily insert and first.
+  2) Linked List does not wastage memory.
+  3) Ease of insertion/deletion.
+  
+  Linked List limitations :
 
   1) Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do 
      binary search with linked lists efficiently but implementation O(n) possible.
