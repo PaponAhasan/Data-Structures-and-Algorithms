@@ -129,5 +129,12 @@ the next node.
   to reach any element.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
+
+|  Types                                                       | Array  | Linked List |
+| ------------------------------------------------------------ | ------ | ----------- |
+| Cost of accessing an element for begining, end, ith position |        |             |
+| Memory Requrement and utilization                            |        |             |
+| Cost of Insertion for begining, end, ith position            |        |             |
+
 - [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
 - [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
