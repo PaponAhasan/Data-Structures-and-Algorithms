@@ -128,6 +128,6 @@ the next node.
   Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed
   to reach any element.
 ```
-- ![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
+![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
 - [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
 - [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
