@@ -87,7 +87,8 @@ the next node.
   2) Inserting a new element in an array of elements is expensive because ,
      the room has to be created for the new elements and to create room existing elements have to be shifted 
      |1|2|5| if 4 insert 2 index ; |1|2|4|?| -> |1|2|4|5| ; we have to move all the elements after 2
-     but in Linked list if we have the head node then we can traverse to any node through it and insert new node at the required position.
+     but in Linked list if we have the head node then we can traverse to any node through it and insert new node at the required
+     position.
 
   *Linked List Advantages :
   1) The Linked List size is not fixed, dynamic size. However If we need new element store, we easily insert and first.
