@@ -7,7 +7,7 @@ Which every node contains some data and a pointer to the next node of the same d
 node means that the node stores the address of the next node in the sequence. A single linked list allows traversal of data only 
 in one way.
 ```
-### Declaring a Linked list
+### Declaring
 ```c
 C
   // A linked list node
@@ -24,7 +24,7 @@ C++
     Node* next;
   };
 ```
-### Creating a Node
+### Creating
 ```c
 C
   int main() {
@@ -40,16 +40,6 @@ C
  ``` 
  ```c++
  C++
-  #include <cstddef>
-
-  using namespace std;
-
-  class Node {
-      public:
-          int data;
-      Node * next;
-  };
-
   int main() {
       Node * head = NULL;
       Node * second = NULL;
