@@ -24,7 +24,7 @@ Linked list consists of nodes that are connected with one another using pointers
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174536036-5ea30ba3-f020-4cc2-b878-1ed8f81df9a6.png)
 
-[Why Need Linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
+- [Why Need Linked list](https://www.youtube.com/watch?v=dmb1i4oN5oE&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=7)
 
 ### Node
 
@@ -128,6 +128,6 @@ the next node.
   Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed
   to reach any element.
 ```
-![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
-
-[linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
+- ![image](https://user-images.githubusercontent.com/59710234/174722396-c01067bb-6a6a-416c-b1e0-677e516c4da4.png)
+- [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
+- [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
