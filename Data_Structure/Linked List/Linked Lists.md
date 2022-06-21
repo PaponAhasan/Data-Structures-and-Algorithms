@@ -70,8 +70,8 @@ the next node.
 
 ### Array vs Linked List
 ```
-  Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements 
-  are linked using pointers.
+  Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the 
+  elements are linked using pointers.
 
   * Array Advantages :
   
@@ -99,11 +99,11 @@ the next node.
   
   * Linked List limitations :
 
-  1) Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do 
-     binary search with linked lists efficiently but implementation O(n) possible.
+  1) Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot 
+  do binary search with linked lists efficiently but implementation O(n) possible.
      
-  2) Extra memory space for a pointer is required with each element of the list. Linked lists use more memory as a reference to the 
-     next node is also stored along with the data.
+  2) Extra memory space for a pointer is required with each element of the list. Linked lists use more memory as a reference to 
+  the next node is also stored along with the data.
      
   3) Arrays have better cache locality that can make a pretty big difference in performance.
   
@@ -119,7 +119,7 @@ the next node.
   Memory efficiency: Linked lists use more memory as a reference to the next node is also stored along with the data.However, 
   size flexibility in linked lists may make them use less memory overall;
   
-  Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed to 
-  reach any element.
+  Execution time: Any element in an array can be directly accessed with its index but all the previous elements must be traversed
+  to reach any element.
 ```
 [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
