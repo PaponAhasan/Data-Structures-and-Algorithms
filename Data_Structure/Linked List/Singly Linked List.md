@@ -189,8 +189,8 @@ bool searchNode(struct Node** head_ref, int key) {
   ```
   This will put the new node in the middle of the two.
 
-  Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end), the second 
-  last node of the list should point to the new node and the new node will point to NULL.
+  Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end),
+  the second last node of the list should point to the new node and the new node will point to NULL.
   ```
   ```
   A node can be added in three ways :
