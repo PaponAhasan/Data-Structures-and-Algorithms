@@ -101,10 +101,10 @@ Traverse the created list and print the data of each node.
   ```c++
     void traversList(Node *head)
     {
-        Node *p;
-        p = head;
-        while(p != NULL){
-           p = p->next;
+        Node *temp;
+        temp = head;
+        while(temp != NULL){
+           temp = temp->next;
         }
     }
   ```
