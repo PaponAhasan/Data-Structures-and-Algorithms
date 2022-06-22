@@ -8,6 +8,9 @@ node means that the node stores the address of the next node in the sequence. A 
 in one way.
 ```
 ### Declaring
+
+<details> <summary> Declaring </summary>
+ 
 ```c
 C
   // A linked list node
@@ -24,6 +27,9 @@ C++
     Node* next;
   };
 ```
+	
+</details>
+
 ### Creating
 ```c
 C
