@@ -88,8 +88,7 @@ void deleteNode(Node** head_ref, int position)
 ### Delete a Linked List node at a given Node
 ```
 ```c++
-void deleteNode(Node *head, 
-                Node *n) 
+void deleteNode(Node *head, Node *n) 
 { 
     // When node to be deleted is 
     // head node 
@@ -163,8 +162,7 @@ class Node
 	Node *next;
 };
 
-void deleteNode(Node *head,
-				Node *n)
+void deleteNode(Node *head, Node *n)
 {
 	// When node to be deleted is
 	// head node
@@ -222,8 +220,7 @@ void deleteNode(Node *head,
 
 /* Utility function to insert a
 node at the beginning */
-void push(Node **head_ref,
-		int new_data)
+void push(Node **head_ref, int new_data)
 {
 	Node *new_node = new Node();
 	new_node->data = new_data;
