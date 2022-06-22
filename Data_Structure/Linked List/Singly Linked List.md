@@ -33,7 +33,7 @@ C++
 
 ### Creating
 
-details> <summary> Code </summary>
+<details> <summary> Code </summary>
 
 ```c
 C
@@ -65,7 +65,7 @@ C
 
 ### Traversing/Display
 
-details> <summary> Code </summary>
+<details> <summary> Code </summary>
 
   ```c++
     void traversList(Node *head)
