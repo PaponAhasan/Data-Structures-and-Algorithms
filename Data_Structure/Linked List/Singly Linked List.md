@@ -91,6 +91,9 @@ C
 
 ```
 Traverse the created list and print the data of each node. 
+
+- We keep moving the temp node to the next one and display its contents.
+- When temp is NULL, we know that we have reached the end of the linked list so we get out of the while loop.
 ```
 
 <details> <summary> Code </summary>
