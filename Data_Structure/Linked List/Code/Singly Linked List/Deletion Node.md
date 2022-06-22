@@ -1,5 +1,5 @@
 ```
-# After deleted node
+### After deleted node
 ```
 ```c++
 void deleteNode(Node** head_ref, int key)
@@ -146,7 +146,7 @@ void deleteNode(Node *head,
 } 
 ```
 ```
-# Full Code
+### Full Code
 ```
 ```c++
 // C++ program to delete a given node
