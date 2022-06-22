@@ -279,3 +279,4 @@ int main()
 // This code is contributed by rathbhupendra
 
 ```
+- [Practice Problem 01](https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1/)
