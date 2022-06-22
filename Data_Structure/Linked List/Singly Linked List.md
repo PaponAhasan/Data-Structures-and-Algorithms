@@ -204,8 +204,9 @@ bool searchNode(struct Node** head_ref, int key) {
   ```
   ![image](https://user-images.githubusercontent.com/59710234/155290089-ae00ec08-0972-4f33-addd-d8c7d9b7ea92.png)
   ```
-  The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List. For
-  example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked List becomes 5->10->15->20->25.
+  The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the 
+  Linked List. For example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked 
+  List becomes 5->10->15->20->25.
   ```
   
   <details> <summary> Code </summary>
@@ -276,9 +277,11 @@ void insertAfter(Node* prev_node, int new_data)
  ```
  ![image](https://user-images.githubusercontent.com/59710234/155528975-15e49d5e-037e-41f5-9bdc-ccaad30e2f88.png)
  ```
- A Linked List is typically represented by the head of it, we have to traverse the list till the end and then change the next to last node to 
- a new node.
- For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes 5->10->15->20->25->30.
+ A Linked List is typically represented by the head of it, we have to traverse the list till the end and then change the 
+ next to last node to a new node.
+ 
+ For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes
+ 5->10->15->20->25->30.
  ```
  
  <details> <summary> Code </summary>
