@@ -237,8 +237,8 @@ First, locate the target node to be removed, by using searching algorithms.
 ```
 2.
 
-The left (previous) node of the 'target node' now should point to the next node(right) of the
-target node. Now, using the following code. 
+The left node of the 'target node' now should point to the next node(target node) of the
+target node. Now, Change the next pointer of the left node. 
 
 LeftNode.next −> TargetNode.next;
 
@@ -249,7 +249,7 @@ This will remove the link that was pointing to the target node.
 ```
 3.
 
-Now, we will remove what the target node is pointing at the next node(right). Now, using the following code.
+Now, we will Free the memory what the target node is pointing at the next node(right). Now, using the following code.
 
 TargetNode.next −> NULL;
 ```
