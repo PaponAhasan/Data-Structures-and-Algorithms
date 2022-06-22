@@ -94,22 +94,9 @@ Code : </br>
   https://pastebin.com/UgqVu5KN </br>
   
 ### Searching
-```c
-pseudocode
 
-//Checks whether the value x is present in linked list
-public boolean search(int x)
-{
-    Node current = first;    //Initialize current
-    while (current != null)
-    {
-        if (current.data == x)
-            return true;    //data found
-        current = current.next;
-    }
-    return false;    //data not found
-}
-```  
+<details> <summary> Code </summary>
+ 
 ```c++
 // Search a node
 bool searchNode(struct Node** head_ref, int key) {
@@ -122,6 +109,9 @@ bool searchNode(struct Node** head_ref, int key) {
   return false;
 }
 ```
+	
+</details>	
+
 
 ### Insertion Operation
 
