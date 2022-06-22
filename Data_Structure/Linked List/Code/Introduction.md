@@ -1,43 +1,51 @@
 ```c++
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
-class Node {
-public:
-	int data;
-	Node* next;
-};
+struct LinkedList{
+    int data;
+    struct LinkedList *next;
+ };
+ 
+typedef struct LinkedList *node;
 
-void printList(Node* n)
-{
-	while (n != NULL) {
-		cout << n->data << " ";
-		n = n->next;
-	}
+void printList(node n){
+    // if(n==NULL) printf("10");
+    while (n != NULL) {
+        printf("%d ",n->data);
+        n = n->next;
+    }
 }
 
-int main()
-{
-	Node* head = NULL;
-	Node* second = NULL;
-	Node* third = NULL;
+node createNode(){
+    node temp; 
+    temp = (node)malloc(sizeof(struct LinkedList));
+    temp->next = NULL;
+    return temp;
+}
 
-	head = new Node();
-	second = new Node();
-	third = new Node();
-
-	head->data = 1; 
-	head->next = second; 
-
-	second->data = 2; 
-	second->next = third;
-
-	third->data = 3;
-	third->next = NULL;
-
-	printList(head);
-
-	return 0;
+node addNode(node head, int value){
+    node temp,p;
+    temp = createNode();
+    temp->data = value;
+    if(head == NULL){
+        head = temp;
+    }
+    else{
+        p  = head;
+        while(p->next != NULL){
+            p = p->next;
+        }
+        p->next = temp;//Point the previous last node to the new node created.
+    }
+    return head;
+}
+  
+int main(){
+    node head = NULL;
+    head = addNode(head, 10);
+    addNode(head, 20);
+    printList(head);
 }
 ```
 - [Practice Problem 01](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
