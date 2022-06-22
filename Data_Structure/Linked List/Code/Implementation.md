@@ -10,7 +10,6 @@ struct LinkedList{
 typedef struct LinkedList *node;
 
 void printList(node n){
-    // if(n==NULL) printf("10");
     while (n != NULL) {
         printf("%d ",n->data);
         n = n->next;
