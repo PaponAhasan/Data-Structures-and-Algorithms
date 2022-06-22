@@ -8,11 +8,13 @@ node means that the node stores the address of the next node in the sequence. A 
 in one way.
 ```
 ```
-Traversal - access each element of the linked list
-Insertion - adds a new element to the linked list
-Deletion - removes the existing elements
-Search - find a node in the linked list
-Sort - sort the nodes of the linked list
+Traversal: To traverse all the nodes one after another.
+Insertion: To add a node at the given position.
+Deletion: To removes the existing elements.
+Searching: To search an element(s) by value.
+Updating: To update a node.
+Sorting: To arrange nodes in a linked list in a specific order.
+Merging: To merge two linked lists into one.
 ```
 ### Declaring
 
