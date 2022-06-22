@@ -31,6 +31,9 @@ C++
 </details>
 
 ### Creating
+
+details> <summary> Code </summary>
+
 ```c
 C
   int main() {
@@ -56,7 +59,12 @@ C
       third = new Node();
   }
 ```
+
+</details>
+
 ### Traversing/Display
+
+details> <summary> Code </summary>
 
   ```c++
     void traversList(Node *head)
@@ -77,6 +85,9 @@ C
         }
     }
 ```
+
+</details>
+
 Code : </br>
   https://ideone.com/E1zDQQ </br>
   https://pastebin.com/UgqVu5KN </br>
