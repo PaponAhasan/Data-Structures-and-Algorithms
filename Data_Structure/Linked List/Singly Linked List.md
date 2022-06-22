@@ -174,7 +174,9 @@ bool searchNode(struct Node** head_ref, int item) {
   ```
 	
   ```c++
-
+  new_node->next = head
+  head = new_node
+  
   Time complexity of push() is O(1)
   ```
   
@@ -185,9 +187,14 @@ bool searchNode(struct Node** head_ref, int item) {
   
  ```
   Given a node prev_node, insert a new node after the given prev_node.
+  
+  N.T : If the address of the prevNode is not given, then you can traverse to that node by finding the data value.
  ```
 	
  ```c++
+ newNode.next = prevNode.next
+ prevNode.next = newNode
+ 
  Time complexity of insertAfter() is O(1) 
  ```
 	
@@ -204,11 +211,18 @@ bool searchNode(struct Node** head_ref, int item) {
  ```
 	
  ```c++
-Time complexity of append is O(n)
+ Node temp = head
+ // traversing the list to get the last node
+ while( temp.next != NULL )
+ {
+    temp = temp.next
+ }
+ temp.next = newNode
+    
+ Time complexity of append is O(n)
  ```
 	
 Full Code : https://ideone.com/yWdm2t
-
 
 ### Deletion Operation
 
