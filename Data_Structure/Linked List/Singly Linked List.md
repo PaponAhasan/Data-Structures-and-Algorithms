@@ -408,6 +408,7 @@ void deleteNode(Node** head_ref, int key)
     }
 }
 ```
+	
 </details>
 
 Full Code : https://ideone.com/FkuTk7
@@ -466,6 +467,7 @@ void deleteNode(Node** head_ref, int position)
     temp->next = next; // // 8 2 3 '1->`8
 }
 ```
+	
 </details>
 	
 Full Code: https://ideone.com/FdPWJj
@@ -534,6 +536,7 @@ void deleteNode(Node *head,
     return; 
 } 
 ```
+	
 </details>
 	
 Full Code : https://ideone.com/9ZuJ6x
