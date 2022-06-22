@@ -7,6 +7,7 @@ Which every node contains some data and a pointer to the next node of the same d
 node means that the node stores the address of the next node in the sequence. A single linked list allows traversal of data only 
 in one way.
 ```
+
 ### Declaring
 
 <details> <summary> Code </summary>
@@ -26,7 +27,7 @@ C++
     int data;
     Node* next;
   };
-```
+```	
 	
 </details>
 
@@ -64,29 +65,7 @@ C
 
 ### Traversing/Display
 
-details> <summary> Code </summary>
 
-  ```c++
-    void traversList(Node *head)
-    {
-        Node *p;
-        p = head;
-        while(p != NULL){
-           p = p->next;
-        }
-    }
-  ```
-  ```c++
-    void printList(Node *n)
-    {
-        while (n != NULL) {
-            cout << n->data << " ";
-            n = n->next;
-        }
-    }
-```
-
-</details>
 
 Code : </br>
   https://ideone.com/E1zDQQ </br>
