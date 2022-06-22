@@ -50,11 +50,6 @@ int main(){
 }
 ```
 ```c++
-    struct LinkedList *head, *newnode;
-    newnode = (struct LinkedList*)malloc(sizeof(struct LinkedList));
-    scanf("%d",&newnode->data);
-```
-```c++
 C++
 
 #include <iostream>
@@ -102,5 +97,10 @@ int main(){
     addNode(&head, 20);
     printList(head);
 }
+```
+```
+    struct LinkedList *head, *newnode;
+    newnode = (struct LinkedList*)malloc(sizeof(struct LinkedList));
+    scanf("%d",&newnode->data);
 ```
 - [Practice Problem 01](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
