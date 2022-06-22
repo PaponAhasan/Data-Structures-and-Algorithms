@@ -1,4 +1,6 @@
-```c++
+```c
+C
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -51,5 +53,54 @@ int main(){
     struct LinkedList *head, *newnode;
     newnode = (struct LinkedList*)malloc(sizeof(struct LinkedList));
     scanf("%d",&newnode->data);
+```
+```c++
+C++
+
+#include <iostream>
+using namespace std;
+
+class LinkedList{
+public:
+    int data;
+    LinkedList *next;
+};
+
+void printList(LinkedList* n){
+    while (n != NULL) {
+        printf("%d ",n->data);
+        n = n->next;
+    }
+}
+
+LinkedList* createNode(){
+    LinkedList* temp; 
+    temp = new LinkedList();
+    temp->next = NULL;
+    return temp;
+}
+
+void addNode(LinkedList** head, int value){
+    LinkedList *temp = createNode();
+    temp->data = value;
+    
+    if(*head == NULL){
+        *head = temp;
+    }
+    else{
+        LinkedList *p  = *head;
+        while(p->next != NULL){
+            p = p->next;
+        }
+        p->next = temp;//Point the previous last node to the new node created.
+    }
+}
+  
+int main(){
+    LinkedList* head = NULL;
+    addNode(&head, 10);
+    addNode(&head, 20);
+    printList(head);
+}
 ```
 - [Practice Problem 01](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
