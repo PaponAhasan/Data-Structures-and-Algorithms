@@ -65,7 +65,29 @@ C
 
 ### Traversing/Display
 
+details> <summary> Code </summary>
 
+  ```c++
+    void traversList(Node *head)
+    {
+        Node *p;
+        p = head;
+        while(p != NULL){
+           p = p->next;
+        }
+    }
+  ```
+  ```c++
+    void printList(Node *n)
+    {
+        while (n != NULL) {
+            cout << n->data << " ";
+            n = n->next;
+        }
+    }
+```
+
+</details>
 
 Code : </br>
   https://ideone.com/E1zDQQ </br>
