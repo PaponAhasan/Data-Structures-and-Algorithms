@@ -10,6 +10,9 @@ in one way.
 
 ### Declaring
 
+```
+```
+
 <details> <summary> Code </summary>
  
 ```c
@@ -32,6 +35,9 @@ C++
 </details>
 
 ### Creating
+
+```
+```
 
 <details> <summary> Code </summary>
 
@@ -64,6 +70,9 @@ C
 </details>
 
 ### Traversing/Display
+
+```
+```
 
 <details> <summary> Code </summary>
 
