@@ -153,6 +153,38 @@ bool searchNode(struct Node** head_ref, int item) {
 	
 </details>	
 
+### Reverse Operation
+
+```
+The head node of the linked list will be the last node of the linked list and the last one will be the head node.
+
+Example : 
+ Before Reverse: 9 -> 32 -> 65 -> 10 -> 85 -> NULL
+ After Reverse: 85 -> 10 -> 65 -> 32 -> 9 -> NULL
+ 
+ To reverse the given linked list we will use three extra pointers that will be in the process. The pointers will be previous, 
+ after, current. We will initialize previous and after to 'NULL' and current to 'head' of the linked list.
+ 
+ After this, we will iterate until we reach the NULL of the initial - 
+ after = current ->
+ next current ->
+ next = previous
+ previous = current
+ current = after
+ 
+ There can be two ways to create the program(Reverse Operation), one is iterative and the other one is recursive.
+```
+
+https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
+	
+```c++
+```
+	
+### Sorting
+	
+```c++
+
+```
 
 ### Insertion Operation
 
@@ -298,38 +330,5 @@ Full Code: https://ideone.com/FdPWJj
 </details>
 	
 Full Code : https://ideone.com/9ZuJ6x
-
-### Reverse Operation
-
-```
-The head node of the linked list will be the last node of the linked list and the last one will be the head node.
-
-Example : 
- Before Reverse: 9 -> 32 -> 65 -> 10 -> 85 -> NULL
- After Reverse: 85 -> 10 -> 65 -> 32 -> 9 -> NULL
- 
- To reverse the given linked list we will use three extra pointers that will be in the process. The pointers will be previous, 
- after, current. We will initialize previous and after to 'NULL' and current to 'head' of the linked list.
- 
- After this, we will iterate until we reach the NULL of the initial - 
- after = current ->
- next current ->
- next = previous
- previous = current
- current = after
- 
- There can be two ways to create the program(Reverse Operation), one is iterative and the other one is recursive.
-```
-
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
-	
-```c++
-```
-	
-### Sorting
-	
-```c++
-
-```
 	
 Stack using Linked List
