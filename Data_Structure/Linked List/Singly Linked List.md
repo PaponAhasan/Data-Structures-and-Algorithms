@@ -336,4 +336,4 @@ Full Code: https://ideone.com/FdPWJj
 	
 Full Code : https://ideone.com/9ZuJ6x
 	
-Stack using Linked List
+- [Stack using Linked List](https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/)
