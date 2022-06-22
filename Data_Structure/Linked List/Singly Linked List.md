@@ -180,13 +180,13 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
 ```c++
 ```
 	
-### Sorting
+### Sorting Operation
 	
 ```c++
 
 ```
 
-### Updation
+### Updation Operation
 
 ```c++
 ```
