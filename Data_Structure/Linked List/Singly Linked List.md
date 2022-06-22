@@ -7,7 +7,13 @@ Which every node contains some data and a pointer to the next node of the same d
 node means that the node stores the address of the next node in the sequence. A single linked list allows traversal of data only 
 in one way.
 ```
-
+```
+Traversal - access each element of the linked list
+Insertion - adds a new element to the linked list
+Deletion - removes the existing elements
+Search - find a node in the linked list
+Sort - sort the nodes of the linked list
+```
 ### Declaring
 
 ```
