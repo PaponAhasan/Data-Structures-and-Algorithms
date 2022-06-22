@@ -325,6 +325,12 @@ Full Code: https://ideone.com/FdPWJj
 ```
  * Delete a Linked List node at a given Node
 ```
+
+1 - ![image](https://user-images.githubusercontent.com/59710234/175125032-041f458c-169d-4f08-b814-7e2e4a6784ab.png)
+
+2 - ![image](https://user-images.githubusercontent.com/59710234/175125178-aaec451f-18ab-42f2-8e79-55d6cb32feb8.png)
+
+3 - ![image](https://user-images.githubusercontent.com/59710234/175125260-823ef600-998d-4365-999a-553124605dbf.png)
 	
 Full Code : https://ideone.com/9ZuJ6x
 	
