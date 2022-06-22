@@ -326,14 +326,6 @@ Full Code: https://ideone.com/FdPWJj
  * Delete a Linked List node at a given Node
 ```
 	
-<details> <summary> Code </summary>
-	
-```c++
-
-```
-	
-</details>
-	
 Full Code : https://ideone.com/9ZuJ6x
 	
 - [Stack using Linked List](https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/)
