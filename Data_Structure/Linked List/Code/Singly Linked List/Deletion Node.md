@@ -1,5 +1,6 @@
-### After deleted node
-
+```
+# After deleted node
+```
 ```c++
 void deleteNode(Node** head_ref, int key)
 {
@@ -39,9 +40,9 @@ void deleteNode(Node** head_ref, int key)
     }
 }
 ```
-
+```
 ### Delete a Linked List node at a given position
-
+```
 ```c++
 void deleteNode(Node** head_ref, int position)
 {
@@ -83,9 +84,9 @@ void deleteNode(Node** head_ref, int position)
     temp->next = next; // // 8 2 3 '1->`8
 }
 ```
-
+```
 ### Delete a Linked List node at a given Node
-
+```
 ```c++
 void deleteNode(Node *head, 
                 Node *n) 
@@ -145,7 +146,7 @@ void deleteNode(Node *head,
 } 
 ```
 ```
-Full Code
+# Full Code
 ```
 ```c++
 // C++ program to delete a given node
