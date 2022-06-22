@@ -1,6 +1,5 @@
-```
-After deleted node
-```
+### After deleted node
+
 ```c++
 void deleteNode(Node** head_ref, int key)
 {
