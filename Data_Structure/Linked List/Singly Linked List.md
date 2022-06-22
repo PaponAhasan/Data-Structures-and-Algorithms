@@ -11,6 +11,9 @@ in one way.
 ### Declaring
 
 ```
+In C, we can represent a node using structures. Below is an example of a linked list node with integer data. 
+In C++, LinkedList can be represented as a class and a Node as a separate class. The LinkedList class contains a reference of Node 
+class type.
 ```
 
 <details> <summary> Code </summary>
@@ -37,6 +40,7 @@ C++
 ### Creating
 
 ```
+Let us create a simple linked list 
 ```
 
 <details> <summary> Code </summary>
@@ -72,6 +76,7 @@ C
 ### Traversing/Display
 
 ```
+Traverse the created list and print the data of each node. 
 ```
 
 <details> <summary> Code </summary>
