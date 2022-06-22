@@ -9,7 +9,7 @@ in one way.
 ```
 ### Declaring
 
-<details> <summary> Declaring </summary>
+<details> <summary> Code </summary>
  
 ```c
 C
