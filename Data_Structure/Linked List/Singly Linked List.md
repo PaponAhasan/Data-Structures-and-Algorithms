@@ -207,6 +207,9 @@ bool searchNode(struct Node** head_ref, int key) {
   The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List. For
   example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked List becomes 5->10->15->20->25.
   ```
+  
+  <details> <summary> Code </summary>
+	
   ```c++
   
   void push(Node** head_ref, int new_data)
@@ -226,6 +229,8 @@ bool searchNode(struct Node** head_ref, int key) {
 
   Time complexity of push() is O(1)
   ```
+  </details>
+  
   ```
   * Add a node after a given node
   ```
@@ -234,6 +239,8 @@ bool searchNode(struct Node** head_ref, int key) {
  ```
   Given a node prev_node, insert a new node after the given prev_node.
  ```
+ <details> <summary> Code </summary>
+	
  ```c++
  
 void insertAfter(Node* prev_node, int new_data)
@@ -262,6 +269,8 @@ void insertAfter(Node* prev_node, int new_data)
 }
  Time complexity of insertAfter() is O(1) 
  ```
+</details>
+	
  ```
  * Add a node at the end
  ```
@@ -271,6 +280,9 @@ void insertAfter(Node* prev_node, int new_data)
  a new node.
  For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes 5->10->15->20->25->30.
  ```
+ 
+ <details> <summary> Code </summary>
+	
  ```c++
 void append(Node** head_ref, int new_data)
 {
@@ -309,6 +321,8 @@ void append(Node** head_ref, int new_data)
 }
 Time complexity of append is O(n)
  ```
+</details>
+	
 Full Code : https://ideone.com/yWdm2t
 
 
@@ -350,6 +364,8 @@ After deleted node
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
 
+<details> <summary> Code </summary>
+	
 ```c++
 void deleteNode(Node** head_ref, int key)
 {
@@ -389,6 +405,8 @@ void deleteNode(Node** head_ref, int key)
     }
 }
 ```
+</details>
+
 Full Code : https://ideone.com/FkuTk7
 
 ```
@@ -402,6 +420,8 @@ Example:
 Input: position = 1, Linked List = 8->2->3->1->7
 Output: Linked List =  8->3->1->7
 ```
+
+<details> <summary> Code </summary>
 ```c++
 void deleteNode(Node** head_ref, int position)
 {
@@ -443,11 +463,16 @@ void deleteNode(Node** head_ref, int position)
     temp->next = next; // // 8 2 3 '1->`8
 }
 ```
+</details>
+	
 Full Code: https://ideone.com/FdPWJj
 
 ```
  * Delete a Linked List node at a given Node
 ```
+	
+<details> <summary> Code </summary>
+	
 ```c++
 void deleteNode(Node *head, 
                 Node *n) 
@@ -506,7 +531,8 @@ void deleteNode(Node *head,
     return; 
 } 
 ```
-
+</details>
+	
 Full Code : https://ideone.com/9ZuJ6x
 
 ### Reverse Operation
@@ -532,7 +558,9 @@ Example :
 ```
 
 https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
-
+	
+<details> <summary> Code </summary>
+	
 ```c++
 void reverse() {
      // Initialize current, previous and
@@ -554,9 +582,12 @@ void reverse() {
      head = prev;
   }
  ```
-
+</details>
+	
 ### Sorting
 
+<details> <summary> Code </summary>
+	
 ```c++
 void sortLinkedList(struct Node** head_ref) {
   struct Node *current = *head_ref, *index = NULL;
@@ -585,6 +616,8 @@ void sortLinkedList(struct Node** head_ref) {
 }
 
 ```
+</details>
+	
 Stack using Linked List
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
