@@ -426,6 +426,7 @@ Output: Linked List =  8->3->1->7
 ```
 
 <details> <summary> Code </summary>
+	
 ```c++
 void deleteNode(Node** head_ref, int position)
 {
