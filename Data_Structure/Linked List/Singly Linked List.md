@@ -138,11 +138,11 @@ You can search an element on a linked list using a loop using the following step
  
 ```c++
 // Search a node
-bool searchNode(struct Node** head_ref, int key) {
+bool searchNode(struct Node** head_ref, int item) {
   struct Node* current = *head_ref;
 
   while (current != NULL) {
-    if (current->data == key) return true;
+    if (current->data == item) return true;
       current = current->next;
   }
   return false;
