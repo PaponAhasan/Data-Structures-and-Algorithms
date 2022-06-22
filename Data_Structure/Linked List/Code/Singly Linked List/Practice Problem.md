@@ -1,4 +1,13 @@
 #### Problems
+* [Reverse linked list](https://afteracademy.com/problems/reverse-linked-list)
+* [Middle of the Linked List](https://afteracademy.com/problems/middle-of-the-linked-list)
+* [Odd even linked List](https://afteracademy.com/problems/odd-even-linked-list)
+* [Odd even linked List](https://afteracademy.com/problems/remove-duplicates-from-sorted-list)
+* [Merge Sort on Linked List](https://afteracademy.com/problems/sort-list-merge-sort)
+* [Check if a singly linked list is a palindrome](https://afteracademy.com/problems/check-if-a-singly-linked-list-is-palindrome)
+* [Detect and Remove Loop in a Linked List](https://afteracademy.com/problems/detect-and-remove-loop-in-a-linked-list)
+* [Sort a linked list using insertion sort](https://afteracademy.com/problems/sort-a-linked-list-using-insertion-sort)
+* [Remove Nth Node from List End](https://afteracademy.com/problems/remove-nth-node-from-list-end)
 * [Leetcode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 * [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/)
 * [Leetcode 148](https://leetcode.com/problems/sort-list/)
