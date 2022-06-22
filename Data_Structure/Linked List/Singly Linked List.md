@@ -208,29 +208,11 @@ bool searchNode(struct Node** head_ref, int key) {
   Linked List. For example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked 
   List becomes 5->10->15->20->25.
   ```
-  
-  <details> <summary> Code </summary>
 	
   ```c++
-  
-  void push(Node** head_ref, int new_data)
-  {
-    /* 1. allocate node */
-    Node* new_node = new Node();
-
-    /* 2. put in the data */
-    new_node->data = new_data;
-
-    /* 3. Make next of new node as head */
-    new_node->next = (*head_ref);
-
-    /* 4. move the head to point to the new node */
-    (*head_ref) = new_node;
-  }
 
   Time complexity of push() is O(1)
   ```
-  </details>
   
   ```
   * Add a node after a given node
@@ -240,37 +222,10 @@ bool searchNode(struct Node** head_ref, int key) {
  ```
   Given a node prev_node, insert a new node after the given prev_node.
  ```
- <details> <summary> Code </summary>
 	
  ```c++
- 
-void insertAfter(Node* prev_node, int new_data)
-{
-
-	// 1. Check if the given prev_node is NULL
-	if (prev_node == NULL)
-	{
-		cout << "The given previous node cannot be NULL";
-		return;
-	}
-
-	// 2. Allocate new node
-	Node* new_node = new Node();
-
-	// 3. Put in the data
-	new_node->data = new_data;
-
-	// 4. Make next of new node as
-	// next of prev_node
-	new_node->next = prev_node->next;
-
-	// 5. move the next of prev_node
-	// as new_node
-	prev_node->next = new_node;
-}
  Time complexity of insertAfter() is O(1) 
  ```
-</details>
 	
  ```
  * Add a node at the end
@@ -283,48 +238,10 @@ void insertAfter(Node* prev_node, int new_data)
  For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes
  5->10->15->20->25->30.
  ```
- 
- <details> <summary> Code </summary>
 	
  ```c++
-void append(Node** head_ref, int new_data)
-{
-
-	// 1. allocate node
-	Node* new_node = new Node();
-
-	// Used in step 5
-	Node *last = *head_ref;
-
-	// 2. Put in the data
-	new_node->data = new_data;
-
-	// 3. This new node is going to be
-	// the last node, so make next of
-	// it as NULL
-	new_node->next = NULL;
-
-	// 4. If the Linked List is empty,
-	// then make the new node as head
-	if (*head_ref == NULL)
-	{
-		*head_ref = new_node;
-		return;
-	}
-
-	// 5. Else traverse till the last node
-	while (last->next != NULL)
-	{
-		last = last->next;
-	}
-
-	// 6. Change the next of last node
-	last->next = new_node;
-	return;
-}
 Time complexity of append is O(n)
  ```
-</details>
 	
 Full Code : https://ideone.com/yWdm2t
 
@@ -366,50 +283,9 @@ TargetNode.next −> NULL;
 After deleted node
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
-
-<details> <summary> Code </summary>
 	
 ```c++
-void deleteNode(Node** head_ref, int key)
-{
-     
-    // Store head node
-    Node* temp = *head_ref;
-    Node* prev = NULL;
-     
-    // If head node itself holds
-    // the key to be deleted
-    if (temp != NULL && temp->data == key)
-    {
-        *head_ref = temp->next; // Changed head
-        delete temp;            // free old head
-        return;
-    }
- 
-    // Else Search for the key to be deleted,
-    // keep track of the previous node as we
-    // need to change 'prev->next' */
-      else
-    {
-	while (temp != NULL && temp->data != key){
-	    prev = temp;
-	    temp = temp->next;
-	}
-
-	// If key was not present in linked list
-	if (temp == NULL)
-	   return;
-
-	// Unlink the node from linked list
-	prev->next = temp->next;
-
-	// Free memory
-	delete temp;
-    }
-}
 ```
-	
-</details>
 
 Full Code : https://ideone.com/FkuTk7
 
@@ -424,52 +300,10 @@ Example:
 Input: position = 1, Linked List = 8->2->3->1->7
 Output: Linked List =  8->3->1->7
 ```
-
-<details> <summary> Code </summary>
 	
 ```c++
-void deleteNode(Node** head_ref, int position)
-{
- 
-    // If linked list is empty
-    if (*head_ref == NULL)
-        return;
- 
-    // Store head node
-    Node* temp = *head_ref;
- 
-    // If head needs to be removed
-    if (position == 0) {
- 
-        // Change head
-        *head_ref = temp->next;
- 
-        // Free old head
-        free(temp);
-        return;
-    }
- 
-    // Find previous node of the node to be deleted
-    for (int i = 0; temp != NULL && i < position - 1; i++)
-        temp = temp->next;       // 8 2 3 `1 7 8
- 
-    // If position is more than number of nodes
-    if (temp == NULL || temp->next == NULL)
-        return;
- 
-    // Node temp->next is the node to be deleted
-    // Store pointer to the next of node to be deleted
-    Node* next = temp->next->next; // 8 2 3 1 7 `8
- 
-    // Unlink the node from linked list
-    free(temp->next); // Free memory // 8 2 3 '1 `8
- 
-    // Unlink the deleted node from list
-    temp->next = next; // // 8 2 3 '1->`8
-}
-```
 	
-</details>
+```
 	
 Full Code: https://ideone.com/FdPWJj
 
@@ -480,62 +314,7 @@ Full Code: https://ideone.com/FdPWJj
 <details> <summary> Code </summary>
 	
 ```c++
-void deleteNode(Node *head, 
-                Node *n) 
-{ 
-    // When node to be deleted is 
-    // head node 
-    if(head == n) 
-    { 
-        if(head->next == NULL) 
-        { 
-            cout << "There is only one node." <<
-                    " The list can't be made empty "; 
-            return; 
-        } 
-  
-        // Copy the data of next node 
-        // to head 
-        head->data = head->next->data; 
-  
-        // Store address of next node 
-        n = head->next; 
-  
-        // Remove the link of next node 
-        head->next = head->next->next; 
-  
-        // Free memory 
-        free(n); 
-  
-        return; 
-    } 
-  
-    // When not first node, follow 
-    // the normal deletion process 
-  
-    // Find the previous node 
-    Node *prev = head; 
-    while(prev->next != NULL && 
-          prev->next != n) 
-        prev = prev->next; 
-  
-    // Check if node really exists in 
-    // Linked List 
-    if(prev->next == NULL) 
-    { 
-        cout << 
-        "Given node is not present in Linked List"; 
-        return; 
-    } 
-  
-    // Remove node from Linked List 
-    prev->next = prev->next->next; 
-  
-    // Free memory 
-    free(n); 
-  
-    return; 
-} 
+
 ```
 	
 </details>
@@ -566,78 +345,13 @@ Example :
 
 https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
 	
-<details> <summary> Code </summary>
-	
 ```c++
-void reverse() {
-     // Initialize current, previous and
-     // next pointers
-     Node* current = head;
-     Node *prev = NULL, *next = NULL;
-  
-     while (current != NULL) {
-        // Store next
-        next = current->next;
-  
-        // Reverse current node's pointer
-        current->next = prev;
-  
-         // Move pointers one position ahead.
-         prev = current;
-         current = next;
-     }
-     head = prev;
-  }
- ```
-</details>
+```
 	
 ### Sorting
-
-<details> <summary> Code </summary>
 	
 ```c++
-void sortLinkedList(struct Node** head_ref) {
-  struct Node *current = *head_ref, *index = NULL;
-  int temp;
-
-   if (head_ref == NULL) {
-      return;
-   }
-   else {
-      while (current != NULL) {
-         // index points to the node next to current
-         index = current->next;
-	  while (index != NULL) {
-	     if (current->data > index->data) {
-	        temp = current->data;
-		current->data = index->data;
-		index->data = temp;
-	     }
-	     index = index->next;
-				
-	  }
-
-	current = current->next;
-     }
-   }
-}
 
 ```
-</details>
 	
 Stack using Linked List
-
-https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
-
-https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
-
-#### Problems
-* [Leetcode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/)
-* [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/)
-* [Leetcode 148](https://leetcode.com/problems/sort-list/)
-* [Leetcode 92](https://leetcode.com/problems/reverse-linked-list-ii/)
-* [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/)
-* [Leetcode 143](https://leetcode.com/problems/reorder-list/)
-* [Leetcode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
-* [Leetcode 25](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-* [Hackerearth](https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/practice-problems/)
