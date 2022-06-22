@@ -18,8 +18,12 @@ Sort - sort the nodes of the linked list
 
 ```
 In C, we can represent a node using structures. Below is an example of a linked list node with integer data. 
+
 In C++, LinkedList can be represented as a class and a Node as a separate class. The LinkedList class contains a reference of Node 
 class type.
+
+- A data item
+- An address of another node
 ```
 
 <details> <summary> Code </summary>
@@ -47,6 +51,10 @@ C++
 
 ```
 Let us create a simple linked list 
+
+- Create a new struct node and allocate memory to it.
+- Add its data value
+- Point its next pointer to the struct node
 ```
 
 <details> <summary> Code </summary>
