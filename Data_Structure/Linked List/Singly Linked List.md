@@ -125,6 +125,13 @@ Code : </br>
   https://pastebin.com/UgqVu5KN </br>
   
 ### Searching
+```
+You can search an element on a linked list using a loop using the following steps. We are finding item on a linked list.
+
+- Make head as the current node.
+- Run a loop until the current node is NULL because the last element points to NULL.
+- In each iteration, check if the key of the node is equal to item. If it the key matches the item, return true otherwise return false.
+```
 
 <details> <summary> Code </summary>
  
