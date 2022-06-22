@@ -330,8 +330,8 @@ Example :
  Before Reverse: 9 -> 32 -> 65 -> 10 -> 85 -> NULL
  After Reverse: 85 -> 10 -> 65 -> 32 -> 9 -> NULL
  
- To reverse the given linked list we will use three extra pointers that will be in the process. The pointers will be previous, after, 
- current. We will initialize previous and after to 'NULL' and current to 'head' of the linked list.
+ To reverse the given linked list we will use three extra pointers that will be in the process. The pointers will be previous, 
+ after, current. We will initialize previous and after to 'NULL' and current to 'head' of the linked list.
  
  After this, we will iterate until we reach the NULL of the initial - 
  after = current ->
