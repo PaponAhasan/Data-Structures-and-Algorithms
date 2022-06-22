@@ -1,6 +1,5 @@
 ### Singly Linked List
 
-![image](https://user-images.githubusercontent.com/59710234/155121977-ccbbfbd0-2e9f-472e-9fd2-18d24c412ddb.png)
 ![image](https://user-images.githubusercontent.com/59710234/174945064-a7190779-b54a-4300-a85c-5eff6be7dbb7.png)
 
 ```
