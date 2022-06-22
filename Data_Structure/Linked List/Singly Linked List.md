@@ -79,7 +79,7 @@ C
 
 </details>
 
-### Traversing/Display
+### Traversing
 
 ```
 Traverse the created list and print the data of each node. 
