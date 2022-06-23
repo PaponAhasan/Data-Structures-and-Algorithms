@@ -1,9 +1,12 @@
 ```
 Hash tables use a technique 
-- To generate these unique index numbers for each value stored in an array format. This technique is called the hash technique. 
+- To generate these unique index numbers for each value stored in an array format. This technique is called the hash technique.
+
 - Mapping a large chunk of data into small tables using a hashing function.
+
 - You only need to find the index of the desired item, rather than finding the data. With indexing, you can quickly scan the 
   entire list and retrieve the item you wish.
+  
 - Efficiently finding and storing data in an array.
 
 [ Indexing also helps in inserting operations when you need to insert data at a specific location. No matter how big or small the 
