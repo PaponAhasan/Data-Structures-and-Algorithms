@@ -202,6 +202,8 @@ gfsdfg
   2) After a given node. 
   3) At the end of the linked list.
   ```
+  
+  </br>
   ```
   * Add a node at the front
   ```
@@ -244,9 +246,11 @@ gfsdfg
 	
   </details>
   
+  </br>
   ```
   * Add a node after a given node
   ```
+  
   ![image](https://user-images.githubusercontent.com/59710234/155528153-27571720-3dfd-4abb-b3b9-15a74d83a0d8.png)
   
  ```
@@ -294,6 +298,8 @@ gfsdfg
   ```
 	
   </details>
+  
+  </br>
   
  ```
  * Add a node at the end
