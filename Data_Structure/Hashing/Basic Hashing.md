@@ -1,5 +1,6 @@
 ```
 Hash tables use a technique 
+
 - To generate these unique index numbers for each value stored in an array format. This technique is called the hash technique.
 
 - Mapping a large chunk of data into small tables using a hashing function.
