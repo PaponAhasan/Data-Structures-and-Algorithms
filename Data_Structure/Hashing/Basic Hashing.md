@@ -27,7 +27,15 @@ identifying the position of the books on the bookshelf.
 
 - A good hash function avoids collision when two elements or items get assigned to the same hash value.
 
-- Hashing in data structure uses hash tables to store the key-value pairs. 
-
 - Hashing uses this unique index to perform insert, update, and search operations.
+
+- Hashing in data structure uses hash tables to store the key-value pairs.
+
+- The key acts as an input to the hashing function.
+
+- Hashing function then generates a unique index number for each value stored.
+
+- The index number keeps the value that corresponds to that key. 
+
+- The hash function returns a small integer value as an output.
 ```
