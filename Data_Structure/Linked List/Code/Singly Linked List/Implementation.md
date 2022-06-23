@@ -104,3 +104,4 @@ int main(){
     scanf("%d",&newnode->data);
 ```
 - [Practice Problem 01](https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1)
+- [Practice Problem 02](https://www.interviewbit.com/problems/reverse-link-list-ii/)
