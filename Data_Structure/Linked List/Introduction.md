@@ -140,3 +140,5 @@ the next node.
 
 - [Jenny's l](https://www.youtube.com/watch?v=qauEA64G1Ds&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=9)
 - [linked-list vs array](https://www.geeksforgeeks.org/linked-list-vs-array/)
+
+- [Application of Linked List](https://www.interviewbit.com/blog/application-of-linked-list/)
