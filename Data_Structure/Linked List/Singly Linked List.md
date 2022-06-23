@@ -374,10 +374,17 @@ void append(Node** head_ref, int new_data)
 
 ### Deletion Operation
 
+```
+Delete a node at the front
+```
 ![image](https://user-images.githubusercontent.com/59710234/175125032-041f458c-169d-4f08-b814-7e2e4a6784ab.png)
-
+```
+Delete a node after a given node
+```
 ![image](https://user-images.githubusercontent.com/59710234/175125178-aaec451f-18ab-42f2-8e79-55d6cb32feb8.png)
-
+```
+Delete a node at the end
+```
 ![image](https://user-images.githubusercontent.com/59710234/175125260-823ef600-998d-4365-999a-553124605dbf.png)
 
 ```
