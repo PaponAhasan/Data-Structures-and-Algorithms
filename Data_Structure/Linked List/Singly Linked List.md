@@ -318,8 +318,51 @@ gfsdfg
     
  Time complexity of append is O(n)
  ```
+ ![image](https://user-images.githubusercontent.com/59710234/175194176-1894267e-f5c4-49b6-9e9e-a18e824d685e.png)
+ 
+  <details> <summary> Code </summary>
 	
-Full Code : https://ideone.com/yWdm2t
+  ```c++
+void append(Node** head_ref, int new_data)
+{
+
+   // 1. allocate node
+   Node* new_node = new Node();
+
+   // Used in step 5
+   Node *last = *head_ref;
+
+   // 2. Put in the data
+   new_node->data = new_data;
+
+   // 3. This new node is going to be
+   // the last node, so make next of
+   // it as NULL
+   new_node->next = NULL;
+
+   // 4. If the Linked List is empty,
+   // then make the new node as head
+   if (*head_ref == NULL)
+   {
+   	*head_ref = new_node;
+   	return;
+   }
+
+   // 5. Else traverse till the last node
+   while (last->next != NULL)
+   {
+   	last = last->next;
+   }
+
+   // 6. Change the next of last node
+   last->next = new_node;
+   return;
+}
+  ```
+	
+  </details>
+  
+ Full Code : https://ideone.com/yWdm2t
 
 ### Deletion Operation
 
