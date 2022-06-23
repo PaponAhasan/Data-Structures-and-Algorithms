@@ -19,3 +19,4 @@ void reverse() {
      head = prev;
   }
 ```
+- [Problem 01](https://www.interviewbit.com/problems/reverse-linked-list/)
