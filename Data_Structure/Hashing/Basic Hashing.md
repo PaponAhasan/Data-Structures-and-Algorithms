@@ -57,7 +57,9 @@ A good hash function may not prevent the collisions completely however it can re
 methods to find a good hash function,
 
 1. Division Method : h(k) = k mod m [ k is a key and m is the size of the hash table ]
+
 2. Multiplication Method
+
 3. Universal Hashing
 
 Hashing in data structure uses several collision resolution techniques :
@@ -67,7 +69,9 @@ Hashing in data structure uses several collision resolution techniques :
       
   2. Closed Hashing (Open Addressing)
      (i) Linear Probing
+     
      (ii) Quadratic Probing
+     
      (iii) Double Hashing technique
 ```
 ### Chaining Method
