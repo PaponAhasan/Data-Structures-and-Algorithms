@@ -22,3 +22,12 @@ information about that student.
 - A library has an infinite number of books. The librarian assigns a unique number to each book. This unique number helps in 
 identifying the position of the books on the bookshelf.
 ```
+```
+- A good hash function is easy to compute.
+
+- A good hash function avoids collision when two elements or items get assigned to the same hash value.
+
+- Hashing in data structure uses hash tables to store the key-value pairs. 
+
+- Hashing uses this unique index to perform insert, update, and search operations.
+```
