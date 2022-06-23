@@ -178,17 +178,19 @@ Example :
 https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
 	
 ```c++
+gbg
 ```
 	
 ### Sorting Operation
 	
 ```c++
-
+ghdg
 ```
 
 ### Updation Operation
 
 ```c++
+gfsdfg
 ```
 
 ### Insertion Operation
@@ -203,6 +205,7 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
   ```
   * Add a node at the front
   ```
+  
   ![image](https://user-images.githubusercontent.com/59710234/155290089-ae00ec08-0972-4f33-addd-d8c7d9b7ea92.png)
   
   ```
@@ -220,26 +223,7 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
   
   ![image](https://user-images.githubusercontent.com/59710234/175191350-1366b20a-d310-44f5-84dd-a29264e3ada5.png)
   
-  <details> <summary> Code </summary>
-	
-   ```c++
-	void push(Node** head_ref, int new_data)
-	{
-	  /* 1. allocate node */
-	  Node* new_node = new Node();
-
-	  /* 2. put in the data */
-	  new_node->data = new_data;
-
-	  /* 3. Make next of new node as head */
-	  new_node->next = *head_ref;
-
-	  /* 4. move the head to point to the new node */
-	  *head_ref = new_node;
-	}
-    ```
-	
-  </details>
+  
   
   ```
   * Add a node after a given node
