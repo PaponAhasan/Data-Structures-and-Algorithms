@@ -5,6 +5,9 @@ Hash tables use a technique
 - You only need to find the index of the desired item, rather than finding the data. With indexing, you can quickly scan the 
   entire list and retrieve the item you wish.
 - Efficiently finding and storing data in an array.
+
+[ Indexing also helps in inserting operations when you need to insert data at a specific location. No matter how big or small the 
+table is, you can update and retrieve data within seconds. ]
 ```
 
 ### Examples
