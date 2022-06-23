@@ -22,6 +22,8 @@ information about that student.
 - A library has an infinite number of books. The librarian assigns a unique number to each book. This unique number helps in 
 identifying the position of the books on the bookshelf.
 ```
+
+### Advantage
 ```
 - A good hash function is easy to compute.
 
@@ -29,6 +31,11 @@ identifying the position of the books on the bookshelf.
 
 - Hashing uses this unique index to perform insert, update, and search operations.
 
+- Efficiently finding and storing data in an array.
+```
+
+### Hashing in Works?
+```
 - Hashing in data structure uses hash tables to store the key-value pairs.
 
 - The key acts as an input to the hashing function.
