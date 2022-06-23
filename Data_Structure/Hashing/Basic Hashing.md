@@ -50,8 +50,11 @@ identifying the position of the books on the bookshelf.
 ### Collision Resolution
 ```
 - Hashing in data structure falls into a collision if two keys are assigned the same index number in the hash table.
+
 - The collision creates a problem because each index in a hash table is supposed to store only one value.
 
 Hashing in data structure uses several collision resolution techniques :
-  
+
+  1. Open Hashing (Closed Addressing)
+  2. Closed Hashing (Open Addressing)
 ```
