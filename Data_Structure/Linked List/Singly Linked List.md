@@ -423,7 +423,8 @@ After deleted node
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
 	
-```c++
+```
+* Delete a Linked List node at a given Item
 ```
 
 Full Code : https://ideone.com/FkuTk7
@@ -438,10 +439,6 @@ Example:
 
 Input: position = 1, Linked List = 8->2->3->1->7
 Output: Linked List =  8->3->1->7
-```
-	
-```c++
-	
 ```
 	
 Full Code: https://ideone.com/FdPWJj
