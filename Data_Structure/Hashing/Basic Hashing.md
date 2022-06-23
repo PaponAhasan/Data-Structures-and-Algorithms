@@ -46,3 +46,12 @@ identifying the position of the books on the bookshelf.
 
 - The hash function returns a small integer value as an output.
 ```
+
+### Collision Resolution
+```
+- Hashing in data structure falls into a collision if two keys are assigned the same index number in the hash table.
+- The collision creates a problem because each index in a hash table is supposed to store only one value.
+
+Hashing in data structure uses several collision resolution techniques :
+  
+```
