@@ -53,8 +53,25 @@ identifying the position of the books on the bookshelf.
 
 - The collision creates a problem because each index in a hash table is supposed to store only one value.
 
+A good hash function may not prevent the collisions completely however it can reduce the number of collisions. Different 
+methods to find a good hash function,
+
+1. Division Method : h(k) = k mod m [ k is a key and m is the size of the hash table ]
+2. Multiplication Method
+3. Universal Hashing
+
 Hashing in data structure uses several collision resolution techniques :
 
   1. Open Hashing (Closed Addressing)
+      (i) Chaining Method
+      
   2. Closed Hashing (Open Addressing)
+     (i) Linear Probing
+     (ii) Quadratic Probing
+     (iii) Double Hashing technique
+```
+### Chaining Method
+
+```
+Example : Use Division Method && Open Hashing to 
 ```
