@@ -204,18 +204,20 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
   * Add a node at the front
   ```
   ![image](https://user-images.githubusercontent.com/59710234/155290089-ae00ec08-0972-4f33-addd-d8c7d9b7ea92.png)
+  
   ```
   The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the 
   Linked List. For example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked 
   List becomes 5->10->15->20->25.
   ```
-	
+  
   ```c++
   new_node->next = head
   head = new_node
   
   Time complexity of push() is O(1)
   ```
+  
   ![image](https://user-images.githubusercontent.com/59710234/175191350-1366b20a-d310-44f5-84dd-a29264e3ada5.png)
   
   <details> <summary> Code </summary>
