@@ -216,7 +216,8 @@ https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif
   
   Time complexity of push() is O(1)
   ```
-  
+  ![image](https://user-images.githubusercontent.com/59710234/175191350-1366b20a-d310-44f5-84dd-a29264e3ada5.png)
+
   ```
   * Add a node after a given node
   ```
