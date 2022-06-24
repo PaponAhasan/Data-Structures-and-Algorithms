@@ -1,4 +1,7 @@
 ```
+Chaining Method made of array of linked list.
+```
+```
 1. Insert 
 2. Search
 3. Analysis
@@ -27,9 +30,18 @@ X(i) insert this location = X % m [ i = 0 to n-1 ]
 |    5      |
 
 ### Insert
-
-![image](https://user-images.githubusercontent.com/59710234/175661057-fa013236-09d9-4428-ba4e-4621bbff1b17.png)
+```
+Insert as of array of linked list.
+```
+![image](https://user-images.githubusercontent.com/59710234/175662829-ddbe8e22-e00d-4288-a1e8-df84d15ac9d8.png)
 
 ### Search
+```
+Key = 12 ,
+Use hash function h(x) = 12%10 = 2, go to index 2 and search in this sort linked list.
+If key is greater then or found stop otherwise searching this list.
+```
+### Analysis
+```
 
-
+```
