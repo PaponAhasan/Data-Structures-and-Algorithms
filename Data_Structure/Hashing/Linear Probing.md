@@ -12,7 +12,7 @@ m : 10
 ```
 ki insert this location = (u+i)%m [ i = 0 to m-1 ]
 
-k = 11 , location = (1+0)%10 = 1 ; `that's free`
+k = 11 , location = (1+0)%10 = 1 ; "that's free"
 
 k = 22, location = (2+0)%10 = 2 ; not free
         location = (2+1)%10 = 3 ; not free
@@ -20,7 +20,7 @@ k = 22, location = (2+0)%10 = 2 ; not free
         location = (2+3)%10 = 5 ; not free
         location = (2+4)%10 = 6 ; not free
         location = (2+5)%10 = 7 ; not free
-        location = (2+6)%10 = 8 ; `that's free`
+        location = (2+6)%10 = 8 ; "that's free"
 ```
 
 |Key(k) |Location(u)| Probes |
