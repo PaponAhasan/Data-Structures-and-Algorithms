@@ -1,3 +1,4 @@
+- [Abdul Bari](https://www.youtube.com/playlist?list=PLXDNeDo_io_qc0OnD2MG5FWUe4AijgAZM)
 - [upgrad](https://www.upgrad.com/blog/hashing-in-data-structure/#scroll-top)
 - [Jenny](https://www.youtube.com/watch?v=zeMa9sg-VJM&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=108&ab_channel=Jenny%27slecturesCS%2FITNET%26JRF)
 - [geeksforgeeks](https://www.geeksforgeeks.org/hash-functions-and-list-types-of-hash-functions/)
