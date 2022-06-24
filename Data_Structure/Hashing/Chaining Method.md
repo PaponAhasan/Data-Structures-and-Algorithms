@@ -43,5 +43,25 @@ If key is greater then or found stop otherwise searching this list.
 ```
 ### Analysis
 ```
-
+Assume,
+   n     = 100
+   size  = 10
+   
+   Loading factor : 
+       lamda = n / size = 100 / 10 = 10
+       
+   Search time :
+       t = 1 + lamda = 1 + 10
+```
+### Delete
+```
+Assume,
+   n     = 100
+   size  = 10
+   
+   Loading factor : 
+       lamda = n / size = 100 / 10 = 10
+       
+   Delete time :
+       t = 1 + lamda = 1 + 10
 ```
