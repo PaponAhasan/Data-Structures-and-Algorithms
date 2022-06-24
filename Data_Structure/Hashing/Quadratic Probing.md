@@ -5,7 +5,7 @@ a search operation and probes linearly for the next empty cell.
 ```
 Example : 
 
-K : 3, 2, 9, 6, 11, 13, 7, 12, 22
+K : 3, 2, 9, 6, 11, 13, 7, 12
 m : 10
 
 ```
@@ -23,28 +23,6 @@ k = 12, location = (2+0^2)%10 = 2 ; "not free table"
         location = (2+3^2)%10 = 1 ; not free table
         location = (2+4^2)%10 = 8 ; "that's free hash table"
         
-k = 22, location = (2+0^2)%10 = 2 ; not free table
-        location = (2+1^2)%10 = 3 ; not free table
-        location = (2+2^2)%10 = 6 ; not free table
-        location = (2+3^2)%10 = 1 ; not free table
-        location = (2+4^2)%10 = 8 ; not free table
-        location = (2+5^2)%10 = 7 ; not free table
-        location = (2+6^2)%10 = 8 ; not free table
-        location = (2+7^2)%10 = 1 ; not free table
-        location = (2+8^2)%10 = 6 ; not free table
-        location = (2+9^2)%10 = 3 ; not free table
-        location = (2+10^2)%10 = 2 ; not free table
-        location = (2+11^2)%10 = 3 ; not free table
-        location = (2+12^2)%10 = 6 ; not free table
-        location = (2+13^2)%10 = 1 ; not free table
-        location = (2+14^2)%10 = 8 ; not free table
-        location = (2+15^2)%10 = 7 ; not free table
-        location = (2+16^2)%10 = 8 ; not free table
-        location = (2+17^2)%10 = 1 ; not free table
-        location = (2+18^2)%10 = 6 ; not free table
-        location = (2+19^2)%10 = 3 ; not free table
-        location = (2+20^2)%10 = 2 ; not free table
-        
 Probes : this exactly place to ith place(next empty cell) free (total move count)
 ```
 
@@ -58,7 +36,6 @@ Probes : this exactly place to ith place(next empty cell) free (total move count
 |  13   | 13%10 = 3 |   2    |
 |  7    | 7%10 = 7  |   1    |
 |  12   | 12%10 = 2 |   5    |
-|  22   | 22%10 = 2 |   5    |
 
 ```
 Hash Table
