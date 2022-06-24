@@ -4,9 +4,10 @@
 3. Analysis
 4. Delete
 ```
-```
-Example : 
 
+### Example 
+
+```
 X : 16, 12, 25, 39, 6, 112, 5, 68, 75
 m : 10
 
