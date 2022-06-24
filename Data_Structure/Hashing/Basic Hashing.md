@@ -75,7 +75,16 @@ Hashing in data structure uses several collision resolution techniques :
      (iii) Double Hashing technique
 ```
 ### Chaining Method
-
 ```
 Example : Use Division Method && Open Hashing to 
 ```
+
+### Linear Probing
+```
+```
+
+### Quadratic Probing
+```
+```
+
+### Double Hashing technique
