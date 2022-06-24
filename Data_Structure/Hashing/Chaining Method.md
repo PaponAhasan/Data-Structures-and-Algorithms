@@ -33,7 +33,7 @@ Probes : this exactly place to ith place(next empty cell) free (total move count
 |  12   | 2%10 = 2  |   1    |
 |  25   | 9%10 = 9  |   1    |
 |  39   | 6%10 = 6  |   1    |
-|  6    | 11%10 = 1 |   1    | |
+|  6    | 11%10 = 1 |   1    |- |
 |  22   | 13%10 = 3 |   2    |
 |  5    | 7%10 = 7  |   1    |
 |  68   | 12%10 = 2 |   4    |
