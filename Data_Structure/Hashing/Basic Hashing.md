@@ -54,7 +54,7 @@ identifying the position of the books on the bookshelf.
 - The collision creates a problem because each index in a hash table is supposed to store only one value.
 
 A good hash function may not prevent the collisions completely however it can reduce the number of collisions. Different 
-methods to find a good hash function,
+methods to find a good hash function :
 
 1. Division Method : h(k) = k mod m [ k is a key and m is the size of the hash table ]
 
