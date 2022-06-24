@@ -54,6 +54,13 @@ identifying the position of the books on the bookshelf.
 - The hash function returns a small integer value as an output.
 ```
 
+### Drawback Hashing
+```
+- Hashing in data structure falls into a collision if two keys are assigned the same index number in the hash table.
+
+- It takes more space.
+```
+
 ### Collision Resolution
 ```
 - Hashing in data structure falls into a collision if two keys are assigned the same index number in the hash table.
