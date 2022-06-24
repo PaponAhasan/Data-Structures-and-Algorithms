@@ -25,6 +25,11 @@ identifying the position of the books on the bookshelf.
 
 ### Advantage
 ```
+- Hashing is usefull for searching. We have two non-search procedure -
+     * Linear Search O(n)
+     * Binary Search O(logn)
+     * Hashing Search O(1)
+
 - A good hash function is easy to compute.
 
 - A good hash function avoids collision when two elements or items get assigned to the same hash value.
