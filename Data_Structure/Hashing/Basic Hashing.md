@@ -90,3 +90,10 @@ performs a search operation and probes linearly for the next empty cell.
 ```
 
 ### Double Hashing technique
+```
+The double hashing technique uses two hash functions. The second hash function comes into use when the first function causes 
+a collision. It provides an offset index to store the value.
+
+The formula for the double hashing technique : (firstHash(key) + i * secondHash(key)) % sizeOfTable
+[ Where i is the offset value. This offset value keeps incremented until it finds an empty slot. ]
+```
