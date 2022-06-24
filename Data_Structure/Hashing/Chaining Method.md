@@ -15,6 +15,8 @@ X : 16, 12, 25, 39, 6, 112, 5, 68, 75
 m : 10
 
 X(i) insert this location = X % m [ i = 0 to n-1 ]
+
+H(X) = (X/10)%10
 ```
 
 |H(X) = X%10|
