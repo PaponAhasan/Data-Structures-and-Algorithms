@@ -67,11 +67,13 @@ Now let’s assume our current prime number is 2. In the first iteration, we’l
 number is 3, we assign 0 to N/3 composite numbers. The total number times we runs the loop would be equal to :  O(n*log(log(n))) 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175771612-cfa1bb8b-2492-4df0-93d9-ace471ac22c2.png)
+
+Taking the harmonic progression of prime numbers will be
+```
+![image](https://user-images.githubusercontent.com/59710234/175771639-faf7511a-91d9-4df5-9132-abf051f2b313.png)
+
 ```
 Let’s solve this equation:
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175771633-2a3bca26-bebb-4b60-8034-4cc09a053dfe.png)
 ```
-Taking the harmonic progression of prime numbers will be
-```
-![image](https://user-images.githubusercontent.com/59710234/175771639-faf7511a-91d9-4df5-9132-abf051f2b313.png)
