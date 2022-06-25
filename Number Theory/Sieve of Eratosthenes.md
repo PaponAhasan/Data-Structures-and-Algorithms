@@ -86,6 +86,7 @@ void SieveOfEratosthenes(int n)
 			cout << p << " ";
 }
 ```
+
 ```c++
 void SieveOfEratosthenes(int n)
 {
