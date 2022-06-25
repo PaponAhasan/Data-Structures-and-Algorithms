@@ -83,3 +83,7 @@ Taking the harmonic progression of prime numbers will be
 Let’s solve this equation: O(n*log(log(n))) 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175771633-2a3bca26-bebb-4b60-8034-4cc09a053dfe.png)
+
+- [cp-algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html#find-primes-in-range)
+- [geeksforgeeks](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+- [geeksforgeeks](https://www.geeksforgeeks.org/sieve-eratosthenes-0n-time-complexity/)
