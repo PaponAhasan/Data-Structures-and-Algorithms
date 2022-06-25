@@ -44,8 +44,8 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 ### The Algorithm of the Sieve of Eratosthene
 ```
  O(n*log(log(n))) 
- 
- ### BruteForce
+``` 
+### BruteForce
  ```c++
  isPrime( n )
    for i = 2 to n / 2
