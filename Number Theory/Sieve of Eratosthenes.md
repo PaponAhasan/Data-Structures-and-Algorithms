@@ -43,7 +43,7 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 
 ### The Algorithm of the Sieve of Eratosthene
 ```
- O(n*log(log(n))) 
+
 ``` 
 ### BruteForce
  ```c++
@@ -64,11 +64,14 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 ### COMPLEXITY ANALYSIS
 ```
 Now let’s assume our current prime number is 2. In the first iteration, we’ll mark N/2 elements. Like this, when our current prime
-number is 3, we assign 0 to N/3 composite numbers. The total number times we runs the loop would be equal to :
+number is 3, we assign 0 to N/3 composite numbers. The total number times we runs the loop would be equal to :  O(n*log(log(n))) 
 ```
-![image](https://user-images.githubusercontent.com/59710234/175771444-bf6ead60-550b-40a3-ae65-bb0379e5f428.png)
+![image](https://user-images.githubusercontent.com/59710234/175771612-cfa1bb8b-2492-4df0-93d9-ace471ac22c2.png)
 ```
 Let’s solve this equation:
 ```
-![image](https://user-images.githubusercontent.com/59710234/175771461-fef4a9a1-ee01-4541-8c09-eb7161a42c8f.png)
-![image](https://user-images.githubusercontent.com/59710234/175771612-cfa1bb8b-2492-4df0-93d9-ace471ac22c2.png)
+![image](https://user-images.githubusercontent.com/59710234/175771633-2a3bca26-bebb-4b60-8034-4cc09a053dfe.png)
+```
+Taking the harmonic progression of prime numbers will be
+```
+![image](https://user-images.githubusercontent.com/59710234/175771639-faf7511a-91d9-4df5-9132-abf051f2b313.png)
