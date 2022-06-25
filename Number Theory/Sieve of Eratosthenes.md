@@ -28,4 +28,4 @@ We continue this process and our final table will look like below:
 ```
 So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.
 ```
-![image](https://user-images.githubusercontent.com/59710234/175768419-1a2e9da8-7ed2-4936-ab68-5d6eb277c628.png)
+[Implementation Processes](https://d18l82el6cdm1i.cloudfront.net/uploads/Agb5mPVOVZ-sieve_of_eratosthenes_animation.gif)
