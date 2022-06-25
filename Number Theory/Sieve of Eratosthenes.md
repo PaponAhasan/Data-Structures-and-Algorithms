@@ -69,6 +69,41 @@ Now we have generated all the prime numbers less than 15. Prime numbers less tha
    End
 ```
 
+```c++
+void SieveOfEratosthenes(int n)
+{
+	vector<bool> is_prime(n+1, true);
+    is_prime[0] = is_prime[1] = false;
+	for (int p = 2; p * p <= n; p++) {
+		if (is_prime[p]) {
+			for (int i = p * p; i <= n; i += p)
+				is_prime[i] = false;
+		}
+	}
+	
+	for (int p = 2; p <= n; p++)
+		if (is_prime[p])
+			cout << p << " ";
+}
+```
+```c++
+void SieveOfEratosthenes(int n)
+{
+    vector<bool> prime(n+1, true);
+    prime[0] = prime[1] = false;
+
+	for (int p = 2; p * p <= n; p++) {
+		if (prime[p] == true) {
+			for (int i = p; i*p <= n; i++)
+				prime[i*p] = false;
+		}
+	}
+	
+	for (int p = 2; p <= n; p++)
+		if (prime[p])
+			cout << p << " ";
+}
+```
 ### COMPLEXITY ANALYSIS
 ```
 Now let’s assume our current prime number is 2. In the first iteration, we’ll mark N/2 elements. Like this, when our current prime
