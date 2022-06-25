@@ -10,7 +10,8 @@ According to the algorithm we will mark all the numbers which are divisible by 2
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175768186-f3c0fe4b-ba16-4ef0-b740-77f48c9b80d5.png)
 ```
-Now we move to our next unmarked number 3 and mark all the numbers which are multiples of 3 and are greater than or equal to the square of it. 
+Now we move to our next unmarked number 3 and mark all the numbers which are multiples of 3 and are greater than or equal to the square
+of it. 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175768206-43584577-3473-4e06-a9c4-49b3ac1ea2a9.png)
 
