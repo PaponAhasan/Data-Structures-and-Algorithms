@@ -142,3 +142,5 @@ Let’s solve this equation: O(n*log(log(n)))
 - [cp-algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html#find-primes-in-range)
 - [geeksforgeeks](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 - [geeksforgeeks](https://www.geeksforgeeks.org/sieve-eratosthenes-0n-time-complexity/)
+
+- [Practice Problem 01](https://practice.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1)
