@@ -63,7 +63,8 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 
 ### COMPLEXITY ANALYSIS
 ```
-Now let’s assume our current prime number is 2. In the first iteration, we’ll mark N/2 elements. Like this, when our current prime number is 3, we assign 0 to N/3 composite numbers. The total number times we runs the loop would be equal to:
+Now let’s assume our current prime number is 2. In the first iteration, we’ll mark N/2 elements. Like this, when our current prime
+number is 3, we assign 0 to N/3 composite numbers. The total number times we runs the loop would be equal to :
 ```
 ![image](https://user-images.githubusercontent.com/59710234/175771444-bf6ead60-550b-40a3-ae65-bb0379e5f428.png)
 ```
