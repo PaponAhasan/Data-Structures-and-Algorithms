@@ -1,5 +1,15 @@
 ```c++
-
+struct Node *Search(struct Node *p, int key){
+    while(p!=NULL){
+        if(p->data == key){
+            return p;
+        }
+        p = p->next;
+    }
+    return NULL;
+}
+```
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -57,6 +67,7 @@ void printList(struct Node *node)
 	    printf("%d ",node->data);
 		node = node->next;
 	}
+	printf("\n");
 }
 
 int main(){
@@ -68,8 +79,9 @@ int main(){
     SortedInsert(&head,68);
     printList(head);
     
-    Item = Search(head,10);
-    if(Item!=NULL) printf("%d\n",Item->data);
+    Item = Search(head,12);
+    //Item = Search(head,19);
+    if(Item!=NULL) printf("Found %d\n",Item->data);
     else printf("Not Found\n");
 }
 ```
