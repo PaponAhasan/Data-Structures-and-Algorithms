@@ -9,6 +9,7 @@ struct Node *Search(struct Node *p, int key){
     return NULL;
 }
 ```
+### Insert Element And Searching
 ```c++
 #include <stdio.h>
 #include <stdlib.h>
