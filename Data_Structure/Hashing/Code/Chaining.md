@@ -24,13 +24,16 @@ void SortedInsert(struct Node** head, int x){
             p = p->next;
         }
         
+        //Insert front
         if(p==NULL){
             q->next = t;
         }
+        //Insert given node
         else if(q!=NULL){
             t->next = q->next;
             q->next = t;
         }
+        // Insert end
         else {
             t->next = *head;
             *head = t;
