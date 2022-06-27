@@ -90,7 +90,8 @@ Hashing in data structure uses several collision resolution techniques :
 ```
 ### Chaining Method
 ```
-Example : Use Division Method && Open Hashing to 
+Chaining is a technique used for avoiding collisions in hash tables. The idea behind separate chaining is to implement 
+the array as a linked list called a chain.
 ```
 
 ### Linear Probing
@@ -101,6 +102,7 @@ performs a search operation and probes linearly for the next empty cell.
 
 ### Quadratic Probing
 ```
+
 ```
 
 ### Double Hashing technique
