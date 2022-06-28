@@ -1,9 +1,15 @@
 ```
 - If you know a solution is not far from the root of the tree, a breadth first search (BFS) might be better.
-- If the tree is very deep and solutions are rare, depth first search (DFS) might take an extremely long time, but BFS could be faster.
+
+- If the tree is very deep and solutions are rare, depth first search (DFS) might take an extremely long time, but BFS could be 
+  faster.
+  
 - If the tree is very wide, a BFS might need too much memory.
+
 - BFS can be used to find a single source shortest path in an unweighted graph 
+
 - BFS should typically be faster if the searched element is typically higher up in the search tree because it goes level by level.
+
 - DFS might be faster if the searched element is typically relatively deep and finding one of many is sufficient
 ```
 
@@ -91,8 +97,8 @@ Input :
     
 Output: A, B, D, C, E, F
 
-  In DFS, the traverse begins at the root node and proceeds through the nodes until we reach, if there are no unvisited vertices then 
-  visited vertices are popped
+  In DFS, the traverse begins at the root node and proceeds through the nodes until we reach, if there are no unvisited vertices 
+  then visited vertices are popped
 ```
 
 
