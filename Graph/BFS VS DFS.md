@@ -123,6 +123,6 @@ graph TD;
     C-->F;  
 ```
 
-- https://www.baeldung.com/cs/dfs-vs-bfs
-- https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
-- https://iq.opengenus.org/dfs-vs-bfs/
+- [baeldung](https://www.baeldung.com/cs/dfs-vs-bfs)
+- [techiedelight](https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/)
+- [opengenus](https://iq.opengenus.org/dfs-vs-bfs/)
