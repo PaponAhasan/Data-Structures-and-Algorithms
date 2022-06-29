@@ -122,7 +122,7 @@ graph TD;
     C-->E;
     C-->F;
     
-    Fig : fc
+    
 ```
 
 - https://www.baeldung.com/cs/dfs-vs-bfs
