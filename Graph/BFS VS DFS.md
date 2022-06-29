@@ -100,6 +100,7 @@ Output: A, B, D, C, E, F
   In DFS, the traverse begins at the root node and proceeds through the nodes until we reach, if there are no unvisited vertices 
   then visited vertices are popped
 ```
+### BFS VS DFS
 
 |  No    |   BFS      |    DFS     |
 | -----  | -------    | -------    |
@@ -113,7 +114,7 @@ Output: A, B, D, C, E, F
 |    8   | BFS requires more memory        | DFS requires less memory        |
 |    9   | BFS is optimal for finding the shortest path        | DFS is not optimal for finding the shortest path        |
 |    10  | Fig bellow; Output : A, B, C, D, E, F                 | Fig bellow; Output : A, B, D, C, E, F |
-    
+ 
 ```mermaid
 graph TD;
     A-->B;
@@ -122,6 +123,7 @@ graph TD;
     C-->E;
     C-->F;  
 ```
+### Resource
 
 - [baeldung](https://www.baeldung.com/cs/dfs-vs-bfs)
 - [techiedelight](https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/)
