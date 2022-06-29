@@ -112,7 +112,7 @@ Output: A, B, D, C, E, F
 |    7   | The Time complexity of BFS is O(V + E)        | The Time complexity of DFS is also O(V + E)        |
 |    8   | BFS requires more memory        | DFS requires less memory        |
 |    9   | BFS is optimal for finding the shortest path        | DFS is not optimal for finding the shortest path        |
-|    10  | Fig fc; Output : A, B, C, D, E, F                 | Fig fc; Output : A, B, D, C, E, F |
+|    10  | Fig bellow; Output : A, B, C, D, E, F                 | Fig bellow; Output : A, B, D, C, E, F |
     
 ```mermaid
 graph TD;
