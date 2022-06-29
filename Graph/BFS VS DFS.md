@@ -101,8 +101,6 @@ Output: A, B, D, C, E, F
   then visited vertices are popped
 ```
 
-
-- https://www.youtube.com/watch?v=pcKY4hjDrxk&ab_channel=AbdulBari
 - https://www.baeldung.com/cs/dfs-vs-bfs
 - https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
 - https://iq.opengenus.org/dfs-vs-bfs/
