@@ -120,10 +120,9 @@ graph TD;
     A-->C;
     B-->D;
     C-->E;
-    C-->F;
-    
-    
+    C-->F;  
 ```
+Fig : fc
 
 - https://www.baeldung.com/cs/dfs-vs-bfs
 - https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
