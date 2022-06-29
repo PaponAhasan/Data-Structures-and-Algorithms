@@ -1,7 +1,55 @@
 ```
 Hashing in data structure results in an array index that is already occupied to store a value. In such a case, hashing performs
 a search operation and probes linearly for the next empty cell.
+
+1. Insert 
+2. Search
+3. Analysis
+4. Delete
 ```
+
+### Example
+
+01.
+
+```
+X : 26, 30, 45, 23, 25, 43, 74
+m : 10
+
+X(i) insert this location = X % m [ i = 0 to n-1 ]
+
+H(X) = X%10
+
+```
+
+|H(X) = X%10|
+| --------- |
+|    6      |
+|    0      |
+|    5      |
+|    3      |
+|    5      |
+|    3      |
+|    4      |
+
+### Insert
+```
+H(X) = [ h(x) + f(i) ] % 10
+f(i) = i [ i = 0 to n-1 ]
+
+X = 26, location = [ h(26)+0 ]%10 = 6 ; "that's free hash table"
+
+k = 74, location = [ h(74)+0 ]%10 = 4 ; not free table
+        location = [ h(74)+1 ]%10 = 5 ; not free table
+        location = [ h(74)+2 ]%10 = 6 ; not free table
+        location = [ h(74)+3 ]%10 = 7 ; not free table
+        location = [ h(74)+4 ]%10 = 8 ; "that's free hash table"
+```
+
+![image](https://user-images.githubusercontent.com/59710234/176481937-d8e8d723-55f1-46b4-bd97-5ee539dd7d89.png)
+
+02.
+
 ```
 Example : 
 
