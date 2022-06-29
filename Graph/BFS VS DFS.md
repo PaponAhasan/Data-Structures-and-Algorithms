@@ -101,6 +101,38 @@ Output: A, B, D, C, E, F
   then visited vertices are popped
 ```
 
+|  No    |   BFS      |    DFS     |
+| -----  | -------    | -------    |
+|    1   | BFS stands for Breadth-First Search | DFS stands for Depth First Search |
+|    2   | It uses a Queue data structure that follows first in first out        |  It uses a stack data structure that follows last in first out.       |
+|    3   | It is slower than DFS.        | It is faster than BFS.        |
+|    4   | BFS builds the tree level by level        | DFS builds the tree sub-tree by sub-tree.        |
+|    5   | When the target is close to the source, BFS performs better.        |  When the target is far from the source, DFS is better.       |
+|    6   | In BFS there is no concept of backtracking.        | DFS algorithm is a recursive algorithm and In there is concept of uses backtracking.         |
+|    7   | The Time complexity of BFS is O(V + E)        | The Time complexity of DFS is also O(V + E)        |
+|    8   | BFS requires more memory        | DFS requires less memory        |
+|    9   | BFS is optimal for finding the shortest path        | DFS is not optimal for finding the shortest path        |
+|    10   | Example :
+
+  Input :
+   
+        A
+       / \
+      B   C
+     /   / \
+    D   E   F
+    
+Output: A, B, C, D, E, F        |  Example :
+
+Input :
+        A
+       / \
+      B   C
+     /   / \
+    D   E   F
+    
+Output: A, B, D, C, E, F       |
+
 - https://www.baeldung.com/cs/dfs-vs-bfs
 - https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
 - https://iq.opengenus.org/dfs-vs-bfs/
