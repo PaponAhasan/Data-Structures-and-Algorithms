@@ -112,14 +112,16 @@ Output: A, B, D, C, E, F
 |    7   | The Time complexity of BFS is O(V + E)        | The Time complexity of DFS is also O(V + E)        |
 |    8   | BFS requires more memory        | DFS requires less memory        |
 |    9   | BFS is optimal for finding the shortest path        | DFS is not optimal for finding the shortest path        |
-|    10  | Example :- Output: A, B, C, D, E, F                 | Example :- Output: A, B, D, C, E, F |
-   
-        A                               
-       / \
-      B   C
-     /   / \
-    D   E   F
+|    10  | Output: A, B, C, D, E, F                 | Output: A, B, D, C, E, F |
     
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->E;
+    C-->F;
+```
 
 - https://www.baeldung.com/cs/dfs-vs-bfs
 - https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
