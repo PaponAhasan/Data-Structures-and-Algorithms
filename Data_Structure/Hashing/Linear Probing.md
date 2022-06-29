@@ -8,9 +8,7 @@ a search operation and probes linearly for the next empty cell.
 4. Delete
 ```
 
-### Example
-
-01.
+###
 
 ```
 X : 26, 30, 45, 23, 25, 43, 74
@@ -48,7 +46,8 @@ k = 74, location = [ h(74)+0 ]%10 = 4 ; not free table
 
 ![image](https://user-images.githubusercontent.com/59710234/176481937-d8e8d723-55f1-46b4-bd97-5ee539dd7d89.png)
 
-02.
+
+### Example
 
 ```
 Example : 
