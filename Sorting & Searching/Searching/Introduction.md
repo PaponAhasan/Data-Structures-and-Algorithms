@@ -33,5 +33,5 @@ the possible range [1,2e9]
 * [Codeforces 812C](https://codeforces.com/contest/812/problem/C)
 * [Codeforces 269B](https://codeforces.com/contest/269/problem/B)
 * [Codeforces 118D2](https://codeforces.com/contest/1118/problem/D2)
-
+* [NeetCode](https://www.youtube.com/watch?v=U8XENwh8Oy8&list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO&ab_channel=NeetCode)
 - [mycodeschool](https://www.youtube.com/watch?v=j5uXyPJ0Pew&list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
