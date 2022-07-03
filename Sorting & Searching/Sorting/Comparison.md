@@ -57,3 +57,16 @@ Merge Sort
 mearge sort fast is also other sort algorithm but mearge lot of space for operation
 bubble sort slow is also other sort algorithm but bubble required minimum space for operation
 ```
+
+|Algorithm |	Best Case |	Average Case |	Worst Case |
+| -------- | ---------- | ------------ | ----------- |
+|Selection | Sort	O(n^n) |	O(n^n) |	O(n^n) |
+|Bubble Sort |	O(n) |	O(n^n) |	O(n^n) |
+|Insertion Sort |	O(n) |	O(n^n) |	O(n^n) |
+|Tree Sort |	O(nlogn) |	O(nlogn) |	O(n^n) |
+|Radix Sort |	O(dn) |	O(dn) |	O(dn) |
+|Merge Sort |	O(nlogn) |	O(nlogn) |	O(nlogn) |
+|Heap Sort |	O(nlogn) |	O(nlogn) |	O(nlogn) |
+|Quick Sort |	O(nlogn) |	O(nlogn) |	O(n^n) |
+|Bucket Sort |	O(n+k) |	O(n+k) |	O(n^n) |
+|Counting Sort |	O(n+k) |	O(n+k) |	O(n+k) |
