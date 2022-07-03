@@ -57,6 +57,7 @@ Merge Sort
 mearge sort fast is also other sort algorithm but mearge lot of space for operation
 bubble sort slow is also other sort algorithm but bubble required minimum space for operation
 ```
+### Cheat Sheet of the Time Complexities
 
 |Algorithm |	Best Case |	Average Case |	Worst Case |
 | -------- | ---------- | ------------ | ----------- |
