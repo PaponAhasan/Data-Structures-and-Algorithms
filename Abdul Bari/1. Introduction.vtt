@@ -1,0 +1,520 @@
+WEBVTT
+
+00:00.230 --> 00:03.690
+Let us start with the introduction to data structures.
+
+00:03.960 --> 00:08.940
+Data is an integral part of core applications or programs.
+
+00:08.940 --> 00:14.730
+If I define a program program as nothing was set of instructions which perform operations on data to
+
+00:14.730 --> 00:22.150
+get some results so we don't get that it is more of instruction no use of instructions than the data
+
+00:22.200 --> 00:23.500
+dome dome data.
+
+00:23.520 --> 00:29.880
+We use it in many places like Data Structures databases data visit house big data.
+
+00:30.300 --> 00:34.200
+So from this what is actually data structure.
+
+00:34.230 --> 00:38.960
+So for this if we have a little bit knowledge about all other things also that would be better.
+
+00:39.150 --> 00:45.810
+So far so I'll start with data structures and we'll also have the brief introduction to databases and
+
+00:45.810 --> 00:48.030
+data of it holds as well as big data.
+
+00:48.870 --> 00:52.670
+So first let us start with Introduction to data structures.
+
+00:52.740 --> 00:58.770
+First of all let me introduce what is data structure data structure can be defined as arrangement of
+
+00:58.890 --> 01:07.470
+collection of data items so that they can utilize efficiently operations on that data can be done efficiently.
+
+01:07.470 --> 01:14.310
+So it's all about the arrangement of data and the operations on the data that are efficient operations
+
+01:14.310 --> 01:14.920
+on the data.
+
+01:15.330 --> 01:20.250
+But the question is where inside the main memory during the execution of a program.
+
+01:21.300 --> 01:24.330
+So without data structure that cannot be any application.
+
+01:24.690 --> 01:29.820
+Every application will have a set of instructions which will perform operations on data source data
+
+01:29.820 --> 01:37.020
+is mandatory then the data is kept inside them in memory the programs will be inside the main memory.
+
+01:37.350 --> 01:44.210
+So during the execution of a program how the program will manage data inside the main memory and performed
+
+01:44.280 --> 01:45.260
+operations.
+
+01:45.300 --> 01:46.860
+That is about a structure.
+
+01:47.400 --> 01:55.670
+So I'll take an example and explain you in detail how the program utilizes data and how they put that
+
+01:55.670 --> 01:57.720
+data inside them in memory.
+
+01:57.720 --> 01:59.810
+Let us look at this diagram.
+
+02:00.420 --> 02:05.450
+Here is a simple process that is central processing unit that is a microprocessor.
+
+02:05.680 --> 02:07.170
+And this is main memory.
+
+02:07.170 --> 02:14.970
+Let us say this is a ram and this is a storage that is hard disk drive or external storage or just call
+
+02:14.970 --> 02:17.580
+it storage.
+
+02:17.580 --> 02:19.530
+This will execute our programs.
+
+02:19.560 --> 02:23.060
+That is it is a process so it will execute the instructions.
+
+02:23.830 --> 02:27.600
+And this is temporary memory that is working memory.
+
+02:27.610 --> 02:34.520
+It is also called primary memory and this is permanent storage.
+
+02:34.530 --> 02:36.040
+This is permanent storage.
+
+02:36.180 --> 02:42.630
+So if we look into over B.C. then we will have a process of RAM and hard disk or if we look at it or
+
+02:42.630 --> 02:43.520
+a mobile phone.
+
+02:43.550 --> 02:49.830
+Then there will be a processor and there will be some RAM like 2G or 3G or 4G bill for them and there
+
+02:49.830 --> 02:54.490
+is a storage of 16 GBP 22 G.B. on wondering dude should be like this.
+
+02:54.810 --> 03:01.410
+That very day we keep all the programs when we install any program in our P.C. or on a lot of mobile
+
+03:01.410 --> 03:06.210
+phone program or an application will get installed on storage.
+
+03:07.380 --> 03:12.540
+So here I am showing it as a program final does the program fine.
+
+03:13.050 --> 03:15.400
+Then where do we keep our data.
+
+03:15.400 --> 03:17.670
+That box will keep it on hard disk.
+
+03:17.670 --> 03:24.650
+Suppose you have any pics or photos or videos or any documents that ball you keep it on your hard disk
+
+03:24.850 --> 03:27.090
+or a new mobile phone you keep it in storage.
+
+03:28.020 --> 03:36.500
+So these are data files so I take one example of a commonly used application like M.S. word.
+
+03:36.640 --> 03:42.820
+Most Windows users use a mouse word commonly used so there are not bad.
+
+03:42.820 --> 03:50.980
+Also you can assume that this is a must word program file and this is documented find out.
+
+03:51.070 --> 03:52.550
+Do you see X Files.
+
+03:52.870 --> 03:56.480
+And this is a Emma's word flight.
+
+03:56.710 --> 04:02.770
+Now to this example I'll explain you where the data structure comes into picture and how a Miss Ward
+
+04:02.800 --> 04:04.420
+may need a data structure.
+
+04:04.420 --> 04:08.650
+Now let us see how our application program runs.
+
+04:09.250 --> 04:14.590
+If you want to run a message board on your P.C. audio on mobile phone you are touching an icon or double
+
+04:14.590 --> 04:19.190
+clicking an icon of a mouse would then let us see what all happens.
+
+04:19.390 --> 04:24.870
+This award program will be brought into the mean memory so it isn't brought into the mean memory.
+
+04:24.970 --> 04:32.500
+So let's see these are all the instructions of this award program such as I'm showing lines to show
+
+04:32.500 --> 04:37.210
+though machine language code or instructions off a message board program.
+
+04:37.210 --> 04:41.510
+So whenever you want to run an application the application Gord or the program Gorda has to be brought
+
+04:41.510 --> 04:42.900
+into the main thing.
+
+04:43.790 --> 04:49.900
+Then once it is brought in Cebu will start executing this this word application so you will see a window
+
+04:49.930 --> 04:55.430
+appearing on the screen and then all the menu options everything comes up and you can start using this
+
+04:55.530 --> 05:04.940
+would know if you want to open a flight document find in your M.S. Ward application.
+
+05:05.150 --> 05:09.480
+Sometimes this program wants to access this data in this file.
+
+05:09.490 --> 05:14.920
+Then this data also has to be brought in to mean memory so literacy.
+
+05:14.920 --> 05:16.140
+This is the data.
+
+05:16.210 --> 05:18.670
+This is some word document fine.
+
+05:19.090 --> 05:21.450
+So data is also broke into the main memory.
+
+05:21.470 --> 05:27.940
+Now from this I can explain that I can say that our program has to be brought into the main memory for
+
+05:27.940 --> 05:34.930
+its execution as well as data has to be brought into the main memory for processing on the data so that
+
+05:34.930 --> 05:39.790
+these instructions can perform operation on their data program and get identically that ugly process
+
+05:39.790 --> 05:41.500
+the data keeping it on the storage.
+
+05:41.500 --> 05:44.740
+The data has to be brought into the meeting memory.
+
+05:44.970 --> 05:53.680
+Now from this we can say that every application deals with some data whether it is a mis word or if
+
+05:53.680 --> 05:59.350
+it is notepad then the notepad file text file has to be brought into the main memory if it is a girl
+
+05:59.380 --> 06:02.460
+your browsing an event page then that page.
+
+06:02.460 --> 06:04.190
+How many does coming from internet.
+
+06:04.210 --> 06:06.040
+It has to be in the mean memory.
+
+06:06.040 --> 06:13.720
+So every application on your computer system or any mobile phone deals with the same data and that data
+
+06:13.720 --> 06:21.400
+has to be inside main memory how you are denied the data inside the main memory so that it can be easily
+
+06:21.400 --> 06:26.170
+used by this application efficiently utilized by this application program.
+
+06:26.710 --> 06:28.800
+So how you organize their data.
+
+06:28.990 --> 06:36.700
+So the arrangement or organizing of the data inside the main memory for efficient utilization by the
+
+06:36.970 --> 06:40.920
+application that arrangement is called as a data structure.
+
+06:41.560 --> 06:48.070
+So data structures are formed in the mean memory during the execution time of a program.
+
+06:48.070 --> 06:50.240
+When the program runs it needs the data.
+
+06:50.290 --> 06:55.460
+So the question how it will arrange the data in the mean memory for performing its operations.
+
+06:55.510 --> 07:02.160
+So that arrangement is called s data structures so a data structure is a type of a running program.
+
+07:02.180 --> 07:09.220
+It may be doing different data structures like arrays or linkages or trees or hash table whatever the
+
+07:09.220 --> 07:14.840
+data structure is suitable application can use that particular data structure here for arranging its
+
+07:14.880 --> 07:15.880
+data.
+
+07:16.070 --> 07:21.210
+Data may be our text data or it might data like images or videos.
+
+07:21.280 --> 07:26.460
+Let us condense maybe there in the form of data so all those condense how they are organized in the
+
+07:26.460 --> 07:27.520
+main memory.
+
+07:27.520 --> 07:35.530
+So we have to design some data structure so that the application can use it perfectly or more efficiently
+
+07:35.530 --> 07:39.610
+an application should work faster or process faster or that data.
+
+07:40.780 --> 07:41.770
+So that's it.
+
+07:41.770 --> 07:43.600
+So I have given you the idea.
+
+07:43.810 --> 07:46.390
+What is data structure and and.
+
+07:46.480 --> 07:48.930
+It will be in your computer system.
+
+07:49.300 --> 07:50.850
+So it is not on the disk.
+
+07:50.950 --> 07:52.390
+It is inside the mean.
+
+07:52.630 --> 07:56.930
+So with all that structure we cannot develop any application.
+
+07:57.210 --> 08:00.310
+No let me give you some idea of old data business.
+
+08:00.550 --> 08:08.350
+See when that data is larger in size are coming to share data that is used in businesses like banks
+
+08:08.410 --> 08:14.200
+or retail stores or manufacturing farms they will have a lot of data and they will have some order that
+
+08:14.220 --> 08:20.380
+not easily adopt in the form of database tables or relational data unveiled to keep that relational
+
+08:20.380 --> 08:23.300
+data all of that data is stored on the disk.
+
+08:23.620 --> 08:28.270
+So I just remove this until you relational table that is kept on the disk.
+
+08:28.270 --> 08:34.150
+Now you can see here that on the disk on the hardest there's a table that every table I'm showing will
+
+08:34.170 --> 08:35.280
+only one table.
+
+08:35.290 --> 08:36.330
+There are many many tables.
+
+08:36.330 --> 08:41.290
+Data may be spread out across various database tables and is organized in the form of tables and the
+
+08:41.290 --> 08:43.600
+tables are having a relationship between them.
+
+08:43.600 --> 08:48.740
+So mostly come once your data is stored in the form of data tables.
+
+08:48.740 --> 08:54.530
+Now if any obligation program is using that database then data has to be brought into the main memory.
+
+08:54.540 --> 08:55.720
+Then only you can use it.
+
+08:55.960 --> 08:57.840
+So again you need a structure here.
+
+08:57.970 --> 09:03.960
+When you are pulling the data from the hard disk or from the storage to the mean memory during execution
+
+09:04.000 --> 09:05.940
+then you need definitely data structure.
+
+09:06.700 --> 09:10.150
+So arrangement of data here in the mean memories that structure.
+
+09:10.270 --> 09:14.670
+Then how does data is organize in the form of people on the disk.
+
+09:14.680 --> 09:16.240
+This is database.
+
+09:16.240 --> 09:23.350
+This is data just brief introduction I'm giving a database means arranging the data in some model like
+
+09:23.350 --> 09:30.040
+say a relational model in the bottom and in a storage so that it can be retrieved or to access by applications
+
+09:30.190 --> 09:32.060
+easily.
+
+09:32.170 --> 09:35.180
+That arrangement and the hardness are in the permanent storage.
+
+09:35.200 --> 09:40.140
+It's called us database then NICS.
+
+09:40.160 --> 09:45.430
+Let us go to the next strong like I was talking about commercial data.
+
+09:45.530 --> 09:51.050
+That is the data used in businesses so they will have a huge amount of data daily coming in.
+
+09:51.170 --> 09:56.980
+Like many customers are making transactions or lot of goods sort of manufactures and sold.
+
+09:57.230 --> 10:03.650
+So the data size will be growing day by day large and large so large sized data are very large data
+
+10:03.680 --> 10:06.140
+that may not be used for daily life.
+
+10:06.240 --> 10:10.290
+Like 1 year old a 10 year old data that could not be used now.
+
+10:10.310 --> 10:17.570
+So come on surely that can be categorized into two that is operational data or legacy data all the data
+
+10:17.840 --> 10:27.130
+operational data that is used that is daily and legacy data can be kept as storage is somewhere if required
+
+10:27.370 --> 10:33.980
+we can fetch that data and use it or you can see historical data so that historical data can be kept
+
+10:34.130 --> 10:43.580
+on a day off or disk because just imagine ten years of data or 50 years of data is kept on not just
+
+10:43.580 --> 10:45.650
+one disk of disk.
+
+10:45.650 --> 10:52.750
+So the last size data which is kept here that is acting as a historical data for any commercial form.
+
+10:52.820 --> 10:55.010
+This is data a hose
+
+11:00.170 --> 11:04.600
+this is a data warehouse so mostly commercial forms of hard data.
+
+11:04.600 --> 11:05.780
+Data warehouses.
+
+11:06.080 --> 11:14.060
+Dr. David Hose is helpful for analyzing the business or making the policies or starting a new trend
+
+11:14.510 --> 11:21.560
+or giving offers to the customers dealing with the customers so that the previous data all data will
+
+11:21.560 --> 11:22.500
+help.
+
+11:22.580 --> 11:29.040
+Automation and taking decisions so this large size data as data warehouse and the algorithms written
+
+11:29.120 --> 11:36.410
+for analyzing that data are data mining algorithms data mining algorithms.
+
+11:36.740 --> 11:41.870
+So whatever data is used I'm explaining a board that see this database.
+
+11:41.890 --> 11:43.160
+Right.
+
+11:43.910 --> 11:45.710
+Database.
+
+11:45.890 --> 11:47.470
+This is data structure.
+
+11:50.730 --> 11:56.790
+So a data structure inside the main memory during the execution database on the disk and large size
+
+11:56.790 --> 12:03.090
+data under huge size data which is inactive no and vendor required it is utilized.
+
+12:03.090 --> 12:09.210
+That is the W House and the last home that is big data is that term use nowadays
+
+12:11.820 --> 12:17.190
+big data with the start of it and there are huge sizes data is accumulating.
+
+12:17.190 --> 12:24.960
+Day by day in Internet that data is about all the things about the people about places lot of data is
+
+12:24.960 --> 12:26.200
+available in the Internet.
+
+12:26.250 --> 12:34.080
+And by analyzing that data we can take a lot of decisions that is for management for governance or for
+
+12:34.080 --> 12:35.190
+businesses.
+
+12:35.250 --> 12:38.620
+Analysis is very useful about that data.
+
+12:38.850 --> 12:47.450
+Storing and utilizing that very large sized data that study is big data that studies big data now.
+
+12:47.580 --> 12:51.020
+For a beginner these are maybe confusing Don.
+
+12:51.050 --> 12:56.980
+So I have some greatly defined them where each is use.
+
+12:56.980 --> 13:02.220
+Again ATP did not structure doesn't mean memory during the execution of a program arrangement of data
+
+13:02.220 --> 13:09.930
+here an arrangement of data on the disk as database arrangement of data in the array of disk as data
+
+13:10.020 --> 13:10.830
+it holds.
+
+13:10.830 --> 13:12.730
+That is not operational.
+
+13:12.810 --> 13:17.710
+That is not used for day to day and the big data that is used in Internet.
+
+13:17.850 --> 13:22.380
+So that's what I have given you the different places where data is use.
+
+13:22.380 --> 13:24.660
+Now our subject is a data structures.
+
+13:24.750 --> 13:26.780
+So let us start with data structures.
+
+13:26.850 --> 13:27.960
+Next video onwards.

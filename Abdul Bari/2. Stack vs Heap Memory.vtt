@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.690 --> 00:04.660
+In this video we will learn about static and dynamic memory allocation.
+
+00:04.680 --> 00:10.500
+So these are the topics that I'm going to cover in this video I discuss about the memory how the memories
+
+00:10.500 --> 00:12.200
+utilize how it looks like.
+
+00:12.390 --> 00:18.280
+Then we will see how our program uses them in memory how the program will utilize that memory.
+
+00:18.280 --> 00:23.300
+Then we'll see static memory allocation that static allocation or dynamic amplification.
+
+00:23.310 --> 00:24.950
+So these are the topics we discuss.
+
+00:24.990 --> 00:28.730
+Let us start by studying something about mean memory.
+
+00:28.770 --> 00:32.440
+Let us discuss static versus dynamic memory allocation.
+
+00:32.520 --> 00:36.030
+So for that we should understand memory.
+
+00:36.030 --> 00:43.050
+Suppose this blob shows a memory does a memory so the memory is divided and goes smaller addressable
+
+00:43.060 --> 00:47.890
+unit that is called s byte so memory is divided into bytes.
+
+00:47.970 --> 00:55.020
+So these boxes these checkboxes let us assume those are bytes and then type memory a small picture have
+
+00:55.020 --> 00:58.010
+taken every bite is having its address.
+
+00:58.080 --> 01:01.320
+Let us see the address of this is 0 and this is 1.
+
+01:01.320 --> 01:12.250
+This is 2 3 4 5 and this will be six and seven eight nine ten eleven twelve thirteen goes on.
+
+01:12.320 --> 01:17.690
+So I'm starting from the bottom one day but it is obvious that diagram I have drawn over to diminish
+
+01:17.770 --> 01:22.650
+them but the addresses are single dimension versus linear guesses.
+
+01:23.280 --> 01:28.620
+So I guess we'll have just one value not like a card near system X come away it doesn't have a single
+
+01:28.620 --> 01:35.170
+value so this is a linear after this by this 5 then this is 6 and 7 and so on.
+
+01:35.280 --> 01:40.000
+So it depends on the size of the memory every byte will hybrids on case.
+
+01:40.050 --> 01:47.580
+So if I take a bigger slice of memory let's to say this a memory and then disconnect most byte addresses
+
+01:47.580 --> 01:48.130
+zero.
+
+01:48.360 --> 02:02.130
+So let us assume that the second most bytes addresses 6 5 5 3 5 so put them 0 2 6 5 5 3 5 makes 6 5
+
+02:02.220 --> 02:03.920
+5 3 6.
+
+02:04.020 --> 02:07.110
+So put the number of bytes on 6 5 5 3 6.
+
+02:07.110 --> 02:12.000
+This is nothing but 64 in 2 1 0 2 food.
+
+02:12.000 --> 02:14.760
+So this is 64 kilobytes.
+
+02:15.990 --> 02:23.100
+So in my entire discussion for the entire discussion of this subject I'll be assuming that the size
+
+02:23.100 --> 02:27.930
+of the main memory is 64 kilobytes.
+
+02:27.990 --> 02:29.950
+Okay let us make this assumption.
+
+02:30.050 --> 02:36.090
+Disabled memory can be anything not as we are using memory in jeebies like 4G BGP memory we are using
+
+02:36.370 --> 02:42.600
+but to understand we have to take a small part of me in memory so I'm digging 64 kilobytes of memory
+
+02:42.830 --> 02:48.140
+so far so this is zero bytes and the loss addresses 6 5 5 3 5.
+
+02:48.270 --> 02:50.640
+So total 6 5 5 3 6.
+
+02:50.640 --> 02:54.350
+That is 60 40 into ones ever before sort of 64 kilobytes.
+
+02:54.390 --> 03:00.540
+So this mean memories of 64 kilobytes every byte is having its address like how I have shown you here
+
+03:01.150 --> 03:02.090
+in the computers.
+
+03:02.160 --> 03:09.780
+If you have larger the size of ram that is for G.B. or LGB that entire memory is not used as a single
+
+03:09.780 --> 03:11.840
+unit but it is divided.
+
+03:11.970 --> 03:19.170
+It is divided and go manageable pieces that are called a segment unusually the size of a segment will
+
+03:19.170 --> 03:20.700
+be 64 kilobytes.
+
+03:22.770 --> 03:25.130
+So I'm talking about a segment.
+
+03:25.290 --> 03:31.090
+So in our discussion all of us will assume that the size of a lot of memory is 64 give away.
+
+03:31.100 --> 03:38.800
+That if we are talking about a segment Now next we have to understand how our program uses mean memory.
+
+03:38.800 --> 03:42.180
+Now let us see how our program utilizes mean memory.
+
+03:42.180 --> 03:47.660
+This picture shows this Block and Block from this corner of this corner as a mean memory.
+
+03:47.680 --> 03:56.280
+Assume that this byte addresses a zeal discovered most by the 6 6 5 5 3 5 either said will be taking
+
+03:56.280 --> 03:58.320
+one segment of memory and studying it.
+
+03:58.680 --> 04:05.200
+So does that mean memory is divided into three sections and used by a program by liberal defections
+
+04:05.200 --> 04:12.540
+sections one of this section where the program resides is called The Good section and one under the
+
+04:12.540 --> 04:13.080
+section.
+
+04:13.080 --> 04:14.450
+Usually this is the section.
+
+04:14.460 --> 04:22.800
+This portion is called Stack and this remaining portion is called as heap but we just change the site
+
+04:22.830 --> 04:25.740
+because it is easy for me to discuss who should go.
+
+04:25.800 --> 04:35.640
+This bill shouldn't stack and this portion as heap so a program uses the main memory by dividing into
+
+04:35.640 --> 04:42.130
+three sections called Section and the stack and a heap I'm trying stack at this place.
+
+04:42.190 --> 04:48.480
+Now I'll explain how a program uses these three sections so let let's see see here I have a program
+
+04:48.480 --> 04:51.400
+file on the hardness if I want to run this program.
+
+04:51.420 --> 04:56.970
+So this program the machine code of the program forces should be brought inside the main memory so it
+
+04:56.970 --> 04:59.990
+is brought inside the code section so literacy.
+
+05:00.020 --> 05:04.990
+This is a program or the machine code of a program.
+
+05:05.210 --> 05:08.480
+So the 80 of that is occupied by the program in the main memory.
+
+05:08.480 --> 05:11.750
+That section is called as section that ought to be fixed.
+
+05:11.810 --> 05:13.310
+It depends on the size of program.
+
+05:13.340 --> 05:18.070
+So does the code section 80 of the machine called the full program is loaded.
+
+05:18.380 --> 05:24.110
+No once it is loaded the CPE will start executing the program and this program will utilize the remaining
+
+05:24.110 --> 05:27.600
+memory as a divided in go stock and a heap.
+
+05:27.620 --> 05:31.190
+Now let us learn how this stock and heap works.
+
+05:31.190 --> 05:37.070
+So I will take the example code and I will show you how stock memory is used and a whole heap memory
+
+05:37.070 --> 05:37.640
+is used.
+
+05:38.030 --> 05:40.530
+I think of the example code here.
+
+05:40.610 --> 05:43.750
+See does my main function is having two variables.
+
+05:43.760 --> 05:46.410
+One is of type Integer the other one is off type float.
+
+05:47.330 --> 05:59.800
+Now I will assume here listen carefully I'm assuming here that integer takes two bytes and fluid picks
+
+05:59.960 --> 06:05.210
+for two bytes in C C++ programming.
+
+06:05.670 --> 06:11.550
+Number of bytes taken by integer depends on the compiler and the operating system and the hardware it
+
+06:11.550 --> 06:13.230
+depends on various things.
+
+06:13.260 --> 06:15.360
+So he say mostly depends on the compiler.
+
+06:15.870 --> 06:24.310
+So in digital media for bytes also two bytes also OK so two bites is easy for explanation.
+
+06:24.440 --> 06:26.630
+So I'm picking your ass two bites.
+
+06:26.720 --> 06:29.720
+If you take that we'll see which is a 16 bit compiler.
+
+06:29.780 --> 06:31.860
+It takes the weights for integer.
+
+06:32.090 --> 06:38.610
+Usually if you use a def stored your code blocks are anything then integer will take 40 bytes in that
+
+06:38.610 --> 06:38.900
+time.
+
+06:39.260 --> 06:41.890
+So it's a tell to read compiler.
+
+06:42.230 --> 06:49.430
+So in this you can bet the it's also for whites also in C C++ but I'm assuming India extra whites and
+
+06:49.430 --> 06:51.130
+floor takes 4 bytes.
+
+06:51.180 --> 06:55.900
+Now let us come back to the point that we were discussing we were discussing how this heat memory and
+
+06:55.900 --> 07:02.630
+the sad memories used by the program Ferdowsi I have these two variables to white sand forward by a
+
+07:02.740 --> 07:08.540
+on six bytes of memory in the program it is certain that it needs six bytes so that six base of memory
+
+07:08.560 --> 07:14.030
+is located inside the stack inside the stack.
+
+07:14.120 --> 07:19.280
+Let us shoot somebody early so this is two wives and this is sorted bytes.
+
+07:19.430 --> 07:22.070
+So these six by inside a given to the program.
+
+07:22.100 --> 07:23.850
+And this is nothing but a main function.
+
+07:23.850 --> 07:28.040
+I'm sure it would be mean function.
+
+07:28.040 --> 07:35.360
+So this block of memory that belongs to the main function is called on stack of frame off a main function
+
+07:35.780 --> 07:46.270
+or it is also called as activation regard of mean function activation record of main function.
+
+07:46.420 --> 07:52.180
+So one thing we learn that whatever the variables you declare inside your program or inside a function
+
+07:52.540 --> 07:56.470
+the memory for those variables will be created inside the stock.
+
+07:56.470 --> 07:57.870
+This portion is a stock.
+
+07:59.080 --> 08:01.050
+So I look at it inside the stack.
+
+08:01.210 --> 08:06.390
+So the portion of memory that is given to the function is called as activation the part of that function.
+
+08:07.210 --> 08:12.610
+So how the memory is a look at it inside the stock it depends whatever the variables you have inside
+
+08:12.610 --> 08:13.200
+a function.
+
+08:13.420 --> 08:20.830
+So the size of the memory required by a function was decided at company time when the compiler will
+
+08:20.830 --> 08:23.400
+see that this leads to some bytes and this needs some.
+
+08:23.400 --> 08:29.860
+So it will beforehand decide that this function need so much memory and that memory is obtained once
+
+08:29.860 --> 08:33.190
+the programs start executing it is open inside the stack.
+
+08:33.580 --> 08:36.860
+So he said this is static memory allocation.
+
+08:37.180 --> 08:38.710
+What is the static here.
+
+08:38.710 --> 08:44.990
+How many bytes of memory is required by this function was it decided to combine time.
+
+08:45.120 --> 08:48.010
+So it is static so what is static.
+
+08:48.100 --> 08:54.070
+The size of the memory is a static value that was decided by the time so when everything is done that
+
+08:54.070 --> 08:57.090
+come by a day or two before time is called static.
+
+08:57.190 --> 08:58.870
+So this memory should have static.

@@ -1,0 +1,649 @@
+WEBVTT
+
+0
+00:00.120 --> 00:04.320
+In this video we will learn about functions. So I will explain what our functions.
+
+1
+00:04.320 --> 00:09.240
+Then I'll explain what is parameter passing and what are the different methods of passing parameters
+
+2
+00:09.240 --> 00:11.570
+like, pass by value, pass by address,
+
+3
+00:11.580 --> 00:14.970
+And pass by reference. In C language,
+
+4
+00:14.970 --> 00:21.660
+We have only pass by value and pass by address; but in C++, we also have pass by reference. So I will
+
+5
+00:21.660 --> 00:25.340
+take some simple example and explain all these parameter passing.
+
+6
+00:25.410 --> 00:31.530
+So let us start with functions. What are functions? Function is a piece of code which performs a specific
+
+7
+00:31.530 --> 00:37.100
+task. We have already studied about structures. In structures,
+
+8
+00:37.110 --> 00:47.250
+I said that structure is a group of related data members. Now function is a group of related instructions
+
+9
+00:47.280 --> 00:56.410
+which perform a specific task. So, grouping data is a structure, grouping instructions is a function.
+
+10
+00:56.640 --> 01:04.990
+Functions are called as modules or procedures. See, instead of writing a single main program,
+
+11
+01:05.100 --> 01:11.010
+Writing everything inside the main function, we can break the main function into small manageable size
+
+12
+01:11.070 --> 01:16.200
+pieces and we can separate the repeating tasks or smaller tasks.
+
+13
+01:16.200 --> 01:23.680
+For example, if I am writing one program, so everything is going to be inside main function. So, let us
+
+14
+01:23.710 --> 01:26.380
+say these are the instructions in main function.
+
+15
+01:26.400 --> 01:31.100
+I may be writing thousands of lines of code inside the main function.
+
+16
+01:31.440 --> 01:37.580
+So this is not a good style of programming. Writing all the lines inside a single main function,
+
+17
+01:37.620 --> 01:43.500
+It will be very huge to manage and it's very difficult to develop.
+
+18
+01:44.010 --> 01:50.520
+So if we find that this program can be broken down into smaller tasks we can break them into smaller
+
+19
+01:50.520 --> 01:53.600
+functions like suppose, first function,
+
+20
+01:53.720 --> 01:58.360
+fun1 ( ), it may perform some task and another function,
+
+21
+01:58.360 --> 02:04.100
+fun2 ( ) and this is performing some task, and similarly fun3 ( ) 
+
+22
+02:04.380 --> 02:12.270
+I can have, and performing some task. So, I can break this larger task into smaller simple tasks and then
+
+23
+02:12.360 --> 02:15.920
+I can use them all together inside the main function.
+
+24
+02:15.930 --> 02:23.070
+Suppose here I have main function, then inside the main function I can call these functions. So, fun1 ( )
+
+25
+02:23.070 --> 02:26.700
+fun2 ( ), fun3 ( ).
+
+26
+02:26.740 --> 02:32.040
+For example, I have taken these three functions.
+
+27
+02:32.040 --> 02:39.640
+For example I am explaining like this. So here you can see that, if I combine all together, everything is there
+
+28
+02:39.640 --> 02:41.200
+inside the main function.
+
+29
+02:41.290 --> 02:43.790
+Main function is utilizing these functions,
+
+30
+02:43.810 --> 02:46.720
+So that will sum up to a similar program.
+
+31
+02:47.870 --> 02:53.690
+If we follow this style of programming, this style of programming is called as Monolithic programming
+
+32
+02:53.990 --> 02:56.750
+right, everything inside a single body.
+
+33
+02:56.750 --> 03:03.810
+So, This is monolithic programming. Now, breaking a program into smaller
+
+34
+03:03.810 --> 03:10.380
+pieces of functions and using those functions inside the main function that is integrating them all
+
+35
+03:10.390 --> 03:11.240
+together.
+
+36
+03:11.250 --> 03:13.200
+This is another style of programming.
+
+37
+03:13.200 --> 03:17.690
+This is called as modular programming or procedural programming.
+
+38
+03:21.080 --> 03:24.440
+.
+
+39
+03:25.440 --> 03:29.500
+So this style of programming is called as modular or procedural programming.
+
+40
+03:29.520 --> 03:31.680
+So this is easy for developing.
+
+41
+03:31.740 --> 03:36.930
+You can break the program into smaller tasks and you can focus on smaller tasks and finish them and
+
+42
+03:36.930 --> 03:42.510
+make them perfect. It's easy for one single individual to develop the application.
+
+43
+03:42.540 --> 03:48.450
+Even you can break this software project into a team of programmers.
+
+44
+03:48.600 --> 03:52.620
+Now, if you follow this style, then only one person has to develop this one.
+
+45
+03:52.680 --> 03:59.040
+If you follow this style of programming, a group of programmers can develop a single application like
+
+46
+03:59.040 --> 04:00.570
+some people are developing,
+
+47
+04:00.690 --> 04:03.140
+Some functions like one person developing this one,
+
+48
+04:03.140 --> 04:08.670
+second person, third person, and one of the person who's a team leader can integrate all of them inside
+
+49
+04:08.670 --> 04:10.140
+the main function.
+
+50
+04:10.140 --> 04:16.780
+So this style of programming has increased productivity and also re-usability.
+
+51
+04:16.860 --> 04:22.560
+Like, if suppose I need fu1 ( ) one more time, so I can call it again.
+
+52
+04:22.590 --> 04:28.770
+So instead of writing the same code again, like suppose, these 3 lines are performing some task and
+
+53
+04:28.770 --> 04:34.710
+these 3 lines are performing the same task, so instead of writing it 2 times, I can write the function
+
+54
+04:34.710 --> 04:38.410
+one time and I can use it two times.
+
+55
+04:38.460 --> 04:43.950
+So this is re-usability. And the same function can be used in other software projects also.
+
+56
+04:44.050 --> 04:48.210
+So you can put the group of functions together in a library also.
+
+57
+04:48.720 --> 04:52.620
+So these are the benefits of functions just to name a few.
+
+58
+04:53.490 --> 04:58.230
+So, C language as a procedural or modular programming language.
+
+59
+04:58.440 --> 05:06.300
+So this is the topmost feature supported by C programming which is also there in C++. C++ is beyond
+
+60
+05:06.300 --> 05:13.200
+this one. C++ follows object orientation, right; Where you group the related functions together and put
+
+61
+05:13.200 --> 05:14.190
+them in a single class.
+
+62
+05:14.190 --> 05:16.530
+So we will learn about it in the coming videos.
+
+63
+05:16.530 --> 05:22.720
+So right now let us focus on modular programming. So, we can break a program into functions.
+
+64
+05:22.770 --> 05:29.850
+Now let us write a simple example function and learn how we can separate the task from the main function
+
+65
+05:29.940 --> 05:35.170
+and what are parameters. I have a small function, example function.
+
+66
+05:35.170 --> 05:37.350
+I'll explain something about this.
+
+67
+05:37.400 --> 05:41.730
+See here is a main function, from here to here is the main function.
+
+68
+05:41.740 --> 05:47.920
+Now in this I'm performing a very simple task that is I want to add two numbers so I have three variables
+
+69
+05:48.010 --> 05:54.040
+x y z; and x and y are having some values. Then, I want to add these two values.
+
+70
+05:54.040 --> 05:58.050
+So even in main function I can add it, just I have to say x + y, right?
+
+71
+05:58.240 --> 06:03.730
+But, I prefer instead of adding inside the main function, let it be done by some other function.
+
+72
+06:03.790 --> 06:04.900
+For adding two numbers,
+
+73
+06:04.900 --> 06:07.380
+I'm writing a function, right.
+
+74
+06:07.480 --> 06:12.370
+So, as I said that, instead of writing it inside the main function, you can separate the logic and
+
+75
+06:12.370 --> 06:17.890
+write functions for performing smaller tasks. So, we're looking at addition function.
+
+76
+06:17.890 --> 06:26.050
+So this is a function which will add to numbers and returns the addition or the sum of two numbers.
+
+77
+06:26.050 --> 06:28.340
+So let us see how this function is.
+
+78
+06:28.480 --> 06:35.200
+See, this function is taking 2 values, a and b and locally it is having its own variable c, then adding
+
+79
+06:35.200 --> 06:38.560
+these two values and storing the result in c and it will return
+
+80
+06:38.570 --> 06:39.990
+the result, right.
+
+81
+06:40.270 --> 06:41.590
+So, it will take two values,
+
+82
+06:41.590 --> 06:48.160
+This function needs 2 parameters, it will add them and returns that as c.
+
+83
+06:48.160 --> 06:54.730
+So, if we see in the main function, back to the main function, here I'm calling add function, this is the function
+
+84
+06:54.730 --> 06:57.940
+called and I'm passing two parameters,
+
+85
+06:58.000 --> 07:04.990
+x and y, these values will go into a and b. It will add them and return the result, that result
+
+86
+07:04.990 --> 07:08.520
+will come into z and then it will print this value z.
+
+87
+07:08.800 --> 07:17.210
+So as per this example, it will print the value 15, right. Now, let us learn some terminology.
+
+88
+07:17.220 --> 07:24.240
+See this is the prototype of a function or header of a function,
+
+89
+07:24.400 --> 07:29.670
+This is called as prototype or it is called the signature of a function,
+
+90
+07:29.870 --> 07:30.100
+Right.?
+
+91
+07:30.430 --> 07:33.490
+And this is a declaration of a function.
+
+92
+07:33.730 --> 07:40.880
+Then this body is there, this is called as definition of a function or elaboration of a function.
+
+93
+07:40.900 --> 07:43.840
+So this is declaration and definition of a function.
+
+94
+07:43.970 --> 07:50.600
+And this is function call, We are calling the function. Now, what are the parameters?
+
+95
+07:50.830 --> 07:55.020
+So here, we are passing these two values x and y to this function,
+
+96
+07:55.030 --> 07:59.810
+which is taking 2 parameters. So these parameters, the one which we are passing, these are called
+
+97
+07:59.850 --> 08:02.380
+as actual parameters.
+
+98
+08:02.440 --> 08:09.310
+These are called as actual parameters, and these parameters which are taken by this function,
+
+99
+08:09.310 --> 08:12.970
+These are called formal parameters.
+
+100
+08:13.240 --> 08:15.590
+So these are formal parameters.
+
+101
+08:15.610 --> 08:22.450
+Now, let us understand that working once again, this is the main function, program starts from here.
+
+102
+08:22.450 --> 08:28.270
+Starting point of the program, three variables are declared, values are assigned, function is called. So, the
+
+103
+08:28.270 --> 08:34.510
+control goes here and when the control is transferred, the values of actual parameters are copied in formal
+
+104
+08:34.510 --> 08:40.730
+parameters. So, x value that is 10 is copied in a, and 5
+
+105
+08:40.750 --> 08:48.290
+that is y value is copied in b. Then, in c the addition of the values is stored, so 15, and 15 is returned.
+
+106
+08:48.360 --> 08:52.360
+And when the function returns it will come back to the line from where it was called.
+
+107
+08:52.810 --> 08:57.210
+So the result of the function, is 15.
+
+108
+08:57.220 --> 09:02.840
+So this becomes 15, and that 15 is assigned to z. So, z becomes 15,
+
+109
+09:03.150 --> 09:04.460
+and the value is printed.
+
+110
+09:05.110 --> 09:06.070
+So this is working.
+
+111
+09:06.490 --> 09:10.070
+So I have explained you the parameters and also explained you the working.
+
+112
+09:10.090 --> 09:14.430
+Now, let us see how it works inside the main memory.
+
+113
+09:14.440 --> 09:17.560
+This is the code section area. Inside the code section,
+
+114
+09:17.590 --> 09:19.390
+This is a function add,
+
+115
+09:19.890 --> 09:21.210
+And this is a machine code
+
+116
+09:21.250 --> 09:22.880
+machine code of that function.
+
+117
+09:23.060 --> 09:24.340
+And this is the mean function.
+
+118
+09:24.340 --> 09:28.750
+This is the machine code of the main function, right.
+
+119
+09:28.770 --> 09:33.580
+So let us see in detail, how the program works and how the functions are utilized.
+
+120
+09:33.600 --> 09:36.920
+Now the program starts from here, first of all 3 variables are declared.
+
+121
+09:37.200 --> 09:43.800
+So inside the stack, that is inside the activation record of main function, 3 variables are created
+
+122
+09:44.100 --> 09:50.790
+that are x and y and z. The 3 variables are created, then first variable will be assign with value 10 and
+
+123
+09:50.790 --> 09:51.660
+second with 5.
+
+124
+09:51.720 --> 09:53.820
+So this is 10 and this is 5.
+
+125
+09:54.270 --> 10:00.430
+Then function add is called. Once the function add is called its own activation record or a stack frame
+
+126
+10:00.430 --> 10:01.410
+is created.
+
+127
+10:01.620 --> 10:11.340
+And it will have its own variables that are a, b and c. These 2 parameters and local variable.
+
+128
+10:11.370 --> 10:19.590
+Now the value x that 10, that is passed here and the value of y that is 5 is passed here, then it will add
+
+129
+10:19.590 --> 10:20.550
+these two numbers.
+
+130
+10:20.550 --> 10:24.600
+So the result is 15. Now, the next line is returning.
+
+131
+10:24.600 --> 10:28.960
+So when it is returning, the value of c is copied in z.
+
+132
+10:29.010 --> 10:32.110
+Because here, in this line, you can see this copied in z.
+
+133
+10:32.190 --> 10:34.030
+Then, once the function ends,
+
+134
+10:34.050 --> 10:36.430
+It will come out and returns back to this line.
+
+135
+10:36.810 --> 10:39.690
+So this activation record is deleted.
+
+136
+10:39.840 --> 10:41.130
+See, It is just like this, from here
+
+137
+10:41.130 --> 10:45.360
+If you see, suppose, from here the main function has called add function.
+
+138
+10:45.360 --> 10:51.330
+So the control goes to the function and when it is executed and when it finishes, this activation record is
+
+139
+10:51.330 --> 10:55.510
+deleted and the control comes back to the main function here.
+
+140
+10:55.740 --> 10:57.100
+Then it will print this one.
+
+141
+10:57.120 --> 11:02.010
+So if suppose both lines are for printing, So it will put in this value 15.
+
+142
+11:02.090 --> 11:06.590
+So this is how it happens inside the main memory when you are writing the function.
+
+143
+11:06.590 --> 11:11.690
+So the benefit of function is that, the function will have its own activation record, its separate set of
+
+144
+11:11.690 --> 11:16.440
+variables will be there inside the memory, and when it is called they are created,
+
+145
+11:16.520 --> 11:19.520
+and when their function terminates they are destroyed.
+
+146
+11:19.520 --> 11:25.040
+And, one more point about this one is, this function cannot access the variables of main and main cannot
+
+147
+11:25.040 --> 11:31.040
+access the variables of this add function, right. One function cannot access the variables of another function.
+
+148
+11:31.040 --> 11:38.090
+It means that I cannot use x y z here inside add function because they belong to main function and
+
+149
+11:38.090 --> 11:45.000
+I cannot use a, b, c inside main function because they belong to the function. So, that's it.
+
+150
+11:45.030 --> 11:46.640
+This is about the function.
+
+151
+11:47.100 --> 11:49.110
+Let us look at the things once again quickly.
+
+152
+11:49.110 --> 11:51.300
+See I have shown you how to define a function.
+
+153
+11:51.300 --> 11:54.460
+This is the prototype of a function, and is the body of a function.
+
+154
+11:54.480 --> 11:57.330
+These are the parameters, they are called as formal parameters.
+
+155
+11:57.330 --> 11:58.790
+And this is the function call.
+
+156
+11:58.830 --> 12:01.240
+These are actual parameters, right?
+
+157
+12:01.260 --> 12:06.900
+That is, the one who is calling, its parameters are actual parameters, and how the function calls are
+
+158
+12:06.900 --> 12:07.520
+made,
+
+159
+12:07.530 --> 12:09.240
+This is there inside the memory.
+
+160
+12:09.480 --> 12:12.360
+So that's all. Now, in the next video, I will explain
+
+161
+12:12.390 --> 12:18.210
+parameter passing methods. So, the 3 methods, we will see them together by taking some simple example.

@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.440 --> 00:02.910
+Let us see how you download Dev C++.
+
+00:03.030 --> 00:14.820
+So for Dev C++ you can in Chrome or in any browser you can see download Dev C++ and get many links and
+
+00:14.820 --> 00:22.080
+one of the link is for from bloodshed and dot net which you can go to bloodshed darknet and from here
+
+00:22.080 --> 00:30.690
+you can download Dev C++ Dev C++ that is beta version 5.0 is available here it is vitamin GW that is
+
+00:30.690 --> 00:38.040
+with compiler or just without compiler that is executable only and so scored is also available so you
+
+00:38.040 --> 00:40.510
+can download any one of these of your choice.
+
+00:40.530 --> 00:46.280
+So if you install vitamin GW then you can immediately start using Dave C++.
+
+00:47.100 --> 00:53.100
+Otherwise you have to install compiler separately that is minimal G and your compiler for windows you
+
+00:53.100 --> 01:03.040
+have to download it separately so click on this one and start downloading it will start downloading.
+
+01:03.050 --> 01:11.020
+Yeah once it has finished downloading you can install Dev C++ software and you can directly use it.
+
+01:12.270 --> 01:15.510
+After downloading install Dev C++
+
+01:32.400 --> 01:34.690
+it has finished installation.
+
+01:34.860 --> 01:45.750
+If I show you the folder where Dev C++ is installed this isn't C and program files and here is Dev CPB
+
+01:46.040 --> 01:53.390
+so you can see that it is also installed Min GW that is General compiler for Windows.
+
+01:53.390 --> 01:57.230
+This is a minimal compiler for Windows at a start date.
+
+01:57.230 --> 02:06.990
+C++ so English language is selected the next then okay for developing data structure programs.
+
+02:07.010 --> 02:10.260
+We may be using C language as well as some programs.
+
+02:10.260 --> 02:16.880
+I'll be showing you using C++ so for opening a new project using C language select file option and see
+
+02:16.880 --> 02:18.930
+a new and select project
+
+02:22.050 --> 02:27.300
+and here we have to select a console application and you can see the language options are given.
+
+02:27.300 --> 02:32.280
+That is a language option for C language as well as C++ so whichever language you are using you can
+
+02:32.280 --> 02:37.830
+select that language so first of all I'll show you how to create a C language project then also I will
+
+02:37.830 --> 02:42.390
+also show you how to create a C++ project in C language project.
+
+02:42.390 --> 02:48.000
+I'll give the project name as my first see as the project name.
+
+02:48.140 --> 02:48.510
+Okay
+
+02:51.660 --> 02:56.540
+a loss for the location or the folder in which you want to create this project so you can select some
+
+02:56.750 --> 02:57.760
+folder.
+
+02:57.770 --> 03:02.960
+Now the readily available code is given so a required code the minimal code is given.
+
+03:03.520 --> 03:07.260
+And here in the project you can see that this is mean Ghazi fine.
+
+03:07.310 --> 03:09.920
+This is the contents of main Nazi file.
+
+03:09.920 --> 03:15.480
+Already a CDI ordered edge and a lib outage header files are already included in the main function results.
+
+03:15.650 --> 03:16.250
+Also there.
+
+03:16.700 --> 03:19.470
+So here I will write a message that is print.
+
+03:20.240 --> 03:25.410
+Hello world.
+
+03:26.020 --> 03:28.380
+Let us see how to run the program.
+
+03:28.840 --> 03:31.840
+So go to execute option and save what's to come by.
+
+03:33.900 --> 03:34.090
+Yeah.
+
+03:34.100 --> 03:40.420
+This compiler then you can go to execute option and you can also press f 10 for running the program
+
+03:40.670 --> 03:43.430
+so run the program.
+
+03:43.430 --> 03:43.920
+Yeah.
+
+03:43.930 --> 03:48.710
+Here is the console window where you can see your hello world message is displayed.
+
+03:48.970 --> 03:55.800
+C++ also prompt a console window showing you the output.
+
+03:56.500 --> 04:01.630
+If there are any errors then that will appear in the log so you can remove the errors by checking the
+
+04:01.630 --> 04:02.900
+log messages.
+
+04:03.160 --> 04:06.900
+She removed the semicolon for print f and I will compile and show you.
+
+04:07.090 --> 04:09.090
+Let us see what happens here.
+
+04:09.090 --> 04:14.520
+Here is an error message who is showing the error message in the log window ie checking the error messages.
+
+04:14.520 --> 04:15.460
+You can remove that.
+
+04:15.490 --> 04:21.040
+So here the message is that X burglar semicolon before it done so yes before written there should be
+
+04:21.040 --> 04:22.370
+semicolon.
+
+04:22.400 --> 04:24.400
+No it will work perfectly.
+
+04:24.400 --> 04:25.200
+So that's it.
+
+04:25.210 --> 04:27.460
+We have already seen how to run it now.
+
+04:27.510 --> 04:34.390
+Next I'll be showing you a project in C++ the steps are seem just we have to select a language that
+
+04:34.390 --> 04:42.360
+is C++ C a new project and select some application.
+
+04:42.370 --> 04:44.830
+Let the project name as my first
+
+04:47.460 --> 04:50.770
+and it should be created in documents.
+
+04:50.830 --> 04:52.640
+Now the project is ready.
+
+04:52.650 --> 04:55.460
+This is meant CPB file inside the project.
+
+04:55.470 --> 05:05.940
+So here I'll just give a message Hello World and and then they should use namespace for C out as allies
+
+05:06.210 --> 05:13.230
+and then let us build a project and execute.
+
+05:13.360 --> 05:14.710
+Hello world is up here.
+
+05:15.760 --> 05:21.130
+So that's all this all you can open a new project for every program or application you can start a new
+
+05:21.130 --> 05:23.470
+project or else for practicing in the same project.
+
+05:23.470 --> 05:27.790
+You can go on writing new code there and you can recompile and run it.

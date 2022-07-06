@@ -1,0 +1,508 @@
+WEBVTT
+
+00:00.280 --> 00:04.700
+Now the next thing that we should also known back if there are sequence of function calls.
+
+00:04.860 --> 00:06.120
+Then how are the memories.
+
+00:06.120 --> 00:11.940
+I look at it it's like stack files on a piece of cord a small sample code that I I'll show you how the
+
+00:11.940 --> 00:17.500
+memories look at it inside the stack for the sequence of function calls.
+
+00:17.550 --> 00:20.020
+Here I have a sample piece of cord.
+
+00:20.130 --> 00:26.230
+There's a main function main function is having two variables and then discarding function fun one and
+
+00:26.310 --> 00:34.230
+fun one is having your local variable X then it is calling function 2 and passing parameter X this function
+
+00:34.230 --> 00:41.210
+to a stinking parameter as I then also it's having your own variable a following function calls are
+
+00:41.240 --> 00:46.800
+made then how the memories allocated for all these functions.
+
+00:46.800 --> 00:48.160
+Let us look at it.
+
+00:48.360 --> 00:50.450
+First of all we really want to run this program.
+
+00:50.460 --> 00:57.800
+The machine code of this program will be copied in code section so I will label it like this function.
+
+00:57.810 --> 01:00.650
+Who does the machine call the function to.
+
+01:00.830 --> 01:08.700
+And assume that this is for function 1 and then this is the main function.
+
+01:08.730 --> 01:11.510
+This is a machine code for this entire program.
+
+01:11.520 --> 01:16.840
+Now let us start executing when the program starts executing and will start from the main function.
+
+01:16.860 --> 01:23.610
+The moment it enters inside main function it requires variable so the memory for a and b will be allocated
+
+01:23.910 --> 01:25.690
+inside this area.
+
+01:25.740 --> 01:29.100
+This section and that is a and b.
+
+01:29.310 --> 01:31.780
+So making another single block.
+
+01:32.580 --> 01:34.380
+These are the two variables.
+
+01:34.380 --> 01:38.110
+Now next main function call is a function fund one.
+
+01:38.110 --> 01:42.530
+Now the control goes to functions 1 1 the woman control goes here.
+
+01:42.840 --> 01:47.860
+Inside this the first thing is variable is the cloud variable declarations is there.
+
+01:47.910 --> 01:51.170
+So the variable is created inside the stack.
+
+01:51.180 --> 01:55.550
+So this function fund one that is x.
+
+01:55.680 --> 01:58.410
+So this piece of memory belongs to main function.
+
+01:58.410 --> 02:05.190
+And I believe that this belongs to functions on one right now which function is executing.
+
+02:05.190 --> 02:09.610
+Currently function fun one is executing because we have go from here.
+
+02:09.690 --> 02:15.320
+So this is topmost Activision record belongs to which function currently executing function.
+
+02:15.330 --> 02:19.280
+That is fun long though someone will call the fun too.
+
+02:19.420 --> 02:25.770
+So again the control goes through function to then that is having two variables one is its bottom and
+
+02:25.770 --> 02:27.600
+the other one is its local variable.
+
+02:27.900 --> 02:31.890
+So members are looking out for those variables ie.
+
+02:32.260 --> 02:41.170
+And E and this is for function do not presently function 2 is running and the topmost activation record
+
+02:41.310 --> 02:44.610
+inside this area is fun too.
+
+02:44.640 --> 02:48.830
+So currently exhibiting function with access the topmost activation record.
+
+02:49.240 --> 02:54.000
+Now one thing you can observe that we started from me and function.
+
+02:54.380 --> 02:58.030
+It has not yet finished but it has called function 1.
+
+02:58.470 --> 03:02.960
+So main function activation that code is as it is inside this track.
+
+03:03.150 --> 03:09.990
+Then activation record for fund 1 is created its memory forward fund one is allocated then it is still
+
+03:09.990 --> 03:15.920
+running but it has got the fund do so the activation of the code for fund dos created an activation
+
+03:15.920 --> 03:19.370
+that got a fund one is still there in the memory.
+
+03:19.980 --> 03:26.160
+Now let us continue on what execution fund though is the current executive function double the function
+
+03:26.160 --> 03:29.850
+to has a finished Terminator then.
+
+03:30.020 --> 03:35.700
+Then it all goes back to function 1 it will come back after this point it will come back to function
+
+03:36.150 --> 03:40.790
+one inside this function one that is after this line it will come to this length.
+
+03:42.090 --> 03:47.610
+So there is there is a statement here so it will come to this statement what happens for the activation
+
+03:47.610 --> 03:50.580
+record of that function to this will be deleted.
+
+03:53.390 --> 03:58.440
+Then this after this function one has finished executing this a statement.
+
+03:58.520 --> 04:02.960
+It will come back to the main function after this second function.
+
+04:02.960 --> 04:05.580
+Well let us say there is some statement it will come to that statement.
+
+04:06.080 --> 04:11.990
+And one of the functions on one ends its activation that code is also removed from the main memory that
+
+04:11.990 --> 04:13.510
+is from the strike.
+
+04:13.960 --> 04:16.450
+Their main function also ends.
+
+04:16.520 --> 04:19.890
+So it's Activision that code is also deleted from memory.
+
+04:19.910 --> 04:25.410
+So now you can see that how the activation of the code for sequence of function calls for a key attack
+
+04:25.730 --> 04:30.980
+first main function then above that function 1 above that function to arrive no function.
+
+04:30.980 --> 04:34.850
+Who is running these are already dead in the memory function two ends.
+
+04:34.910 --> 04:40.550
+It will delete and come back here many events delete and come back here but events are delayed and the
+
+04:40.550 --> 04:41.330
+program ends.
+
+04:42.140 --> 04:46.400
+So the activation of the Guard are created like this and then deleted like this.
+
+04:46.400 --> 04:53.200
+So this mechanism is stuck right top and top and top then delete delete delete.
+
+04:53.210 --> 04:54.880
+So this mechanism is.
+
+04:54.890 --> 05:01.400
+So that's why this section of memory behaves like a stock during the function call.
+
+05:01.400 --> 05:03.910
+So that's why it is named as stack.
+
+05:04.670 --> 05:10.070
+So that's all there's all the main memories use of stock memory is used for function calls.
+
+05:10.160 --> 05:16.010
+Not one important thing to observe how much memory is required by a function.
+
+05:16.010 --> 05:19.840
+Depends on the number of variables and their sizes.
+
+05:20.010 --> 05:22.030
+And this is a decided by compiler only.
+
+05:22.730 --> 05:29.000
+So this memory is automatically created on automatically destroyed the programmer doesn't have to do
+
+05:29.000 --> 05:33.800
+anything for its allocation and destruction just forgot one has to declare the variable.
+
+05:34.850 --> 05:39.170
+So the conclusion is what are the variables you declared in the program or whatever the bottom does
+
+05:39.230 --> 05:42.380
+you are functions are taking for all of them memories.
+
+05:42.380 --> 05:47.780
+I look at it and said the stack on it is automatically created and automatically destroyed when the
+
+05:47.780 --> 05:49.850
+function ends.
+
+05:49.900 --> 05:55.130
+Next we'll talk about keep and see how memories are dynamically I look at it from now.
+
+05:55.160 --> 05:59.360
+Let us learn how heap memories utilized by our program.
+
+05:59.360 --> 06:04.870
+So I have taken up Main function this I mean functions I'm sharing the code here and this memory already
+
+06:04.880 --> 06:05.760
+we have seen.
+
+06:05.810 --> 06:07.790
+Now we have to see heap.
+
+06:07.880 --> 06:13.410
+First let us understand the com heap heap means what just piling up.
+
+06:13.490 --> 06:20.480
+If the pings are kept the one eyeball on other or just randomly views the golem heap so heap is used
+
+06:20.480 --> 06:27.200
+in two cases one if the things are properly ordered denies like a tugboat electing then on some would
+
+06:27.200 --> 06:34.310
+say he and if it is not the and also it's looking like a cover then also we look because it does heap.
+
+06:34.340 --> 06:41.900
+So the important point is he award or Tom he can be used for all of the nice thing as well as on the
+
+06:41.900 --> 06:42.770
+part of the nice team.
+
+06:43.430 --> 06:48.810
+So here he is the dome used for an organized memory.
+
+06:48.940 --> 06:53.110
+It's not organized stock memories organize right.
+
+06:53.120 --> 06:57.200
+We already saw how the activation that guards are created and delivered.
+
+06:57.470 --> 06:59.650
+But that is not organize.
+
+06:59.900 --> 07:05.630
+This is the first point and the second point I will keep is that heat memory should be treated like
+
+07:05.630 --> 07:08.080
+a resource resource.
+
+07:08.210 --> 07:13.540
+So it tells you something about the resource in applications she supplies.
+
+07:13.600 --> 07:16.500
+Brenda is a resource for your program.
+
+07:16.670 --> 07:20.470
+If your program want to use a printer then it can request for a printer.
+
+07:20.600 --> 07:27.140
+Use the printer once it has finished using it it should release the printer so that the other applications
+
+07:27.140 --> 07:29.600
+can use it simply hate.
+
+07:29.630 --> 07:32.990
+Memory should be used like a resource when required.
+
+07:33.000 --> 07:37.740
+You take the memory when you don't require you release the memory.
+
+07:37.790 --> 07:42.230
+This is a practice that you must do while dealing with heat memory.
+
+07:42.230 --> 07:43.480
+So I believe two points.
+
+07:43.490 --> 07:44.570
+What is hip.
+
+07:44.570 --> 07:47.860
+Second thing it should be treated as a resource.
+
+07:47.870 --> 07:54.070
+The third important point program can order directly access hate memory.
+
+07:54.230 --> 07:56.590
+It can directly access anything inside.
+
+07:56.660 --> 08:02.450
+Section and inside stock but it will not access heat memory.
+
+08:02.630 --> 08:05.840
+That is like a policy of a program but it will not access happen.
+
+08:05.870 --> 08:09.190
+It can if it want but it will not access memory.
+
+08:09.230 --> 08:13.560
+So programs cannot access heap memory directly.
+
+08:13.670 --> 08:16.790
+Then how do they access memory using boink.
+
+08:17.570 --> 08:23.090
+So let me show you how we can get some memory inside the heap with the help of a pointer.
+
+08:23.180 --> 08:27.530
+Let us check it first of all for picking some memory.
+
+08:27.560 --> 08:30.600
+I have to take a blind guy.
+
+08:31.700 --> 08:39.220
+The first question how many bytes or undertakes in my discussion for making it simple.
+
+08:39.320 --> 08:43.100
+I say that point it takes two bytes.
+
+08:44.000 --> 08:50.440
+Actually the amount of memory taken by pointer depends on size offering digital usually if any good
+
+08:50.450 --> 08:53.760
+is true by its point as to where it's 10 digit is for wait so point of thought.
+
+08:53.810 --> 08:57.610
+So let us assume that it is sticking to bites.
+
+08:57.680 --> 09:04.190
+So let us just assume that one is taking two bites so this may store whites not next point.
+
+09:04.420 --> 09:08.930
+Vendor memory for the point it will be a look see just knowing in the static memory allocation I told
+
+09:08.930 --> 09:12.260
+you that what all the variables are declared in your functions.
+
+09:12.260 --> 09:16.690
+David I'll go buy a memory inside the stock in that Activision that.
+
+09:16.970 --> 09:20.430
+So yes for this point up memory as I look at it here.
+
+09:20.450 --> 09:26.330
+So this is a pointer so Dexter White's circle bytes of memory and this is activation that chord for
+
+09:26.330 --> 09:28.350
+me in function.
+
+09:28.360 --> 09:32.630
+Now I want to look at memory and heap so how much memory I want to allocate.
+
+09:32.870 --> 09:43.190
+I want to create an array of integer of size 5 so this new statement will allocate memory in he of size
+
+09:43.190 --> 09:44.110
+of 5.
+
+09:44.180 --> 09:50.280
+So any of size 5 and this point there will point on this one.
+
+09:50.280 --> 09:56.970
+Suppose the address of dislocation the beginning of this is 500 so 500 is stored here.
+
+09:57.110 --> 10:03.020
+This is the method of allocating memory and heap so very What do you see new Newmans memories of the
+
+10:03.020 --> 10:05.730
+predicted heap symbol of variable declaration.
+
+10:05.730 --> 10:09.880
+Memory memories a look at it in such attack in C++ it is new.
+
+10:10.160 --> 10:17.090
+But if I write something in C language then I have to use my log function or MLR log function on a 1
+
+10:17.090 --> 10:21.260
+5 integer so 5 integer as you mean to get X to bite.
+
+10:21.260 --> 10:23.760
+So this is true and I have to typecast.
+
+10:23.810 --> 10:25.610
+It does indeed your type.
+
+10:26.660 --> 10:34.940
+So this happens in C++ and this happens in C language so it does look good for C++ does the good for
+
+10:34.940 --> 10:38.360
+C language most of the time I would be using this one right.
+
+10:38.390 --> 10:41.630
+This is like Lindy so I wouldn't be in this one.
+
+10:41.630 --> 10:47.760
+So that's all nil as use for ever getting memory in the heap not programming cannot validly access that
+
+10:47.810 --> 10:52.640
+it has to access pointer why don't want give the address of that memory then the program can't reach
+
+10:52.640 --> 11:00.980
+that location and access these integers not one thing I told you that heap memory should be treated
+
+11:00.980 --> 11:09.170
+like a source after some time in your program if you don't need that already and you want to make B
+
+11:09.230 --> 11:16.580
+as no means you don't want disappoint people point it you don't need that memory anymore and you don't
+
+11:16.580 --> 11:21.950
+want to point at the point data so you can make the point another so nothing will be pointing onto this
+
+11:21.950 --> 11:24.980
+one then I want to work back to memory is it lost.
+
+11:24.980 --> 11:25.620
+Is it gone.
+
+11:25.980 --> 11:26.500
+No.
+
+11:26.500 --> 11:32.710
+I give a long video look at it so it's a good practice that when you don't need the memory you should
+
+11:32.740 --> 11:39.500
+D a look at it as you have requested for that location same way you should request D location of the
+
+11:39.500 --> 11:49.040
+memory so C delete b you must see delete as it is not a so you have to say this one so when you say
+
+11:49.040 --> 11:53.210
+B this memory will be deleted and then you can make the point right.
+
+11:53.230 --> 12:01.070
+No so this will become zero this is not pointing on this location so that's all heat memory should be
+
+12:01.130 --> 12:08.990
+explicitly requested an explicitly released or disposed otherwise if you are not releasing it then the
+
+12:08.990 --> 12:16.040
+memory will be still belonging to your program and that memory cannot be used again so it causes loss
+
+12:16.040 --> 12:23.240
+of memory and the loss of memory is called as memory leak and if you continue to see anything in the
+
+12:23.240 --> 12:30.020
+program for many times then at one stage the heat memory may be full there is no free space in heat
+
+12:30.050 --> 12:30.910
+memory.
+
+12:31.370 --> 12:36.950
+So whenever you look at the memory heap memory and if you both needed a release the memory.
+
+12:36.950 --> 12:41.660
+So let us conclude we have seen static memory allocation that was done inside the stack for all the
+
+12:41.660 --> 12:47.810
+variables then we have seen heat memory allocation it is done with the help of pointers and was not
+
+12:47.810 --> 12:49.250
+in use it must be released.
+
+12:49.520 --> 12:51.120
+So finally we conclude here.
+
+12:51.140 --> 12:57.470
+We have seen how the static memory location is done from the stack and how dynamic memory irrigation
+
+12:57.470 --> 12:59.730
+is done from the heap.
+
+12:59.810 --> 13:03.740
+So this is the difference between stock and heap.
+
+13:04.190 --> 13:07.880
+So then in next video I'll give you introduction comedian start structures.

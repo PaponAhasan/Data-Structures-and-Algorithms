@@ -1,0 +1,781 @@
+WEBVTT
+
+0
+00:00.320 --> 00:03.270
+In this video, I will explain the Parameter Passing Methods.
+
+1
+00:03.290 --> 00:09.850
+Like, there are 3 Parameter Passing Methods, Pass by Value, Pass by Address and Pass by Reference.
+
+2
+00:10.030 --> 00:15.780
+So for explaining all 3, I have taken 1 simple example that is swapping of numbers.
+
+3
+00:15.840 --> 00:17.350
+I have a function for swap.
+
+4
+00:18.240 --> 00:20.720
+So let us understand all these 3 methods.
+
+5
+00:20.820 --> 00:26.550
+So first is, Pass by Value or Call by Value.
+
+6
+00:26.550 --> 00:28.860
+This example is based on Call by Value.
+
+7
+00:28.980 --> 00:34.950
+Let me explain you the example first of all, See this is the main function having variables a and b with the
+
+8
+00:34.950 --> 00:36.550
+values of 10 and 20.
+
+9
+00:36.600 --> 00:43.740
+So these are the variables of main function having values 10 and 20. Then, it is calling swap function
+
+10
+00:44.300 --> 00:45.460
+swap function.
+
+11
+00:45.510 --> 00:51.660
+The swap function is taking 2 parameters, x and y and it is swapping the numbers x and y with the help
+
+12
+00:51.660 --> 00:53.030
+of a temporary variable.
+
+13
+00:53.930 --> 01:00.010
+And then, when the control comes back to the main function, it will print the values of a and b.
+
+14
+01:00.340 --> 01:04.390
+So, this is the code, main ( ) function and swap ( ) function.
+
+15
+01:04.620 --> 01:10.200
+So here in the diagram, I'm showing the variables of main function a and b, and these are the variables
+
+16
+01:10.290 --> 01:16.940
+of swap function, that is x, y and temp. And inside the main memory, this is the code section wherever
+
+17
+01:16.940 --> 01:24.090
+the program is residing, and these are the stack frames or the activation records of main function and
+
+18
+01:24.090 --> 01:29.280
+swap function. When the function type is called, this activation record will be created, and deleted when
+
+19
+01:29.280 --> 01:31.110
+the function ends.
+
+20
+01:31.140 --> 01:34.670
+So, for explaining the working, I have taken these diagrams.
+
+21
+01:34.740 --> 01:39.420
+Now, let us understand Call by Value and it's working.
+
+22
+01:39.870 --> 01:41.470
+Now, Call by Value.
+
+23
+01:41.610 --> 01:45.270
+See, here the main function is passing these parameters.
+
+24
+01:45.270 --> 01:54.730
+These are actual parameters, and these are formal parameters x and y. What happens when the function
+
+25
+01:54.730 --> 01:59.700
+is called? The value of a and b is copied in x and y.
+
+26
+02:00.090 --> 02:03.580
+So, 10 is copied here and 20 is copied here.
+
+27
+02:05.040 --> 02:10.910
+So, the formal parameters are normal variables, so they will take the value of these parameters.
+
+28
+02:11.010 --> 02:15.140
+They will take the value, right, when the function is called.
+
+29
+02:15.820 --> 02:20.120
+Now this function, as I am not returning anything, it is void type.
+
+30
+02:20.120 --> 02:24.710
+Now this is the logic for swapping the values. x and y are swapped.
+
+31
+02:24.860 --> 02:26.140
+So with the help of temp.
+
+32
+02:26.260 --> 02:28.080
+So first line, temp = x;
+
+33
+02:28.150 --> 02:31.160
+This will become 10, and then, x = y;
+
+34
+02:31.160 --> 02:32.760
+So this will become 20.
+
+35
+02:33.340 --> 02:35.190
+And then y = temp;
+
+36
+02:35.200 --> 02:37.700
+So this will become 10.
+
+37
+02:37.780 --> 02:45.140
+You can see that the formal parameters are modified but actual parameters remain same.
+
+38
+02:45.160 --> 02:52.250
+So, the swapping is done inside the variables of swap function only, they are not reflected inside
+
+39
+02:52.680 --> 02:54.200
+actual parameters.
+
+40
+02:54.290 --> 02:59.640
+So when the function ends after this line, when it comes back here, there is nothing return, it is
+
+41
+02:59.650 --> 03:01.610
+void type, then,
+
+42
+03:02.160 --> 03:03.880
+So, a and b are printed.
+
+43
+03:03.910 --> 03:05.300
+So, what are the values? Still
+
+44
+03:05.600 --> 03:06.480
+10 and 20.
+
+45
+03:06.740 --> 03:08.610
+So these values are not swapped.
+
+46
+03:08.720 --> 03:12.590
+These values are not swapped, so I'll get the same values, 10 and 20.
+
+47
+03:12.620 --> 03:17.930
+So if you see here, these 10 and 20 were there, and these 10 and were passed, and with the
+
+48
+03:17.930 --> 03:26.720
+help of temp, this became 20 and this became 10. But actual parameters, they are same only. So, this is Pass by Value.
+
+49
+03:27.290 --> 03:28.810
+In Pass by Value,
+
+50
+03:28.880 --> 03:34.280
+any changes are done to formal parameters will not reflect in actual parameters.
+
+51
+03:34.550 --> 03:40.290
+So, when you should use Pass by Value? When you don't have to modify actual parameters, you can use Pass by
+
+52
+03:40.340 --> 03:43.940
+Value. And you can use Pass by Value if a function is
+
+53
+03:43.970 --> 03:46.560
+Returning some results. So swap
+
+54
+03:46.550 --> 03:52.210
+function should not be done using Pass by Value. In the previous video, we saw adding 2 numbers.
+
+55
+03:52.250 --> 03:56.330
+So that is suitable for Pass by Value. So, Pass by Value can be used there.
+
+56
+03:56.450 --> 04:01.510
+But here Pass by Value is not suitable for swapping two numbers.
+
+57
+04:01.580 --> 04:06.650
+So anyway we have learned what is Pass by Value. In Pass by Value, actual parameters will not
+
+58
+04:06.650 --> 04:10.570
+be modified if any changes are done formal parameters.
+
+59
+04:10.610 --> 04:16.200
+Next, I will show you Call by Address. Now, let us look at Call by Address.
+
+60
+04:16.290 --> 04:18.400
+So in Call by Address mechanism,
+
+61
+04:18.410 --> 04:23.090
+The addresses of actual parameters are passed to formal  parameters and  formal parameters must
+
+62
+04:23.140 --> 04:24.040
+be pointers.
+
+63
+04:24.590 --> 04:31.330
+Any changes is done inside a function will modify actual parameters. Now here, we have to learn 2 things,
+
+64
+04:31.660 --> 04:35.800
+How to write Call by Address? and, How it works?
+
+65
+04:35.800 --> 04:38.600
+So remember, Call by Address uses pointers.
+
+66
+04:38.650 --> 04:43.690
+So let me write down the syntax. So you have to observe the syntax very carefully.
+
+67
+04:43.690 --> 04:47.330
+This code is same as Call by Value code, right?
+
+68
+04:47.350 --> 04:50.380
+Now, How to convert it into Call by Address code.
+
+69
+04:50.410 --> 04:52.360
+So what other things I have to do?
+
+70
+04:52.360 --> 04:58.330
+So here, inside the main function, when I'm passing these parameters, these are actual parameters, So I should
+
+71
+04:58.330 --> 05:00.400
+send their addresses.
+
+72
+05:00.400 --> 05:05.930
+So these are the addresses, this is first thing. So it means I'm sending 200 and 202. Now
+
+73
+05:05.950 --> 05:11.230
+who can take addresses? We know pointers can take addresses. So these must be pointers.
+
+74
+05:11.350 --> 05:19.740
+Yes these are the pointers. So it means when I pass from here the address 200 will be copied
+
+75
+05:19.740 --> 05:23.400
+in this one and 202 will be copied in this one.
+
+76
+05:23.910 --> 05:30.630
+So when the function is called, so it means this is pointing on this and this is pointing on this one.
+
+77
+05:30.780 --> 05:36.680
+Yes those are the pointers. Now, here inside the code, as this is a pointer,
+
+78
+05:36.720 --> 05:38.650
+If I say just x it is 200.
+
+79
+05:38.760 --> 05:40.170
+So this will be 200.
+
+80
+05:40.170 --> 05:41.710
+No no I'm talking about this.
+
+81
+05:41.730 --> 05:43.810
+The value here is 10 and 20.
+
+82
+05:44.010 --> 05:45.240
+So I'm talking about the value.
+
+83
+05:45.450 --> 05:52.470
+So here I should say I *, and *x, and *y, and here also 
+
+84
+05:53.340 --> 05:55.830
+So these are the changes we have to make.
+
+85
+05:55.860 --> 05:59.620
+So, first I wrote a simple code of Call by Value, then I made it into Call by Address.
+
+86
+05:59.640 --> 06:04.140
+So in Call by Address, the formal parameters must be pointers,
+
+87
+06:04.140 --> 06:11.280
+And here I have to use de-referencing that is *, for accessing the data of actual parameters. And here,
+
+88
+06:11.400 --> 06:13.390
+addresses must be passed.
+
+89
+06:13.410 --> 06:15.150
+So these are the changes in the syntax.
+
+90
+06:15.210 --> 06:18.680
+So you should observe the syntax very carefully.
+
+91
+06:18.760 --> 06:21.010
+Now I will show you the working.
+
+92
+06:21.210 --> 06:23.960
+Let us start executing the program. See first,
+
+93
+06:23.970 --> 06:28.140
+The main function is having 2 variables, a and b. They are having values 10 and 20.
+
+94
+06:28.170 --> 06:36.520
+So these are 10 and 20. Next, the swap function it's called, the addresses are passed.
+
+95
+06:36.680 --> 06:39.280
+So, these are the pointers. So they will take the addresses.
+
+96
+06:39.290 --> 06:44.690
+So here in the diagram, if you want to see, these are pointing on this one they are having the addresses.
+
+97
+06:44.750 --> 06:49.470
+So now, this function can access the variables of  another function.
+
+98
+06:49.490 --> 06:52.950
+It's not directly, it is indirectly using pointers.
+
+99
+06:53.060 --> 06:53.770
+Yes.
+
+100
+06:53.780 --> 06:59.740
+One function cannot access the variables of another function directly but it can access using pointers
+
+101
+06:59.770 --> 07:01.250
+so it can access indirectly.
+
+102
+07:01.280 --> 07:08.260
+Yes this is indirect access. Now, when the function is called, temp is already there.
+
+103
+07:08.360 --> 07:11.280
+temp = *x; So, *x,
+
+104
+07:11.330 --> 07:18.860
+So that is 10. If you say x, it is 200. *x? it is 10. So, 10 is stored in temp.
+
+105
+07:18.860 --> 07:22.700
+*x =*y; *x is 10, *y is 20.
+
+106
+07:22.910 --> 07:29.720
+So this is copied here. 20 is copied here. Then, *y = temp; *y = 10.
+
+107
+07:30.110 --> 07:37.790
+So it is 10. Now, you can see that actual variables are modified. So, when the function
+
+108
+07:37.790 --> 07:44.180
+ends, control comes back, and when it prints, the value of a is 20 and value of b is 10. So this
+
+109
+07:44.180 --> 07:45.860
+is 20 and this is 10.
+
+110
+07:45.920 --> 07:54.860
+So yes these are swapped. so Call by Address is suitable mechanism for modifying the actual parameters.
+
+111
+07:55.070 --> 07:59.860
+So, we will be using this type of code more frequently in our programs.
+
+112
+08:00.100 --> 08:03.470
+So you should be familiar with this one. Call by Address is more useful.
+
+113
+08:03.650 --> 08:05.600
+So that's all about Call by Address.
+
+114
+08:05.720 --> 08:09.590
+Now the last thing is Call by Reference.
+
+115
+08:09.640 --> 08:12.760
+Now let us see all reference. For Call by Reference,
+
+116
+08:12.980 --> 08:18.260
+I have written back the same example now, This is Call by Value parameter passing method.
+
+117
+08:18.260 --> 08:20.650
+Now what are the changes in this I should do
+
+118
+08:20.780 --> 08:23.660
+So that it becomes called by reference?
+
+119
+08:23.660 --> 08:24.630
+So, what is a reference
+
+120
+08:24.630 --> 08:30.440
+already we have learned in the previous video and references are supported only in C++. This is
+
+121
+08:30.440 --> 08:37.520
+not a part of C language, and this is a very useful and powerful mechanism or feature of C++.
+
+122
+08:37.520 --> 08:42.350
+So here, we have to learn 2 things, How to write Call by  Reference? and, How it works?
+
+123
+08:42.350 --> 08:45.920
+So first of all, How to write call by reference?
+
+124
+08:46.130 --> 08:53.050
+Let us look at the code here, inside the main function, I have two variables a and b, a and b are passed.
+
+125
+08:53.060 --> 08:54.740
+So this is Call by Value, right?
+
+126
+08:54.760 --> 08:55.880
+Nothing is written here.
+
+127
+08:56.000 --> 09:00.030
+It is not & or anything, this is Call by Value. Now here,
+
+128
+09:00.040 --> 09:05.320
+These are also normal variables, for this is Call by Value, and this is normal code.
+
+129
+09:05.800 --> 09:07.660
+So same as Call by Value.
+
+130
+09:07.660 --> 09:09.620
+How to make it Call by Reference?
+
+131
+09:09.730 --> 09:15.830
+Let us see the changes, here in actual parameters don't do anything.
+
+132
+09:16.350 --> 09:19.370
+And inside the body don't do anything.
+
+133
+09:19.410 --> 09:24.070
+Same as Call by Value. Only the in parameters, just before
+
+134
+09:24.270 --> 09:25.990
+parameter name, or variable name,
+
+135
+09:26.090 --> 09:26.610
+write &
+
+136
+09:26.640 --> 09:31.890
+So simple syntax. Syntax is very simple.
+
+137
+09:31.890 --> 09:33.380
+Just write & there.
+
+138
+09:33.540 --> 09:35.190
+Those are references.
+
+139
+09:35.190 --> 09:38.510
+This is a reference to a, this  is a reference to b.
+
+140
+09:38.510 --> 09:39.180
+y is reference to b.
+
+141
+09:39.240 --> 09:41.260
+Those have became references.
+
+142
+09:41.460 --> 09:44.630
+And How do you use references? Normally like other variables.
+
+143
+09:44.640 --> 09:49.210
+Normal variables, so those are normal variables.
+
+144
+09:49.640 --> 09:55.020
+So syntactically, This is Call by Reference. See, it's not a major change. Compared to Call by Value, it's
+
+145
+09:55.020 --> 10:01.740
+similar just we are having & there. Now working; How it works?
+
+146
+10:01.740 --> 10:02.650
+See this.
+
+147
+10:02.810 --> 10:06.440
+Let us start. Program starts from main function, a and b are 2 variables.
+
+148
+10:06.530 --> 10:11.970
+Okay. Then, a is having value 10, b is having value 20.
+
+149
+10:12.380 --> 10:19.410
+Swap function is called by passing a and b, a and b are passed to x and y. x becomes a reference to a, y becomes a
+
+150
+10:19.410 --> 10:24.450
+reference to b; and reference is nothing but alias or another name or a nickname to a variable.
+
+151
+10:24.450 --> 10:30.980
+So this itself is x, and that itself is y, right. So does it take any memory?
+
+152
+10:30.980 --> 10:34.680
+References doesn't take any memory. Existing variable, another name is given.
+
+153
+10:35.250 --> 10:37.760
+Yes so that doesn't take any extra memory.
+
+154
+10:38.280 --> 10:42.550
+So, these 4 bytes 2 bytes for integer, 2 bytes for integer, same 4 bytes.
+
+155
+10:42.570 --> 10:44.710
+So, these 2 bytes are called as x, and
+
+156
+10:44.760 --> 10:48.280
+that 2 bytes are called as y. See, these variables actually belong
+
+157
+10:48.280 --> 10:53.550
+to main function. main ( ) is calling them as a b, and swap function is calling them as x y.
+
+158
+10:54.120 --> 10:55.080
+Yes.
+
+159
+10:55.290 --> 10:57.050
+So swap is calling with another name.
+
+160
+10:57.390 --> 11:04.320
+Now, let us continue. Temp variable is declared, okay? Then, now
+
+161
+11:04.320 --> 11:09.630
+temp = x; x value is stored in temp. Then x = y;
+
+162
+11:09.840 --> 11:17.320
+So this becomes 20. Then, y = temp; so y becomes 10. Function ends.
+
+163
+11:17.380 --> 11:21.800
+Control comes back to this line. Print, What are a and b? 20 and 10.
+
+164
+11:21.930 --> 11:29.910
+So, 20 and 10. So you can see that, when these formal parameters, x and y are manipulated, the actual
+
+165
+11:29.910 --> 11:33.640
+parameters are modified. So that's it.
+
+166
+11:33.640 --> 11:37.760
+This is Call by Reference. Now, one important point.
+
+167
+11:37.840 --> 11:45.430
+I said that one function cannot access the variables of another function directly, it can access indirectly.
+
+168
+11:45.730 --> 11:52.010
+But how it is possible that it is accessing directly? So the answer to this is, if you see inside
+
+169
+11:52.010 --> 11:54.950
+the memory, swap is not a separate function.
+
+170
+11:55.550 --> 12:01.370
+So if it's not a separate function it has became a part of main function and there is only one activation
+
+171
+12:01.430 --> 12:02.040
+activation record.
+
+172
+12:02.090 --> 12:08.120
+So if you see the working of the same program here, now as long as the main function code is running,
+
+173
+12:08.120 --> 12:15.920
+these are a and b; and once the swap starts these are called as x and y, and also temp variable is created
+
+174
+12:15.950 --> 12:23.720
+inside same old activation record of main function, right? Inside the same stack frame And, once the
+
+175
+12:23.720 --> 12:29.550
+swap function ends, this is gone, and the values that were 10 and 20, these will change to 20 and 10.
+
+176
+12:30.140 --> 12:36.680
+So this swap is not a separate body of a function, it has became a part of the main function. So, it means
+
+177
+12:36.680 --> 12:40.670
+that a machine code of the swap function will be pasted here.
+
+178
+12:41.150 --> 12:44.410
+So this is more like monolithic program, right?
+
+179
+12:44.480 --> 12:50.780
+The entire code inside a single main function only, So the machine code is monolithic. Though the source
+
+180
+12:50.780 --> 12:54.400
+code is procedural or modular.
+
+181
+12:54.510 --> 13:03.350
+So yes, C++ does this one. C doesn't do this. C++ allows Called by Reference and the code of that function 
+
+182
+13:03.350 --> 13:09.720
+will be copied at the place of function call. So, do you think this should be allowed or this should be entertain
+
+183
+13:09.750 --> 13:11.210
+that code is copied
+
+184
+13:11.220 --> 13:13.140
+there? What is the use of writing function?
+
+185
+13:13.140 --> 13:15.090
+So yes, this is not
+
+186
+13:15.110 --> 13:21.420
+advisable to use Call by Reference more frequently. You can use Call by Reference for
+
+187
+13:21.420 --> 13:27.120
+small functions, one or two lines of function, or the function like swap, you can use Call by Reference
+
+188
+13:27.360 --> 13:35.170
+but don't use it for heavy functions which are having loops and are having complex logic. So Call by Reference
+
+189
+13:35.260 --> 13:36.610
+should be used carefully.
+
+190
+13:36.640 --> 13:43.870
+So it's a more powerful feature of C++ but it should be used carefully, right. It cannot be used always.
+
+191
+13:44.050 --> 13:50.860
+So that is the reason C++ also have called Call by Address. So, more commonly used features are Call by Value and
+
+192
+13:50.910 --> 13:53.730
+Call by Reference.
+
+193
+13:53.800 --> 13:58.570
+So that's all about Parameter Passing Methods. Then, in the coming videos, I'll show you how to passe
+
+194
+13:58.690 --> 14:03.390
+arrays to a function and how to pass structures to a function.

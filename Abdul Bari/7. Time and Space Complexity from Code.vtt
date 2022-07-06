@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.480 --> 00:01.440
+No.
+
+00:01.530 --> 00:04.680
+Let us learn how to find order the complexity from the program.
+
+00:04.680 --> 00:05.260
+Gawd.
+
+00:05.910 --> 00:09.280
+So when you analyzed the program go we get a proper function.
+
+00:09.290 --> 00:10.500
+Bind function.
+
+00:10.560 --> 00:12.200
+So how do we get the time functions.
+
+00:12.240 --> 00:13.350
+We will learn about this.
+
+00:13.920 --> 00:20.210
+So for explaining I have taken 3 example program codes that is three functions I have taken knowhow
+
+00:20.270 --> 00:21.350
+to analyze.
+
+00:21.350 --> 00:26.720
+We assume that every simple statement in a function or a program takes one unit of time.
+
+00:26.720 --> 00:28.880
+What does it mean by simple statement.
+
+00:28.880 --> 00:35.820
+The statement may be having automatic operations assignment or a conditional statement if it is more
+
+00:35.820 --> 00:39.750
+complex than we have to study that also in detail.
+
+00:39.750 --> 00:44.570
+So let us see how to get the buying function and how to find the bank complexity.
+
+00:44.640 --> 00:46.910
+So first I will take this one.
+
+00:47.190 --> 00:51.390
+This is our function taking two parameters and interchanging the values of x and y.
+
+00:53.190 --> 00:54.830
+What other statement is inside this.
+
+00:54.840 --> 00:57.080
+These are the three statements.
+
+00:57.270 --> 01:01.120
+How much time each segment takes one period of time because it is just an assignment.
+
+01:01.680 --> 01:03.250
+So total time is 3.
+
+01:03.270 --> 01:05.530
+So the function of N as a 3.
+
+01:06.330 --> 01:08.580
+So we got the same function as 3.
+
+01:08.760 --> 01:13.860
+So that tree's constant order of 1 why it is constant.
+
+01:13.950 --> 01:20.280
+Because the degree of N S 0 here treatments 3 in 2 and the report 0 0 that is the meaning.
+
+01:20.280 --> 01:23.390
+So anything over 0 0 is written as what 1.
+
+01:23.400 --> 01:24.990
+So it is constant.
+
+01:24.990 --> 01:29.820
+So this was a simple function and it is taking constant so it's not a proper C function.
+
+01:29.820 --> 01:34.090
+I have not done data bytes and all this a pseudo code I have written.
+
+01:34.480 --> 01:36.670
+Now this is exactly legacy functions.
+
+01:36.690 --> 01:42.870
+Let us look at this one Now here let us look at the statement.
+
+01:42.950 --> 01:50.400
+The statement assignment one year of pain then assignment condition assignment.
+
+01:50.420 --> 01:52.450
+This is plus plus increment just an operator.
+
+01:53.450 --> 01:56.560
+But is it executor just one time.
+
+01:56.810 --> 01:57.500
+No.
+
+01:57.530 --> 01:58.680
+This is Lou.
+
+01:59.060 --> 02:02.330
+These a statement will execute for end times.
+
+02:02.330 --> 02:08.030
+See if you know for loop this will execute for one time initial and this increment will happen four
+
+02:08.140 --> 02:09.500
+times.
+
+02:09.680 --> 02:14.720
+Condition also end times but one time the condition will fail so it will stop.
+
+02:14.720 --> 02:22.240
+So this is total and plus 1 so we can ignore all other and take just and plus 1.
+
+02:22.260 --> 02:26.430
+So just for loop we are looking at this one just for loop isn't this one.
+
+02:26.430 --> 02:32.490
+Let us say I am taking this in plus 1 then you can ask me why you are leaving this one and this one
+
+02:32.610 --> 02:32.910
+okay.
+
+02:32.910 --> 02:36.750
+If you want to include then it should be 2 and plus 1.
+
+02:36.750 --> 02:42.970
+That is a choice but mostly we find like this in textbooks every author says this will mostly be focused
+
+02:42.990 --> 02:44.520
+on this conditional statement.
+
+02:44.520 --> 02:49.980
+So I'm writing the conditional statement otherwise if you sum up all this this is still times of endless
+
+02:49.980 --> 02:50.330
+flood.
+
+02:52.260 --> 02:54.250
+The next what is there insight.
+
+02:54.270 --> 02:58.190
+This is statement as a simple assignment and arithmetic operation Ed..
+
+02:58.230 --> 03:01.670
+How many times as long as Lucas funding how many times Luke.
+
+03:01.680 --> 03:02.910
+Children and times.
+
+03:02.910 --> 03:10.930
+This is an do not last Read on as how many times this will execute just one time so total how much.
+
+03:10.970 --> 03:20.960
+I find the sum of all these two names and so the time function is to end plus one two three to industry
+
+03:21.290 --> 03:25.310
+does the pain function we got and what is the degree of this polynomial.
+
+03:25.310 --> 03:28.400
+This is order of any degree 1 so right.
+
+03:28.440 --> 03:34.570
+And now for the time sort of not only in the previous video I have shown you that when you have a for
+
+03:34.570 --> 03:40.400
+loop which just repeating for end times going from zero to n and a plus plus every time it's obviously
+
+03:40.400 --> 03:41.060
+n.
+
+03:41.210 --> 03:43.960
+So even when I have check each and every line also.
+
+03:43.970 --> 03:45.300
+Final answer is order of.
+
+03:45.560 --> 03:52.390
+And that's what if you focus on the processing then you can directly get dancer.
+
+03:52.400 --> 03:57.650
+This fun if you are interested in this function then you can get it lined well then you analyze and
+
+03:57.660 --> 03:59.120
+get it.
+
+03:59.150 --> 04:00.910
+So let us see the procedure actually.
+
+04:01.010 --> 04:07.260
+This is Sum of All and elements in an array sum of all elements and elements in the nanny.
+
+04:07.320 --> 04:11.820
+How much time it would take it depends on number of elements how many elements are there any elements
+
+04:12.150 --> 04:14.370
+timing so much are different.
+
+04:14.550 --> 04:19.080
+Simple but like doing line by line it needs little practice.
+
+04:19.090 --> 04:21.340
+Okay so I have shown you two examples.
+
+04:21.630 --> 04:25.520
+So based on this you can practice and find out the time from the code also.
+
+04:25.870 --> 04:28.700
+Now the last one remaining is this fun.
+
+04:28.860 --> 04:31.070
+Let us find out the time so I'll remove that.
+
+04:31.260 --> 04:33.600
+Now this one this is a for loop.
+
+04:33.660 --> 04:40.440
+As I said this will take endless one time so endless 1 times the execution will happen not anything
+
+04:40.530 --> 04:44.550
+inside loop will execute 4 and times every statement.
+
+04:44.550 --> 04:46.130
+So what is there inside this loop.
+
+04:46.140 --> 04:47.240
+This one is there.
+
+04:47.400 --> 04:56.290
+This one and this one so I have finished it outer loop of the loop is over not inside.
+
+04:56.310 --> 05:03.110
+That is not a normal simple statement just like this normal simple statement I have taken in for this
+
+05:03.110 --> 05:04.300
+also have taken and then.
+
+05:04.670 --> 05:07.450
+But if you look at this this is also a loop.
+
+05:07.580 --> 05:09.030
+Then what about its time.
+
+05:09.320 --> 05:13.230
+The time for this one is how many times the condition is checked.
+
+05:13.670 --> 05:14.720
+Endless one.
+
+05:14.720 --> 05:15.530
+So this already.
+
+05:15.540 --> 05:18.660
+And because it is in say disorder loop so shall I write.
+
+05:18.690 --> 05:25.900
+Plus endless will not endure in this one nested loop as their nested loop of their right search and
+
+05:25.910 --> 05:28.910
+be in and should be encode multiplication.
+
+05:29.390 --> 05:38.380
+So this is in two and plus one then this is this is statement inside this for loop also.
+
+05:38.620 --> 05:42.880
+So this local repeated four and more times so this is into n.
+
+05:42.940 --> 05:43.990
+So that's it.
+
+05:43.990 --> 05:49.090
+So if you want you can watch it again and find out how to do this one right now.
+
+05:49.090 --> 05:52.180
+Finally we can prepare a function by function.
+
+05:52.190 --> 05:54.760
+What is the time function and squared and square.
+
+05:54.880 --> 06:01.240
+So two and squared plus and and two and plus one.
+
+06:01.240 --> 06:04.290
+This is the bind function we got.
+
+06:05.010 --> 06:10.980
+What is the degree to say it's order off and square in time is our friend square.
+
+06:12.210 --> 06:17.250
+This is all from the time function we get the highest degree of a function and that we present it as
+
+06:17.370 --> 06:18.080
+time.
+
+06:18.170 --> 06:24.750
+Now I am calling it an order of if you are interested you can see big off and square or teed off and
+
+06:24.750 --> 06:27.420
+square and Omega off and square.
+
+06:27.990 --> 06:36.980
+But then to use these we will be learning at the end of the course that they said but by the time you
+
+06:36.980 --> 06:41.240
+can even go in order of or even you can use Big Oil and stuff.
+
+06:41.240 --> 06:41.820
+Order.
+
+06:41.990 --> 06:43.910
+You can say Beagle like.
+
+06:44.000 --> 06:48.470
+In my videos I'll be calling it as order of every time and had.
+
+06:48.590 --> 06:53.210
+I'll show you one more example I'll remove these things and I'll write one a small example program and
+
+06:53.240 --> 06:59.880
+I'll explain you so here is an example I have just taken a skeleton off to function function one in
+
+06:59.890 --> 07:01.020
+function to.
+
+07:01.770 --> 07:06.710
+Now if you want to find out the bank jobless I that said every statement we should consider does one
+
+07:06.710 --> 07:07.450
+end of pain.
+
+07:07.610 --> 07:13.040
+So how much time this function is sticking I want the time taken by this function only fund one only
+
+07:13.180 --> 07:15.660
+right then what is that sight.
+
+07:15.710 --> 07:21.730
+Just one line one year of time so it's constant wrong.
+
+07:21.910 --> 07:28.570
+That's a function how much time that function is taking you find out that one don't say that statement
+
+07:28.570 --> 07:38.580
+is one OK look at this one does having a loop so loop will take hold a rough and time so it's an so
+
+07:38.580 --> 07:44.490
+the time taken by this function is not one that is actually in the same done the time taken by this
+
+07:44.490 --> 07:53.200
+function is also n it's not 1 it's not 1 because it is calling a function which is taking order from
+
+07:53.220 --> 08:02.170
+time so definitely that time will be spent by this fund one only so definitely that time also belongs
+
+08:02.170 --> 08:08.980
+to fund one because fund one is using fund to fund who is taking order and time so that's all look into
+
+08:08.980 --> 08:14.530
+the details of these statements and try to find out the time if there are simple statement you kinetically
+
+08:14.530 --> 08:20.910
+right on the timing as one if it is complex then see what it is doing then build on that you can write
+
+08:20.920 --> 08:29.140
+on the time so mostly loops are making the time as N or N squared or maybe n cube so mostly depends
+
+08:29.140 --> 08:37.990
+on loops that you are using file loop for loop or y look they both are similar sometimes to this thing
+
+08:37.990 --> 08:39.280
+that for loop.
+
+08:39.310 --> 08:46.810
+Okay understood why loop how to do that so far look for this repeating from 1 when an incremental loop
+
+08:47.200 --> 08:52.810
+counter can go loop then it is n if it is behaving in a different way then definitely you have to read
+
+08:52.810 --> 08:57.790
+the code and understand maybe it is log and not a root and what it is you have to find out back.
+
+08:57.820 --> 09:03.090
+Well that's all in this video we have seen the time functions by space complexity already I have explained
+
+09:03.090 --> 09:09.040
+you in the previous video also space complexity also we can prepare a function so that all industry
+
+09:09.060 --> 09:09.210
+you.

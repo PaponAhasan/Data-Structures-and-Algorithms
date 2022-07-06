@@ -1,0 +1,453 @@
+WEBVTT
+
+0
+00:00.450 --> 00:03.700
+In this video, we will see Array as Parameter.
+
+1
+00:04.860 --> 00:10.380
+So already I have an example, and here I will show you how arrays are passed as parameter,
+
+2
+00:10.550 --> 00:12.780
+more about arrays we will see.
+
+3
+00:12.790 --> 00:17.600
+See here, the main function is having an array of size 5.
+
+4
+00:17.640 --> 00:19.440
+And also it is initialized.
+
+5
+00:19.440 --> 00:24.540
+So this is the part of main function, array and its name is A.
+
+6
+00:24.630 --> 00:31.840
+Now here I'm calling a function fun ( ) by passing array and a number of elements that is of size 5. And, this function,
+
+7
+00:32.320 --> 00:33.340
+fun ( ) ,
+
+8
+00:33.370 --> 00:42.430
+It is taking parameter array, i.e, A, and for passing array as parameter, we have to mention empty brackets, right.
+
+9
+00:42.520 --> 00:48.100
+We should not give any size. And this function doesn't know the size of an array because they actually
+
+10
+00:48.100 --> 00:53.950
+belong to main function, so we should also pass what is the size of the array, means how many elements do
+
+11
+00:54.010 --> 00:55.270
+we access.
+
+12
+00:55.330 --> 01:03.830
+So, this A is actually like a pointer to an array. It's not an array itself, it's a pointer to an array,
+
+13
+01:04.300 --> 01:07.210
+and this is number of elements.
+
+14
+01:07.270 --> 01:13.000
+Now in this code I'm just printing all the elements of an array. This for loop is printing all the elements
+
+15
+01:13.000 --> 01:14.930
+of an array.
+
+16
+01:15.010 --> 01:20.210
+Now the important thing, let us see what is the parameter passing method used here.
+
+17
+01:20.320 --> 01:25.040
+See array is passed by address.
+
+18
+01:25.150 --> 01:28.250
+Arrays cannot be passed by value at all,
+
+19
+01:29.130 --> 01:31.740
+whether it is C language or C++.
+
+20
+01:31.740 --> 01:37.780
+Arrays can be passed only by address. So, it means the address of this array, the base address of this array
+
+21
+01:37.780 --> 01:39.790
+is given to this pointer.
+
+22
+01:39.880 --> 01:47.520
+This is just a pointer. I'm giving the bracket means, it is a pointer to an array. And what about the next thing?
+
+23
+01:47.530 --> 01:49.120
+that is 5 is passed here.
+
+24
+01:49.150 --> 01:55.900
+So this is which type of parameter? If you see this, there is no *. So it's not Call by Address.
+
+25
+01:55.990 --> 01:56.830
+There is no &,
+
+26
+01:56.860 --> 01:58.300
+This is not Call by Reference.
+
+27
+01:58.310 --> 01:59.910
+Yes it is Call by Value.
+
+28
+02:00.250 --> 02:01.520
+Just a normal variable.
+
+29
+02:01.970 --> 02:03.440
+So this is Call by Value.
+
+30
+02:03.440 --> 02:04.630
+So there are two parameters.
+
+31
+02:04.640 --> 02:06.030
+One is passed by address,
+
+32
+02:06.290 --> 02:07.800
+Other one is passed by value.
+
+33
+02:07.850 --> 02:10.040
+So this is its own local variable n. 
+
+34
+02:10.080 --> 02:15.290
+So the value 5 is copied in this n and the address of A is copied in this one.
+
+35
+02:15.710 --> 02:19.940
+So that function is directly accessing this array, right.
+
+36
+02:20.420 --> 02:23.590
+So arrays are only passed by addresses.
+
+37
+02:23.750 --> 02:26.170
+Next thing, instead of writing brackets,
+
+38
+02:26.240 --> 02:27.640
+Even I can write,
+
+39
+02:27.680 --> 02:28.650
+* here.
+
+40
+02:29.750 --> 02:33.560
+So this is will be an integer pointer.
+
+41
+02:33.930 --> 02:38.390
+And that pointer will be pointing to an array. See, the difference is,
+
+42
+02:38.420 --> 02:43.520
+This pointer can point on any integer and even it can point on an array.
+
+43
+02:44.360 --> 02:51.350
+But if we were using brackets like this then, it means it's a       pointer to array only.
+
+44
+02:51.350 --> 02:58.680
+So when you want to be specific with arrays then better use this one, and writing * is general method.
+
+45
+02:58.750 --> 02:59.940
+This is array as parameter.
+
+46
+02:59.940 --> 03:00.810
+This is array as parameter.
+
+47
+03:01.050 --> 03:09.830
+Now one more thing, inside this function, if I want I can make changes to the array and it will make changes
+
+48
+03:09.830 --> 03:14.300
+to the actual parameter, that is the array of main function.
+
+49
+03:14.300 --> 03:19.940
+So I'll remove this and show you, if I make changes how it will reflect on this array.
+
+50
+03:20.090 --> 03:21.650
+Here, array as a parameter,
+
+51
+03:22.010 --> 03:29.340
+If I say, A[0] = 25, then at this place, it will be changed to 25.
+
+52
+03:29.360 --> 03:31.780
+See the array belongs to the main function only.
+
+53
+03:31.860 --> 03:37.630
+And this function is able to modify the contents of the array because it is called by address.
+
+54
+03:37.640 --> 03:42.530
+So you can modify the array also, and you can modify all the elements.
+
+55
+03:42.530 --> 03:46.070
+Even I can write a for loop and change all the elements.
+
+56
+03:46.070 --> 03:53.380
+So this is sufficient to show you that even a function can modify the actual parameter.
+
+57
+03:53.390 --> 03:54.680
+Now one more thing I will show you.
+
+58
+03:54.690 --> 03:56.470
+Returning array as a parameter.
+
+59
+03:56.510 --> 03:59.090
+So I will remove this and change the function.
+
+60
+03:59.090 --> 04:09.180
+Then I will discuss about it. So here I have an example, showing how a function can return an array.
+
+61
+04:09.260 --> 04:12.860
+So let us look at this code. Here, I have main function,
+
+62
+04:12.980 --> 04:18.900
+I have a pointer inside main function and I am calling a function by passing value 5.
+
+63
+04:19.100 --> 04:22.820
+Then the rest of the things whatever maybe there inside the main function.
+
+64
+04:22.820 --> 04:27.910
+Now this is a function which is taking parameter n and this is passed by value.
+
+65
+04:28.010 --> 04:28.980
+Right.
+
+66
+04:29.030 --> 04:30.810
+There is no &, there is no *,
+
+67
+04:30.830 --> 04:37.070
+So this is pass by value, call by value, and it is having a pointer and it is allocating an array of
+
+68
+04:37.070 --> 04:37.840
+size
+
+69
+04:37.850 --> 04:41.710
+this much of type Integer and it is returning p.
+
+70
+04:41.720 --> 04:42.620
+It is returning p,
+
+71
+04:42.620 --> 04:45.110
+that is pointer, returning a pointer.
+
+72
+04:45.110 --> 04:48.620
+So what is the return type? int [ ] .
+
+73
+04:48.620 --> 04:50.920
+So, [ ] resembles an array.
+
+74
+04:50.960 --> 04:53.820
+So it means it is returning an array.
+
+75
+04:53.840 --> 04:56.990
+Yes it is a returning, function is returning an array.
+
+76
+04:57.650 --> 04:59.080
+And if you see the working,
+
+77
+04:59.420 --> 05:01.030
+Let us look at the working now.
+
+78
+05:01.160 --> 05:02.990
+Let us start from main function.
+
+79
+05:03.200 --> 05:09.240
+Main function is having a pointer, then it is calling function fun by passing 5.
+
+80
+05:09.810 --> 05:11.380
+Function fun ( ) is called.
+
+81
+05:11.420 --> 05:13.540
+It is taking a parameter n, so it is
+
+82
+05:13.580 --> 05:19.970
+also having n, it will have the value 5, then malloc ( ), it will allocate the memory in heap.
+
+83
+05:20.060 --> 05:23.950
+So, inside the heap an array of size 5 will be created.
+
+84
+05:23.960 --> 05:29.280
+Then the address of that will be present in p, because that is stored in p and that p belongs to the
+
+85
+05:29.280 --> 05:36.920
+function fun ( ), that array in heap is indirectly accessible by this pointer p. Now, after allocating, it
+
+86
+05:36.920 --> 05:38.040
+returns p.
+
+87
+05:38.060 --> 05:44.450
+So it is returning that pointer, so where it is being taken inside the main function, in a, so what it is having?
+
+88
+05:44.450 --> 05:45.800
+It is having the address on that one.
+
+89
+05:45.800 --> 05:48.090
+So it means a will get the address of this one.
+
+90
+05:49.610 --> 05:51.990
+So a will be pointing that array.
+
+91
+05:52.060 --> 05:55.520
+So it returning by array.
+
+92
+05:56.240 --> 06:03.440
+So this type of logic is useful sometimes like a function is allocating a memory in heap and manipulating,
+
+93
+06:03.440 --> 06:07.310
+storing some data and then it is returning the array to the calling function.
+
+94
+06:07.310 --> 06:08.330
+So it is returning,
+
+95
+06:08.450 --> 06:16.100
+and this function is getting that array, created by that function, right? Now, once the function ends,
+
+96
+06:16.240 --> 06:18.350
+its activation record is deleted.
+
+97
+06:18.350 --> 06:22.910
+So this is p gone, but a is still there and a is accessing that array.
+
+98
+06:22.940 --> 06:26.730
+So this is removed. Now, a is pointing on that one.
+
+99
+06:26.750 --> 06:28.620
+So this is returned by array.
+
+100
+06:28.820 --> 06:29.660
+Now one more thing,
+
+101
+06:29.780 --> 06:37.880
+instead of writing [ ] , even I can write * here, because it is returning a pointer. So, pointer
+
+102
+06:37.880 --> 06:40.740
+can point on one element, or array of elements.
+
+103
+06:40.910 --> 06:48.080
+But when you have given a [ ] , it means it should point on array of elements only. That is especially
+
+104
+06:48.080 --> 06:49.010
+for array.
+
+105
+06:49.190 --> 06:54.680
+But you can use any of these, whichever you are comfortable with. And if [ ] is used, the code
+
+106
+06:54.680 --> 06:56.020
+itself is readable.
+
+107
+06:56.360 --> 07:00.600
+And from the code we can read that, it is related to an array, right?
+
+108
+07:00.920 --> 07:06.630
+So any one thing you can use. So that's all, this is how a function can return an array.
+
+109
+07:07.520 --> 07:14.210
+So we have learned, How functions can handle array taking as parameter and returning as an address
+
+110
+07:14.210 --> 07:15.550
+an array.
+
+111
+07:15.740 --> 07:19.130
+So we will be using this type of code sometime in our course.
+
+112
+07:19.880 --> 07:26.480
+So that's all in this video. In the coming videos, I will show you how to handle structures and functions.
