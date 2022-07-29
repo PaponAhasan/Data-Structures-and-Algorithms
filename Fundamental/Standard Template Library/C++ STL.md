@@ -429,13 +429,19 @@
 
   ---
   
+<details> <summary>  Pairs </summary>
+
+</details>
+  
+  ---
+  
 <details> <summary> MAP </summary>
  
 </details>
 
   ---
   
-<details> <summary> LIST </summary>
+<details> <summary> LIST & Forward_List </summary>
  
  <br/>
  
