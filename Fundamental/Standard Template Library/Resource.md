@@ -1,0 +1,2 @@
+- [AlgoBot](https://www.youtube.com/watch?v=qv-GRmT32Sc&list=PLknt5L1fvp7UdD6Vm09rS56Mkz1Zxjg0A&index=1&ab_channel=AlgoBot)
+- [cplusplus](https://cplusplus.com/reference/stl/)
