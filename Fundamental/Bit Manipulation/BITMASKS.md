@@ -34,3 +34,11 @@ https://codeforces.com/blog/entry/18169
         //101 -> 2 + 1 =3
     }
 ```
+```
+update(setBit) =>    n = n | (1<<p) [ 0 to 1]
+change(toggleBit) => n = n ^ (1<<p) [ 1 to 0 or 0 to 1]
+check(checkBit) =>   n = n & (1<<p) == (1<<p) [ p position is 0 or 1]
+
+p = position
+n = number
+```
