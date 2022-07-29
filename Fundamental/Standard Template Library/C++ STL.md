@@ -645,19 +645,19 @@
 
  ---
  
-<details> <summary>  Unordered Set </summary>
+<details> <summary>  UNORDERED SET </summary>
  
 </details>
 
  ---
  
-<details> <summary>  Unordered Map </summary>
+<details> <summary>  UNORDERED MAP </summary>
  
 </details>
 
  ---
   
-<details> <summary>  Non Mutating & Mutating </summary>
+<details> <summary>  NON MUTATING & MUTATING </summary>
  
  ```
  Find in Cpp STL,Lower Bound/Upper Bound in C++STL,is_permutation() in C++ STL and much more
