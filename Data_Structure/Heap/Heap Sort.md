@@ -1,7 +1,3 @@
-<details> <summary>  Heap Sort </summary>
- 
-<br/>
- 
  ```
  Sort elements of array Arr in ascending order. We can use max heap to perform this operation.
  ```
@@ -66,6 +62,3 @@
    <br/>
      https://ideone.com/bfilRR
    </details>
- 
- </details>
- 
