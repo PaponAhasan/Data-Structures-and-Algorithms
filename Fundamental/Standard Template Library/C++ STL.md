@@ -423,25 +423,25 @@
  
  ---
   
-<details> <summary> SET </summary>
+<details> <summary> SET & MULTISET </summary>
 
 </details>
 
   ---
   
-<details> <summary>  Pairs </summary>
+<details> <summary>  PAIRS </summary>
 
 </details>
   
   ---
   
-<details> <summary> MAP </summary>
+<details> <summary> MAP & MULTIMAP </summary>
  
 </details>
 
   ---
   
-<details> <summary> LIST & Forward_List </summary>
+<details> <summary> LIST & FORWARD_LIST </summary>
  
  <br/>
  
@@ -640,6 +640,29 @@
 ---
  
 <details> <summary> DEQUE </summary>
+ 
+</details>
+
+ ---
+ 
+<details> <summary>  Unordered Set </summary>
+ 
+</details>
+
+ ---
+ 
+<details> <summary>  Unordered Map </summary>
+ 
+</details>
+
+ ---
+  
+<details> <summary>  Non Mutating & Mutating </summary>
+ 
+ ```
+ Find in Cpp STL,Lower Bound/Upper Bound in C++STL,is_permutation() in C++ STL and much more
+ sort(): The thief problem,make_heap() in C++ STL,merge() in C++ STL and much more
+ ```
  
 </details>
 
