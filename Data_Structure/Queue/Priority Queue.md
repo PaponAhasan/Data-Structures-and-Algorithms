@@ -15,7 +15,7 @@ Binary search tree
 ```
 ### Priority Queue implemented Heap
 
-[Using Heap](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/25120f2d405ae3ae974b6e6a897a8f8fe004f9a7/Data_Structure/Heap/Heap%20Sort.md)
+[Using Heap](https://github.com/PaponAhasan/Data-Structures-and-Algorithms/blob/25120f2d405ae3ae974b6e6a897a8f8fe004f9a7/Data_Structure/Heap/Priority%20Queue.md)
 
 ### Priority Queue implemented STL
 
