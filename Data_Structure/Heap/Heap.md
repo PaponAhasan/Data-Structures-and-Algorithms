@@ -8,8 +8,8 @@ There are two types:
   * Min-Heap: The key present at any node is smaller than the keys present at both of its children. The smallest key is at the
     root node.
 
-Suppose there are N Jobs in a queue to be done, and each job has its own priority. The job with maximum priority will get completed 
-first than others.
+Suppose there are N Jobs in a queue to be done, and each job has its own priority. The job with maximum priority will get 
+completed first than others.
 
 So at each instant we have to check for the job with maximum priority to complete it and also insert if there is a new job.
 
