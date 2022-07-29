@@ -13,6 +13,10 @@ Linked list
 Heap data structure
 Binary search tree
 ```
+### Priority Queue implemented Heap
+
+[Using Heap](Data_Structure/Heap/Priority Queue.md)
+
 ### Priority Queue implemented STL
 
 ```c++
