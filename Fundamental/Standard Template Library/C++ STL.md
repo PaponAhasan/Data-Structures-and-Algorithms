@@ -577,6 +577,42 @@
   
 <details> <summary>  PAIR & TUPLE </summary>
 
+ <br/>
+ 
+ ```c++
+   pair<int,string> pair;
+   pair = make_pair(1, "Studytonight")
+ 
+   pair.first = "shoes";       
+   pair.second = 39.90;
+ 
+   cout<< pair.first << endl;  // prints 1
+   cout<< pair.second << endl; // prints Studytonight
+ 
+   int a, b;
+   tie(a, b) = pair;
+   cout << a << " " << b << "\n";
+
+   pair<int, pair<int, char> > pair = { 3, { 4, 'a' } };
+   int x, y;
+   char z;
+ 
+   x = pair.first;
+   tie(y, z) = pair.second;
+   cout << x << " " << y << " " << z << "\n";
+ ```
+ ```c++
+   tuple<int, string, string> tuple;
+   tuple = make_pair(1,"Studytonight", "Loves You");
+
+   int id;
+   string first_name, last_name;
+
+   tie(id,first_name,last_name) = tuple;
+
+   cout << id <<" "<< first_name <<" "<< last_name;
+ ```
+ 
 </details>
   
   ---
