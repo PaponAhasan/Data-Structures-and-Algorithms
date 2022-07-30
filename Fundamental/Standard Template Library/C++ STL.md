@@ -594,6 +594,12 @@
    x = pair.first;
    tie(y, z) = pair.second;
    cout << x << " " << y << " " << z << "\n";
+ 
+   vector<pair<int, int>> v(n);
+   for (int i = 0; i < n; ++i) {
+      cin >> v[i].second;
+      v[i].first = v[i].second % 2;
+   }
  ```
  ```c++
    tuple<int, string, string> tuple;
