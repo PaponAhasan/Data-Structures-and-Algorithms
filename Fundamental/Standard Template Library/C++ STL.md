@@ -3,9 +3,6 @@
  <br/>
  
  ```c++
- #include<bits/stdc++.h>
- using namespace std;
-
  int main() {
   
     vector<string>v{ "This", "is", "Geeksforgeeks" };
@@ -138,9 +135,6 @@
   <br/>
   
   ```c++
-   #include <bits/stdc++.h>
-   using namespace std;
-
    bool Pred (int a, int b) {
        return (a == b);
    }
@@ -628,10 +622,6 @@
  <br/>
  
  ```c++
-      #include <iostream>
-      #include<list>
-
-      using namespace std;
       int main()
       {
           list <int> LI;
