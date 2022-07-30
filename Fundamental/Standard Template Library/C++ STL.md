@@ -843,6 +843,8 @@
   
 <details> <summary>  NON MUTATING & MUTATING </summary>
  
+ <br/>
+ 
  ```
  Find in Cpp STL,Lower Bound/Upper Bound in C++STL,is_permutation() in C++ STL and much more
  sort(): The thief problem,make_heap() in C++ STL,merge() in C++ STL and much more
