@@ -575,7 +575,7 @@
 
   ---
   
-<details> <summary>  PAIRS </summary>
+<details> <summary>  PAIR & TUPLE </summary>
 
 </details>
   
