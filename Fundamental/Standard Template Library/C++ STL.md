@@ -425,6 +425,152 @@
   
 <details> <summary> SET & MULTISET </summary>
 
+ <br/>
+ 
+ ```
+ * Sets store objects and automatically keep them sorted and quick to find. In a set, there is only one copy of each objects.
+ * Multisets are declared and used the same as sets but allow duplicate elements.
+ 
+ Header : #include <set>
+ 
+ SET BST (Non-Linear) - Red_black_tree
+ insert, erase, find --> log(n)
+ ```
+ ```c++
+ int main() {
+ 
+  /*---------------------------------------------------------------- 
+  Make an empty set O(1) */
+
+  set< type, compare > s;
+  set<int> s;
+
+  /*---------------------------------------------------------------- 
+  Make a set and copy the values from begin to end. O(n log n) */
+
+  set< type, compare > s(begin, end);
+  set<int> second(s.begin(),s.end());
+  set<int> third{10, 20, 30, 40, 50};
+
+  /* compare should be a binary predicate for ordering the set. It's optional 
+  and will default to a function that uses operator<. */
+  
+  /*---------------------------------------------------------------- 
+  Return an iterator pointing to an occurrence of key in s, or s.end() 
+  if key is not in s.  O(log n) */
+
+  s.find(key)
+
+  auto it = s.find(25);
+  s.erase(it);
+  s.erase(s.find(5));
+  if(s.find(25)!=s.end()){
+    //...found
+  }
+  
+  /*---------------------------------------------------------------- 
+  Return an iterator pointing to the first occurrence of an item in s not less than key, 
+  or s.end() if no such item is found. O(log n) */
+
+  s.lower_bound(key)
+
+  auto itlower = s.lower_bound(25);
+  auto itupper = s.upper_bound(50);
+  s.erase(itlower, itupper);
+
+  /*---------------------------------------------------------------- 
+  Return an iterator pointing to the first occurrence of an item greater than key in s, 
+  or s.end() if no such item is found. O(log n) */
+
+  s.upper_bound(key)
+
+  auto itlower = s.lower_bound(25);
+  auto itupper = s.upper_bound(50);
+  s.erase(itlower, itupper);
+
+  /*---------------------------------------------------------------- 
+  Return a pair containing the lower and upper bounds for key. This may be more efficient 
+  than calling those functions separately. O(log n) */
+  
+  s.equal_range(key)
+
+  //finding bound range of 20
+  pair<set<int>::iterator, set<int>::iterator> sit;
+  sit = s.equal_range(20);
+
+  cout<<"\nThe lower bound point is: "<<*pit.first<<"\n";
+  cout<<"The upper bound point is: "<<*pit.second<<"\n";
+  
+  s.erase(sit.first, sit.second);
+
+  /*---------------------------------------------------------------- 
+  Returns the number of items equal to key in s. O(log n) */
+  s.count(key)
+
+  if(s.count(5)) cout<<"5 is not an element of "<<"\n";
+  
+  /*---------------------------------------------------------------- 
+  Deletes either a single element or range of elements from a set. O(log n) */
+  s.erase()
+
+  // 1 - Delete element at position = 2
+  auto it = s.begin();
+  it++;
+  s.erase(it);
+
+  // 2 - Delete val from the set
+  s.erase(40);
+
+  // 3 - Delete a range of elements in [first, last)
+
+  // the start position at third element of the set
+  auto it = s.begin();
+  it++;
+  it++;
+
+  // the stop position at end of the set
+  s.erase (it, s.end());
+
+  /*---------------------------------------------------------------- 
+  Insert elements in the set. O(log n) */
+  
+  // 1 - single element
+  s.insert(key)
+
+  s.insert(55);
+
+  auto it = s.begin();
+  s.insert(++it, 15);
+
+  // 2 - insert a range
+  s.insert(iterator, key)
+
+  auto it = s1.begin();
+  s2.insert(it, it + 3);
+
+  /*---------------------------------------------------------------- 
+  Return current number of elements. O(1) */
+
+  s.size();
+
+  /*---------------------------------------------------------------- 
+  Return true if set is empty. O(1) */
+
+  s.empty();
+
+  /*---------------------------------------------------------------- 
+  Return an iterator pointing to the first element. O(1) */
+
+  s.begin()
+
+  /*---------------------------------------------------------------- 
+  Return an iterator pointing one past the last element. O(1) */
+
+  s.end()
+
+}
+ ```
+ 
 </details>
 
   ---
