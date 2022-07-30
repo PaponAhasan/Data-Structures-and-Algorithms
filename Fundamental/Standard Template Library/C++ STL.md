@@ -817,6 +817,12 @@
 
  ---
  
+ <details> <summary>   BITSET </summary>
+ 
+ </details>
+
+ ---
+ 
 <details> <summary>  UNORDERED SET & UNORDERED MULTISET </summary>
  
 </details>
