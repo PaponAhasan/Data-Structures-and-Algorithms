@@ -1,1 +1,3 @@
-
+- https://www.cuemath.com/algebra/logarithms/
+- https://www.mathsisfun.com/algebra/logarithms.html
+- https://en.wikipedia.org/wiki/Logarithm
