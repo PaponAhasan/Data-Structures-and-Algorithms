@@ -39,3 +39,7 @@ We mostly consider O-notation because it will give us an upper limit of the exec
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/171439751-b4ee9a2d-8125-4bbe-810d-2f240c9b077d.png)
+
+### Common Asymptotic Notations
+
+![image](https://user-images.githubusercontent.com/59710234/182203881-8840d007-c87a-441f-9e8a-757a54434111.png)
