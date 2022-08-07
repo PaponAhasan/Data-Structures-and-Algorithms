@@ -1,3 +1,4 @@
+### Introduction
 ```
 In computer, all the numbers and all the other data are stored using 2 based number system or in binary format. So, what we use 
 to say a '5' in decimal, a computer will represent it as '101', in fact, everything is represented as some sequence of 0s and 1s.
@@ -8,6 +9,9 @@ floating points, characters, or some other complex types.
 
 We do not need to convert the integers to the binary form ourselves, when we use the operators(& or |), they will be automatically 
 evaluated. 
+
+Bit-wise operations are quite fast and easy to use, sometimes they reduce the running time of your program heavily, so use bit-wise 
+operations when-ever you can.
 ```
 ```
  6 operators are bitwise operators
@@ -156,7 +160,7 @@ Output of 4978 << 8 is 1274368. (this is actually correct!) . So we told that, t
 - The output will be 1274368 for 32 bit compiler as GNU C (32 bits; all bits are reserved since it has bigger capacity)
 
 4978 << 8 = 1274368 (in 32 bits compiler)
-4978 * 28 = 4978 * 256 = 1274368. (exactly the same)
+4978 * 2^8 = 4978 * 256 = 1274368. (exactly the same)
 ```
 
 ### >> (Right Shift) operator
@@ -197,18 +201,41 @@ In 16 bits compiler or 32 bits compiler, the >> has no difference, because >> wi
 capacity on the left side doesn't help here anyhow.
 
 4978 >> 8 = 19 (in 32 bits compiler)
-4978 / 28 = 4978 / 256 = 19.
+4978 / 2^8 = 4978 / 256 = 19.
 ```
 
+### Few Words
 ```
+- The two shift operators are generally used with unsigned data type to avoid ambiguity.
+
 - The left shift and right shift operators should not be used for negative numbers (both 1 <<- 1 and 1 >> -1 is undefined)
+
 - If the number is shifted more than the size of the integer, the behaviour is undefined. For example, 1 << 33 is undefined 
    if integers are stored using 32 bits. 
+   
 - The result of logical operators (&&, || and !) is either 0 or 1, but bitwise operators return an integer value.
+
 - The left-shift and right-shift operators are equivalent to multiplication and division by 2 respectively.
+
 - The & operator can be used to quickly check if a number is odd or even.
 ```
+```
+Order precedence :
 
+ NOT ( ~ ) highest
+ AND ( & )
+ XOR ( ^ )
+  OR ( | ) lowest
+ 
+Basic operations (Let X is a single bit) : 
+
+ X & 1 =  X; 
+ X & 0 =  0
+ X | 1 =  1; 
+ X | 0 =  X
+ X ^ 1 = ~X; 
+ X ^ 0 =  X
+```
 ```
 Decimal to Binary Convert :
 
