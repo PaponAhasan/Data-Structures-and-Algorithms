@@ -93,7 +93,7 @@ Surprisingly, the output is -11. But actually this is normal as most of the case
 Same bit 0 otherwise 1 -> X-OR
 ```
 
-#### Left Shift
+### Left Shift
 ```
 This operator only "shift" or moves all the bits to the left. This operator is mostly used if we want to multiply a number by 2, 
 or, some powers of 2.
@@ -159,7 +159,7 @@ Output of 4978 << 8 is 1274368. (this is actually correct!) . So we told that, t
 4978 * 28 = 4978 * 256 = 1274368. (exactly the same)
 ```
 
-#### Right Shift
+### Right Shift
 ```
 This operator only "shift" or moves all the bits to the right. This operator is mostly used if we want to divide a number by 2, 
 or, some powers of 2.
