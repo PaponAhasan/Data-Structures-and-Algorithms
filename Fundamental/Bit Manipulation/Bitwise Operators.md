@@ -161,6 +161,10 @@ Output of 4978 << 8 is 1274368. (this is actually correct!) . So we told that, t
 
 #### Right Shift
 ```
+This operator only "shift" or moves all the bits to the right. This operator is mostly used if we want to divide a number by 2, 
+or, some powers of 2.
+```
+```
 n = 2
 8 >> n = 2
 1000 >> n = 10
@@ -174,6 +178,26 @@ Afetr right shift 1 0    = 2 << 1 = 1     = 1
 8 >> 2 = 8/(2^2) = 2 (10)
 8 >> 3 = 8/(2^3) = 1 (1)
 x >> y = ⌊ x / (2^y) ⌋
+```
+```
+int a = 4978;
+printf("%d\n", a>>8);
+
+0001001101110010 ⇒ 4978(16 bit)
+---------------- >> 8 (SHIFT RIGHT the bits by 8 bit)
+0000000000010011 ⇒ 19
+
+OR
+
+00000000000000000001001101110010 ⇒ 4978(32 bit)
+-------------------------------- >> 8 (SHIFT RIGHT the bits by 8 bit)
+00000000000000000000000000010011 ⇒ 19
+
+In 16 bits compiler or 32 bits compiler, the >> has no difference, because >> will discard the right most bit, and increased 
+capacity on the left side doesn't help here anyhow.
+
+4978 >> 8 = 19 (in 32 bits compiler)
+4978 / 28 = 4978 / 256 = 19.
 ```
 
 ```
