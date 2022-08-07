@@ -120,7 +120,7 @@ Afetr left shift 1 0 1 1 0 = 22
 After left shift 1 0 1 1 0 0 = 44
 we see that left shift it's value is double
 
-10 << 1 = 1*(2^1) = 2 (10)
+1 << 1 = 1*(2^1) = 2 (10)
 1 << 2 = 1*(2^2) = 4 (100)
 1 << 3 = 1*(2^3) = 8 (1000)
 x << y = x*(2^y)
