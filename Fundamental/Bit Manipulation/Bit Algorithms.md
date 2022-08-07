@@ -23,6 +23,21 @@ So binary(11) = 1101
 7 -> (MSB)1101(LSB)
 ```
 
+### Subset Pattern
+```
+3 2 1 0                                ⇒ power of 2
+0 0 0 0 = 0 // took no one
+0 0 0 1 = 1 // took power 0            ⇒ 2^0 = 1
+0 0 1 0 = 2 // took power 1            ⇒ 2^1 = 2
+0 0 1 1 = 3 // took power 1 and 0      ⇒ 2^0 + 2^1 = 3
+0 1 0 0 = 4 // took power 2            ⇒ 2^2 = 4
+0 1 0 1 = 5 // took power 2 and 0      ⇒ 2^0 + 2^2 = 5
+0 1 1 0 = 6 // took power 2 and 1      ⇒ 2^1 + 2^2 = 6
+0 1 1 1 = 7 // took power 2, 1 and 0   ⇒ 2^0 + 2^1 + 2^2 = 7
+```
+
+![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
+
 ### Count number of bits
 ```
 17 = 10001
