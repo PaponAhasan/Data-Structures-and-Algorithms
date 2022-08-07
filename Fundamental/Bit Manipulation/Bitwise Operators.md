@@ -10,7 +10,7 @@ floating points, characters, or some other complex types.
 We do not need to convert the integers to the binary form ourselves, when we use the operators(& or |), they will be automatically 
 evaluated. 
 
-Bit-wise operations are quite fast and easy to use, sometimes they reduce the running time of your program heavily, so use bit-wise 
+Bit-wise operations are quite fast and easy to use,sometimes they reduce the running time of your program heavily, so use bit-wise 
 operations when-ever you can.
 ```
 ```
