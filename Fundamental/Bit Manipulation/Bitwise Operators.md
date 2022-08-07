@@ -1,4 +1,14 @@
 ```
+In computer, all the numbers and all the other data are stored using 2 based number system or in binary format. So, what we use 
+to say a '5' in decimal, a computer will represent it as '101', in fact, everything is represented as some sequence of 0s and 1s.
+We call this sequence a bit-string.
+
+Bit-wise operations means working with the individual bits other than using the larger or default data types, like integers, floating 
+points, characters, or some other complex types.
+
+We do not need to convert the integers to the binary form ourselves, when we use the operators(& or |), they will be automatically evaluated. 
+```
+```
  6 operators are bitwise operators
  
  1. The & (bitwise AND) : The result of AND is 1 only if both bits are 1, otherwise 0.
