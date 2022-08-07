@@ -80,6 +80,9 @@ This operator is called unary operator.
 0000000000001010 ⇒ a(16 bits)
 ---------------- ~
 1111111111110101 ⇒ -11
+
+Surprisingly, the output is -11. But actually this is normal as most of the cases computer represents negative numbers in the 
+2's complement form.
 ```
 
 ```
