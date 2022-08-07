@@ -229,12 +229,12 @@ Order precedence :
  
 Basic operations (Let X is a single bit) : 
 
- X & 1 =  X; 
- X & 0 =  0
- X | 1 =  1; 
- X | 0 =  X
- X ^ 1 = ~X; 
- X ^ 0 =  X
+ X & 1 =  X; 1 & 1 = 1 ; 0 & 1 = 0
+ X & 0 =  0; 1 & 0 = 0 ; 0 & 0 = 0
+ X | 1 =  1; 1 | 1 = 1 ; 0 | 1 = 1
+ X | 0 =  X; 1 | 0 = 1 ; 0 | 0 = 0
+ X ^ 1 = ~X; 1 ^ 1 = 0 ; 0 ^ 1 = 1
+ X ^ 0 =  X; 1 ^ 0 = 1 ; 0 ^ 0 = 0
 ```
 ```
 Decimal to Binary Convert :
