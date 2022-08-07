@@ -3,10 +3,11 @@ In computer, all the numbers and all the other data are stored using 2 based num
 to say a '5' in decimal, a computer will represent it as '101', in fact, everything is represented as some sequence of 0s and 1s.
 We call this sequence a bit-string.
 
-Bit-wise operations means working with the individual bits other than using the larger or default data types, like integers, floating 
-points, characters, or some other complex types.
+Bit-wise operations means working with the individual bits other than using the larger or default data types, like integers, 
+floating points, characters, or some other complex types.
 
-We do not need to convert the integers to the binary form ourselves, when we use the operators(& or |), they will be automatically evaluated. 
+We do not need to convert the integers to the binary form ourselves, when we use the operators(& or |), they will be automatically 
+evaluated. 
 ```
 ```
  6 operators are bitwise operators
@@ -30,7 +31,57 @@ XOR ( ^ )
 Left Shift ( << )
 Right Shift ( >> )
 ```
+
+### & (AND) operator
+```
+0 & 0 = 0
+0 & 1 = 0
+1 & 0 = 0
+1 & 1 = 1
+
+101110111110100 ⇒ 24052
+001001101110010 ⇒ 4978
+--------------- &
+001000101110000 ⇒ 4464
+```
+
+### | (OR) operator
+```
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 1
+
+101110111110100 ⇒ 24052
+001001101110010 ⇒ 4978
+--------------- |
+101111111110110 ⇒ 24566
+```
+
+### ^ (XOR) operator
+```
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
+1 ^ 1 = 0
+```
+```
+101110111110100 ⇒ 24052
+001001101110010 ⇒ 4978
+--------------- ^
+100111010000110 ⇒ 20102
+```
 ![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
+
+### ~ (NOT) operator
+```
+This operator is called unary operator.
+
+0000000000001010 ⇒ a(16 bits)
+---------------- ~
+1111111111110101 ⇒ -11
+```
+
 ```
 Decimal to Binary Convert :
 
@@ -52,6 +103,7 @@ So binary(11) = 1101
 2 two's 0 otherwise 1 -> OR
 Same bit 0 otherwise 1 -> X-OR
 ```
+
 #### Left Shift
 ```
 n = 3 (left shift)
@@ -71,6 +123,7 @@ we see that left shift it's value is double
 1000 << 3  = 1*(2^3) = 8
 x << y     = x*(2^y)
 ```
+
 #### Right Shift
 ```
 n = 2 (right shift)
