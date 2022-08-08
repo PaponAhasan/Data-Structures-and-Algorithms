@@ -35,8 +35,10 @@ So binary(11) = 1101
 0 1 1 0 = 6 // took power 2 and 1      ⇒ 2^1 + 2^2 = 6
 0 1 1 1 = 7 // took power 2, 1 and 0   ⇒ 2^0 + 2^1 + 2^2 = 7
 ```
-
+### 
 ![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
+
+### Cut the portion of bit string from an integer variable
 
 ### Count number of bits
 ```
@@ -185,6 +187,7 @@ return a (2^3 = 8)
 [this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
 
 ### Reverse Bits
+
 **[Question](https://www.interviewbit.com/old/problems/reverse-bits/)**
 ```
 Reverse the bits of an 32 bit unsigned integer A.
@@ -203,6 +206,7 @@ int main() {
     return 0;
 }
 ```
+
 ###  Single Number
 ```
 Input: A = [1, 2, 2, 3, 1]
@@ -217,6 +221,7 @@ int Solution::singleNumber(const vector<int> &A) {
     return ans;
 }
 ```
+
 #### Find Missing And Repeating
 https://ideone.com/r4QSHM
 
