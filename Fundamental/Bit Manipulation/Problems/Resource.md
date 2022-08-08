@@ -1,0 +1,4 @@
+- [BitMasking Geeksforgeeks](https://www.geeksforgeeks.org/must-do-coding-questions-for-product-based-companies/?ref=ghm#BitMasking)
+- [Medium bit-manipulation-interview-questions](https://medium.com/techie-delight/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7)
+- [Leetcode bit-manipulation](https://leetcode.com/tag/bit-manipulation/)
+- [Interviewbit bit-manipulation](https://www.interviewbit.com/courses/programming/bit-manipulation)
