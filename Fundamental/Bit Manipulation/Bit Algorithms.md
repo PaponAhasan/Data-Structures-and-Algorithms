@@ -208,8 +208,7 @@ carry = 1 so ans = ans ^ 2^3 = 13
 so we can get 7 + 6 = 13
 ```
 ```c++
- int sum(int a , int b)
- {
+ int sum(int a , int b){
     a = a ^ b;             // At least one of the bits is not set
     int carry = a & b;     // carry now contains common set bits of a and b
     b = carry << 1;        // Carry is shifted by one, so that adding it to a gives the required sum
@@ -250,11 +249,12 @@ b = carry << 1 = 00000 = 0
 
 return a (2^3 = 8)
 ```
-[this](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
+[Let's Practice Together](https://www.youtube.com/watch?v=q23uhJw1Fko&ab_channel=Let%27sPracticeTogether)
 
 ### Reverse Bits
 
-**[Question](https://www.interviewbit.com/old/problems/reverse-bits/)**
+**[Question Reverse Bits Problem](https://www.interviewbit.com/old/problems/reverse-bits/)**
+
 ```
 Reverse the bits of an 32 bit unsigned integer A.
 
@@ -289,6 +289,7 @@ int Solution::singleNumber(const vector<int> &A) {
 ```
 
 #### Find Missing And Repeating
+
 https://ideone.com/r4QSHM
 
 
