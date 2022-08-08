@@ -96,7 +96,7 @@ void run_case(){
    int N = 19881,L = 3,R = 9;
 
    int X = 0;
-   for(int i=0;i<R-L+1;i++){
+   for(int i = 0; i< R-L+1; i++){
        X = (X << 1) | 1;
    }
    X = X << L;
@@ -113,7 +113,6 @@ void run_case(){
 ```
 ```c++
 int main() {
-
     int num = 5; // 101
     int cnt = 0;
     while(num){
@@ -131,8 +130,7 @@ Auxiliary Space: O(1)
 ```
 ###  Count the number of 1s/set-bit in the binary representation
 ```c++
-unsigned int countSetBits(unsigned int n)
-{
+unsigned int countSetBits(unsigned int n){
     unsigned int count = 0;
     while (n) {
         count += n & 1; // if n is odd
@@ -264,7 +262,7 @@ Reverse the bits of an 32 bit unsigned integer A.
 int main() {
     unsigned int cnt = 0,ans = 0;
     while(A){
-        if(A&1)ans+=(1<<(31-cnt));
+        if(A&1) ans+= ( 1 << (31-cnt) );
         A>>=1;
         cnt++;
     }
