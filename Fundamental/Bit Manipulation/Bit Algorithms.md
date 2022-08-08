@@ -35,10 +35,62 @@ So binary(11) = 1101
 0 1 1 0 = 6 // took power 2 and 1      ⇒ 2^1 + 2^2 = 6
 0 1 1 1 = 7 // took power 2, 1 and 0   ⇒ 2^0 + 2^1 + 2^2 = 7
 ```
-### 
+
+### X-OR from 1 to N Pattern
+
 ![image](https://user-images.githubusercontent.com/59710234/158048747-d36df750-5db8-4be8-a58c-c80b5135ef9f.png)
 
 ### Cut the portion of bit string from an integer variable
+```
+Suppose A has some value like A = 0100 1101 1010 1001 (using only 16 bits for our ease of understanding)
+
+We need the number that is formed by the bit-string of A from 3rd to 9th position. Lets assume, we have positions 0 to 15, and 
+0th position is the LSB.
+
+Result is B = 01 1010 1 [we simply cut the 3rd to 9th position of A]
+```
+```
+Lets assume we have a mask X which contains necessary bit pattern that will help us to cut the desired portion. We have X which 
+have 1s in 3rd to 9th position and all the other thing is 0. Because, We know, AND-ing any bit b with 1 leaves b unchanged.
+(A & 1 = A)
+
+So, X = X & A
+
+Now, we have,
+    A = 0100 1101 1010 1001
+    X = 0000 0011 1111 1000
+    -----------------------
+    X = 0000 0001 1010 1000
+
+We've cut the desired portion, but We have 3 extra 0s in the tail, So just right-shift 3 times.
+X = X >> 3 = 0000 0000 0011 0101; // hurrah we've got it.
+```
+```
+Well, I got everything fine, but how to get such a weird X and 3?
+
+1. If we he bit-string of A from l to r position. So, 3 got to l position.
+
+2. 
+
+int x = 0, p = 9-3+1; // p is the number of 1s we need
+for(int i = 0; i < p, i++)
+    x = (x << 1) | 1;
+x = x << 3; // as we need to align its lsb with the 3rd bit of A
+
+Execution :
+-----------
+X = 0000 0000 0000 0000 (initially X=0)
+
+X = 0000 0000 0000 0001 (begin loop i=0)
+X = 0000 0000 0000 0011 (i=1)
+X = 0000 0000 0000 0111 (i=2)
+X = 0000 0000 0000 1111 (i=3)
+X = 0000 0000 0001 1111 (i=4)
+X = 0000 0000 0011 1111 (i=5)
+X = 0000 0000 0111 1111 (i=6 loop ends)
+
+X = 0000 0011 1111 1000 (X = X<<3)
+```
 
 ### Count number of bits
 ```
