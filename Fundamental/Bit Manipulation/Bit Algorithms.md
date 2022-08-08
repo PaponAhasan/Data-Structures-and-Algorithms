@@ -91,7 +91,21 @@ X = 0000 0000 0111 1111 (i=6 loop ends)
 
 X = 0000 0011 1111 1000 (X = X<<3)
 ```
+```c++
+void run_case(){
+   int N = 19881,L = 3,R = 9;
 
+   int X = 0;
+   for(int i=0;i<R-L+1;i++){
+       X = (X << 1) | 1;
+   }
+   X = X << L;
+
+   int Ans = (N & X) >> L;
+
+   printf("%d\n",Ans); // 53
+}
+```
 ### Count number of bits
 ```
 17 = 10001
