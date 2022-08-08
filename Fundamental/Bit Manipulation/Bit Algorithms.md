@@ -251,7 +251,7 @@ return a (2^3 = 8)
 
 ### Reverse Bits
 
-**[Question Reverse Bits Problem](https://www.interviewbit.com/old/problems/reverse-bits/)**
+[Question Reverse Bits Problem](https://www.interviewbit.com/old/problems/reverse-bits/)
 
 ```
 Reverse the bits of an 32 bit unsigned integer A.
