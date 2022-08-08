@@ -251,3 +251,6 @@ So binary(11) = 1101
 64 32 16 8 4 2 1
 13 binary =  8 4 0 1 = 1 1 0 1
 ```
+
+- [isaaccomputerscience bitwise_manipulation](https://isaaccomputerscience.org/concepts/data_numbases_bitwise_manipulation?examBoard=all&stage=all)
+- [albany bitwise_manipulation](https://www.albany.edu/faculty/dsaha/teach/2017Spring_CEN360/slides/lec15.pdf)
