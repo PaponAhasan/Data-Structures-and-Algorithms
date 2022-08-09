@@ -1,0 +1,1 @@
+- [DEV SKILL Courch Shakib](https://www.youtube.com/watch?v=xQNMCKqrA_M&list=PLXDNeDo_io_pvP_oPp9jYIiaBKu5PLXGj&index=8&pp=sAQB)
