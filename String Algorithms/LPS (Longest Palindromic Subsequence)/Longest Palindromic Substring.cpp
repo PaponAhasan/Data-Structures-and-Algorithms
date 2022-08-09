@@ -75,7 +75,7 @@ int main() {
     LPS = max(LPS, findLPS(L, R, false, sH, rsH, pw));
     printf("%d\n", LPS);
 	
-	return 0;
+    return 0;
 }
 
 /*	
