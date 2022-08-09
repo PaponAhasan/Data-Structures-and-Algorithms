@@ -58,13 +58,13 @@ int main() {
     cin >> N;
     string rs,s;
     cin>>s;
-	rs = s;
-	reverse(rs.begin(),rs.end());
-	auto sH = generatePrefixHash(s);
-	auto rsH = generatePrefixHash(rs);
-	auto pw = generateExponents(s.size());
+    rs = s;
+    reverse(rs.begin(),rs.end());
+    auto sH = generatePrefixHash(s);
+    auto rsH = generatePrefixHash(rs);
+    auto pw = generateExponents(s.size());
 	
-	// ODD
+    // ODD
     int L = 0, R = N - (N % 2 == 0), LPS = 1;
     R = R / 2;
     LPS = max(LPS, findLPS(L, R, true, sH, rsH, pw));
