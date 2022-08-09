@@ -48,3 +48,48 @@ int main() {
     return 0;
 }
 ```
+```
+STEP 01:
+-------
+h[R] - ( h[L-1] * po[R-L+1] % MOD )
+
+h[R] = 5
+h[L-1] * po[R-L+1] % MOD = 8
+
+IF 5 - 8 = NEGATIVE [ NOT WORKING ]
+
+
+STEP 02: MOD ADD
+-------
+
+h[R] - ( h[L-1] * po[R-L+1] % MOD ) + MOD 
+
+h[R] = 8
+h[L-1] * po[R-L+1] % MOD = 5
+MOD = 4
+
+IF 8 - 5 + 4 = 7 > 3 [ INCORRECT ]
+
+
+STEP 03: MOD WITH ANOTHER MOD
+-------
+
+( h[R] - ( h[L-1] * po[R-L+1] % MOD ) + MOD ) % MOD
+
+
+1. add mod
+
+h[R] = 5
+h[L-1] * po[R-L+1] % MOD = 8
+MOD = 4
+
+IF 5 - 8 + 4 = 1 % 4 = 1 < 3 [ SOLVED]
+
+2. mod with another mod
+
+h[R] = 8
+h[L-1] * po[R-L+1] % MOD = 5
+MOD = 4
+
+IF 8 - 5 + 4 = 7 % 4 = 3 [ SOLVED ]
+```
