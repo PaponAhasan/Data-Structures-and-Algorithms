@@ -4,6 +4,8 @@ Problem :
 - [Substring-Frequency(ii) - LightOJ](https://lightoj.com/problem/substring-frequency-ii)
 
 ```c++
+Complexity : O(n)
+
 #include <bits/stdc++.h>
 using namespace std;
 #define BASE 129 // 29
