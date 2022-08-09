@@ -56,8 +56,8 @@ int findLPS(int L, int R, bool isOdd, vector<long long> &sH, vector<long long> &
 int main() {
     int N;
     cin >> N;
-	string rs,s;
-	cin>>s;
+    string rs,s;
+    cin>>s;
 	rs = s;
 	reverse(rs.begin(),rs.end());
 	auto sH = generatePrefixHash(s);
@@ -77,3 +77,39 @@ int main() {
 	
 	return 0;
 }
+
+/*	
+	while(1){
+	    int L, R;
+	    cin >> L >> R;
+	    
+	    
+    	    //sH = abcbefg = 7
+    	    //L = 1, R = 3 (bcd)
+            
+            //rsH = gfebcba
+            //L = 7 - 1 - 3 = 3
+            //R = 7 - 1 - 1 = 5
+            //(bcb)
+        
+        
+	    if(getRangeHash(L, R, sH, pw) == getRangeHash(N-1-R, N-1-L, rsH, pw)){
+	         printf("Palindrome\n");   
+	    }else{
+	        printf("Not Palindrome\n");   
+	    }
+	    
+	    break;
+	}
+*/
+
+/*  
+    //Odd
+    for(int i = 1; i <= N; i+=2){
+        cout<<"Odd Length :"<<existsPalindrome(i, sH, rsH, pw)<<"\n";
+    }
+    // even
+    for(int i = 2; i <= N; i+=2){
+        cout<<"Even Length :"<<existsPalindrome(i, sH, rsH, pw)<<"\n";
+    }
+*/  
