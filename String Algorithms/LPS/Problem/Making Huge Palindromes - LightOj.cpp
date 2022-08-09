@@ -44,7 +44,8 @@ int main() {
     	
     	for(int i = 0; i <= N; i++){
     	    if(getRangeHash(i, N - 1, sH, pw) == getRangeHash(0, N - i - 1, rsH, pw)){
-    	         printf("%d\n",N + N - (N - i));  
+    	         //printf("%d\n",N + N - (N - i));
+              printf("%d\n", i + N);
     	         break;
     	    }
     	}
