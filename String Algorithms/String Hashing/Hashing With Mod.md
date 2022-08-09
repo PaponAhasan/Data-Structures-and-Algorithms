@@ -6,7 +6,7 @@ Problem :
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
-#define BASE 129
+#define BASE 129 // 29
 #define MOD 1000000007
 #define MAX_S 1000005
 
