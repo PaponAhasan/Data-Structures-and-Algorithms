@@ -56,16 +56,15 @@ long long getHash(int L, int R){
 int main() {
     string s1 = "abcde";
     string s2 = "bcd"
-	generatePrefixHash(s1);
-// 	int L = 1,R = 3;
-// 	cout<<getHash(L,R);
+    generatePrefixHash(s1);
+//  int L = 1,R = 3;
+//  cout<<getHash(L,R);
     for(int i=0;i<s1.size();i++){
         // 2 to 2+3-1 = 4
         if(getHash(i, i + s2.size() - 1) == generateHash(s2)){
             printf("%d\n",i);
         }
     }
-    
-	return 0;
+    return 0;
 }
 ```
