@@ -8,7 +8,7 @@ long long h[MAX_S + 5], pw[MAX_S + 5];
 void generatePrefixHash(string &s){
     h[0] = s[0]-'a'+1;
     for(int i=1;i<s.size();i++){
-        h[i] = h[i - 1] * 10 + (s[i] - 'a' + 1);
+        h[i] = h[i - 1] * BASE + (s[i] - 'a' + 1);
     }
     // abc
     // 1
