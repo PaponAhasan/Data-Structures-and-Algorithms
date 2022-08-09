@@ -38,14 +38,13 @@ long long getHash(int L, int R){
 int main() {
     string s1,s2;
     cin >> s1 >> s2;
-	generatePrefixHash(s1);
-	long long hashOfS2 = generateHash(s2);
+    generatePrefixHash(s1);
+    long long hashOfS2 = generateHash(s2);
     for(int i = 0; i + s2.size() <= s1.size(); i++){
         if(getHash(i, i + s2.size() - 1) == hashOfS2){
             printf("%d\n",i);
         }
     }
-    
-	return 0;
+    return 0;
 }
 ```
