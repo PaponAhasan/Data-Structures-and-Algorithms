@@ -51,3 +51,21 @@ int main() {
     
 	return 0;
 }
+
+    void run_case(){
+        string P,T,S;
+        cin>>P>>T;
+
+        int cnt = 0;
+        for(int i=0;i<P.size();i++){
+            S.push_back(P[i]);
+            if(S == T){
+                cnt++;
+            }
+            if(S.size() == T.size()){
+                S.erase(S.begin());
+            }
+        }
+
+        cout<<cnt<<"\n";
+    }
