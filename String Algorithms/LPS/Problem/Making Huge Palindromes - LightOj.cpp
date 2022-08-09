@@ -1,3 +1,5 @@
+[ https://lightoj.com/problem/making-huge-palindromes ]
+ 
 #include <bits/stdc++.h>
 using namespace std;
 
