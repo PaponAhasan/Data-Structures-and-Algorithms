@@ -1,4 +1,4 @@
-## DFS (Depth First Search) 
+## BFS (Breadth First Search) 
 ```
  
 ```
@@ -31,7 +31,7 @@ Step 06:
 
 Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
 
-### The applications of using the DFS algorithm
+### The applications of using the BFS algorithm
 ```
 - To build index by search index
 - For GPS navigation
