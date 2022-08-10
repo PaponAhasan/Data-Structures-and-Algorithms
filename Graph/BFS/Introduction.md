@@ -29,7 +29,7 @@ Step 06:
 ![image](https://user-images.githubusercontent.com/59710234/176313699-438bca2d-d0a0-44cb-8dd8-93e563ec58f1.png)
 
 
-Example : [Visualize of DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/)
+Example : [Visualize of BFS](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/visualize/)
 
 ### The applications of using the BFS algorithm
 ```
