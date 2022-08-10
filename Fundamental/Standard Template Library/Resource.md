@@ -3,3 +3,4 @@
 - [cplusplus](https://cplusplus.com/reference/stl/)
 - [STL IN C++](https://www.youtube.com/playlist?list=PLk6CEY9XxSIA-xo3HRYC3M0Aitzdut7AA)
 - [Hackerearth Standard-Template-Library](https://www.hackerearth.com/practice/notes/standard-template-library/)
+- [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
