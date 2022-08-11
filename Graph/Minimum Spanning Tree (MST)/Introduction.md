@@ -22,6 +22,8 @@ It does n't need to be every edge direct every edge, only visit other houses and
 to the other edge. we found subgraph, this is called spanning tree.
 ```
 
+![image](https://user-images.githubusercontent.com/59710234/184219636-ab7548b0-0fb3-49fd-a9a3-bcfef6f14e88.png)
+
 <details> <summary> Example Spanning Tree </summary>
     
 <br/>
