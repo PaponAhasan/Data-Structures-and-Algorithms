@@ -1,1 +1,3 @@
-
+- [geeksforgeeks kruskals-minimum-spanning-tree](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+- [programiz kruskal-algorithm](https://www.programiz.com/dsa/kruskal-algorithm)
+- [AbdulBari - Prims and Kruskals Algorithms - Greedy Method](https://www.youtube.com/watch?v=4ZlRH0eK-qQ&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=45&ab_channel=AbdulBari)
