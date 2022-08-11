@@ -17,7 +17,7 @@ The total number of spanning trees with n vertices that can be created from a co
 
 <br/>
  
-##### Normal graph
+#### Normal graph :
   
   ```mermaid
 graph TD;
@@ -26,5 +26,59 @@ graph TD;
     B-->C;
     D-->C; 
 ```
+ 
+#### A spanning tree :
   
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    B-->C;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->D;
+    B-->C;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    B-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    A-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->D;
+    D-->B
+    B-->C; 
+```
+    
 </details>
