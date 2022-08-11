@@ -86,3 +86,79 @@ graph TD;
 </details>
 
 ### Minimum Spanning Tree
+
+```
+A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as possible.
+```
+
+### Example of a Minimum Spanning Tree
+
+<details> <summary> Minimum Spanning Tree </summary>
+
+<br/>
+ 
+#### Weighted Normal graph :
+  
+  ```mermaid
+graph TD;
+    A[5]-->B[5];
+    A-->D;
+    B-->C;
+    D-->C; 
+```
+ 
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    B-->C;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->D;
+    B-->C;
+    D-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    B-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    A-->C; 
+```
+   
+#### A spanning tree :
+  
+  ```mermaid
+graph TD;
+    A-->D;
+    D-->B
+    B-->C; 
+```
+    
+</details>
