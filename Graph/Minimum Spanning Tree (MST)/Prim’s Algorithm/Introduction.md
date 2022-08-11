@@ -32,8 +32,8 @@ The Time Complexity of the program is O(V^2).
 If we can use priority queue to reduce runtime. Then, The time complexity of Prim's algorithm is O(E log E).
 If we can use binary heap to reduce runtime. Then, The time complexity of Prim's algorithm is O(E log V).
 
-You can use priority queue to reduce runtime. When adding a new node to V-new, all the adjacent edges of that node must be added to 
-the priority queue. Now you can find the minimum weight edge from the priority queue in logarithm complexity.The total complexity 
+You can use priority queue to reduce runtime. When adding a new node to V-new, all the adjacent edges of that node must be added 
+to the priority queue. Now you can find the minimum weight edge from the priority queue in logarithm complexity.The total complexity 
 will be O(E log E).
 
 But nodes push to queue instead of edge O(ElogV) The complexity can be reduced to.
