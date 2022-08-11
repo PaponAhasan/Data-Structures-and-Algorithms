@@ -163,8 +163,9 @@ graph TD;
   
 </details>
 
-  ```mermaid
+<!--   ```mermaid
   graph TD;
      A -->|4| B
      A -->|5| D
 ```
+ -->
