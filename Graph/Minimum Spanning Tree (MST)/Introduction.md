@@ -13,7 +13,7 @@ The total number of spanning trees with n vertices that can be created from a co
 > 
 > If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16
 
--
+---
 
 ### Example of a Spanning Tree
 
