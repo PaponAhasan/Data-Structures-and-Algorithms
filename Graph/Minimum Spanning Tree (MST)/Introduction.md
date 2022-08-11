@@ -17,7 +17,7 @@ The total number of spanning trees with n vertices that can be created from a co
 
 <br/>
  
-### Normal graph
+##### Normal graph
   
   ```mermaid
 graph TD;
