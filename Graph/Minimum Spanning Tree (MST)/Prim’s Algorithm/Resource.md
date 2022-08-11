@@ -1,1 +1,2 @@
 - [Programiz Prim-Algorithm](https://www.programiz.com/dsa/prim-algorithm)
+- [prims-minimum-spanning-tree Geeksforgeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
