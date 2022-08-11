@@ -101,7 +101,7 @@ A minimum spanning tree is a spanning tree in which the sum of the weight of the
   
   ```mermaid
 graph TD;
-    A : 5 -->B;
+    A-->B;
     A-->D;
     B-->C;
     D-->C; 
@@ -162,3 +162,10 @@ graph TD;
 ```
   
 </details>
+
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
