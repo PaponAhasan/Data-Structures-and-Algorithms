@@ -165,6 +165,6 @@ graph TD;
 
   ```mermaid
   flowchart LR
-     A[Hard] -->|Text| B(Round)
-     B[Hard] -->|Text| C(Round)
+     A -->|4| B
+     A -->|5| D
 ```
