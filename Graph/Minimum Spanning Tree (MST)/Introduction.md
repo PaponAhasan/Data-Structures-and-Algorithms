@@ -13,9 +13,11 @@ The total number of spanning trees with n vertices that can be created from a co
 
 ### Example of a Spanning Tree
 
-<details> <summary> How DFS Traversal </summary>
+<details> <summary> Spanning Tree </summary>
 
 <br/>
+ 
+### Normal graph
   
   ```mermaid
 graph TD;
