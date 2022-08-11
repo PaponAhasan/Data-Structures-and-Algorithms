@@ -14,13 +14,6 @@ The total number of spanning trees with n vertices that can be created from a co
 > 
 > If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16
 
-```
-We have a weighted graph. Assume that each node in the graph is a house. We need to install telephone lines between our houses.
-We want to install the line at the lowest cost. 
-
-It does n't need to be every edge direct every edge, only visit other houses and available should be a only path. After that,except
-to the other edge. we found subgraph, this is called spanning tree.
-```
 
   ```mermaid
     graph TD;
@@ -32,8 +25,14 @@ to the other edge. we found subgraph, this is called spanning tree.
         F-->|6|A;
   ```
   
-  ||
-  
+```
+We have a weighted graph. Assume that each node in the graph is a house. We need to install telephone lines between our houses.
+We want to install the line at the lowest cost. 
+
+It does n't need to be every edge direct every edge, only visit other houses and available should be a only path. After that,except
+to the other edge. we found subgraph, this is called spanning tree.
+```
+
     ```mermaid
     graph TD;
         A-->|5|B;
