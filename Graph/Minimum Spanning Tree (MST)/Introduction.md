@@ -13,15 +13,6 @@ The total number of spanning trees with n vertices that can be created from a co
 > N.T : An undirected graph is a graph in which the edges do not point in any direction (ie. edges are bidirectional).
 > 
 > If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16
-
-
-  ```mermaid
-    graph TD;
-        A-->|5|B;
-        B-->|4|C;
-        C-->|3|D;
-        D-->|2|A;
-  ```
   
 ```
 We have a weighted graph. Assume that each node in the graph is a house. We need to install telephone lines between our houses.
@@ -30,13 +21,6 @@ We want to install the line at the lowest cost.
 It does n't need to be every edge direct every edge, only visit other houses and available should be a only path. After that,except
 to the other edge. we found subgraph, this is called spanning tree.
 ```
-
-  ```mermaid
-   graph TD;
-        A-->|5|B;
-        B-->|4|C;
-        C-->|3|D;
-  ```
 
 <details> <summary> Example Spanning Tree </summary>
     
