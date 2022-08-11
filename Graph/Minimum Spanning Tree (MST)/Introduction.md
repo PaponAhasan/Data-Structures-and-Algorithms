@@ -164,7 +164,7 @@ graph TD;
 </details>
 
   ```mermaid
-  flowchart LR
+  graph TD;
      A -->|4| B
      A -->|5| D
 ```
