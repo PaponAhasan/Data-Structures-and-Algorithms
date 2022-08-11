@@ -137,11 +137,12 @@ A minimum spanning tree is a spanning tree in which the sum of the weight of the
   
 </details>
 
+--
 ### Spanning Tree Applications
 - Computer Network Routing Protocol
 - Cluster Analysis
 - Civil Network Planning
-
+--
 ### Minimum Spanning tree Applications
 - To find paths in the map
 - To design networks like telecommunication networks, water supply networks, and electrical grids.
