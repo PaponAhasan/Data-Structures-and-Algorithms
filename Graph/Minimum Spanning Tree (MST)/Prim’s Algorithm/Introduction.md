@@ -19,10 +19,10 @@ The steps for implementing Prim's algorithm are as follows:
 
 ### Example of Prim's algorithm
 
-![image](https://user-images.githubusercontent.com/59710234/184237299-0cffb734-0117-41f3-be47-73539968d187.png)
-![image](https://user-images.githubusercontent.com/59710234/184237399-720b32a1-9e7f-4ff9-8264-495d510eeef1.png)
-![image](https://user-images.githubusercontent.com/59710234/184237468-6c5a886a-8bc8-4c18-919d-47060ca8fe07.png)
-![image](https://user-images.githubusercontent.com/59710234/184237584-f3a9a685-0b80-4af0-88d9-c4e00d63a81f.png)
-![image](https://user-images.githubusercontent.com/59710234/184237730-803bee56-dc12-43ae-a252-b095f37fb3d3.png)
-![image](https://user-images.githubusercontent.com/59710234/184237799-e6a2fc5e-09ea-4aac-a83d-e20f39cc901d.png)
+![image](https://user-images.githubusercontent.com/59710234/184238057-a9b53aa3-cc98-4453-b4ea-dc7e3a4ba161.png)
+![image](https://user-images.githubusercontent.com/59710234/184238110-c7d6b420-693e-4148-9903-7748b81c39fa.png)
+![image](https://user-images.githubusercontent.com/59710234/184238219-d475436a-8c9c-4ce7-932e-501c3ddda43a.png)
+![image](https://user-images.githubusercontent.com/59710234/184238339-9a76fa46-86d1-4644-b8ed-c3a96c9ebdd2.png)
+![image](https://user-images.githubusercontent.com/59710234/184238449-199d5ef6-938f-4040-ae38-402b2c401e45.png)
+![image](https://user-images.githubusercontent.com/59710234/184238554-d2b0d8ca-7246-4340-8667-a10ba27784bf.png)
 
