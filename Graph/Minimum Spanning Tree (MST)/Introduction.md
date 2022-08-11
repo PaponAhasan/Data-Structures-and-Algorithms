@@ -101,10 +101,10 @@ A minimum spanning tree is a spanning tree in which the sum of the weight of the
   
   ```mermaid
 graph TD;
-    A-->B;
-    A-->D;
-    B-->C;
-    D-->C; 
+    A-->|4|B;
+    B-->|1|C;
+    C-->|2|D; 
+    D-->|5|A;
 ```
  
 #### A spanning tree :
