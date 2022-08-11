@@ -24,21 +24,25 @@ to the other edge. we found subgraph, this is called spanning tree.
 
   ```mermaid
     graph TD;
-        A-->[5]B;
-        B-->[4]C;
-        C-->[3]D;
-        D-->[2]E;
-        E-->[1]F;
-        F-->[6]A;
+        A-->|5|B;
+        B-->|4|C;
+        C-->|3|D;
+        D-->|2|E;
+        E-->|1|F;
+        F-->|6|A;
   ```
-
-  ```mermaid
-graph TD;
-    A-->B;
-    A-->D;
-    B-->C;
-    D-->C; 
-```
+  
+  ||
+  
+    ```mermaid
+    graph TD;
+        A-->|5|B;
+        B-->|4|C;
+        C-->|3|D;
+        D-->|2|E;
+        E-->|1|F;
+        F-->|6|A;
+  ```
 
 <details> <summary> Example Spanning Tree </summary>
     
