@@ -26,7 +26,7 @@ The steps for implementing Prim's algorithm are as follows:
 ![image](https://user-images.githubusercontent.com/59710234/184238449-199d5ef6-938f-4040-ae38-402b2c401e45.png)
 ![image](https://user-images.githubusercontent.com/59710234/184238554-d2b0d8ca-7246-4340-8667-a10ba27784bf.png)
 
-#### Prim's Algorithm Complexity
+### Prim's Algorithm Complexity
 ```
 The Time Complexity of the program is O(V^2). 
 If we can use priority queue to reduce runtime. Then, The time complexity of Prim's algorithm is O(E log E).
