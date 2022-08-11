@@ -87,7 +87,7 @@ graph TD;
     
 </details>
 
--
+---
 
 ### Minimum Spanning Tree
 
