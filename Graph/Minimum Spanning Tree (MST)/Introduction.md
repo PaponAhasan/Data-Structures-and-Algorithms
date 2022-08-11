@@ -91,8 +91,6 @@ graph TD;
 A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as possible.
 ```
 
-### Example of a Minimum Spanning Tree
-
 <details> <summary> Minimum Spanning Tree </summary>
 
 <br/>
