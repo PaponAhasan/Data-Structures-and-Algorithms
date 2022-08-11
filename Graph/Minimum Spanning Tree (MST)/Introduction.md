@@ -101,7 +101,7 @@ A minimum spanning tree is a spanning tree in which the sum of the weight of the
   
   ```mermaid
 graph TD;
-    A[5]-->B[5];
+    A edge weight:5-->B;
     A-->D;
     B-->C;
     D-->C; 
@@ -160,13 +160,5 @@ graph TD;
     D-->B
     B-->C; 
 ```
-    
-  ```mermaid
-    graph rankdir:TB, align:UL,
-    A[node A] edge weight:1 --> B[node B]
-```
-    
-graph TB
-    A[node A]-->B[node B]
-    
+  
 </details>
