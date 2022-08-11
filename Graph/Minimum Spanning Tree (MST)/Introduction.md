@@ -21,26 +21,26 @@ It does n't need to be every edge direct every edge, only visit other houses and
 to the other edge. we found subgraph, this is called spanning tree.
 ```
 
-  ```mermaid
-graph TD;
-    A-->[5]B;
-    B-->[4]C;
-    C-->[3]D;
-    D-->[2]E;
-    E-->[1]F;
-    F-->[6]A;
-  ```
+```mermaid
+    graph TD;
+        A-->[5]B;
+        B-->[4]C;
+        C-->[3]D;
+        D-->[2]E;
+        E-->[1]F;
+        F-->[6]A;
+```
   
   ||
   
-  ```mermaid
-graph TD;
-    A-->[5]B;
-    B-->[4]C;
-    C-->[3]D;
-    D-->[2]E;
-    E-->[1]F;
-  ```
+```mermaid
+    graph TD;
+        A-->[5]B;
+        B-->[4]C;
+        C-->[3]D;
+        D-->[2]E;
+        E-->[1]F;
+```
 
 <details> <summary> Example Spanning Tree </summary>
 
