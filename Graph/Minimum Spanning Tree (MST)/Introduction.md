@@ -9,6 +9,7 @@ possible number of edges. If a vertex is missed, then it is not a spanning tree.
 
 The total number of spanning trees with n vertices that can be created from a complete graph is equal to n^(n-2).
 ```
+
 > N.T : An undirected graph is a graph in which the edges do not point in any direction (ie. edges are bidirectional).
 > 
 > If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16
@@ -21,7 +22,7 @@ It does n't need to be every edge direct every edge, only visit other houses and
 to the other edge. we found subgraph, this is called spanning tree.
 ```
 
-```mermaid
+  ```mermaid
     graph TD;
         A-->[5]B;
         B-->[4]C;
@@ -29,21 +30,18 @@ to the other edge. we found subgraph, this is called spanning tree.
         D-->[2]E;
         E-->[1]F;
         F-->[6]A;
-```
-  
-  ||
-  
-```mermaid
-    graph TD;
-        A-->[5]B;
-        B-->[4]C;
-        C-->[3]D;
-        D-->[2]E;
-        E-->[1]F;
+  ```
+
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->D;
+    B-->C;
+    D-->C; 
 ```
 
 <details> <summary> Example Spanning Tree </summary>
-
+    
 <br/>
  
 #### Normal graph :
