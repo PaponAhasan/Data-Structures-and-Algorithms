@@ -121,7 +121,7 @@ A minimum spanning tree is a spanning tree in which the sum of the weight of the
   
 ![image](https://user-images.githubusercontent.com/59710234/184214116-5c92bdbb-4672-482e-b9f2-61fde655c8ce.png)
    
-#### A spanning tree :
+#### The minimum spanning tree (7 cost) :
   
 ![image](https://user-images.githubusercontent.com/59710234/184214145-8b780ccc-5eda-4762-a11e-bf1c864b3d43.png)
   
