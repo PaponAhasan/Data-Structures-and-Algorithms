@@ -32,10 +32,9 @@ to the other edge. we found subgraph, this is called spanning tree.
 ```
 
    ```mermaid
-    graph TD;
         A-->|5|B;
+        B-->|4|C;
         C-->|3|D;
-        D-->|2|A;
   ```
 
 <details> <summary> Example Spanning Tree </summary>
