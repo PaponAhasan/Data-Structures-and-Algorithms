@@ -1,2 +1,4 @@
 - [Programiz Prim-Algorithm](https://www.programiz.com/dsa/prim-algorithm)
 - [prims-minimum-spanning-tree Geeksforgeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+- [AbdulBari - Prims and Kruskals Algorithms - Greedy Method](https://www.youtube.com/watch?v=4ZlRH0eK-qQ&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=45&ab_channel=AbdulBari)
+- [শাফায়েতের ব্লগ](http://www.shafaetsplanet.com/?p=692)
