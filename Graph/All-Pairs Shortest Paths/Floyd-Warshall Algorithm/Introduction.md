@@ -18,10 +18,41 @@ matrix[i][j] = min(matrix[i][j] , matrix[i][k] + matrix[k][j])
 
 ```
 Now, create a matrix A^1 using matrix A^0
+
+Now intermediate vertex is : 1
+
+A0[2,3] < A0[2,1] + A0[1,3] => inf > 2 + inf
+
+A0[2,4] < A0[2,1] + A0[1,4] => 4 > 2 + 5 = 7
+
+A0[3,2] < A0[3,1] + A0[1,2] => 1 > inf + 3
+
+A0[3,4] < A0[3,1] + A0[1,4] => inf > inf + 5
+
+A0[4,2] < A0[4,1] + A0[1,2] => inf > inf + 3
+
+A0[4,3] < A0[4,1] + A0[1,3] => 2 > inf + inf
+
+
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184446479-3f110ed8-bd3f-4b36-b708-13b87c32f592.png)
 
 ```
+Now, create a matrix A^2 using matrix A^1
+
+Now intermediate vertex is : 2
+
+A1[1,3] < A1[1,2] + A1[2,3] => inf > 3 + 9 = 12 true
+
+A1[1,4] < A1[1,2] + A1[2,4] => 5 > 3 + 4 = 7
+
+A1[3,1] < A1[3,2] + A1[2,1] => inf > 1 + 2 = 3 true
+
+A1[3,4] < A1[3,2] + A1[2,4] => inf > 1 + 4 = 5 true
+
+A1[4,1] < A1[4,2] + A1[2,1] => inf > inf + 2
+
+A1[4,3] < A1[4,2] + A1[1,3] => 2 < inf + inf
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184446603-05e09104-c359-4d97-9c81-e29f19a587e8.png)
 
