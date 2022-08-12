@@ -15,6 +15,7 @@ diagonal  is 0 because there is no distance to go own edge!
 matrix[i][j] = min(matrix[i][j] , matrix[i][k] + matrix[k][j])
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184446526-3ddd2aaa-148e-4e7b-9119-79d8a5b477cb.png)
+
 ---
 ```
 Now, create a matrix A^1 using matrix A^0
