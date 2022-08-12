@@ -85,19 +85,20 @@ A2[4,2] < A2[4,3] + A2[3,2] => inf > 2 + 1 = 3 true
 Now, create a matrix A^4 using matrix A^3
 
 Now intermediate vertex is : 4
+
+A2[1,2] < A2[1,4] + A2[4,2] => 3 > 5 + 3 = 8 
+
+A2[1,3] < A2[1,4] + A2[4,3] => 12 > 5 + 2 = 7 (true)
+
+A2[2,1] < A2[2,4] + A2[4,1] => 2 > 4 + 5 =  9 
+
+A2[2,3] < A2[2,4] + A2[4,3] => inf > 4 + 2 = 6 (true)
+
+A2[3,1] < A2[3,4] + A2[4,1] => 3 > 5 + 5 = 10 
+
+A2[3,2] < A2[3,4] + A2[4,2] => 1 > 5 + 3 = 8
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184446778-97f4c16a-9941-4df9-b8b2-46caa34b5147.png)
-
-
-```
-![image](https://user-images.githubusercontent.com/59710234/184427225-67046951-3665-4665-9196-f4dcd568c5b2.png)
-
-![image](https://user-images.githubusercontent.com/59710234/184427493-57b4c8e0-b62c-48ed-a464-1a882df48bc1.png)
-
-![image](https://user-images.githubusercontent.com/59710234/184427522-d0fcfb32-bd1e-4a57-91d2-ccb1d4e94e9a.png)
-
-![image](https://user-images.githubusercontent.com/59710234/184427555-001892b5-1180-4a03-bbe1-be0301569aba.png)
-```
 
 ### Floyd Warshall Algorithm Complexity
 ```
