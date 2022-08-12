@@ -54,7 +54,7 @@ A1[4,1] < A1[4,2] + A1[2,1] => inf > inf + 2
 
 A1[4,3] < A1[4,2] + A1[1,3] => 2 < inf + inf
 ```
-![image](https://user-images.githubusercontent.com/59710234/184446603-05e09104-c359-4d97-9c81-e29f19a587e8.png)
+![image](https://user-images.githubusercontent.com/59710234/184450833-ef067a67-7cb9-4512-99b9-061d6c50819c.png)
 
 ```
 ```
