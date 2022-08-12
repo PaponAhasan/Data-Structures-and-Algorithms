@@ -73,7 +73,9 @@ A2[4,1] < A2[4,3] + A2[3,1] => inf > 2 + 3 = 5 true
 
 A2[4,2] < A2[4,3] + A2[3,2] => inf > 2 + 1 = 3 true
 ```
-![image](https://user-images.githubusercontent.com/59710234/184451966-38996555-bc73-419c-a96e-7d8d2179dc54.png)
+![image](https://user-images.githubusercontent.com/59710234/184452353-059bac63-d6b3-4ca1-9328-0592015ecf28.png)
+
+---
 
 ```
 ```
