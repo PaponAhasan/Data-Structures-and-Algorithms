@@ -53,6 +53,7 @@ The steps for implementing Prim's algorithm are as follows:
 ### Kruskal's Algorithm Complexity
 ```
 O(ElogE) or O(ElogV).
+
 Sorting of edges takes O(ELogE) time. After sorting, we iterate through all edges and apply the find-union algorithm. The find
 and union operations can take at most O(LogV) time.  So overall complexity is O(ELogE + ELogV) time. 
 
