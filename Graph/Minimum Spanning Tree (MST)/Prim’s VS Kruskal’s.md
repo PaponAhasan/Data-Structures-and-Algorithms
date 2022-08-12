@@ -1,11 +1,13 @@
 
 ### Prim’s Algorithm
 ```
+- Prim’s starts to build the Minimum Spanning Tree from any vertex in the graph.
 - Prim’s algorithm is also a Greedy algorithm.
 - Undirected connected graph is a spanning tree.
 ```
 ### Kruskal’s Algorithm
 ```
+- Kruskal’s starts to build the Minimum Spanning Tree from minimum weight vertex in the graph.
 - Kruskal’s algorithm,  is also a Greedy algorithm.
 - Undirected Disconnected graph is a spanning tree.
 ```
