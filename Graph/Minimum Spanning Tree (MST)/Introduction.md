@@ -4,6 +4,10 @@
 A spanning tree is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum 
 possible number of edges. If a vertex is missed, then it is not a spanning tree.
 
+- Prim’s and Kruskal’s Algorithm are the famous greedy algorithms.
+- They are used for finding the Minimum Spanning Tree (MST) of a given graph.
+- To apply these algorithms, the given graph must be weighted, connected and undirected.
+
 |V| = N Vertices
 |E| = |V| - 1 = N - 1 Edges
 
