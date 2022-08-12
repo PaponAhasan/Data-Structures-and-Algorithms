@@ -1,1 +1,2 @@
-- [AbdulBari](https://www.youtube.com/watch?v=4ZlRH0eK-qQ&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=45&ab_channel=AbdulBari)
+- [AbdulBari - Minimum Spanning Tree](https://www.youtube.com/watch?v=4ZlRH0eK-qQ&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=45&ab_channel=AbdulBari)
+- [TutorialsPoint - Minimum Spanning Tree](https://www.tutorialspoint.com/data_structures_algorithms/spanning_tree.htm)
