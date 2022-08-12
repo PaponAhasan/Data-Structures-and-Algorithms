@@ -28,3 +28,5 @@
 
 
 - [Difference between Prim’s and Kruskal’s algorithm for MST - Geeksforgeeks](https://www.geeksforgeeks.org/difference-between-prims-and-kruskals-algorithm-for-mst/)
+- [What-is-the-difference-between-prims-and-krushal-algorithm](https://pediaa.com/what-is-the-difference-between-prims-and-krushal-algorithm/)
+
