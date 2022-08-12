@@ -307,6 +307,7 @@ https://ideone.com/r4QSHM
 - https://www.geeksforgeeks.org/bits-manipulation-important-tactics/
 - https://www.geeksforgeeks.org/must-do-coding-questions-for-product-based-companies/?ref=ghm#BitMasking
 - https://www.geeksforgeeks.org/bitwise-algorithms/
+- https://www.geeksforgeeks.org/check-bits-number-set/
 
 ### Practice Problem
 - [Play With OR](https://practice.geeksforgeeks.org/problems/play-with-or5515/1)
