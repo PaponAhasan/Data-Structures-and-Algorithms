@@ -33,8 +33,9 @@ A0[4,2] < A0[4,1] + A0[1,2] => inf > inf + 3
 
 A0[4,3] < A0[4,1] + A0[1,3] => 2 > inf + inf
 
----
 ```
+---
+
 ![image](https://user-images.githubusercontent.com/59710234/184449959-3d6efa76-8f81-4245-b102-ce8d7f5ab6ec.png)
 
 ```
