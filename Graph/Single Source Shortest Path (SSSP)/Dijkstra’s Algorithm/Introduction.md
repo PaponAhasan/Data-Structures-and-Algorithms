@@ -32,4 +32,41 @@ the graph.
 8. If the destination node has been marked visited then stop, an algorithm has ended
 ```
 
+### Example of Dijkstra's algorithm
+![image](https://user-images.githubusercontent.com/59710234/184418916-a5321816-46f4-4226-8580-936f107ccc4e.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184418975-589abb17-a1bb-45f0-885e-100a41b1e92d.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419105-28452a01-83e5-4ccd-b0d0-fde4f90fe3ee.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419238-006ff57f-82fe-435a-8b11-e103ab1d8155.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419302-2d608da3-465c-4982-abee-068a5cee086f.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419406-5800bb52-f0a1-46bf-8945-d38d34ff67a5.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419539-22e46808-ef2d-40c1-bd08-1e3a3b420945.png)
+
+![image](https://user-images.githubusercontent.com/59710234/184419601-437cfee3-a093-4509-9ecd-74862fedbcd2.png)
+
+
+### Dijkstra's Algorithm Complexity
+```
+Time Complexity: O(E Log V)
+
+where, E is the number of edges and V is the number of vertices.
+
+Space Complexity: O(V)
+```
+
+### Dijkstra's Algorithm Applications
+```
+- To find the shortest path
+- In social networking applications
+- In a telephone network
+- To find the locations in the map
+```
+
+### Advantages and Disadvantages of Dijkstra’s Algorithm
+
 - [dijkstras-algorithm-shortest-path-algorithm](https://www.analyticssteps.com/blogs/dijkstras-algorithm-shortest-path-algorithm)
