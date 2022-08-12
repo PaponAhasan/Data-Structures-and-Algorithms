@@ -14,14 +14,24 @@ diagonal  is 0 because there is no distance to go own edge!
 
 matrix[i][j] = min(matrix[i][j] , matrix[i][k] + matrix[k][j])
 ```
-![image](https://user-images.githubusercontent.com/59710234/184445893-9a57270c-ad6d-4c26-acf3-1d4916ea4376.png)
-![image](https://user-images.githubusercontent.com/59710234/184445913-a684dcb1-d077-4893-86c4-9845d242fb95.png)
+![image](https://user-images.githubusercontent.com/59710234/184446526-3ddd2aaa-148e-4e7b-9119-79d8a5b477cb.png)
 
+```
+Now, create a matrix A^1 using matrix A^0
+```
+![image](https://user-images.githubusercontent.com/59710234/184446479-3f110ed8-bd3f-4b36-b708-13b87c32f592.png)
 
-![image](https://user-images.githubusercontent.com/59710234/184445938-06b68941-a3f1-4c81-8893-45e95e50a5bf.png)
-![image](https://user-images.githubusercontent.com/59710234/184445953-b8c518fd-bff0-4c1e-9f1e-41c4f55c2d05.png)
-![image](https://user-images.githubusercontent.com/59710234/184445967-25726add-daf3-4639-9507-0af5b4cef143.png)
-![image](https://user-images.githubusercontent.com/59710234/184445978-f4f00079-7ff0-4f60-8a22-ea178082b063.png)
+```
+```
+![image](https://user-images.githubusercontent.com/59710234/184446603-05e09104-c359-4d97-9c81-e29f19a587e8.png)
+
+```
+```
+![image](https://user-images.githubusercontent.com/59710234/184446716-eb89182d-4967-453b-b5ce-d876cd962ff4.png)
+
+```
+```
+![image](https://user-images.githubusercontent.com/59710234/184446778-97f4c16a-9941-4df9-b8b2-46caa34b5147.png)
 
 
 ```
