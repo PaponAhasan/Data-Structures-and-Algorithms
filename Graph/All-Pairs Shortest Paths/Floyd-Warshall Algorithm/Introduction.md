@@ -61,6 +61,10 @@ A1[4,3] < A1[4,2] + A1[1,3] => 2 > inf + inf
 ---
 
 ```
+Now, create a matrix A^3 using matrix A^2
+
+Now intermediate vertex is : 3
+
 A2[1,2] < A2[1,3] + A2[3,2] => 3 > 12 + 1 = 13 
 
 A2[1,4] < A2[1,3] + A2[3,4] => 5 > 12 + 5 = 17
@@ -78,6 +82,9 @@ A2[4,2] < A2[4,3] + A2[3,2] => inf > 2 + 1 = 3 true
 ---
 
 ```
+Now, create a matrix A^4 using matrix A^3
+
+Now intermediate vertex is : 4
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184446778-97f4c16a-9941-4df9-b8b2-46caa34b5147.png)
 
