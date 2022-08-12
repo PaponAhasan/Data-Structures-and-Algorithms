@@ -41,5 +41,13 @@ The steps for implementing Prim's algorithm are as follows:
 |  11  | 1 | 7  |
 |  14  | 3 | 5  |
 
+![image](https://user-images.githubusercontent.com/59710234/184293366-62d1bf59-2e6e-4021-bf02-4ca9ff8fccc1.png)
+![image](https://user-images.githubusercontent.com/59710234/184293563-f113f124-8da4-46d3-987c-4a627f7be5ee.png)
+![image](https://user-images.githubusercontent.com/59710234/184293733-ef63ed66-6546-4050-967a-7814a6716d7a.png)
+![image](https://user-images.githubusercontent.com/59710234/184293830-56918e20-290e-4fc4-8f3a-54dc76f91ad6.png)
+![image](https://user-images.githubusercontent.com/59710234/184293919-92c94a12-fff4-498a-8124-c61c1808524f.png)
+![image](https://user-images.githubusercontent.com/59710234/184294213-1d0427c6-f99c-43ab-840a-444caa01ed7c.png)
+![image](https://user-images.githubusercontent.com/59710234/184294340-db1b17e1-fa6d-4825-8022-948160f37e00.png)
+![image](https://user-images.githubusercontent.com/59710234/184294479-67be5edb-b90a-46d0-a13b-46b1259eedd1.png)
 
 ### Kruskal's Algorithm Complexity
