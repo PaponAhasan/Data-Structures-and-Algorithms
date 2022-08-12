@@ -1,6 +1,14 @@
 
-undirected graph is a spanning tree
-Kruskal’s algorithm, Prim’s algorithm is also a Greedy algorithm
+### Prim’s Algorithm
+```
+- Prim’s algorithm is also a Greedy algorithm.
+- Undirected connected graph is a spanning tree.
+```
+### Kruskal’s Algorithm
+```
+- Kruskal’s algorithm,  is also a Greedy algorithm.
+- Undirected Disconnected graph is a spanning tree.
+```
 
 ### BFS VS DFS
 
@@ -13,5 +21,6 @@ Kruskal’s algorithm, Prim’s algorithm is also a Greedy algorithm
 |    5   | When the tree are growing always Prim’s works only on connected graph.        | When the tree are growing always Kruskal’s can work on disconnected components.       |
 |    6   | Prim’s algorithm has a time complexity of O(V^2), can be improved up to O(E log V) using Fibonacci heaps. | Kruskal’s algorithm’s time complexity is O(E log V).        |
 |    7   | Prim’s algorithm prefer list data structures.        | Kruskal’s algorithm prefer heap data structures.        |
+
 
 - [Difference between Prim’s and Kruskal’s algorithm for MST - Geeksforgeeks](https://www.geeksforgeeks.org/difference-between-prims-and-kruskals-algorithm-for-mst/)
