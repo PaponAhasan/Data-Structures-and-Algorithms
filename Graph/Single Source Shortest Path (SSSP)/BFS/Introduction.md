@@ -1,6 +1,6 @@
 ## BFS (Breadth First Search) 
 ```
- 
+Breadth-First-Search (BFS) for unweighted graphs.
 ```
 ```
 1. 
