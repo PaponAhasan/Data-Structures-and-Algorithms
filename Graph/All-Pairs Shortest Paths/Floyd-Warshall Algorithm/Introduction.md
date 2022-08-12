@@ -35,7 +35,7 @@ A0[4,3] < A0[4,1] + A0[1,3] => 2 > inf + inf
 
 
 ```
-![image](https://user-images.githubusercontent.com/59710234/184446479-3f110ed8-bd3f-4b36-b708-13b87c32f592.png)
+![image](https://user-images.githubusercontent.com/59710234/184449959-3d6efa76-8f81-4245-b102-ce8d7f5ab6ec.png)
 
 ```
 Now, create a matrix A^2 using matrix A^1
