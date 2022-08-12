@@ -54,15 +54,26 @@ A1[3,4] < A1[3,2] + A1[2,4] => inf > 1 + 4 = 5 true
 
 A1[4,1] < A1[4,2] + A1[2,1] => inf > inf + 2
 
-A1[4,3] < A1[4,2] + A1[1,3] => 2 < inf + inf
+A1[4,3] < A1[4,2] + A1[1,3] => 2 > inf + inf
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184450833-ef067a67-7cb9-4512-99b9-061d6c50819c.png)
 
 ---
 
 ```
+A2[1,2] < A2[1,3] + A2[3,2] => 3 > 12 + 1 = 13 
+
+A2[1,4] < A2[1,3] + A2[3,4] => 5 > 12 + 5 = 17
+
+A2[2,1] < A2[2,3] + A2[3,1] => 2 > inf + 3 
+
+A2[2,4] < A2[2,3] + A2[3,4] => 4 > inf + 5
+
+A2[4,1] < A2[4,3] + A2[3,1] => inf > 2 + 3 = 5 true
+
+A2[4,2] < A2[4,3] + A2[3,2] => inf > 2 + 1 = 3 true
 ```
-![image](https://user-images.githubusercontent.com/59710234/184446716-eb89182d-4967-453b-b5ce-d876cd962ff4.png)
+![image](https://user-images.githubusercontent.com/59710234/184451966-38996555-bc73-419c-a96e-7d8d2179dc54.png)
 
 ```
 ```
