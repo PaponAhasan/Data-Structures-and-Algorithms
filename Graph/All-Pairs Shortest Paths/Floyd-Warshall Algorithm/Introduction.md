@@ -8,14 +8,9 @@ This algorithm follows the dynamic programming approach to find the shortest pat
 ### How Floyd-Warshall Algorithm Works?
 
 ```
-Initial graph
-```
-![image](https://user-images.githubusercontent.com/59710234/184426034-8be6a42e-68e6-4f33-bb26-fe92c4e14823.png)
-
-```
-Create a matrix A^0 of dimension n*n where n is the number of vertices. Each cell A[i][j] is filled with the distance from the ith vertex 
-to the jth vertex. If there is no path from ith vertex to jth vertex, the cell is left as infinity. And the value of the diagonal  is 
-0 because there is no distance to go own edge!
+Create a matrix A^0 of dimension n*n where n is the number of vertices. Each cell A[i][j] is filled with the distance from the ith 
+vertex to the jth vertex. If there is no path from ith vertex to jth vertex, the cell is left as infinity. And the value of the 
+diagonal  is 0 because there is no distance to go own edge!
 ```
 ![image](https://user-images.githubusercontent.com/59710234/184427225-67046951-3665-4665-9196-f4dcd568c5b2.png)
 
