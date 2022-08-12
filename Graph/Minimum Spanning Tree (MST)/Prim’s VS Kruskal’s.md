@@ -7,7 +7,7 @@ Kruskal’s algorithm, Prim’s algorithm is also a Greedy algorithm
 |  No    |  Prim’s Algorithm      |    Kruskal’s Algorithm     |
 | -----  | ---------------------- | -------------------------- |
 |    1   | Prim’s starts to build the Minimum Spanning Tree from any vertex in the graph. | Kruskal’s starts to build the Minimum Spanning Tree from the vertex minimum weight in the graph. |
-|    2   | Prim’s traverses one node more than one time to get the minimum distance.   |  Kruskal’s algorithm runs faster in sparse graphs.      |
+|    2   | Prim’s traverses one node more than one time to get the minimum distance.   |  Kruskal’s traverses one node only once.      |
 |    3   | Prim’s algorithm runs faster in dense graphs.        | Kruskal’s algorithm runs faster in sparse graphs.        |
 |    4   | Prim’s generates the minimum spanning tree starting from the root vertex.        | Kruskal’s generates the minimum spanning tree starting from the least weighted edge.      |
 |    5   | Prim’s works only on connected graph.        | Kruskal’s can work on disconnected components.       |
