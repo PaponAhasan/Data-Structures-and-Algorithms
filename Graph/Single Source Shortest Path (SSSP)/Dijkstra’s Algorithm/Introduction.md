@@ -32,7 +32,10 @@ the graph.
 8. If the destination node has been marked visited then stop, an algorithm has ended
 ```
 
-### Example of Dijkstra's algorithm
+### Example of Dijkstra's algorithm 
+```
+Now, we will select the new current node such that the node must be unvisited with the lowest minimum distance,
+```
 ![image](https://user-images.githubusercontent.com/59710234/184418916-a5321816-46f4-4226-8580-936f107ccc4e.png)
 
 ![image](https://user-images.githubusercontent.com/59710234/184418975-589abb17-a1bb-45f0-885e-100a41b1e92d.png)
@@ -68,5 +71,14 @@ Space Complexity: O(V)
 ```
 
 ### Advantages and Disadvantages of Dijkstra’s Algorithm
+```
+- One of the main advantages of it is its little complexity which is almost linear. 
+- It can be used finds the shortest distances from the source to all vertices.
+- It only works for directed-, weighted graphs and all edges should have non-negative values.
 
+- Dijkstra’s algorithm doesn’t work for graphs with negative weight cycles.
+  * It may give correct results for a graph with negative edges but you must allow a vertex can be visited multiple
+  times and that version will lose its fast time complexity. 
+  * For graphs with negative weight edges and cycles, Bellman–Ford algorithm can be used.
+```
 - [dijkstras-algorithm-shortest-path-algorithm](https://www.analyticssteps.com/blogs/dijkstras-algorithm-shortest-path-algorithm)
