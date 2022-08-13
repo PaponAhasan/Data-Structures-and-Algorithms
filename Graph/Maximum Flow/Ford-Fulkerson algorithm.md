@@ -22,11 +22,15 @@ Adding all the flows = 2 + 3 + 1 = 6, which is the maximum possible flow on the 
 
 if the capacity for any edge is full, then that path cannot be used.
 ```
-### Ford-Fulkerson Applications
+### Max Flow Ford-Fulkerson Applications
 
 ```
   - Water distribution pipeline
   - Bipartite matching problem
 ```
 
+### Time Complexity Max Flow Ford Fulkerson algorithm
+```
+Therefore the time complexity becomes O(max_flow * E).
+```
 - https://www.youtube.com/watch?v=NwenwITjMys&ab_channel=StartPracticing
