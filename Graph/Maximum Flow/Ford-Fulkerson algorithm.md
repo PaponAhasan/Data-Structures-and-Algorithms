@@ -1,8 +1,8 @@
 ```
 Ford-Fulkerson algorithm is a greedy approach for calculating the maximum possible flow in a network or a graph.
 
-flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can 
-receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
+flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T
+, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
 ```
 
 ![image](https://user-images.githubusercontent.com/59710234/184473733-4a7f24d8-5cea-4704-b5b7-d0abd1fff96b.png)
