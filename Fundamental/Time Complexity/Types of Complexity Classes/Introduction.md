@@ -39,7 +39,7 @@ NP class stands for Non-deterministic Polynomial Time. It is the collection of d
 answer) that can be solved by a non-deterministic machine in polynomial time.
 
 - The solutions of the NP class are hard to find because this solved by a non-deterministic machine.
-- But The solutions are easy to verify.
+- But The solutions are easy to verify. NP can be verified by a Turing machine in polynomial time. 
 
 - To check prime number.
 - Integer Factorization.
