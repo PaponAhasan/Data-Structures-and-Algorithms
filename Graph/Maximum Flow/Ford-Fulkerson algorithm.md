@@ -7,6 +7,7 @@ can receive and send an equal amount of stuff through it. S can only send and T 
 
 ### Example of Max Flow Ford Fulkerson algorithm
 
+
 ![image](https://user-images.githubusercontent.com/59710234/184473733-4a7f24d8-5cea-4704-b5b7-d0abd1fff96b.png)
 
 ![image](https://user-images.githubusercontent.com/59710234/184473758-48dd1aa1-c88b-43b8-bee7-dece45d9869f.png)
@@ -22,6 +23,7 @@ Adding all the flows = 2 + 3 + 1 = 6, which is the maximum possible flow on the 
 if the capacity for any edge is full, then that path cannot be used.
 ```
 ### Ford-Fulkerson Applications
+
 ```
   - Water distribution pipeline
   - Bipartite matching problem
