@@ -80,6 +80,8 @@ loops. We use Stack data structure with maximum size of total number of vertices
 without loops. We use Queue data structure with maximum size of total number of vertices in the graph to implement BFS traversal.
 ```
 
+- ![image](https://user-images.githubusercontent.com/59710234/184493215-7e843fd4-0466-4c03-ba44-85aed6c4918f.png)
+
 REFERENCE :
 - [btechsmartclass](http://www.btechsmartclass.com/data_structures/graph-traversal-dfs.html)
 - [hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/)
