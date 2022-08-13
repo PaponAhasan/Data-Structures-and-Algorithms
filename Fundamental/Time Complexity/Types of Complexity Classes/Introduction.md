@@ -51,10 +51,12 @@ answer) that can be solved by a non-deterministic machine in polynomial time.
                                                       ---------------
 It is the class of the problems such that every problem in NP reduces to NP-hard.
 
-1. All NP-hard problems are not in NP.
+1. To solve this problem, it do not have to be in NP .
 2. It takes a long time to check them. 
 3. A problem is in NP-hard if for every problem NP, polynomial-time reduction.
 4. The longest path problem is NP-hard
+5. Do not have to be a Decision problem.
+6. NP-Hard problems can be solved if and only if there is a NP-Complete problem.
 
 - Dijkstra's algorithm
 - Floyed warshal algorithm
@@ -64,7 +66,12 @@ It is the class of the problems such that every problem in NP reduces to NP-hard
                                                     -------------------
 A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are the hard problems in NP.
 
-decision problem
+1. To solve this problem, it must be both NP and NP-hard problems.
+2. Do be a decision problem
+3. NP-Complete problems can be solved by a non-deterministic Algorithm (NP)
+4. NP-Complete if there is an NP problem
+5. A problem is NP-Complete if it is a part of both NP and NP-Hard Problem
+6.  A non-deterministic  Turing machine can solve NP-Complete problem in polynomial time
 
 1. If can solve an NP-complete problem in polynomial time, then can also solve any NP problem in polynomial time.
 ```
