@@ -3,6 +3,13 @@ Ford-Fulkerson algorithm is a greedy approach for calculating the maximum possib
 
 flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T,
 can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
+
+* S --> A --> B --> T ==> Augmented Path
+
+* Edge Capacity - Flow Capacity ==> Residual Capacity
+
+* minimum({Augmented Path of all edge for Residual Capacity}) ==> Bottleneck Capacity
+  minimum{2/8 = 6, 2/9 = 7, 2/2 = 0} ==> 0
 ```
 
 ### Example of Max Flow Ford Fulkerson algorithm
