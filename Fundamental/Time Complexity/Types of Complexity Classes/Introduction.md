@@ -21,8 +21,8 @@ Types of Complexity Classes:
 ```
                                                          P Class 
                                                       ---------------   
-The P class stands for Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) that can be 
-solved by a deterministic machine in polynomial time.
+The P class stands for Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) that can
+be solved by a deterministic machine in polynomial time.
 
 - The solution to P problems is easy to find. 
 
@@ -33,8 +33,8 @@ This class contains many natural problems like:
 ```
                                                        NP Class
                                                     -----------------
-NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) 
-that can be solved by a non-deterministic machine in polynomial time.
+NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” 
+answer) that can be solved by a non-deterministic machine in polynomial time.
 
 - The solutions of the NP class are hard to find
 - The solutions are easy to verify.
