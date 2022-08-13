@@ -2,6 +2,8 @@
 The bipartite matching is a set of edges in a graph is chosen in such a way, that no two edges in that set will share an 
 endpoint. The maximum matching is matching the maximum number of edges.
 
+Backtracking
+
 - 2 disjoit set of vertices. not between the vertices of particular set.
 - vertexs of the same set are not connected.
 - 'subset a edges' that no two edges share a vertex
