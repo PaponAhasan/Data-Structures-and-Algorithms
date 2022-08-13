@@ -29,6 +29,9 @@ be solved by a deterministic machine in polynomial time.
 This class contains many natural problems like:
   - Calculating the greatest common divisor.
   - Finding a maximum matching.
+  
+  - prim's algorithm
+  - kruskal algorithm 
 ```
 ```
                                                        NP Class
@@ -51,11 +54,17 @@ It is the class of the problems such that every problem in NP reduces to NP-hard
 1. All NP-hard problems are not in NP.
 2. It takes a long time to check them. 
 3. A problem is in NP-hard if for every problem NP, polynomial-time reduction.
+4. The longest path problem is NP-hard
+
+- Dijkstra's algorithm
+- Floyed warshal algorithm
 ```
 ```
                                                      NP-complete class
                                                     -------------------
 A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are the hard problems in NP.
+
+decision problem
 
 1. If can solve an NP-complete problem in polynomial time, then can also solve any NP problem in polynomial time.
 ```
