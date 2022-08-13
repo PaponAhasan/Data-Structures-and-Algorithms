@@ -26,10 +26,9 @@ be solved by a deterministic machine in polynomial time.
 
 - The solution to P problems is easy to find. 
 
-This class contains many natural problems like:
+ Natural problems :
   - Calculating the greatest common divisor.
   - Finding a maximum matching.
-  
   - prim's algorithm
   - kruskal algorithm 
 ```
@@ -39,8 +38,8 @@ This class contains many natural problems like:
 NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” 
 answer) that can be solved by a non-deterministic machine in polynomial time.
 
-- The solutions of the NP class are hard to find
-- The solutions are easy to verify.
+- The solutions of the NP class are hard to find because this solved by a non-deterministic machine.
+- But The solutions are easy to verify.
 
 - To check prime number.
 - Integer Factorization.
@@ -49,14 +48,16 @@ answer) that can be solved by a non-deterministic machine in polynomial time.
 ```
                                                        NP-hard class
                                                       ---------------
+                                                      
+An NP-hard problem is at least as hard as the hardest problem in NP.
 It is the class of the problems such that every problem in NP reduces to NP-hard.
 
 1. To solve this problem, it do not have to be in NP .
-2. It takes a long time to check them. 
+2. It takes a long time to check them.This means if a solution for an NP-hard problem is given then it takes a 
+  long time.
 3. A problem is in NP-hard if for every problem NP, polynomial-time reduction.
-4. The longest path problem is NP-hard
-5. Do not have to be a Decision problem.
-6. NP-Hard problems can be solved if and only if there is a NP-Complete problem.
+4. Do not have to be a Decision problem.
+5. NP-Hard problems can be solved if and only if there is a NP-Complete problem.
 
 - Dijkstra's algorithm
 - Floyed warshal algorithm
@@ -68,10 +69,10 @@ A problem is NP-complete if it is both NP and NP-hard. NP-complete problems are 
 
 1. To solve this problem, it must be both NP and NP-hard problems.
 2. Do be a decision problem
-3. NP-Complete problems can be solved by a non-deterministic Algorithm (NP)
+3. NP-Complete problems can be solved by a NP problem in polynomial time.
 4. NP-Complete if there is an NP problem
 5. A problem is NP-Complete if it is a part of both NP and NP-Hard Problem
-6.  A non-deterministic  Turing machine can solve NP-Complete problem in polynomial time
+6. A non-deterministic Turing machine can solve NP-Complete problem in polynomial time
 
 1. If can solve an NP-complete problem in polynomial time, then can also solve any NP problem in polynomial time.
 ```
