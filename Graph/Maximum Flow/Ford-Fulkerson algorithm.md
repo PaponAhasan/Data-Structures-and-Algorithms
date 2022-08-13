@@ -10,8 +10,11 @@ can receive and send an equal amount of stuff through it. S can only send and T 
 ![image](https://user-images.githubusercontent.com/59710234/184473733-4a7f24d8-5cea-4704-b5b7-d0abd1fff96b.png)
 
 ![image](https://user-images.githubusercontent.com/59710234/184473758-48dd1aa1-c88b-43b8-bee7-dece45d9869f.png)
+
 ![image](https://user-images.githubusercontent.com/59710234/184473889-e1b909c2-ebe1-48aa-a84d-22abc4284d86.png)
+
 ![image](https://user-images.githubusercontent.com/59710234/184473981-8ed92ef2-ddf9-4b09-98b5-1450ede98a16.png)
+
 ![image](https://user-images.githubusercontent.com/59710234/184474008-11ea0902-c53f-4669-8baa-a5d227dc5adb.png)
 ```
 Adding all the flows = 2 + 3 + 1 = 6, which is the maximum possible flow on the flow network.
