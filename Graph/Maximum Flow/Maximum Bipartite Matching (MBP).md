@@ -6,6 +6,17 @@ endpoint. The maximum matching is matching the maximum number of edges.
 - vertexs of the same set are not connected.
 - 'subset a edges' that no two edges share a vertex
 ```
+```
+A bipartite graph is a graph whose vertices can be divided into two disjoint and independent sets and , that is every edge 
+connects a vertex in to one in.
+
+- The vertices of the graph can be decomposed into two sets.
+- The two sets are X = {A, C} and Y = {B, D}.
+- The vertices of set X join only with the vertices of set Y and vice-versa.
+- The vertices within the same set do not join.
+- Therefore, it is a bipartite graph.
+```
+![image](https://user-images.githubusercontent.com/59710234/184493199-8dded4f4-5215-414e-9164-1253ecb092c2.png)
 
 ### Example of Max Flow Ford Fulkerson algorithm
 ```
