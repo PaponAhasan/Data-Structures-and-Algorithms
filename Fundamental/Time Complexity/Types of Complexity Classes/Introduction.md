@@ -1,5 +1,14 @@
 ```
-This article discusses the following complexity classes:
+There exist some problems whose solutions are not yet found, the problems are divided into classes known as 
+Complexity Classes.
+
+These classes help scientists to groups problems based on how much time and space they require to solve problems and verify the solutions.
+
+The common resources are time and space, meaning how much time the algorithm takes to solve a problem and the corresponding memory usage.
+```
+
+```
+Types of Complexity Classes:
 
   - P Class
   - NP Class
@@ -7,6 +16,25 @@ This article discusses the following complexity classes:
   - NP hard
   - NP complete
 ```
+```
+                                                      P Class 
+                                                   ---------------   
+The P class stands for Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) that can be solved by 
+a deterministic machine in polynomial time.
+
+- The solution to P problems is easy to find. 
+
+This class contains many natural problems like:
+  - Calculating the greatest common divisor.
+  - Finding a maximum matching.
+```
+```
+                                                     NP Class
+                                                 -----------------
+NP class stands for Non-deterministic Polynomial Time. It is the collection of decision problems(problems with a “yes” or “no” answer) that can 
+be solved by a non-deterministic machine in polynomial time.
+```
+
 - https://www.youtube.com/watch?v=e2cF8a5aAhE&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=72&ab_channel=AbdulBari
 - https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/
 - http://www.shafaetsplanet.com/?p=1642
