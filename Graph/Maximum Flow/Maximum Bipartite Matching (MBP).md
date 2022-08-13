@@ -1,6 +1,10 @@
 ```
 The bipartite matching is a set of edges in a graph is chosen in such a way, that no two edges in that set will share an 
 endpoint. The maximum matching is matching the maximum number of edges.
+
+- 2 disjoit set of vertices. not between the vertices of particular set.
+- vertexs of the same set are not connected.
+- 'subset a edges' that no two edges share a vertex
 ```
 
 ### Example of Max Flow Ford Fulkerson algorithm
@@ -27,3 +31,6 @@ people that can get jobs. The maximum flow from source to sink is five units.
 ![image](https://user-images.githubusercontent.com/59710234/184479804-f990986c-a586-4cdf-b2f0-95aa08487879.png)
 
 - https://www.geeksforgeeks.org/maximum-bipartite-matching/
+- https://www.youtube.com/watch?v=sSOK9STyuBY&ab_channel=PeriCSE
+
+![image](https://user-images.githubusercontent.com/59710234/184484269-c2edddfa-0c3c-4f02-a6fe-c4968a480e2e.png)
