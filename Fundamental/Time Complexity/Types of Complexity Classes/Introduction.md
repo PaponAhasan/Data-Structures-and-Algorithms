@@ -49,11 +49,10 @@ answer) that can be solved by a non-deterministic machine in polynomial time.
                                                        NP-hard class
                                                       ---------------
                                                       
-An NP-hard problem is at least as hard as the hardest problem in NP.
 It is the class of the problems such that every problem in NP reduces to NP-hard.
 
 1. To solve this problem, it do not have to be in NP .
-2. It takes a long time to check them.This means if a solution for an NP-hard problem is given then it takes a 
+2. It takes a long time to check them. This means if a solution for an NP-hard problem is given then it takes a 
   long time.
 3. A problem is in NP-hard if for every problem NP, polynomial-time reduction.
 4. Do not have to be a Decision problem.
