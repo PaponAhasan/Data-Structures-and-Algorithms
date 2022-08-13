@@ -14,7 +14,7 @@
 - Kruskal’s traverses one node only once time to get the minimum distance.
 ```
 
-### BFS VS DFS
+### Prim's VS Kruskal's
 
 |  No    |  Prim’s Algorithm      |    Kruskal’s Algorithm     |
 | -----  | ---------------------- | -------------------------- |
