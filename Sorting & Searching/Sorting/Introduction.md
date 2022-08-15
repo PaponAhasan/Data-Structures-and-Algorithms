@@ -1,10 +1,18 @@
 <a href="docs/images/snippets.md#quicksort">
-
-<img src="https://user-images.githubusercontent.com/59710234/184655705-e1637fcd-4cc9-44b0-9afe-e5aaf83142b8.png" align="right" width="575"
+<!--
+Edit snippet in docs/images/snippets.md and:
+https://drive.google.com/drive/folders/1-rsUjiya7dSZ87L8kpZmu3MZghRVxzLA
+-->
+<img src="docs/images/quicksort_snippet.svg" align="right" width="575"
      alt="Quicksort code in Carbon. Follow the link to read more.">
 </a>
 
-<div><a href="#"><img src="https://user-images.githubusercontent.com/59710234/184655705-e1637fcd-4cc9-44b0-9afe-e5aaf83142b8.png"></a></div>
+<!--
+Don't let the text wrap too narrowly to the left of the above image.
+The `div` reduces the vertical height.
+GitHub will autolink `img`, but won't produce a link when `href="#"`.
+-->
+<div><a href="#"><img src="docs/images/bumper.png"></a></div>
 
 **Fast and works with C++**
 
