@@ -619,6 +619,8 @@
   
 <details> <summary> MAP & MULTIMAP </summary>
  
+ https://codeforces.com/blog/entry/21853
+ 
 </details>
 
   ---
@@ -836,6 +838,8 @@
  ---
  
 <details> <summary>  UNORDERED MAP & UNORDERED MULTIMAP </summary>
+ 
+ https://codeforces.com/blog/entry/21853
  
 </details>
 
