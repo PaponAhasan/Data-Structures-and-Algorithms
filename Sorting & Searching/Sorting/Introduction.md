@@ -12,7 +12,7 @@ Don't let the text wrap too narrowly to the left of the above image.
 The `div` reduces the vertical height.
 GitHub will autolink `img`, but won't produce a link when `href="#"`.
 -->
-<div><a href="#"><img src="docs/images/bumper.png"></a></div>
+<div><a href="#"><img src="https://user-images.githubusercontent.com/59710234/184656427-ce0d7fb8-33ef-4b65-b2ab-c5353f1c82de.png"></a></div>
 
 **Fast and works with C++**
 
