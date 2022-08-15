@@ -1,7 +1,7 @@
-<a href="docs/images/snippets.md#quicksort">
+
 <img src="https://user-images.githubusercontent.com/59710234/184656427-ce0d7fb8-33ef-4b65-b2ab-c5353f1c82de.png" align="right" width="575"
      alt="Quicksort code in Carbon. Follow the link to read more.">
-</a>
+
 
 <!--
 Don't let the text wrap too narrowly to the left of the above image.
