@@ -1,8 +1,4 @@
 <a href="docs/images/snippets.md#quicksort">
-<!--
-Edit snippet in docs/images/snippets.md and:
-https://drive.google.com/drive/folders/1-rsUjiya7dSZ87L8kpZmu3MZghRVxzLA
--->
 <img src="https://user-images.githubusercontent.com/59710234/184656427-ce0d7fb8-33ef-4b65-b2ab-c5353f1c82de.png" align="right" width="575"
      alt="Quicksort code in Carbon. Follow the link to read more.">
 </a>
