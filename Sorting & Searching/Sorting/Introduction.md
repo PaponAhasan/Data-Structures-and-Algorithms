@@ -3,7 +3,7 @@
 Edit snippet in docs/images/snippets.md and:
 https://drive.google.com/drive/folders/1-rsUjiya7dSZ87L8kpZmu3MZghRVxzLA
 -->
-<img src="docs/images/quicksort_snippet.svg" align="right" width="575"
+<img src="https://user-images.githubusercontent.com/59710234/184655705-e1637fcd-4cc9-44b0-9afe-e5aaf83142b8.png" align="right" width="575"
      alt="Quicksort code in Carbon. Follow the link to read more.">
 </a>
 
