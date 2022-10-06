@@ -12,7 +12,8 @@ Template #1 is the most basic and elementary form of Binary Search. Template #1 
 
 
 👉 Initial Condition: ```c++
-left = 0, right = length-1```  
+left = 0, right = length-1
+```  
 👉 Termination: left > right  
 👉 Searching Left: right = mid-1  
 👉 Searching Right: left = mid+1 
