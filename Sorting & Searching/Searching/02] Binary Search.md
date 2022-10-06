@@ -4,6 +4,6 @@ Binary Search maintains the left, right, and middle indicies of the search space
 
 In the following blog, we will review how to identify Binary Search problems, reasons why we use Binary Search, and the 3 different Binary Search templates.
 
-- [Binary Search](https://leetcode.com/explore/learn/card/binary-search/138/background/1038/)
+- [x] [Binary Search](https://leetcode.com/explore/learn/card/binary-search/138/background/1038/)
 
 
