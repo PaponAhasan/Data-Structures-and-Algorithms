@@ -40,3 +40,4 @@ int binarySearch(vector<int>& nums, int target){
 ``` 
 
 
+👉 https://leetcode.com/explore/learn/card/binary-search/
