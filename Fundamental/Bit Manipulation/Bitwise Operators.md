@@ -1,5 +1,5 @@
 ### Introduction
-```
+
 In computer, all the numbers and all the other data are stored using 2 based number system or in binary format. So, what we use 
 to say a '5' in decimal, a computer will represent it as '101', in fact, everything is represented as some sequence of 0s and 1s.
 We call this sequence a bit-string.
@@ -12,7 +12,7 @@ evaluated.
 
 Bit-wise operations are quite fast and easy to use,sometimes they reduce the running time of your program heavily, so use bit-wise 
 operations when-ever you can.
-```
+
 ```
  6 operators are bitwise operators
  
