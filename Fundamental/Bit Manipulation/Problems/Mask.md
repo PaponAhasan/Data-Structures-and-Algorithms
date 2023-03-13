@@ -1,4 +1,4 @@
-'''c++
+```c++
 // Online C++ compiler to run C++ program online
 #include <iostream>
 void displayBits(unsigned int value){
@@ -23,4 +23,4 @@ int main() {
     displayBits(x);
     return 0;
 }
-'''
+```
