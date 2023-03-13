@@ -149,10 +149,13 @@ Some of the left most bits are lost. If we use 32 bits data type.
 -------------------------------- << 8 (SHIFT LEFT the bits by 8 bit)
 00000000000100110111001000000000 ⇒ 1274368
 
-Output of 4978 << 8 is 1274368. (this is actually correct!) . So we told that, this operator depends the length of bit-string.
+Output of 4978 << 8 is 1274368. (this is actually correct!) . So we told that,
+  this operator depends the length of bit-string.
 
-- The output will be 29184 for 16 bit compiler as Turbo C (16 bits; some bits will be lost)
-- The output will be 1274368 for 32 bit compiler as GNU C (32 bits; all bits are reserved since it has bigger capacity)
+- The output will be 29184 for 16 bit compiler as Turbo C 
+   (16 bits; some bits will be lost)
+- The output will be 1274368 for 32 bit compiler as GNU C 
+   (32 bits; all bits are reserved since it has bigger capacity)
 
 4978 << 8 = 1274368 (in 32 bits compiler)
 4978 * 2^8 = 4978 * 256 = 1274368. (exactly the same)
@@ -192,8 +195,9 @@ OR
 -------------------------------- >> 8 (SHIFT RIGHT the bits by 8 bit)
 00000000000000000000000000010011 ⇒ 19
 
-In 16 bits compiler or 32 bits compiler, the >> has no difference, because >> will discard the right most bit, and increased 
-capacity on the left side doesn't help here anyhow.
+In 16 bits compiler or 32 bits compiler, the >> has no difference, 
+because >> will discard the right most bit, and increased capacity 
+on the left side doesn't help here anyhow.
 
 4978 >> 8 = 19 (in 32 bits compiler)
 4978 / 2^8 = 4978 / 256 = 19.
