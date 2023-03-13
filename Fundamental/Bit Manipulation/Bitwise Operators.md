@@ -142,8 +142,8 @@ Second Example : Error
 ---------------- << 8 (SHIFT LEFT the bits by 8 bit)
 0111001000000000 ⇒ 29184
 
-Using 16 bit compiler, 4978 << 8 is 29184, which is incorrect! Some of the left most bits are lost. If we use 32 bits 
-data type.
+Using 16 bit compiler, 4978 << 8 is 29184, which is incorrect! 
+Some of the left most bits are lost. If we use 32 bits data type.
 
 00000000000000000001001101110010 ⇒ 4978(32 bit)
 -------------------------------- << 8 (SHIFT LEFT the bits by 8 bit)
