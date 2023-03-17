@@ -13,6 +13,53 @@ Binary search is an efficient algorithm for finding an item from a sorted list o
 values in logarithmic time. It works by repeatedly dividing in half the portion of the list. You may binary search the answer over 
 the possible range [1,2e9]
 
+```c++
+int firstOccurrence(vector<int>& arr, int n, int k){
+
+    int left = 0, right = n - 1, ans = -1;
+
+    while(left <= right){
+    
+        int mid = left + (right - left)/2;
+        
+        if(arr[mid] == k){
+            ans = mid;
+            right = mid - 1;
+        }
+        else if(arr[mid] < k){
+            left = mid + 1;
+        }
+        else {
+            right = mid - 1;
+        }
+    }
+    
+    return left;
+}
+
+int lastOccurrence(vector<int>& arr, int n, int k){
+
+    int left = 0, right = n - 1, ans = -1;
+
+    while(left <= right){
+        int mid = left + (right - left)/2;
+
+                
+        if(arr[mid] == k){
+            ans = mid;
+            left = mid + 1;
+        }
+        else if(arr[mid] < k){
+            left = mid + 1;
+        }
+        else {
+            right = mid - 1;
+        }
+    }
+    
+    return left;
+}
+```
 
 <details> <summary> Try Problem </summary>
 
