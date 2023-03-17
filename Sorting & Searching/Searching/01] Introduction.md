@@ -34,7 +34,7 @@ int firstOccurrence(vector<int>& arr, int n, int k){
         }
     }
     
-    return left;
+    return ans;
 }
 
 int lastOccurrence(vector<int>& arr, int n, int k){
@@ -57,7 +57,7 @@ int lastOccurrence(vector<int>& arr, int n, int k){
         }
     }
     
-    return left;
+    return ans;
 }
 ```
 
