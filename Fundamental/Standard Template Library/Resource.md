@@ -6,3 +6,4 @@
 - [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
 - https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
 - https://www.geeksforgeeks.org/cpp-stl-tutorial/
+- https://www.geeksforgeeks.org/cpp-bitset-and-its-application/
