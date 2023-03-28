@@ -199,6 +199,13 @@ printf("%u",p+2);  // 104
 printf("%d",*(p+2);  // 9
 
 ```
+```c++
+int temp[10]
+cout << sizeof(temp) << "\n"; // 40
+int *ptr = &temp[0];
+cout << sizeof(ptr) << "\n"; // 8
+cout << sizeof(*ptr) << "\n"; // 4
+```
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
 ### 2D Array Using Pointer
