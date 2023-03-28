@@ -182,6 +182,8 @@ printf("%d",2[A]); // 9
 
 printf("%u",A+2);  // 104
 
+printf("%d",*A + 1; // 6
+
 printf("%d",*(A+2); // 9
 
 printf("%u",p);  // 100
@@ -194,7 +196,8 @@ printf("%d",2[p]); // 9
 
 printf("%u",p+2);  // 104
 
-printf("%d",*(A+2);  // 9
+printf("%d",*(p+2);  // 9
+
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
