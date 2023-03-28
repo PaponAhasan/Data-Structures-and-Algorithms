@@ -1,3 +1,4 @@
 - [AbdulBari](https://www.youtube.com/playlist?list=PLDN4rrl48XKp1ubbVUHVrOMkO4rTsjXrg)
 - [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
 - [programiz](https://www.programiz.com/c-programming/c-pointers)
+- [codingninjas](https://www.codingninjas.com/codestudio/guided-paths/pointers)
