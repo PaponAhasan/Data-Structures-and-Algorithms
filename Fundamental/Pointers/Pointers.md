@@ -224,6 +224,16 @@ int *ptr = &temp[0];
 cout << sizeof(ptr) << "\n"; // 8
 cout << sizeof(*ptr) << "\n"; // 4
 cout << sizeof(&ptr) << "\n"; // 8
+
+int a[20] = {1, 2, 3, 5}
+cout << &a[0] << "\n"; // 400
+cout << &a << "\n"; // 400
+cout << a << "\n"; // 400
+ 
+int *p = &a[0]; 
+cout << p << "\n"; // 400
+cout << *p << "\n"; // 1
+cout << &p << "\n"; // 800 pointer address
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
