@@ -6,13 +6,15 @@ For Example : Heap Memory access
 [N.T : Every Integer taka a two bytes ]
 ```
 ```c++
- int num = 5;
- int *p = &num;
- cout << "before : " << num << "\n"; // 5
- (*p)++;
- /* Pointers do not create another copy. In the pointer, 
- the same value is indicated. That's why the change value*/
- cout << "after: " << num << "\n"; // 6
+main(){
+   int num = 5;
+   int *p = &num;
+   cout << "before : " << num << "\n"; // 5
+   (*p)++;
+   /* Pointers do not create another copy. In the pointer, 
+   the same value is indicated. That's why the change value*/
+   cout << "after: " << num << "\n"; // 6
+}
 ```
 
 ### Pointer Arithmetic
