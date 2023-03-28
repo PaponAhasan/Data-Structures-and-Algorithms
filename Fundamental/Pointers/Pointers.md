@@ -7,6 +7,7 @@ For Example : Heap Memory access
 ```
 ```c++
 main(){
+
    int num = 5;
    int *p = &num;
    cout << "before : " << num << "\n"; // 5
