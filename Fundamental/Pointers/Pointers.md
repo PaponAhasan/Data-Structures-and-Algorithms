@@ -5,6 +5,42 @@ For Example : Heap Memory access
 
 [N.T : Every Integer taka a two bytes ]
 ```
+
+### Pointer Variable
+
+Any data type pointer size 8 byte. Because a pointer store address.
+
+```c++
+   int main() {
+   int num = 5; 
+   cout << num; // 5
+   int *ptr = &num; 
+   cout << *ptr; // 5
+   int *q = ptr // copy pointer
+   int *p = 0; cout << *p;  // segmentation fault
+}
+```
+
+2 way declare pointer varibale.
+
+```c++
+int main() {
+    int i = 5;
+    
+    //1st way
+    int *q = &i;
+    cout << q << "\n"; 
+    cout << *q << "\n";
+    
+    //2st way
+    int *p = 0;
+    p = &i;
+    cout << p << "\n";
+    cout << *p << "\n";
+	return 0;
+}
+```
+
 ```c++
 main(){
 
