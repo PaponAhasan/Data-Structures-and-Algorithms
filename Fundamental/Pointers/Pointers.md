@@ -37,7 +37,7 @@ int main() {
     p = &i;
     cout << p << "\n";
     cout << *p << "\n";
-	return 0;
+    return 0;
 }
 ```
 
@@ -52,6 +52,21 @@ main(){
    the same value is indicated. That's why the change value*/
    cout << "after: " << num << "\n"; // 6
 }
+```
+
+```c++
+int main() {
+   int i = 10;
+   int * p;
+   p = & i;
+   cout << "Address of the variable i is " << p << endl;
+   cout << "Address of the pointer p is " << & p;
+   return 0;
+}
+
+Output:
+Address of the variable i is 0x7fff32eb4bb4
+Address of the pointer p is 0x7fff32eb4bb8
 ```
 
 ### Pointer Arithmetic
