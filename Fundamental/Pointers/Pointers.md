@@ -5,7 +5,7 @@ For Example : Heap Memory access
 
 [N.T : Every Integer taka a two bytes ]
 ```
-```
+```c++
  int num = 5;
  int *p = &num;
  cout << "before : " << num << "\n"; // 5
