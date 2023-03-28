@@ -234,6 +234,9 @@ int *p = &a[0];
 cout << p << "\n"; // 400
 cout << *p << "\n"; // 1
 cout << &p << "\n"; // 800 pointer address
+
+arr[i] = *(arr + i)
+i[arr] = *(i + arr)
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
