@@ -186,6 +186,9 @@ p++;
 |102| 
 
 ### 1D Array Using Pointer
+
+![image](https://user-images.githubusercontent.com/59710234/174294861-e14db58a-3875-4932-8dfd-6eae742451c6.png)
+
 ```c++
 printf("%u",A);  // 100
 
@@ -277,9 +280,10 @@ cout << &c[0] << "\n"; // abcde
 cout << &c[1] << "\n"; // bcde
 ```
 
-![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
-
 ### 2D Array Using Pointer
+
+![image](https://user-images.githubusercontent.com/59710234/174294861-e14db58a-3875-4932-8dfd-6eae742451c6.png)
+
 ```c++
 printf("%u",p);  // 500
 
@@ -316,7 +320,8 @@ printf("%u",A[1]); 508
 printf("%u",A[1]+2); 50
 printf("%u",*(A[1]+2)); 25
 ```
-![image](https://user-images.githubusercontent.com/59710234/174294861-e14db58a-3875-4932-8dfd-6eae742451c6.png)
+
+### Pointers & Functions
 
 ### Program in Memory
 ```
