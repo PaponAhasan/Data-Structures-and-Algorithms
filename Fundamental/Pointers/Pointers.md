@@ -224,7 +224,8 @@ int *ptr = &temp[0];
 cout << sizeof(ptr) << "\n"; // 8
 cout << sizeof(*ptr) << "\n"; // 4
 cout << sizeof(&ptr) << "\n"; // 8
-
+```
+```c++
 int a[20] = {1, 2, 3, 5}
 cout << &a[0] << "\n"; // 400
 cout << &a << "\n"; // 400
@@ -257,7 +258,8 @@ cout << c << "\n"; // abcde
 char temp = 'z';
 chat *p = &temp;
 cout << p << "\n"; // z@@j
-
+```
+```c++
 char *f = "abcd";
 cout << *f << "\n"; //a
 cout << f << "\n"; //abcd
@@ -266,7 +268,6 @@ cout << f[0] << "\n"; //a
     
 char ch[6] = "abcde";
 char *c = &ch[0];
-    
 cout << c << "\n"; // abcde
 cout << *c << "\n"; // a
 cout << *c + 1 << "\n"; // 98
