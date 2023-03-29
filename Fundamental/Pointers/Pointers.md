@@ -359,11 +359,22 @@ void getSum(int arr[], int n){
     arr[1] = 20;
 }
 
+void getSumRange(int arry[], int n){
+    int sum = 0;
+    for(int i = 0; i < n ; i++){
+        sum += i[arry]; // 9 + 10 + 4 = 23
+    }
+    cout << sum << '\n';
+}
+
 int main() {
 	int arr[] = {1, 6, 9, 10, 4};
 	cout << arr[1] << '\n'; // 6
 	getSum(arr, 5);
 	cout << arr[1] << "\n"; // 20
+	
+        int arry[] = {1, 6, 9, 10, 4};
+	getSumRange(arry + 2, 3);
 	return 0;
 }
 ```
