@@ -6,6 +6,8 @@ For Example : Heap Memory access
 [N.T : Every Integer taka a two bytes ]
 ```
 
+![image](https://user-images.githubusercontent.com/59710234/228595159-97d82e06-ceaa-4af3-bebf-700884ce1f1e.png)
+
 ### Pointer Variable
 
 Any data type pointer size 8 byte. Because a pointer store address.
