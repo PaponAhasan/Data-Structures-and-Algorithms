@@ -275,6 +275,7 @@ cout << &c << "\n"; // 0x7fff02c4dfc8
 cout << &c[0] << "\n"; // abcde
 cout << &c[1] << "\n"; // bcde
 ```
+
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
 ### 2D Array Using Pointer
