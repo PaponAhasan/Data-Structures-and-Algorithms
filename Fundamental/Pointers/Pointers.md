@@ -246,7 +246,7 @@ int arr[5] = {1,2,3,4,5};
 char ch[6] = "abcde";
 
 cout << arr << "\n" // 400 (address)
-cout << ch << '\n " // abcde
+cout << ch << "\n" // abcde
 
 int *ptr = &arr[0];
 cout << ptr << "\n"; // 400 (address)
