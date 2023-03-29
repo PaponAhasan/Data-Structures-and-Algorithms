@@ -323,6 +323,46 @@ printf("%u",*(A[1]+2)); 25
 
 ### Pointers & Functions
 
+#### Pointer in variable
+
+```c++
+void print(int *p){
+   cout << *p << '\n'; // 5
+   *p = *p + 1;
+   cout << *p << '\n'; // 6
+   
+}
+
+int main(){
+   int value = 5;
+   int *p = &value;
+   cout << *p << '\n'; // 5
+   print(p);
+   cout << *p << '\n'; // 6
+}
+```
+
+#### Pointer in array
+
+```c++
+void getSum(int arr[], int n){
+    cout <<  sizeof(arr) << "\n"; // 8 like (int *arr)
+    int sum1 = 0, sum2 = 0, sum3 = 0;
+    for(int i = 0; i < n ; i++){
+        sum1 += i[arr]; // 30
+        sum2 += (*arr + i); // 15
+        sum3 += *(arr + i); // 30
+    }
+    cout << sum1 << " " << sum2 << " " << sum3 << '\n';
+}
+
+int main() {
+	int arr[] = {1, 6, 9, 10, 4};
+	getSum(arr, 5);
+	return 0;
+}
+```
+
 ### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
