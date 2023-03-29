@@ -408,7 +408,7 @@ int main() {
 
 ### Pointers MCQ
 
-01.
+01]
 ```c++
     int first = 8;
     int second = 18;
@@ -418,7 +418,7 @@ int main() {
 ```
 - [x] 8 9
 
-02.
+02]
 
 ```c++
     int first = 6;
@@ -429,7 +429,7 @@ int main() {
 ```
 - [x] 7
 
-03.
+03]
 
 ```c++
     int first = 8;
@@ -439,7 +439,7 @@ int main() {
 ```
 - [x] 8 9
 
-04.
+04]
 
 ```c++
     int *p = 0;
@@ -449,7 +449,7 @@ int main() {
 ```
 - [x] Segmentation fault
 
-05.
+05]
 
 ```c++
     int first = 8;
@@ -461,7 +461,7 @@ int main() {
 ```
 - [x] 11 13
 
-06.
+06]
 
 ```c++
     float f = 12.5;
@@ -473,7 +473,7 @@ int main() {
 ```
 - [x] 21.5 21.5 21.5
 
-07.
+07]
 
 ```c++
     int arr[5];
@@ -482,7 +482,7 @@ int main() {
 ```
 - [x] 20 8
 
-08.
+08]
 
 ```c++
     int arr[] = {11, 21, 13, 14};
@@ -490,7 +490,7 @@ int main() {
 ```
 - [x] 11 21
 
-09.
+09]
 
 ```c++
     int arr[6] = {11, 12, 31};
@@ -498,7 +498,7 @@ int main() {
 ```
 - [x] 11_address 11_address
 
-10.
+10]
 
 ```c++
     int arr[6] = {11, 21, 13};
@@ -506,7 +506,7 @@ int main() {
 ```
 - [x] 21_address
 
-11.
+11]
 
 ```c++
     int arr[6] = {11, 21, 31};
@@ -515,7 +515,7 @@ int main() {
 ```
 - [x] 31
 
-12.
+12]
 
 ```c++
     int arr[] = {11, 12, 13, 14, 15};
@@ -523,7 +523,7 @@ int main() {
 ```
 - [x] 11 14
 
-13.
+13]
 
 ```c++
     int arr[] = {11, 21, 31, 41};
@@ -532,7 +532,7 @@ int main() {
 ```
 - [x] Segmentation fault
 
-14.
+14]
 
 ```c++
     char ch = 'a';
@@ -542,7 +542,7 @@ int main() {
 ```
 - [x] b
 
-15.
+15]
 
 ```c++
     char arr[] = "abcde";
@@ -551,7 +551,7 @@ int main() {
 ```
 - [x] abcde
 
-16.
+16]
 
 ```c++
     char arr[] = "abcde";
@@ -561,7 +561,7 @@ int main() {
 ```
 - [x] bcde
 
-17.
+17]
 
 ```c++
     char str[]= "babbar";
