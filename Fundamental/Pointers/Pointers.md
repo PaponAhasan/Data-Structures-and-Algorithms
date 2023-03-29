@@ -387,21 +387,20 @@ int main() {
 
 ```c++
 int main() {
-    int x = 5;
-    cout << x << "\n"; // 5
-    cout << &x << "\n"; // x addres
+    int x = 10;
+    cout << x << "\n"; // 10
+    cout << &x << "\n"; // x addres 220
 	
     int* px = &x;
-    cout << *px << "\n"; // 5
-    cout << px << "\n"; // x addres
-    cout << &px << '\n'; // px addres
-    cout << x << '\n'; // px addres
-	
+    cout << *px << "\n"; // 10
+    cout << px << "\n"; // x addres 220
+    cout << &px << '\n'; // px addres 320
+
     int** py = &px;
-    cout << **py << "\n"; // 5
-    cout << py << '\n'; // px addres
-    cout << &py << '\n'; // py addres
-    cout << *py << '\n'; // x addres
+    cout << **py << "\n"; // 10
+    cout << py << '\n'; // px addres 320
+    cout << &py << '\n'; // py addres 420
+    cout << *py << '\n'; // x addres 220
 	
     return 0;
 }
