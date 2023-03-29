@@ -231,12 +231,49 @@ cout << &a << "\n"; // 400
 cout << a << "\n"; // 400
  
 int *p = &a[0]; 
+int *q = a;
 cout << p << "\n"; // 400
+cout << q << "\n"; // 400
 cout << *p << "\n"; // 1
 cout << &p << "\n"; // 800 pointer address
 
 arr[i] = *(arr + i)
 i[arr] = *(i + arr)
+```
+
+```c++
+int arr[5] = {1,2,3,4,5};
+char ch[6] = "abcde";
+
+cout << arr << "\n" // 400 (address)
+cout << ch << '\n " // abcde
+
+int *ptr = &arr[0];
+cout << ptr << "\n"; // 400 (address)
+
+char *c = &ch[0];
+cout << c << "\n"; // abcde
+
+char temp = 'z';
+chat *p = &temp;
+cout << p << "\n"; // z@@j
+
+char *f = "abcd";
+cout << *f << "\n"; //a
+cout << f << "\n"; //abcd
+cout << &f << "\n"; //0x7ffc03e59ec0
+cout << f[0] << "\n"; //a
+    
+char ch[6] = "abcde";
+char *c = &ch[0];
+    
+cout << c << "\n"; // abcde
+cout << *c << "\n"; // a
+cout << *c + 1 << "\n"; // 98
+cout << *(c + 1) << "\n"; // b
+cout << &c << "\n"; // 0x7fff02c4dfc8
+cout << &c[0] << "\n"; // abcde
+cout << &c[1] << "\n"; // bcde
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174283554-2912109b-2aed-430c-a19e-b05b04d6c981.png)
 
