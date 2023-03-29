@@ -406,6 +406,171 @@ int main() {
 }
 ```
 
+### Pointers MCQ
+
+01.
+```c++
+    int first = 8;
+    int second = 18;
+    int *ptr = &second;
+    *ptr = 9;
+    cout  << first << " " << second << endl;
+```
+- [x] 8 9
+
+02.
+
+```c++
+    int first = 6;
+    int *p = &first;
+    int *q = p;
+    (*q)++;
+    cout << first  << endl;
+```
+- [x] 7
+
+03.
+
+```c++
+    int first = 8;
+    int *p = &first;
+    cout << (*p)++ << " ";
+    cout << first << endl;
+```
+- [x] 8 9
+
+04.
+
+```c++
+    int *p = 0;
+    int first = 110;
+    *p = first;
+    cout << *p << endl;
+```
+- [x] Segmentation fault
+
+05.
+
+```c++
+    int first = 8;
+    int second = 11;
+    int *third = &second; 
+    first = *third;
+    *third = *third + 2;
+    cout  << first << "  " << second << endl;
+```
+- [x] 11 13
+
+06.
+
+```c++
+    float f = 12.5;
+    float p = 21.5;
+    float* ptr = &f;
+    (*ptr)++;
+    *ptr = p;
+    cout << *ptr << " " << f << " " << p << endl;
+```
+- [x] 21.5 21.5 21.5
+
+07.
+
+```c++
+    int arr[5];
+    int *ptr;
+    cout << sizeof(arr) << " " << sizeof(ptr) << endl;
+```
+- [x] 20 8
+
+08.
+
+```c++
+    int arr[] = {11, 21, 13, 14};
+    cout << *(arr) << " " << *(arr+1) << endl;
+```
+- [x] 11 21
+
+09.
+
+```c++
+    int arr[6] = {11, 12, 31};
+    cout << arr << " " << &arr << endl;
+```
+- [x] 11_address 11_address
+
+10.
+
+```c++
+    int arr[6] = {11, 21, 13};
+    cout << (arr + 1) << endl;
+```
+- [x] 21_address
+
+11.
+
+```c++
+    int arr[6] = {11, 21, 31};
+    int *p = arr;
+    cout << p[2] << endl;
+```
+- [x] 31
+
+12.
+
+```c++
+    int arr[] = {11, 12, 13, 14, 15};
+    cout << *(arr) << " " << *(arr + 3);
+```
+- [x] 11 14
+
+13.
+
+```c++
+    int arr[] = {11, 21, 31, 41};
+    int *ptr = arr++;
+    cout << *ptr << endl;
+```
+- [x] Segmentation fault
+
+14.
+
+```c++
+    char ch = 'a';
+    char* ptr = &ch;
+    ch++;
+    cout << *ptr << endl;
+```
+- [x] b
+
+15.
+
+```c++
+    char arr[] = "abcde";
+    char *p = &arr[0];
+    cout << p << endl;
+```
+- [x] abcde
+
+16.
+
+```c++
+    char arr[] = "abcde";
+    char *p = &arr[0];
+    p++;
+    cout << p << endl;  
+```
+- [x] bcde
+
+17.
+
+```c++
+    char str[]= "babbar";
+    char *p = str;
+    cout << str[0] << " " << p[0] << endl; 
+```
+- [x] b b
+
+
 ### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
