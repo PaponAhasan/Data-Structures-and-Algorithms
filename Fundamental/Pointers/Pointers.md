@@ -381,6 +381,32 @@ int main() {
 }
 ```
 
+### Double Pointers
+
+![image](https://user-images.githubusercontent.com/59710234/228619068-eb485419-df39-4431-b116-5636f9d4caee.png)
+
+```c++
+int main() {
+    int x = 5;
+    cout << x << "\n"; // 5
+    cout << &x << "\n"; // x addres
+	
+    int* px = &x;
+    cout << *px << "\n"; // 5
+    cout << px << "\n"; // x addres
+    cout << &px << '\n'; // px addres
+    cout << x << '\n'; // px addres
+	
+    int** py = &px;
+    cout << **py << "\n"; // 5
+    cout << py << '\n'; // px addres
+    cout << &py << '\n'; // py addres
+    cout << *py << '\n'; // x addres
+	
+    return 0;
+}
+```
+
 ### Program in Memory
 ```
 If we have program and we went to run it, the program is loadded in the main memory of code section.
