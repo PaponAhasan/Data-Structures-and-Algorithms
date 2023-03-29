@@ -353,12 +353,17 @@ void getSum(int arr[], int n){
         sum2 += (*arr + i); // 15
         sum3 += *(arr + i); // 30
     }
+    
     cout << sum1 << " " << sum2 << " " << sum3 << '\n';
+    
+    arr[1] = 20;
 }
 
 int main() {
 	int arr[] = {1, 6, 9, 10, 4};
+	cout << arr[1] << '\n'; // 6
 	getSum(arr, 5);
+	cout << arr[1] << "\n"; // 20
 	return 0;
 }
 ```
