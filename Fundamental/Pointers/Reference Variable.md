@@ -33,7 +33,9 @@ https://www.scaler.com/topics/difference-between-call-by-value-and-call-by-refer
 ### Program in Memory
 
 ```
-If we have program and we went to run it, the program is loadded in the main memory of code section.
+If we have program and we went to run it, the program is loadded in the main memory of code section. When a variable is
+declared compiler automatically allocates memory for it. This is known as compile time memory allocation or static memory 
+allocation. 
 Three parts of the main memory.
   1. The code
   2. The Stack and 
