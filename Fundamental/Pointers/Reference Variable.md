@@ -29,6 +29,7 @@ https://www.scaler.com/topics/images/difference-between-call-by-value-and-call-b
 
 https://www.scaler.com/topics/difference-between-call-by-value-and-call-by-reference/
 
+https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118785/offering/1381139
 
 ### Program in Memory
 
