@@ -41,15 +41,44 @@ Three parts of the main memory.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174428263-55580669-6974-4789-b176-568d772fa761.png)
 
+### Example Heap Memory
+
+```c++
+int getSum(int *arr, int n) {
+    int sum = 0;
+    for(int i=0; i<n; i++) {
+        sum += arr[i];
+    } 
+    return sum;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    //variable size array
+    int* arr = new int[n];
+    //takign inputn in aray
+    for(int i=0; i<n; i++) {
+        cin >> arr[i];
+    }
+    int ans = getSum(arr, n);
+    cout << "answer is "<< ans << endl;
+    return 0;
+}
+```
+
 ### Stack VS Heap
+
 ```
   Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
      because number of variable in the program).
      When program is loadded , the memory allocate this program variable from stack.
+     int arr[50] ==> 50 * 4 bytes
      
   Heap Memory : Heap memory indirectly access of the program and size of the stack memory is dynamic(size is depend on -
      menmory[ malloc, new & pointer] ).
       Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
+      int* arr = new int[50] ==> 8 bytes + 50 * 4 bytes
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174428350-61c74b75-4892-4b1d-a5da-74e4f7670a3e.png)
 
