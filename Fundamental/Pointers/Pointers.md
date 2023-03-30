@@ -781,6 +781,8 @@ int main() {
     }
 ```
 
+More MCQ : https://www.codingninjas.com/codestudio/guided-paths/pointers/content/235644/offering/3168909
+
 ### Program in Memory
 
 ```
