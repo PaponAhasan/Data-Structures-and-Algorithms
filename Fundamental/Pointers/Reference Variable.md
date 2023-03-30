@@ -43,6 +43,8 @@ Three parts of the main memory.
 
 ### Example Heap Memory
 
+01]
+
 ```c++
 int getSum(int *arr, int n) {
     int sum = 0;
@@ -64,6 +66,22 @@ int main() {
     int ans = getSum(arr, n);
     cout << "answer is "<< ans << endl;
     return 0;
+}
+```
+
+02]
+
+```c++
+int main()
+{
+	int a = 10; // stored in stack
+	int* p = new int(); // allocate memory in heap
+	*p = 10;
+	delete (p);
+	p = new int[4]; // array in heap allocation
+	delete[] p;
+	p = NULL; // free heap
+	return 0;
 }
 ```
 
