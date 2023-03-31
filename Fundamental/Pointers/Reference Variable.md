@@ -46,7 +46,7 @@ Three parts of the main memory.
 
 ### Example Heap Memory
 
--[x]
+- [x] egre
 
 ```c++
 int getSum(int *arr, int n) {
@@ -72,7 +72,7 @@ int main() {
 }
 ```
 
--[x]
+- [x] ge
 
 ```c++
 int main()
