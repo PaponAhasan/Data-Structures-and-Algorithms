@@ -141,13 +141,14 @@ Stack Memory : Stack Memory directly access of the program and size of the stack
 because number of variable in the program). When a variable is declared compiler automatically allocates memory for it.
 This is known as compile time memory allocation or static memory allocation. When program is loadded , the memory allocate
 this program variable from stack.  Stack memory is limited in size, so it's best suited for storing small amounts of data.
+Stack memory after execution automatically deleted.
 
 int arr[50] ==> 50 * 4 bytes
      
 Heap Memory : Heap memory indirectly access of the program and size of the stack memory is dynamic(size is depend on - 
 menmory[ malloc, new & pointer] ). Pointer help access the memory from heap. if we need to the memory from heap, we need 
 to take a pointer. Heap memory is allocated and deallocated manually by the programmer. Heap memory is 
-larger than stack memory and can store more data.
+larger than stack memory and can store more data. Heap memory after execution must be deleted manually.
 
 int* arr = new int[50] ==> 8 bytes + 50 * 4 bytes
 
