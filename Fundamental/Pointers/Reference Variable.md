@@ -34,8 +34,7 @@ https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118785/
 ### Program in Memory
 
 ```
-If we have program and we went to run it, the program is loadded in the main memory of code section. When a variable is declared
-compiler automatically allocates memory for it. This is known as compile time memory allocation or static memory allocation. 
+If we have program and we went to run it, the program is loadded in the main memory of code section. 
 
 Three parts of the main memory.
   1. The code
@@ -91,15 +90,21 @@ int main()
 ### Stack VS Heap
 
 ```
-  Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
-     because number of variable in the program).
-     When program is loadded , the memory allocate this program variable from stack.
-     int arr[50] ==> 50 * 4 bytes
+Stack Memory : Stack Memory directly access of the program and size of the stack memory is static(size is pre decided
+because number of variable in the program). When a variable is declared compiler automatically allocates memory for it.
+This is known as compile time memory allocation or static memory allocation. When program is loadded , the memory allocate
+this program variable from stack.  Stack memory is limited in size, so it's best suited for storing small amounts of data.
+
+int arr[50] ==> 50 * 4 bytes
      
-  Heap Memory : Heap memory indirectly access of the program and size of the stack memory is dynamic(size is depend on -
-     menmory[ malloc, new & pointer] ).
-      Pointer help access the memory from heap. if we need to the memory from heap, we need to take a pointer.
-      int* arr = new int[50] ==> 8 bytes + 50 * 4 bytes
+Heap Memory : Heap memory indirectly access of the program and size of the stack memory is dynamic(size is depend on - 
+menmory[ malloc, new & pointer] ). Pointer help access the memory from heap. if we need to the memory from heap, we need 
+to take a pointer. Heap memory is allocated and deallocated manually by the programmer. Heap memory is 
+larger than stack memory and can store more data.
+
+int* arr = new int[50] ==> 8 bytes + 50 * 4 bytes
+
+In general, it's best to use stack memory whenever possible because it is faster and more efficient than heap memory. 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/174428350-61c74b75-4892-4b1d-a5da-74e4f7670a3e.png)
 
