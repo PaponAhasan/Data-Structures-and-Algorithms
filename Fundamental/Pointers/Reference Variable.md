@@ -170,3 +170,35 @@ In general, it's best to use stack memory whenever possible because it is faster
 | float         |    4 bytes    |    4  bytes   |
 | double        |    8 bytes    |    8  bytes   |
 | long double   |    16 bytes   |    16 bytes   |
+
+## Macros, Global Variables, Inline Functions & Default Args
+
+### Macros
+
+ Macros is a pices of code in a program that is replaced by value of macro.
+
+Advantage:
+
+- No extra space
+- Replace compile time
+- Not chnage/update
+- Uere multiple time in any place of code
+
+Example :
+
+```c++
+#include <iostream>
+using namespace std;
+// Macro definition
+#define LIMIT 5
+
+int main(){
+    int r = 5;
+    double area = PI * r * r;
+    cout << "Area is  : " << area << "\n";
+    return 0;
+}
+```
+
+- https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118785/offering/1381150
+- https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/
