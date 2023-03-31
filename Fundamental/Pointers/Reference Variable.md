@@ -34,9 +34,9 @@ https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118785/
 ### Program in Memory
 
 ```
-If we have program and we went to run it, the program is loadded in the main memory of code section. When a variable is
-declared compiler automatically allocates memory for it. This is known as compile time memory allocation or static memory 
-allocation. 
+If we have program and we went to run it, the program is loadded in the main memory of code section. When a variable is declared
+compiler automatically allocates memory for it. This is known as compile time memory allocation or static memory allocation. 
+
 Three parts of the main memory.
   1. The code
   2. The Stack and 
@@ -46,7 +46,7 @@ Three parts of the main memory.
 
 ### Example Heap Memory
 
-01]
+- []
 
 ```c++
 int getSum(int *arr, int n) {
@@ -72,7 +72,7 @@ int main() {
 }
 ```
 
-02]
+- []
 
 ```c++
 int main()
