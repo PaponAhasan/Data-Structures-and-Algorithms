@@ -50,7 +50,7 @@ int fib(int n){
 ```
 ![image](https://user-images.githubusercontent.com/59710234/171729062-245d743f-df43-45f6-991c-a9d26f98a4e3.png)
 
-<src="https://user-images.githubusercontent.com/59710234/230775201-bf0a3e26-ff2d-4b8f-acc9-9b2a6304fb6d.png" height="300">
+<img src="https://user-images.githubusercontent.com/59710234/230775201-bf0a3e26-ff2d-4b8f-acc9-9b2a6304fb6d.png" height="300">
 
 ![image](https://user-images.githubusercontent.com/59710234/230775201-bf0a3e26-ff2d-4b8f-acc9-9b2a6304fb6d.png)
 
