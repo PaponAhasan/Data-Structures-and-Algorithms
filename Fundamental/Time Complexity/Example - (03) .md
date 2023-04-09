@@ -50,6 +50,8 @@ int fib(int n){
 ```
 ![image](https://user-images.githubusercontent.com/59710234/171729062-245d743f-df43-45f6-991c-a9d26f98a4e3.png)
 
+![image](https://user-images.githubusercontent.com/59710234/230775201-bf0a3e26-ff2d-4b8f-acc9-9b2a6304fb6d.png)
+
 ```
 for n > 1:
 T(n) = T(n-1) + T(n-2) + 4 (1 comparison, 2 subtractions, 1 addition)
