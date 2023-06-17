@@ -80,6 +80,21 @@ int lastOccurrence(vector<int>& arr, int n, int k){
     }
 ```
 
+### Lower Bound STL
+
+```c++
+int main() {
+    vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int target = 6;
+    auto it = lower_bound(numbers.begin(), numbers.end(), target);
+    if (it != numbers.end()) {
+        int index = distance(numbers.begin(), it);
+        cout << "Lower bound index: " << index << endl;
+    } else cout << "Target value not found" << endl;
+    return 0;
+}
+```
+
 ```c++
     int upperBound(vector<int>& arr, int n, int target){
         int s = 0, e = n - 1;
