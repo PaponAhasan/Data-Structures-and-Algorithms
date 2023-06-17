@@ -64,11 +64,12 @@ int lastOccurrence(vector<int>& arr, int n, int k){
 
 ```c++
     int lowerBound(vector<int>& arr, int n, int target){
-        int s = 0, e = n - 1;
+        int s = 0, e = n - 1, ans = n;
         while(s <= e){
             int m = s + (e - s)/2;
 
             if(arr[m] >= target){
+                ans = m;
                 e = m - 1;
             }
             else{
