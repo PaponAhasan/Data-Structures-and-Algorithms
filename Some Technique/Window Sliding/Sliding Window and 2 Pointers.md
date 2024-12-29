@@ -68,6 +68,21 @@ while(r < n){
 }
 ```
 
+```c++
+Optimize 
+---------
+l = r = 0, sum = maxlen = 0
+while(r < n){
+  sum = sum + arr[r]
+  if(sum > k)
+    sum = sum - arr[l]
+    l++
+  if(sum <= k)
+    maxlen = max(max_len, r - l + 1)
+  r++;
+}
+```
+
 
 
 
