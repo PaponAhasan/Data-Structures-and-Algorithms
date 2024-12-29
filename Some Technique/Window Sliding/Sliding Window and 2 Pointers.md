@@ -1,6 +1,6 @@
 🔴Pattern 01 => Constant window (Consecutive maximum sum = size(k))   
 
-```
+```c++
 arr[n] = [-1, 2, 3, 3, 4, 5, -1] K = 4
 Find Max subarray summation consecutively?
 -1,2,3,3 = 7
@@ -23,5 +23,16 @@ while(r < n - 1){
 }
 ```
 
-🔴 Pattern 02 => Longest sub-array/string (Consecutive long subarray < k)    
+🔴 Pattern 02 => Longest sub-array/sub-string (Consecutive long subarray < k)   
+
+```c++
+arr[n] = [2, 5, 6, 3, 2] k = 9
+Find the longest consecutively subarray length/summation where the summation is lesser than <= k
+
+- BurthForce
+- Better Solution
+- Optimize 
+```
+
+
 
