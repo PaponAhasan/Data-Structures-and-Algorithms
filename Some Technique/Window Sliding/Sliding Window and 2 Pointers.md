@@ -20,6 +20,7 @@ while(r < n - 1){
   l++
   r++
   sum = sum + arr[r]
+  max_sum = max(max_sum, sum)
 }
 ```
 
@@ -41,6 +42,15 @@ Ans = [2,3,2] lenght = 3
 
 ```c++
 BurthForce
+
+maxlen = 0
+for i = 0 to i = n - 1
+  sum = 0
+  for j = i to j < n - 1
+    sum += arr[j]
+    if sum <= k 
+      maxlen = max(max_len, j - i + 1)
+    else break
 ```
 
 
