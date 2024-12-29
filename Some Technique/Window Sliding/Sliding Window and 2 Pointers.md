@@ -54,8 +54,8 @@ for i = 0 to i = n - 1
 ```
 
 ```c++
-Better (expand - r and shrink - l)
-----------
+Better (expand -> r and shrink -> l)
+----------------------------------
 l = r = 0, sum = maxlen = 0
 while(r < n){
   sum = sum + arr[r]
