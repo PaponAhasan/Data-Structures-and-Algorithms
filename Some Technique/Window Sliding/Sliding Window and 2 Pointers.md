@@ -42,7 +42,7 @@ Ans = [2,3,2] lenght = 3
 
 ```c++
 BurthForce
-
+----------
 maxlen = 0
 for i = 0 to i = n - 1
   sum = 0
@@ -51,6 +51,21 @@ for i = 0 to i = n - 1
     if sum <= k 
       maxlen = max(max_len, j - i + 1)
     else break
+```
+
+```c++
+Better (expand - r and shrink - l)
+----------
+l = r = 0, sum = maxlen = 0
+while(r < n){
+  sum = sum + arr[r]
+  while(sum > k)
+    sum = sum - arr[l]
+    l++
+  if(sum <= k)
+    maxlen = max(max_len, r - l + 1)
+  r++;
+}
 ```
 
 
