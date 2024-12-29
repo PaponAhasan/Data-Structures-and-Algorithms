@@ -26,13 +26,23 @@ while(r < n - 1){
 🔴 Pattern 02 => Longest sub-array/sub-string (Consecutive long subarray < k)   
 
 ```c++
-arr[n] = [2, 5, 6, 3, 2] k = 9
+arr[n] = [2, 5, 2, 3, 2] k = 9
 Find the longest consecutively subarray length/summation where the summation is lesser than <= k
+
+2 <= 9
+2,5 = 7 <= 9
+2,3,2 = 7 <= 9
+Ans = [2,3,2] lenght = 3
 
 - BurthForce
 - Better Solution
 - Optimize 
 ```
+
+```c++
+BurthForce
+```
+
 
 
 
