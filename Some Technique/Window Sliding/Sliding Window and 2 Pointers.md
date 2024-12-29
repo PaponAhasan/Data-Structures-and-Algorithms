@@ -7,8 +7,9 @@ Find Max subarray summation consecutively?
 3,4,4,5 = 16
 Ans: 16(max)
 ```
-```
+```c++
 sum = 0, l = 0, r = k - 1, mx_sum = 0
+
 for(i = l to i <= r){
    sum += arr[i]
    max_sum = sum
