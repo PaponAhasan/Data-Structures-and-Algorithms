@@ -2,7 +2,7 @@
 
 ```c++
 arr[n] = [-1, 2, 3, 3, 4, 5, -1] K = 4
-Find Max subarray summation consecutively?
+Find the max subarray summation consecutively for that length, k?
 -1,2,3,3 = 7
 3,4,4,5 = 16
 Ans: 16(max)
