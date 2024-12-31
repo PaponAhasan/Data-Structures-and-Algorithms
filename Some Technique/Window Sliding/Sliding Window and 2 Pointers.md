@@ -83,4 +83,4 @@ while(r < n){
 }
 ```
 
-🔴 Pattern 03 => Number of subarray where [condition]
+🔴 Pattern 03 => Number of subarrays where [condition] -> subarrays sum with k
