@@ -90,3 +90,5 @@ subarrays sum with <= k     ---> X
 subarrays sum with <= k - 1 ---> Y
 (X - Y) => subarrays sum with == k
 ```
+
+🔴 Pattern 04 => Sorted sub-array/sub-string where [condition]
