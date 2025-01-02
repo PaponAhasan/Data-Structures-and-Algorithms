@@ -85,6 +85,11 @@ while(r < n){
 }
 ```
 
+- Longest Substring Without Repeating Characters
+- Max Consecutive Ones III
+- Fruit Into Baskets
+- Longest Substring With At Most K Distinct Characters
+  
 🔴 Pattern 03 => Number of subarrays where [condition] -> subarrays sum with k
 
 ```
