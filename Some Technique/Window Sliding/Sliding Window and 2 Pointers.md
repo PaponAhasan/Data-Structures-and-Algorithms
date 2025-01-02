@@ -24,7 +24,7 @@ while(r < n - 1){
 }
 ```
 
-- 1423] Maximum Points You Can Obtain from Cards
+- Maximum Points You Can Obtain from Cards(1423)
   
 🔴 Pattern 02 => Longest sub-array/sub-string (Consecutive long subarray < k)   
 
@@ -98,6 +98,6 @@ subarrays sum with <= k - 1 ---> Y
 (X - Y) => subarrays sum with == k
 ```
 
-- 1358] Number of Substrings Containing All Three Characters
+- Number of Substrings Containing All Three Characters(1358)
         
 🔴 Pattern 04 => Sorted sub-array/sub-string where [condition]
