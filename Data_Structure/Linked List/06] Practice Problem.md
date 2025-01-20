@@ -5,3 +5,10 @@
 - [Reverse a Singly Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 - [Traversing a Doubly Linked List](https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1)
 - [Reverse a Doubly Linked List](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1)
+
+
+
+
+- https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=difficulty
+- https://neetcode.io/practice?tab=allNC%3Ftab%3DallNC
+- https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
