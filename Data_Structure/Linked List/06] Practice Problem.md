@@ -7,7 +7,7 @@
 - [Reverse a Doubly Linked List](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1)
 
 
-
+---
 
 - https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=difficulty
 - https://neetcode.io/practice?tab=allNC%3Ftab%3DallNC
