@@ -12,3 +12,4 @@
 - https://www.geeksforgeeks.org/explore?page=1&category=Linked%20List&sortBy=difficulty
 - https://neetcode.io/practice?tab=allNC%3Ftab%3DallNC
 - https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+- https://docs.google.com/document/d/1iK2zNR8Va7X9tXD9_QHb2zFgVNIfh7Iwecv6sAPqH8M/edit?tab=t.0
