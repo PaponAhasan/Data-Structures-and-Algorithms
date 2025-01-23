@@ -4,6 +4,7 @@
 - [Delete in a Singly Linked Lis](https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1)
 - [Reverse a Singly Linked List](https://leetcode.com/problems/reverse-linked-list/description/) - [Using stack, recursions, swap loop]    
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)  [fast-foword, Iterative]
+- [Linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) [fast-foword, map/set]
 
 - [Insert a node in Doubly Linked List](https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insert-a-node-in-doubly-linked-list) 
 - [Traversing a Doubly Linked List](https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1)
