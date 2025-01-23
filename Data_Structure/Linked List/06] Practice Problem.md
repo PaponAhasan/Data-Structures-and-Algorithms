@@ -1,5 +1,5 @@
 ### Singly Linked List
--
+---
 - [Insertion At End Singly Linked List](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1)
 - [Insert in Middle of Singly Linked List](https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1)
 - [Traversing a Singly Linked List](https://www.geeksforgeeks.org/problems/print-linked-list-elements/1)
@@ -9,7 +9,7 @@
 - [Linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) [fast-foword, map/set]
 
 ### Doubly Linked List
--
+---
 - [Insert a node in Doubly Linked List](https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insert-a-node-in-doubly-linked-list) 
 - [Traversing a Doubly Linked List](https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1)
 - [Delete node in Doubly Linked List](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1)
