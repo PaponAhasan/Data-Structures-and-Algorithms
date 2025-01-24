@@ -1,4 +1,4 @@
-✗(Not Solved) -> ✘(Failed) ✓(Passed)  ✔(Revised) 💯(Done) 
+✗(Not Solved) -> ✘(Failed) -> ✓(Passed)  -> ✔(Revised) -> 💯(Done) 
 
 ### Singly Linked List
 ---
