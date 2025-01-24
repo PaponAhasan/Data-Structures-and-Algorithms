@@ -9,7 +9,7 @@
 ✗ ✓ [Reverse a Singly Linked List](https://leetcode.com/problems/reverse-linked-list/description/) - [Using stack, recursions, swap loop]      
 ✗ ✘ ✓ [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)  [fast-foword, Iterative]   
 ✗ ✘ ✓ [Linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) [fast-foword, map/set]   
-✗ ✘ ✓ [Add Two Number](https://leetcode.com/problems/add-two-numbers)
+✗ ✘ ✓ [Add Two Number](https://leetcode.com/problems/add-two-numbers) [dummy node use)
 
 ### Doubly Linked List
 ---
