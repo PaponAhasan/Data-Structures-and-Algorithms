@@ -1,3 +1,5 @@
+✗(Not Solved) ✘(Failed) ✓(Passed)  ✔(Revised) 💯(Done) 
+
 ### Singly Linked List
 ---
 - [Insertion At End Singly Linked List](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1)
