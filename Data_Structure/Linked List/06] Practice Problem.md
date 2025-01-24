@@ -10,6 +10,7 @@
 ✗ ✘ ✓ [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)  [fast-foword, Iterative]   
 ✗ ✘ ✓ [Linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/) [fast-foword, map/set]   
 ✗ ✘ ✓ [Add Two Number](https://leetcode.com/problems/add-two-numbers) [dummy node use)
+✗ ✓ [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
 ### Doubly Linked List
 ---
