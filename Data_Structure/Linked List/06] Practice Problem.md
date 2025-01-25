@@ -12,7 +12,7 @@
 ✗ ✘ ✓ [Add Two Number](https://leetcode.com/problems/add-two-numbers) [dummy node use)   
 ✗ ✓ [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)  (list then replace, change link)    
 ✗ ✘ ✓ [Sort a linked list of 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) [Iterative, change link]   
-✗ ✘ ✓ [Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+✗ ✓ [Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 ### Doubly Linked List
 ---
